@@ -1134,7 +1134,7 @@ def seed_database():
                 "wrong": wrong_opt
             })
             
-        fibonacci_mapping = [1, 1, 1, 2, 2, 3, 3, 5, 8]
+        fibonacci_mapping = [1, 1, 1, 2, 2, 3, 3, 5, 5]
         for rq in raw_questions:
             # Map raw categories to official database categories & subcategories
             mapped_cat_name, mapped_sub_name = seed_to_official.get(rq["category"], ("Geography", "Country"))

@@ -26,7 +26,7 @@ const DEFAULT_QUESTIONS = [
             { translations: { ar: "المهدية", tn: "المهدية", fr: "Mahdia", en: "Mahdia" }, is_correct: true, points: 2 },
             { translations: { ar: "صفاقس", tn: "صفاقس", fr: "Sfax", en: "Sfax" }, is_correct: true, points: 3 },
             { translations: { ar: "قابيس", tn: "قابيس", fr: "Gabes", en: "Gabes" }, is_correct: true, points: 5 },
-            { translations: { ar: "مدنين", tn: "مدنين", fr: "Medenine", en: "Medenine" }, is_correct: true, points: 8 },
+            { translations: { ar: "مدنين", tn: "مدنين", fr: "Medenine", en: "Medenine" }, is_correct: true, points: 5 },
             { translations: { ar: "القيروان", tn: "القيروان", fr: "Kairouan", en: "Kairouan" }, is_correct: false, points: 0 }
         ]
     },
@@ -49,7 +49,7 @@ const DEFAULT_QUESTIONS = [
             { translations: { ar: "صحن تونسي", tn: "صحن تونسي", fr: "Plat tunisien", en: "Tunisian Salad Plate" }, is_correct: true, points: 3 },
             { translations: { ar: "مرقة بطاطا", tn: "مرقة بطاطا", fr: "Ragoût de pommes de terre", en: "Potato Stew" }, is_correct: true, points: 5 },
             { translations: { ar: "شربة شعير بالقرنيط", tn: "شربة شعير بالقرنيط", fr: "Soupe d'orge au poulpe", en: "Barley soup with octopus" }, is_correct: true, points: 5 },
-            { translations: { ar: "مدموجة بالفاكهة", tn: "مدموجة بالفاكهة", fr: "Madmouja aux fruits secs", en: "Madmouja with nuts" }, is_correct: true, points: 8 },
+            { translations: { ar: "مدموجة بالفاكهة", tn: "مدموجة بالفاكهة", fr: "Madmouja aux fruits secs", en: "Madmouja with nuts" }, is_correct: true, points: 5 },
             { translations: { ar: "طاجين مغربي", tn: "طاجين مغربي", fr: "Tajine marocain", en: "Moroccan Tagine" }, is_correct: false, points: 0 }
         ]
     },
@@ -72,7 +72,7 @@ const DEFAULT_QUESTIONS = [
             { translations: { ar: "دقة الأثرية (طبرقة)", tn: "آثار دقة", fr: "Dougga antique", en: "Dougga Ruins" }, is_correct: true, points: 3 },
             { translations: { ar: "سبيطلة الأثرية", tn: "آثار سبيطلة", fr: "Site archéologique de Sbeitla", en: "Sbeitla Ruins" }, is_correct: true, points: 5 },
             { translations: { ar: "رباط المنستير", tn: "رباط المنستير", fr: "Ribat de Monastir", en: "Ribat of Monastir" }, is_correct: true, points: 5 },
-            { translations: { ar: "أوتيك الأثرية", tn: "أوتيك", fr: "Utique antique", en: "Utica Ruins" }, is_correct: true, points: 8 },
+            { translations: { ar: "أوتيك الأثرية", tn: "أوتيك", fr: "Utique antique", en: "Utica Ruins" }, is_correct: true, points: 5 },
             { translations: { ar: "المدائن التاريخية", tn: "المدائن", fr: "Al-Madain", en: "Al-Madain" }, is_correct: false, points: 0 }
         ]
     },
@@ -95,7 +95,7 @@ const DEFAULT_QUESTIONS = [
             { translations: { ar: "شبيك", tn: "شبيك", fr: "Qu'as-tu ?", en: "What's wrong with you?" }, is_correct: true, points: 3 },
             { translations: { ar: "سخطة", tn: "سخطة", fr: "Peste (argot)", en: "Scoundrel / Blast" }, is_correct: true, points: 5 },
             { translations: { ar: "قزّول", tn: "قزّول", fr: "Bâton (argot)", en: "Cudgel / Stick" }, is_correct: true, points: 5 },
-            { translations: { ar: "فزّاني", tn: "فزّاني", fr: "Fazzani (danse)", en: "Fazzani rhythm" }, is_correct: true, points: 8 },
+            { translations: { ar: "فزّاني", tn: "فزّاني", fr: "Fazzani (danse)", en: "Fazzani rhythm" }, is_correct: true, points: 5 },
             { translations: { ar: "واخا", tn: "واخا", fr: "D'accord (marocain)", en: "Okay (Moroccan)" }, is_correct: false, points: 0 }
         ]
     },
@@ -118,7 +118,7 @@ const DEFAULT_QUESTIONS = [
             { translations: { ar: "ليلة الحنة للعروسة", tn: "ليلة الحنة", fr: "Nuit du henné pour la mariée", en: "Bridal Henna Night" }, is_correct: true, points: 3 },
             { translations: { ar: "لبس المليلة والجبة", tn: "الجبة والمليلة", fr: "Porter la Jebba ou Melia", en: "Wearing Jebba or Melia" }, is_correct: true, points: 5 },
             { translations: { ar: "صناعة الفخار النابلي", tn: "فخار نابل", fr: "Poterie de Nabeul", en: "Nabeul Pottery" }, is_correct: true, points: 5 },
-            { translations: { ar: "خرجة سيدي أبي سعيد الباجي", tn: "خرجة سيدي بوسعيد", fr: "Procession (Kharja) de Sidi Bou Saïd", en: "Sidi Bou Said Kharja procession" }, is_correct: true, points: 8 },
+            { translations: { ar: "خرجة سيدي أبي سعيد الباجي", tn: "خرجة سيدي بوسعيد", fr: "Procession (Kharja) de Sidi Bou Saïd", en: "Sidi Bou Said Kharja procession" }, is_correct: true, points: 5 },
             { translations: { ar: "عجلة الدبكة", tn: "الدبكة", fr: "Danse de la Dabké", en: "Dabke dance" }, is_correct: false, points: 0 }
         ]
     }

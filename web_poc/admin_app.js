@@ -18,7 +18,7 @@ const DEFAULT_QUESTIONS = [
             { text: "المهدية", is_correct: true, points: 2 },
             { text: "صفاقس", is_correct: true, points: 3 },
             { text: "قابيس", is_correct: true, points: 5 },
-            { text: "مدنين", is_correct: true, points: 8 },
+            { text: "مدنين", is_correct: true, points: 5 },
             { text: "القيروان", is_correct: false, points: 0 }
         ]
     },
@@ -36,7 +36,7 @@ const DEFAULT_QUESTIONS = [
             { text: "صحن تونسي", is_correct: true, points: 3 },
             { text: "مرقة بطاطا", is_correct: true, points: 5 },
             { text: "شربة شعير بالقرنيط", is_correct: true, points: 5 },
-            { text: "مدموجة بالفاكهة", is_correct: true, points: 8 },
+            { text: "مدموجة بالفاكهة", is_correct: true, points: 5 },
             { text: "طاجين مغربي", is_correct: false, points: 0 }
         ]
     },
@@ -54,7 +54,7 @@ const DEFAULT_QUESTIONS = [
             { text: "دقة الأثرية (طبرقة)", is_correct: true, points: 3 },
             { text: "سبيطلة الأثرية", is_correct: true, points: 5 },
             { text: "رباط المنستير", is_correct: true, points: 5 },
-            { text: "أوتيك الأثرية", is_correct: true, points: 8 },
+            { text: "أوتيك الأثرية", is_correct: true, points: 5 },
             { text: "المدائن التاريخية", is_correct: false, points: 0 }
         ]
     },
@@ -72,7 +72,7 @@ const DEFAULT_QUESTIONS = [
             { text: "شبيك", is_correct: true, points: 3 },
             { text: "سخطة", is_correct: true, points: 5 },
             { text: "قزّول", is_correct: true, points: 5 },
-            { text: "فزّاني", is_correct: true, points: 8 },
+            { text: "فزّاني", is_correct: true, points: 5 },
             { text: "واخا", is_correct: false, points: 0 }
         ]
     },
@@ -90,7 +90,7 @@ const DEFAULT_QUESTIONS = [
             { text: "ليلة الحنة للعروسة", is_correct: true, points: 3 },
             { text: "لبس المليلة والجبة", is_correct: true, points: 5 },
             { text: "صناعة الفخار النابلي", is_correct: true, points: 5 },
-            { text: "خرجة سيدي أبي سعيد الباجي", is_correct: true, points: 8 },
+            { text: "خرجة سيدي أبي سعيد الباجي", is_correct: true, points: 5 },
             { text: "عجلة الدبكة", is_correct: false, points: 0 }
         ]
     }
