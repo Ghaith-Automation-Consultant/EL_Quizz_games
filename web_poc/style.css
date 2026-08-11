@@ -508,9 +508,9 @@ body {
 }
 
 .question-text {
-    font-size: 1.25rem;
+    font-size: clamp(1.05rem, 3.5vw, 1.25rem);
     font-weight: 700;
-    line-height: 1.6;
+    line-height: 1.5;
 }
 
 .actions-centered {
@@ -606,9 +606,9 @@ body {
 }
 
 .question-text-mini {
-    font-size: 1.35rem;
+    font-size: clamp(0.95rem, 3.2vw, 1.35rem);
     font-weight: 700;
-    line-height: 1.5;
+    line-height: 1.4;
     margin-top: 4px;
 }
 
@@ -977,6 +977,16 @@ body {
 
     .answers-grid {
         grid-template-columns: 1fr;
+    }
+
+    .question-text {
+        font-size: 1.1rem;
+        line-height: 1.4;
+    }
+
+    .question-text-mini {
+        font-size: 1rem;
+        line-height: 1.35;
     }
 }
 
