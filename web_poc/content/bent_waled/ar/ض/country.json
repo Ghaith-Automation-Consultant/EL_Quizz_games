@@ -1,0 +1,16 @@
+[
+  {
+    "entity_id": "country_ضباء",
+    "answer": "ضباء",
+    "normalized": "ضباء",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_ضاحية_السلوى",
+    "answer": "ضاحية السلوى",
+    "normalized": "ضاحيت السلوي",
+    "aliases": [],
+    "status": "approved"
+  }
+]

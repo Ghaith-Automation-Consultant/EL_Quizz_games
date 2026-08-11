@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "country_بلجيكا",
+    "answer": "بلجيكا",
+    "normalized": "بلجيكا",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_برازيل",
+    "answer": "برازيل",
+    "normalized": "برازيل",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_بلغاريا",
+    "answer": "بلغاريا",
+    "normalized": "بلغاريا",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_بحرين",
+    "answer": "بحرين",
+    "normalized": "بحرين",
+    "aliases": [],
+    "status": "approved"
+  }
+]

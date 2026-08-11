@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "animal_قرد",
+    "answer": "قرد",
+    "normalized": "قرد",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "animal_قط",
+    "answer": "قط",
+    "normalized": "قط",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "animal_قنفذ",
+    "answer": "قنفذ",
+    "normalized": "قنفذ",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "animal_قنديل_البحر",
+    "answer": "قنديل البحر",
+    "normalized": "قنديل البحر",
+    "aliases": [],
+    "status": "approved"
+  }
+]

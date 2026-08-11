@@ -1,0 +1,37 @@
+[
+  {
+    "entity_id": "girl_دلال",
+    "answer": "دلال",
+    "normalized": "دلال",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "girl_دنيا",
+    "answer": "دنيا",
+    "normalized": "دنيا",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "girl_دينا",
+    "answer": "دينا",
+    "normalized": "دينا",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "girl_دعاء",
+    "answer": "دعاء",
+    "normalized": "دعاء",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "girl_داليا",
+    "answer": "داليا",
+    "normalized": "داليا",
+    "aliases": [],
+    "status": "approved"
+  }
+]

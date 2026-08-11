@@ -1,0 +1,37 @@
+[
+  {
+    "entity_id": "object_حبل",
+    "answer": "حبل",
+    "normalized": "حبل",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_حقيبة",
+    "answer": "حقيبة",
+    "normalized": "حقيبت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_حذاء",
+    "answer": "حذاء",
+    "normalized": "حذاء",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_حجر",
+    "answer": "حجر",
+    "normalized": "حجر",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_حوض",
+    "answer": "حوض",
+    "normalized": "حوض",
+    "aliases": [],
+    "status": "approved"
+  }
+]

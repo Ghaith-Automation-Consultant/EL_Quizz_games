@@ -1,0 +1,37 @@
+[
+  {
+    "entity_id": "girl_مريم",
+    "answer": "مريم",
+    "normalized": "مريم",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "girl_منى",
+    "answer": "منى",
+    "normalized": "مني",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "girl_مروة",
+    "answer": "مروة",
+    "normalized": "مروت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "girl_مليكة",
+    "answer": "مليكة",
+    "normalized": "مليكت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "girl_مها",
+    "answer": "مها",
+    "normalized": "مها",
+    "aliases": [],
+    "status": "approved"
+  }
+]

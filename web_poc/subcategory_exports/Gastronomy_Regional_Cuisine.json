@@ -1,0 +1,127 @@
+[
+  {
+    "id": 188,
+    "category": "Gastronomy",
+    "subcategory": "Regional Cuisine",
+    "region": "Tunisia",
+    "difficulty": 3,
+    "translations": {
+      "ar": "أذكر أكلات أو أطباق تونسية تقليدية مشهورة بجهات أو مدن معينة؟",
+      "en": "What are typical Tunisian dishes associated with specific regions or cities?",
+      "fr": "Quels sont les plats tunisiens typiques associés à des régions ou villes spécifiques?",
+      "tn": "أكلات تونسية معروفة بها جهة ولا مدينة معينة؟"
+    },
+    "answers": [
+      {
+        "id": 1865,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "لبلابي بنزرتي",
+          "en": "Labiabi Bizerte",
+          "fr": "Labiabi Bizerte",
+          "tn": "لبلابي بنزرتي"
+        }
+      },
+      {
+        "id": 1866,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "كسكسي جربي",
+          "en": "Djerbian Couscous",
+          "fr": "Couscous Djerbien",
+          "tn": "مسفوف جربي بالبندير"
+        }
+      },
+      {
+        "id": 1867,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "مثلوثة القيروان",
+          "en": "Methloutha Kairouan",
+          "fr": "Methloutha Kairouan",
+          "tn": "مثلوثة قيروانية"
+        }
+      },
+      {
+        "id": 1868,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "شربة شعير بالقرنيط الصفاقسي",
+          "en": "Sfaxian octopus soup",
+          "fr": "Soupe de poulpe sfaxienne",
+          "tn": "شربة قرنيط صفاقسية"
+        }
+      },
+      {
+        "id": 1869,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "عصيدة زقوقو",
+          "en": "Assida Zgougou",
+          "fr": "Assida Zgougou",
+          "tn": "عصيدة زقوقو"
+        }
+      },
+      {
+        "id": 1870,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "رشتة نابلية",
+          "en": "Nabeul Rechta",
+          "fr": "Rechta Nabeulienne",
+          "tn": "رشتة نابلية بالخضرة"
+        }
+      },
+      {
+        "id": 1871,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "بركوكش الكاف",
+          "en": "Kef Barkoukech",
+          "fr": "Barkoukech El Kef",
+          "tn": "بركوكش كافي بالقديد"
+        }
+      },
+      {
+        "id": 1872,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "مرقة حلوة قيروانية",
+          "en": "Mraqa Hlowa Kairouan",
+          "fr": "Mraqa Hlowa Kairouan",
+          "tn": "مرقة حلوة قيروانية"
+        }
+      },
+      {
+        "id": 1873,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "هرقمة سوسية",
+          "en": "Sousse Hergma",
+          "fr": "Hergma Soussi",
+          "tn": "هرقمة سوسية بالكرعين"
+        }
+      },
+      {
+        "id": 1874,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "كبة شامية",
+          "en": "Levantine Kibbeh",
+          "fr": "Kibbeh Levantine",
+          "tn": "كبة شامية"
+        }
+      }
+    ]
+  }
+]

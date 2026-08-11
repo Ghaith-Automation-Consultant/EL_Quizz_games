@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "object_صندوق",
+    "answer": "صندوق",
+    "normalized": "صندوق",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_صابون",
+    "answer": "صابون",
+    "normalized": "صابون",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_صخرة",
+    "answer": "صخرة",
+    "normalized": "صخرت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_صنبور",
+    "answer": "صنبور",
+    "normalized": "صنبور",
+    "aliases": [],
+    "status": "approved"
+  }
+]

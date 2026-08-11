@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "country_لبنان",
+    "answer": "لبنان",
+    "normalized": "لبنان",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_ليبيا",
+    "answer": "ليبيا",
+    "normalized": "ليبيا",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_لندن",
+    "answer": "لندن",
+    "normalized": "لندن",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_لاتفيا",
+    "answer": "لاتفيا",
+    "normalized": "لاتفيا",
+    "aliases": [],
+    "status": "approved"
+  }
+]

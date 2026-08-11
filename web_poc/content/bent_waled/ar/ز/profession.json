@@ -1,0 +1,16 @@
+[
+  {
+    "entity_id": "profession_زارع",
+    "answer": "زارع",
+    "normalized": "زارع",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_زجال",
+    "answer": "زجال",
+    "normalized": "زجال",
+    "aliases": [],
+    "status": "approved"
+  }
+]

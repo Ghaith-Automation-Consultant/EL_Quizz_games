@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "profession_نجار",
+    "answer": "نجار",
+    "normalized": "نجار",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_نحات",
+    "answer": "نحات",
+    "normalized": "نحات",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_نساج",
+    "answer": "نساج",
+    "normalized": "نساج",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_نائب",
+    "answer": "نائب",
+    "normalized": "نائب",
+    "aliases": [],
+    "status": "approved"
+  }
+]

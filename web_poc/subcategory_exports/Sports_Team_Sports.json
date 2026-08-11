@@ -1,0 +1,627 @@
+[
+  {
+    "id": 57,
+    "category": "Sports",
+    "subcategory": "Team Sports",
+    "region": "Tunisia",
+    "difficulty": 3,
+    "translations": {
+      "ar": "أذكر أندية كرة يد مشهورة وناجحة في تونس؟",
+      "en": "Name well-known and successful Tunisian handball clubs?",
+      "fr": "Citez des clubs de handball tunisiens connus et performants ?",
+      "tn": "أعطيني نوادي كرة يد معروفة وناجحة في تونس؟"
+    },
+    "answers": [
+      {
+        "id": 561,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الترجي الرياضي لكرة اليد",
+          "en": "Answer in English: الترجي الرياضي لكرة اليد",
+          "fr": "الترجي الرياضي لكرة اليد",
+          "tn": "الترجي الرياضي لكرة اليد"
+        }
+      },
+      {
+        "id": 562,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "النادي الإفريقي لكرة اليد",
+          "en": "Answer in English: النادي الإفريقي لكرة اليد",
+          "fr": "النادي الإفريقي لكرة اليد",
+          "tn": "النادي الإفريقي لكرة اليد"
+        }
+      },
+      {
+        "id": 563,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "النجم الساحلي لكرة اليد",
+          "en": "Answer in English: النجم الساحلي لكرة اليد",
+          "fr": "النجم الساحلي لكرة اليد",
+          "tn": "النجم الساحلي لكرة اليد"
+        }
+      },
+      {
+        "id": 564,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "جمعية الحمامات",
+          "en": "Answer in English: جمعية الحمامات",
+          "fr": "جمعية الحمامات",
+          "tn": "جمعية الحمامات"
+        }
+      },
+      {
+        "id": 565,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "مكارم المهدية",
+          "en": "Answer in English: مكارم المهدية",
+          "fr": "مكارم المهدية",
+          "tn": "مكارم المهدية"
+        }
+      },
+      {
+        "id": 566,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "سبورتينغ المكنين",
+          "en": "Answer in English: سبورتينغ المكنين",
+          "fr": "سبورتينغ المكنين",
+          "tn": "سبورتينغ المكنين"
+        }
+      },
+      {
+        "id": 567,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "النادي الصفاقسي لكرة اليد",
+          "en": "Answer in English: النادي الصفاقسي لكرة اليد",
+          "fr": "النادي الصفاقسي لكرة اليد",
+          "tn": "النادي الصفاقسي لكرة اليد"
+        }
+      },
+      {
+        "id": 568,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "اتحاد منزل تميم",
+          "en": "Answer in English: اتحاد منزل تميم",
+          "fr": "اتحاد منزل تميم",
+          "tn": "اتحاد منزل تميم"
+        }
+      },
+      {
+        "id": 569,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "نادي كرة اليد بجمال",
+          "en": "Answer in English: نادي كرة اليد بجمال",
+          "fr": "نادي كرة اليد بجمال",
+          "tn": "نادي كرة اليد بجمال"
+        }
+      },
+      {
+        "id": 570,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "لوس أنجلوس ليكرز",
+          "en": "Wrong distractor: لوس أنجلوس ليكرز",
+          "fr": "لوس أنجلوس ليكرز",
+          "tn": "لوس أنجلوس ليكرز"
+        }
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "category": "Sports",
+    "subcategory": "Team Sports",
+    "region": "Tunisia",
+    "difficulty": 3,
+    "translations": {
+      "ar": "أذكر أندية كرة سلة تونسية فازت ببطولات؟",
+      "en": "Name Tunisian basketball clubs that have won championships?",
+      "fr": "Citez des clubs tunisiens de basket-ball ayant remporté des titres ?",
+      "tn": "أعطيني نوادي كرة سلة تونسية ربحو بطولات؟"
+    },
+    "answers": [
+      {
+        "id": 571,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الاتحاد المنستيري لكرة السلة",
+          "en": "Answer in English: الاتحاد المنستيري لكرة السلة",
+          "fr": "الاتحاد المنستيري لكرة السلة",
+          "tn": "الاتحاد المنستيري لكرة السلة"
+        }
+      },
+      {
+        "id": 572,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "النجم الرادسي",
+          "en": "Answer in English: النجم الرادسي",
+          "fr": "النجم الرادسي",
+          "tn": "النجم الرادسي"
+        }
+      },
+      {
+        "id": 573,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "النادي الإفريقي لكرة السلة",
+          "en": "Answer in English: النادي الإفريقي لكرة السلة",
+          "fr": "النادي الإفريقي لكرة السلة",
+          "tn": "النادي الإفريقي لكرة السلة"
+        }
+      },
+      {
+        "id": 574,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "الشبيبة القيروانية",
+          "en": "Answer in English: الشبيبة القيروانية",
+          "fr": "الشبيبة القيروانية",
+          "tn": "الشبيبة القيروانية"
+        }
+      },
+      {
+        "id": 575,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "الزهراء الرياضية",
+          "en": "Answer in English: الزهراء الرياضية",
+          "fr": "الزهراء الرياضية",
+          "tn": "الزهراء الرياضية"
+        }
+      },
+      {
+        "id": 576,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "الترجي الرياضي لكرة السلة",
+          "en": "Answer in English: الترجي الرياضي لكرة السلة",
+          "fr": "الترجي الرياضي لكرة السلة",
+          "tn": "الترجي الرياضي لكرة السلة"
+        }
+      },
+      {
+        "id": 577,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "نجم حلق الوادي",
+          "en": "Answer in English: نجم حلق الوادي",
+          "fr": "نجم حلق الوادي",
+          "tn": "نجم حلق الوادي"
+        }
+      },
+      {
+        "id": 578,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "الملعب النابلي",
+          "en": "Answer in English: الملعب النابلي",
+          "fr": "الملعب النابلي",
+          "tn": "الملعب النابلي"
+        }
+      },
+      {
+        "id": 579,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "نادي دالية قرمبالية",
+          "en": "Answer in English: نادي دالية قرمبالية",
+          "fr": "نادي دالية قرمبالية",
+          "tn": "نادي دالية قرمبالية"
+        }
+      },
+      {
+        "id": 580,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "ريال مدريد",
+          "en": "Wrong distractor: ريال مدريد",
+          "fr": "ريال مدريد",
+          "tn": "ريال مدريد"
+        }
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "category": "Sports",
+    "subcategory": "Team Sports",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "أذكر ألقاباً أو كنى تُطلق على الأندية الرياضية التونسية؟",
+      "en": "Name nicknames given to Tunisian sports clubs?",
+      "fr": "Citez des surnoms donnés aux clubs sportifs tunisiens ?",
+      "tn": "أعطيني ألقاب أو كنايات يتقالو على النوادي الرياضية التونسية؟"
+    },
+    "answers": [
+      {
+        "id": 581,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "المكشخة",
+          "en": "Answer in English: المكشخة",
+          "fr": "المكشخة",
+          "tn": "المكشخة"
+        }
+      },
+      {
+        "id": 582,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الغاليا",
+          "en": "Answer in English: الغاليا",
+          "fr": "الغاليا",
+          "tn": "الغاليا"
+        }
+      },
+      {
+        "id": 583,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "ليتوال",
+          "en": "Answer in English: ليتوال",
+          "fr": "ليتوال",
+          "tn": "ليتوال"
+        }
+      },
+      {
+        "id": 584,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "السي اس اس",
+          "en": "Answer in English: السي اس اس",
+          "fr": "السي اس اس",
+          "tn": "السي اس اس"
+        }
+      },
+      {
+        "id": 585,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "البقلاوة",
+          "en": "Answer in English: البقلاوة",
+          "fr": "البقلاوة",
+          "tn": "البقلاوة"
+        }
+      },
+      {
+        "id": 586,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "القناوية",
+          "en": "Answer in English: القناوية",
+          "fr": "القناوية",
+          "tn": "القناوية"
+        }
+      },
+      {
+        "id": 587,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "القرش البنزرتي",
+          "en": "Answer in English: القرش البنزرتي",
+          "fr": "القرش البنزرتي",
+          "tn": "القرش البنزرتي"
+        }
+      },
+      {
+        "id": 588,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "السياب",
+          "en": "Answer in English: السياب",
+          "fr": "السياب",
+          "tn": "السياب"
+        }
+      },
+      {
+        "id": 589,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "أولاد المرسى",
+          "en": "Answer in English: أولاد المرسى",
+          "fr": "أولاد المرسى",
+          "tn": "أولاد المرسى"
+        }
+      },
+      {
+        "id": 590,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "الريدز",
+          "en": "Wrong distractor: الريدز",
+          "fr": "الريدز",
+          "tn": "الريدز"
+        }
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "category": "Sports",
+    "subcategory": "Team Sports",
+    "region": "Tunisia",
+    "difficulty": 3,
+    "translations": {
+      "ar": "أذكر لاعبين تونسيين احترفوا في دوريات أوروبية كبرى؟",
+      "en": "Name Tunisian players who played in major European leagues?",
+      "fr": "Citez des joueurs tunisiens ayant évolué dans de grands championnats européens ?",
+      "tn": "أعطيني لاعبين تونسيين لعبو في دوريات أوروبية كبيرة؟"
+    },
+    "answers": [
+      {
+        "id": 591,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "hatem trabelsi",
+          "en": "Answer in English: hatem trabelsi",
+          "fr": "hatem trabelsi",
+          "tn": "hatem trabelsi"
+        }
+      },
+      {
+        "id": 592,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "wahbi khazri",
+          "en": "Answer in English: wahbi khazri",
+          "fr": "wahbi khazri",
+          "tn": "wahbi khazri"
+        }
+      },
+      {
+        "id": 593,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "aymen abdennour",
+          "en": "Answer in English: aymen abdennour",
+          "fr": "aymen abdennour",
+          "tn": "aymen abdennour"
+        }
+      },
+      {
+        "id": 594,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "anis slimane",
+          "en": "Answer in English: anis slimane",
+          "fr": "anis slimane",
+          "tn": "anis slimane"
+        }
+      },
+      {
+        "id": 595,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "ellyes skhiri",
+          "en": "Answer in English: ellyes skhiri",
+          "fr": "ellyes skhiri",
+          "tn": "ellyes skhiri"
+        }
+      },
+      {
+        "id": 596,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "ali maaloul",
+          "en": "Answer in English: ali maaloul",
+          "fr": "ali maaloul",
+          "tn": "ali maaloul"
+        }
+      },
+      {
+        "id": 597,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "aissa laidouni",
+          "en": "Answer in English: aissa laidouni",
+          "fr": "aissa laidouni",
+          "tn": "aissa laidouni"
+        }
+      },
+      {
+        "id": 598,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "alaeddine yahia",
+          "en": "Answer in English: alaeddine yahia",
+          "fr": "alaeddine yahia",
+          "tn": "alaeddine yahia"
+        }
+      },
+      {
+        "id": 599,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "chaouki ben saada",
+          "en": "Answer in English: chaouki ben saada",
+          "fr": "chaouki ben saada",
+          "tn": "chaouki ben saada"
+        }
+      },
+      {
+        "id": 600,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "Cristiano Ronaldo",
+          "en": "Wrong distractor: Cristiano Ronaldo",
+          "fr": "Cristiano Ronaldo",
+          "tn": "Cristiano Ronaldo"
+        }
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "category": "Sports",
+    "subcategory": "Team Sports",
+    "region": "Tunisia",
+    "difficulty": 4,
+    "translations": {
+      "ar": "أذكر رياضيين تونسيين مثلوا تونس في منافسات الملاكمة وفازوا بألقاب؟",
+      "en": "Name Tunisian athletes who competed in boxing and won titles?",
+      "fr": "Citez des sportifs tunisiens ayant pratiqué la boxe et remporté des titres ?",
+      "tn": "أعطيني رياضيين تونسيين لعبو بوكس وربحو ألقاب؟"
+    },
+    "answers": [
+      {
+        "id": 851,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الهادي السليماني",
+          "en": "Answer in English: الهادي السليماني",
+          "fr": "الهادي السليماني",
+          "tn": "الهادي السليماني"
+        }
+      },
+      {
+        "id": 852,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "فتحي الميساوي",
+          "en": "Answer in English: فتحي الميساوي",
+          "fr": "فتحي الميساوي",
+          "tn": "فتحي الميساوي"
+        }
+      },
+      {
+        "id": 853,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "توفيق البلبولي",
+          "en": "Answer in English: توفيق البلبولي",
+          "fr": "توفيق البلبولي",
+          "tn": "توفيق البلبولي"
+        }
+      },
+      {
+        "id": 854,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "محمد علي الشريف",
+          "en": "Answer in English: محمد علي الشريف",
+          "fr": "محمد علي الشريف",
+          "tn": "محمد علي الشريف"
+        }
+      },
+      {
+        "id": 855,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "بلحسن البكوش",
+          "en": "Answer in English: بلحسن البكوش",
+          "fr": "بلحسن البكوش",
+          "tn": "بلحسن البكوش"
+        }
+      },
+      {
+        "id": 856,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "معز الكافي",
+          "en": "Answer in English: معز الكافي",
+          "fr": "معز الكافي",
+          "tn": "معز الكافي"
+        }
+      },
+      {
+        "id": 857,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "كامل العويني",
+          "en": "Answer in English: كامل العويني",
+          "fr": "كامل العويني",
+          "tn": "كامل العويني"
+        }
+      },
+      {
+        "id": 858,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "عبد الجليل بكار",
+          "en": "Answer in English: عبد الجليل بكار",
+          "fr": "عبد الجليل بكار",
+          "tn": "عبد الجليل بكار"
+        }
+      },
+      {
+        "id": 859,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "بشير التونسي",
+          "en": "Answer in English: بشير التونسي",
+          "fr": "بشير التونسي",
+          "tn": "بشير التونسي"
+        }
+      },
+      {
+        "id": 860,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "Mike Tyson",
+          "en": "Wrong distractor: Mike Tyson",
+          "fr": "Mike Tyson",
+          "tn": "Mike Tyson"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "entity_id": "profession_مهندس",
+    "answer": "مهندس",
+    "normalized": "مهندس",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_معلم",
+    "answer": "معلم",
+    "normalized": "معلم",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_ممرض",
+    "answer": "ممرض",
+    "normalized": "ممرض",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_محامي",
+    "answer": "محامي",
+    "normalized": "محامي",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_مدير",
+    "answer": "مدير",
+    "normalized": "مدير",
+    "aliases": [],
+    "status": "approved"
+  }
+]

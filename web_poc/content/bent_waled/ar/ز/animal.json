@@ -1,0 +1,16 @@
+[
+  {
+    "entity_id": "animal_زرافة",
+    "answer": "زرافة",
+    "normalized": "زرافت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "animal_زنبور",
+    "answer": "زنبور",
+    "normalized": "زنبور",
+    "aliases": [],
+    "status": "approved"
+  }
+]

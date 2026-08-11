@@ -1,0 +1,23 @@
+[
+  {
+    "entity_id": "object_ياقوت",
+    "answer": "ياقوت",
+    "normalized": "ياقوت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_يويو",
+    "answer": "يويو",
+    "normalized": "يويو",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_يد",
+    "answer": "يد",
+    "normalized": "يد",
+    "aliases": [],
+    "status": "approved"
+  }
+]

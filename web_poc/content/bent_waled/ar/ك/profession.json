@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "profession_كاتب",
+    "answer": "كاتب",
+    "normalized": "كاتب",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_كاهن",
+    "answer": "كاهن",
+    "normalized": "كاهن",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_كيميائي",
+    "answer": "كيميائي",
+    "normalized": "كيميائي",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_كهربائي",
+    "answer": "كهربائي",
+    "normalized": "كهربائي",
+    "aliases": [],
+    "status": "approved"
+  }
+]

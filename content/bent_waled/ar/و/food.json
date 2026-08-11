@@ -1,0 +1,16 @@
+[
+  {
+    "entity_id": "food_ورق_عنب",
+    "answer": "ورق عنب",
+    "normalized": "ورق عنب",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_ويفر",
+    "answer": "ويفر",
+    "normalized": "ويفر",
+    "aliases": [],
+    "status": "approved"
+  }
+]

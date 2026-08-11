@@ -1,0 +1,23 @@
+[
+  {
+    "entity_id": "girl_قمر",
+    "answer": "قمر",
+    "normalized": "قمر",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "girl_قمرة",
+    "answer": "قمرة",
+    "normalized": "قمرت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "girl_قدرية",
+    "answer": "قدرية",
+    "normalized": "قدريت",
+    "aliases": [],
+    "status": "approved"
+  }
+]

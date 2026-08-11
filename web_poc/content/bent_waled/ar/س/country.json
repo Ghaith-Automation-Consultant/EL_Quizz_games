@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "country_سوريا",
+    "answer": "سوريا",
+    "normalized": "سوريا",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_سودان",
+    "answer": "سودان",
+    "normalized": "سودان",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_سويسرا",
+    "answer": "سويسرا",
+    "normalized": "سويسرا",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_سنغال",
+    "answer": "سنغال",
+    "normalized": "سنغال",
+    "aliases": [],
+    "status": "approved"
+  }
+]

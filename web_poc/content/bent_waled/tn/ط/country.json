@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "country_طرابلس",
+    "answer": "طرابلس",
+    "normalized": "طرابلس",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_طبرقة",
+    "answer": "طبرقة",
+    "normalized": "طبرقت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_طوكيو",
+    "answer": "طوكيو",
+    "normalized": "طوكيو",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_طهران",
+    "answer": "طهران",
+    "normalized": "طهران",
+    "aliases": [],
+    "status": "approved"
+  }
+]

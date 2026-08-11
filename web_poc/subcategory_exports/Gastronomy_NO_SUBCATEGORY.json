@@ -1,0 +1,97 @@
+[
+  {
+    "id": 101,
+    "category": "Gastronomy",
+    "subcategory": "NO_SUBCATEGORY",
+    "region": "Tunisia",
+    "difficulty": 3,
+    "translations": {
+      "ar": "أذكر أطباق تونسية تقليدية؟",
+      "en": "Name traditional Tunisian dishes?",
+      "fr": "Citez des plats tunisiens traditionnels ?",
+      "tn": "أعطيني أكلات تونسية تقليدية؟"
+    },
+    "answers": [
+      {
+        "id": 1001,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "en": "Couscous"
+        }
+      },
+      {
+        "id": 1002,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "en": "Brik"
+        }
+      },
+      {
+        "id": 1003,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "en": "Ojja"
+        }
+      },
+      {
+        "id": 1004,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "en": "Lablabi"
+        }
+      },
+      {
+        "id": 1005,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "en": "Kaftaji"
+        }
+      },
+      {
+        "id": 1006,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "en": "Mulukhiyah"
+        }
+      },
+      {
+        "id": 1007,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "en": "Madfouna"
+        }
+      },
+      {
+        "id": 1008,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "en": "Kamounia"
+        }
+      },
+      {
+        "id": 1009,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "en": "Borzgan"
+        }
+      },
+      {
+        "id": 1010,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "en": "Koshari"
+        }
+      }
+    ]
+  }
+]

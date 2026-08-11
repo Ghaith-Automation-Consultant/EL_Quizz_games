@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "country_ألمانيا",
+    "answer": "ألمانيا",
+    "normalized": "المانيا",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_إيطاليا",
+    "answer": "إيطاليا",
+    "normalized": "ايطاليا",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_أمريكا",
+    "answer": "أمريكا",
+    "normalized": "امريكا",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_أنغولا",
+    "answer": "أنغولا",
+    "normalized": "انغولا",
+    "aliases": [],
+    "status": "approved"
+  }
+]

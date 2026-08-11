@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "country_هند",
+    "answer": "هند",
+    "normalized": "هند",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_هولندا",
+    "answer": "هولندا",
+    "normalized": "هولندا",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_هونغ_كونغ",
+    "answer": "هونغ كونغ",
+    "normalized": "هونغ كونغ",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_هامبورغ",
+    "answer": "هامبورغ",
+    "normalized": "هامبورغ",
+    "aliases": [],
+    "status": "approved"
+  }
+]

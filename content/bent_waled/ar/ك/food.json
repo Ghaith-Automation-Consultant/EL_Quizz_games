@@ -1,0 +1,23 @@
+[
+  {
+    "entity_id": "food_كفتة",
+    "answer": "كفتة",
+    "normalized": "كفتت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_كنافة",
+    "answer": "كنافة",
+    "normalized": "كنافت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_كبسة",
+    "answer": "كبسة",
+    "normalized": "كبست",
+    "aliases": [],
+    "status": "approved"
+  }
+]

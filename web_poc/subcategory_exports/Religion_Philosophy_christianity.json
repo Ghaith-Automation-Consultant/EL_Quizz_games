@@ -1,0 +1,252 @@
+[
+  {
+    "id": 169,
+    "category": "Religion & Philosophy",
+    "subcategory": "christianity",
+    "region": "Tunisia",
+    "difficulty": 3,
+    "translations": {
+      "ar": "من هم شخصيات مسيحية بارزة ارتبطت بتاريخ تونس؟",
+      "en": "Which Christian figures are associated with Tunisia's history?",
+      "fr": "Quelles personnalités chrétiennes sont liées à l'histoire de la Tunisie ?",
+      "tn": "شكون الشخصيات المسيحية المرتبطة بتاريخ تونس؟"
+    },
+    "answers": [
+      {
+        "id": 1675,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "القديس أوغسطين",
+          "en": "Saint Augustine",
+          "fr": "Saint Augustine",
+          "tn": "سان أوغستان"
+        }
+      },
+      {
+        "id": 1676,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "القديسة مونيكا",
+          "en": "Saint Monica",
+          "fr": "Saint Monica",
+          "tn": "سانت مونيك"
+        }
+      },
+      {
+        "id": 1677,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "ترتليان",
+          "en": "Tertullian",
+          "fr": "Tertullien",
+          "tn": "ترتليان"
+        }
+      },
+      {
+        "id": 1678,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "القديس قبريانوس",
+          "en": "Saint Cyprian",
+          "fr": "Saint Cyprien",
+          "tn": "سان سيبريان"
+        }
+      },
+      {
+        "id": 1679,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "أرنوبيوس",
+          "en": "Arnobius",
+          "fr": "Arnobe",
+          "tn": "أرنوب"
+        }
+      },
+      {
+        "id": 1680,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "لاكتانتيوس",
+          "en": "Lactantius",
+          "fr": "Lactance",
+          "tn": "لاكتانس"
+        }
+      },
+      {
+        "id": 1681,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "فيليسيتي",
+          "en": "Felicity",
+          "fr": "Felicity",
+          "tn": "فيليسيتي"
+        }
+      },
+      {
+        "id": 1682,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "بيربيتوا",
+          "en": "Perpetua",
+          "fr": "Perpétue",
+          "tn": "بيربيتوا"
+        }
+      },
+      {
+        "id": 1683,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "فولجانس الرصبي",
+          "en": "Fulgentius of Ruspe",
+          "fr": "Fulgence de Ruspe",
+          "tn": "فولجانس"
+        }
+      },
+      {
+        "id": 1684,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "صلاح الدين الأيوبي",
+          "en": "Saladin",
+          "fr": "Saladin",
+          "tn": "صلاح الدين"
+        }
+      }
+    ]
+  },
+  {
+    "id": 175,
+    "category": "Religion & Philosophy",
+    "subcategory": "christianity",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "أي من هذه المواقع المسيحية توجد في تونس؟",
+      "en": "Which Christian sites are located in Tunisia?",
+      "fr": "Quels sites chrétiens se trouvent en Tunisie ?",
+      "tn": "شنوة المواقع المسيحية الموجودة في تونس؟"
+    },
+    "answers": [
+      {
+        "id": 1735,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "كاتدرائية القديس فنسنت دي بول",
+          "en": "Saint Vincent de Paul Cathedral",
+          "fr": "Cathédrale Saint-Vincent-de-Paul",
+          "tn": "كاتدرائية تونس"
+        }
+      },
+      {
+        "id": 1736,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "كنيسة القديس أوغسطين بعنابة التاريخية المرتبطة به ليست في تونس",
+          "en": "Carthage Basilica site",
+          "fr": "Basilique de Carthage",
+          "tn": "موقع أوغسطين في قرطاج"
+        }
+      },
+      {
+        "id": 1737,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "موقع دم الشهداء بقرطاج",
+          "en": "Carthage Martyrs Site",
+          "fr": "Site des martyrs de Carthage",
+          "tn": "موقع الشهداء"
+        }
+      },
+      {
+        "id": 1738,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "تل بيرصة",
+          "en": "Byrsa Hill",
+          "fr": "Colline de Byrsa",
+          "tn": "بيرصة"
+        }
+      },
+      {
+        "id": 1739,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "قرطاج",
+          "en": "Carthage",
+          "fr": "Carthage",
+          "tn": "قرطاج"
+        }
+      },
+      {
+        "id": 1740,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "سيدي بوسعيد",
+          "en": "Sidi Bou Said",
+          "fr": "Sidi Bou Saïd",
+          "tn": "سيدي بوسعيد"
+        }
+      },
+      {
+        "id": 1741,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "تونس",
+          "en": "Tunis",
+          "fr": "Tunis",
+          "tn": "تونس"
+        }
+      },
+      {
+        "id": 1742,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "المرسى",
+          "en": "La Marsa",
+          "fr": "La Marsa",
+          "tn": "المرسى"
+        }
+      },
+      {
+        "id": 1743,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "بنزرت",
+          "en": "Bizerte",
+          "fr": "Bizerte",
+          "tn": "بنزرت"
+        }
+      },
+      {
+        "id": 1744,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "الفاتيكان",
+          "en": "Vatican City",
+          "fr": "Vatican",
+          "tn": "الفاتيكان"
+        }
+      }
+    ]
+  }
+]

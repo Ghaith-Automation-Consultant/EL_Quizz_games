@@ -1,0 +1,1725 @@
+[
+    {
+        "category": "Economy & Business",
+        "subcategory": "Agriculture",
+        "region": "Tunisia",
+        "difficulty": 2,
+        "generation": "All",
+        "translations": {
+            "ar": "ما هي من أهم المنتجات الفلاحية في تونس؟",
+            "tn": "شنوة من أهم المنتوجات الفلاحية في تونس؟",
+            "fr": "Quels sont parmi les principaux produits agricoles de la Tunisie ?",
+            "en": "Which are among Tunisia's main agricultural products?"
+        },
+        "answers": [
+            {
+                "is_correct": true,
+                "points": 5,
+                "translations": {
+                    "ar": "زيت الزيتون",
+                    "tn": "زيت الزيتون",
+                    "fr": "Huile d'olive",
+                    "en": "Olive oil"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 3,
+                "translations": {
+                    "ar": "التمور",
+                    "tn": "التمور",
+                    "fr": "Dattes",
+                    "en": "Dates"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 2,
+                "translations": {
+                    "ar": "الحمضيات",
+                    "tn": "القوارص",
+                    "fr": "Agrumes",
+                    "en": "Citrus fruits"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 2,
+                "translations": {
+                    "ar": "الحبوب",
+                    "tn": "القمح والشعير",
+                    "fr": "Céréales",
+                    "en": "Cereals"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 2,
+                "translations": {
+                    "ar": "العنب",
+                    "tn": "العنب",
+                    "fr": "Raisins",
+                    "en": "Grapes"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "الطماطم",
+                    "tn": "الماطم",
+                    "fr": "Tomates",
+                    "en": "Tomatoes"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "اللوز",
+                    "tn": "اللوز",
+                    "fr": "Amandes",
+                    "en": "Almonds"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "الفلفل",
+                    "tn": "الفلفل",
+                    "fr": "Piments",
+                    "en": "Peppers"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "الرمان",
+                    "tn": "الرمان",
+                    "fr": "Grenades",
+                    "en": "Pomegranates"
+                }
+            },
+            {
+                "is_correct": false,
+                "points": 0,
+                "translations": {
+                    "ar": "الكاكاو",
+                    "tn": "الكاكاو",
+                    "fr": "Cacao",
+                    "en": "Cocoa"
+                }
+            }
+        ]
+    },
+    {
+        "category": "Economy & Business",
+        "subcategory": "Tourism",
+        "region": "Tunisia",
+        "difficulty": 2,
+        "generation": "All",
+        "translations": {
+            "ar": "ما هي من أشهر الوجهات السياحية في تونس؟",
+            "tn": "شنوة من أشهر البلايص السياحية في تونس؟",
+            "fr": "Quelles sont parmi les destinations touristiques les plus célèbres de Tunisie ?",
+            "en": "Which are among Tunisia's most famous tourist destinations?"
+        },
+        "answers": [
+            {
+                "is_correct": true,
+                "points": 5,
+                "translations": {
+                    "ar": "جربة",
+                    "tn": "جربة",
+                    "fr": "Djerba",
+                    "en": "Djerba"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 3,
+                "translations": {
+                    "ar": "الحمامات",
+                    "tn": "الحمامات",
+                    "fr": "Hammamet",
+                    "en": "Hammamet"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 2,
+                "translations": {
+                    "ar": "سوسة",
+                    "tn": "سوسة",
+                    "fr": "Sousse",
+                    "en": "Sousse"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 2,
+                "translations": {
+                    "ar": "طبرقة",
+                    "tn": "طبرقة",
+                    "fr": "Tabarka",
+                    "en": "Tabarka"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 2,
+                "translations": {
+                    "ar": "توزر",
+                    "tn": "توزر",
+                    "fr": "Tozeur",
+                    "en": "Tozeur"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "المهدية",
+                    "tn": "المهدية",
+                    "fr": "Mahdia",
+                    "en": "Mahdia"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "القيروان",
+                    "tn": "القيروان",
+                    "fr": "Kairouan",
+                    "en": "Kairouan"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "قرطاج",
+                    "tn": "قرطاج",
+                    "fr": "Carthage",
+                    "en": "Carthage"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "دوز",
+                    "tn": "دوز",
+                    "fr": "Douz",
+                    "en": "Douz"
+                }
+            },
+            {
+                "is_correct": false,
+                "points": 0,
+                "translations": {
+                    "ar": "تبسة",
+                    "tn": "تبسة",
+                    "fr": "Tébessa",
+                    "en": "Tebessa"
+                }
+            }
+        ]
+    },
+    {
+        "category": "Economy & Business",
+        "subcategory": "Finance",
+        "region": "Tunisia",
+        "difficulty": 3,
+        "generation": "All",
+        "translations": {
+            "ar": "ما هي من البنوك العاملة في تونس؟",
+            "tn": "شنوة من البنوك الموجودة في تونس؟",
+            "fr": "Quelles sont parmi les banques opérant en Tunisie ?",
+            "en": "Which are among the banks operating in Tunisia?"
+        },
+        "answers": [
+            {
+                "is_correct": true,
+                "points": 5,
+                "translations": {
+                    "ar": "البنك الوطني الفلاحي",
+                    "tn": "BNA",
+                    "fr": "BNA",
+                    "en": "BNA"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 3,
+                "translations": {
+                    "ar": "بنك الأمان",
+                    "tn": "Amen Bank",
+                    "fr": "Amen Bank",
+                    "en": "Amen Bank"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 2,
+                "translations": {
+                    "ar": "التجاري بنك",
+                    "tn": "Attijari Bank",
+                    "fr": "Attijari Bank",
+                    "en": "Attijari Bank"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 2,
+                "translations": {
+                    "ar": "البنك التونسي",
+                    "tn": "BT",
+                    "fr": "Banque de Tunisie",
+                    "en": "Banque de Tunisie"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 2,
+                "translations": {
+                    "ar": "الشركة التونسية للبنك",
+                    "tn": "STB",
+                    "fr": "STB",
+                    "en": "STB"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "بنك الإسكان",
+                    "tn": "BH Bank",
+                    "fr": "BH Bank",
+                    "en": "BH Bank"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "UIB",
+                    "tn": "UIB",
+                    "fr": "UIB",
+                    "en": "UIB"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "UBCI",
+                    "tn": "UBCI",
+                    "fr": "UBCI",
+                    "en": "UBCI"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "زيتونة بنك",
+                    "tn": "Zitouna Bank",
+                    "fr": "Zitouna Bank",
+                    "en": "Zitouna Bank"
+                }
+            },
+            {
+                "is_correct": false,
+                "points": 0,
+                "translations": {
+                    "ar": "بنك الجزائر",
+                    "tn": "Banque d'Algérie",
+                    "fr": "Banque d'Algérie",
+                    "en": "Bank of Algeria"
+                }
+            }
+        ]
+    },
+    {
+        "category": "Economy & Business",
+        "subcategory": "Companies",
+        "region": "Tunisia",
+        "difficulty": 3,
+        "generation": "All",
+        "translations": {
+            "ar": "ما هي من الشركات التونسية المعروفة؟",
+            "tn": "شنوة من الشركات التونسية المعروفة؟",
+            "fr": "Quelles sont parmi les entreprises tunisiennes connues ?",
+            "en": "Which are among well-known Tunisian companies?"
+        },
+        "answers": [
+            {
+                "is_correct": true,
+                "points": 5,
+                "translations": {
+                    "ar": "اتصالات تونس",
+                    "tn": "Tunisie Telecom",
+                    "fr": "Tunisie Telecom",
+                    "en": "Tunisie Telecom"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 3,
+                "translations": {
+                    "ar": "أوريدو تونس",
+                    "tn": "Ooredoo Tunisie",
+                    "fr": "Ooredoo Tunisie",
+                    "en": "Ooredoo Tunisia"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 2,
+                "translations": {
+                    "ar": "أورنج تونس",
+                    "tn": "Orange Tunisie",
+                    "fr": "Orange Tunisie",
+                    "en": "Orange Tunisia"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 2,
+                "translations": {
+                    "ar": "شركة فسفاط قفصة",
+                    "tn": "CPG",
+                    "fr": "CPG",
+                    "en": "CPG"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 2,
+                "translations": {
+                    "ar": "سيفاكس",
+                    "tn": "Syphax",
+                    "fr": "Syphax",
+                    "en": "Syphax"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "دليس",
+                    "tn": "Délice",
+                    "fr": "Délice",
+                    "en": "Délice"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "ليلا",
+                    "tn": "Lilas",
+                    "fr": "Lilas",
+                    "en": "Lilas"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "بولينا",
+                    "tn": "Poulina",
+                    "fr": "Poulina",
+                    "en": "Poulina"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "سوترابيل",
+                    "tn": "Sotrapil",
+                    "fr": "Sotrapil",
+                    "en": "Sotrapil"
+                }
+            },
+            {
+                "is_correct": false,
+                "points": 0,
+                "translations": {
+                    "ar": "سوناطراك",
+                    "tn": "Sonatrach",
+                    "fr": "Sonatrach",
+                    "en": "Sonatrach"
+                }
+            }
+        ]
+    },
+    {
+        "category": "Economy & Business",
+        "subcategory": "Industries",
+        "region": "Tunisia",
+        "difficulty": 2,
+        "generation": "All",
+        "translations": {
+            "ar": "ما هي من أهم الصناعات في تونس؟",
+            "tn": "شنوة من أهم الصناعات في تونس؟",
+            "fr": "Quels sont parmi les principaux secteurs industriels en Tunisie ?",
+            "en": "Which are among Tunisia's main industries?"
+        },
+        "answers": [
+            {
+                "is_correct": true,
+                "points": 5,
+                "translations": {
+                    "ar": "الصناعات الغذائية",
+                    "tn": "الصناعات الغذائية",
+                    "fr": "Industrie agroalimentaire",
+                    "en": "Food industry"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 3,
+                "translations": {
+                    "ar": "صناعة النسيج",
+                    "tn": "النسيج",
+                    "fr": "Textile",
+                    "en": "Textile"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 2,
+                "translations": {
+                    "ar": "الصناعات الميكانيكية",
+                    "tn": "الميكانيك",
+                    "fr": "Industrie mécanique",
+                    "en": "Mechanical industry"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 2,
+                "translations": {
+                    "ar": "الصناعات الكهربائية",
+                    "tn": "الإلكتريك",
+                    "fr": "Industrie électrique",
+                    "en": "Electrical industry"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 2,
+                "translations": {
+                    "ar": "صناعة الفوسفاط",
+                    "tn": "الفسفاط",
+                    "fr": "Phosphates",
+                    "en": "Phosphate industry"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "صناعة الإسمنت",
+                    "tn": "الإسمنت",
+                    "fr": "Ciment",
+                    "en": "Cement"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "صناعة الجلود",
+                    "tn": "الجلود",
+                    "fr": "Cuir",
+                    "en": "Leather"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "صناعة مكونات السيارات",
+                    "tn": "قطع السيارات",
+                    "fr": "Composants automobiles",
+                    "en": "Automotive components"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "الصناعات الدوائية",
+                    "tn": "الأدوية",
+                    "fr": "Industrie pharmaceutique",
+                    "en": "Pharmaceutical industry"
+                }
+            },
+            {
+                "is_correct": false,
+                "points": 0,
+                "translations": {
+                    "ar": "بناء السفن النووية",
+                    "tn": "صناعة الغواصات النووية",
+                    "fr": "Construction de sous-marins nucléaires",
+                    "en": "Nuclear submarine construction"
+                }
+            }
+        ]
+    },
+    {
+        "category": "Economy & Business",
+        "subcategory": "Agriculture",
+        "region": "Tunisia",
+        "difficulty": 3,
+        "generation": "All",
+        "translations": {
+            "ar": "في أي ولايات تشتهر زراعة التمور؟",
+            "tn": "في أي ولايات مشهورة بالتمور؟",
+            "fr": "Quels gouvernorats sont réputés pour la culture des dattes ?",
+            "en": "Which governorates are known for date cultivation?"
+        },
+        "answers": [
+            {
+                "is_correct": true,
+                "points": 5,
+                "translations": {
+                    "ar": "قبلي",
+                    "tn": "قبلي",
+                    "fr": "Kébili",
+                    "en": "Kébili"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 3,
+                "translations": {
+                    "ar": "توزر",
+                    "tn": "توزر",
+                    "fr": "Tozeur",
+                    "en": "Tozeur"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 2,
+                "translations": {
+                    "ar": "قفصة",
+                    "tn": "قفصة",
+                    "fr": "Gafsa",
+                    "en": "Gafsa"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 2,
+                "translations": {
+                    "ar": "قابس",
+                    "tn": "قابس",
+                    "fr": "Gabès",
+                    "en": "Gabès"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "مدنين",
+                    "tn": "مدنين",
+                    "fr": "Médenine",
+                    "en": "Médenine"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "تطاوين",
+                    "tn": "تطاوين",
+                    "fr": "Tataouine",
+                    "en": "Tataouine"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "توزر القديمة",
+                    "tn": "نفطة",
+                    "fr": "Nefta",
+                    "en": "Nefta"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "دوز",
+                    "tn": "دوز",
+                    "fr": "Douz",
+                    "en": "Douz"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "الفوار",
+                    "tn": "الفوار",
+                    "fr": "El Faouar",
+                    "en": "El Faouar"
+                }
+            },
+            {
+                "is_correct": false,
+                "points": 0,
+                "translations": {
+                    "ar": "بنزرت",
+                    "tn": "بنزرت",
+                    "fr": "Bizerte",
+                    "en": "Bizerte"
+                }
+            }
+        ]
+    },
+    {
+        "category": "Economy & Business",
+        "subcategory": "Tourism",
+        "region": "Tunisia",
+        "difficulty": 3,
+        "generation": "All",
+        "translations": {
+            "ar": "ما هي من المدن الساحلية التي تضم منتجعات سياحية كبيرة؟",
+            "tn": "شنوة من المدن الساحلية فيها منتجعات سياحية كبار؟",
+            "fr": "Quelles villes côtières possèdent d'importantes stations touristiques ?",
+            "en": "Which coastal cities have major tourist resorts?"
+        },
+        "answers": [
+            {
+                "is_correct": true,
+                "points": 5,
+                "translations": {
+                    "ar": "الحمامات",
+                    "tn": "الحمامات",
+                    "fr": "Hammamet",
+                    "en": "Hammamet"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 3,
+                "translations": {
+                    "ar": "سوسة",
+                    "tn": "سوسة",
+                    "fr": "Sousse",
+                    "en": "Sousse"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 2,
+                "translations": {
+                    "ar": "المنستير",
+                    "tn": "المنستير",
+                    "fr": "Monastir",
+                    "en": "Monastir"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 2,
+                "translations": {
+                    "ar": "المهدية",
+                    "tn": "المهدية",
+                    "fr": "Mahdia",
+                    "en": "Mahdia"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 2,
+                "translations": {
+                    "ar": "جربة",
+                    "tn": "جربة",
+                    "fr": "Djerba",
+                    "en": "Djerba"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "طبرقة",
+                    "tn": "طبرقة",
+                    "fr": "Tabarka",
+                    "en": "Tabarka"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "بنزرت",
+                    "tn": "بنزرت",
+                    "fr": "Bizerte",
+                    "en": "Bizerte"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "نابل",
+                    "tn": "نابل",
+                    "fr": "Nabeul",
+                    "en": "Nabeul"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "قليبية",
+                    "tn": "قليبية",
+                    "fr": "Kelibia",
+                    "en": "Kelibia"
+                }
+            },
+            {
+                "is_correct": false,
+                "points": 0,
+                "translations": {
+                    "ar": "تندوف",
+                    "tn": "تندوف",
+                    "fr": "Tindouf",
+                    "en": "Tindouf"
+                }
+            }
+        ]
+    },
+    {
+        "category": "Economy & Business",
+        "subcategory": "Finance",
+        "region": "Tunisia",
+        "difficulty": 4,
+        "generation": "All",
+        "translations": {
+            "ar": "ما هي من المؤسسات المالية الرسمية في تونس؟",
+            "tn": "شنوة من المؤسسات المالية الرسمية في تونس؟",
+            "fr": "Quelles sont parmi les institutions financières officielles en Tunisie ?",
+            "en": "Which are among Tunisia's official financial institutions?"
+        },
+        "answers": [
+            {
+                "is_correct": true,
+                "points": 5,
+                "translations": {
+                    "ar": "البنك المركزي التونسي",
+                    "tn": "البنك المركزي",
+                    "fr": "Banque Centrale de Tunisie",
+                    "en": "Central Bank of Tunisia"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 3,
+                "translations": {
+                    "ar": "بورصة تونس",
+                    "tn": "بورصة تونس",
+                    "fr": "Bourse de Tunis",
+                    "en": "Tunis Stock Exchange"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 2,
+                "translations": {
+                    "ar": "مجلس السوق المالية",
+                    "tn": "CMF",
+                    "fr": "CMF",
+                    "en": "Financial Market Council"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 2,
+                "translations": {
+                    "ar": "بنك تمويل المؤسسات الصغرى والمتوسطة",
+                    "tn": "BFPME",
+                    "fr": "BFPME",
+                    "en": "BFPME"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 2,
+                "translations": {
+                    "ar": "صندوق الودائع والأمانات",
+                    "tn": "CDC",
+                    "fr": "CDC",
+                    "en": "CDC Tunisia"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "الديوان الوطني للبريد",
+                    "tn": "البريد التونسي",
+                    "fr": "La Poste Tunisienne",
+                    "en": "La Poste Tunisienne"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "زيتونة كابيتال",
+                    "tn": "Zitouna Capital",
+                    "fr": "Zitouna Capital",
+                    "en": "Zitouna Capital"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "التونسي للمقاصة",
+                    "tn": "Tunisie Clearing",
+                    "fr": "Tunisie Clearing",
+                    "en": "Tunisie Clearing"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "التونسية للمقاصة",
+                    "tn": "Tunisie Clearing",
+                    "fr": "Tunisie Clearing",
+                    "en": "Tunisie Clearing"
+                }
+            },
+            {
+                "is_correct": false,
+                "points": 0,
+                "translations": {
+                    "ar": "البنك المركزي المغربي",
+                    "tn": "Banque centrale marocaine",
+                    "fr": "Bank Al-Maghrib",
+                    "en": "Bank Al-Maghrib"
+                }
+            }
+        ]
+    },
+    {
+        "category": "Economy & Business",
+        "subcategory": "Companies",
+        "region": "Tunisia",
+        "difficulty": 4,
+        "generation": "All",
+        "translations": {
+            "ar": "أي من هذه الشركات مدرجة في بورصة تونس؟",
+            "tn": "شنوة من هالشركات مدرجة في بورصة تونس؟",
+            "fr": "Quelles entreprises sont cotées à la Bourse de Tunis ?",
+            "en": "Which of these companies are listed on the Tunis Stock Exchange?"
+        },
+        "answers": [
+            {
+                "is_correct": true,
+                "points": 5,
+                "translations": {
+                    "ar": "بولينا",
+                    "tn": "Poulina",
+                    "fr": "Poulina Group Holding",
+                    "en": "Poulina Group Holding"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 3,
+                "translations": {
+                    "ar": "بي تي",
+                    "tn": "Banque de Tunisie",
+                    "fr": "Banque de Tunisie",
+                    "en": "Banque de Tunisie"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 2,
+                "translations": {
+                    "ar": "التجاري بنك",
+                    "tn": "Attijari Bank",
+                    "fr": "Attijari Bank",
+                    "en": "Attijari Bank"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 2,
+                "translations": {
+                    "ar": "أمن بنك",
+                    "tn": "Amen Bank",
+                    "fr": "Amen Bank",
+                    "en": "Amen Bank"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 2,
+                "translations": {
+                    "ar": "دليس القابضة",
+                    "tn": "Délice Holding",
+                    "fr": "Délice Holding",
+                    "en": "Délice Holding"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "أسد",
+                    "tn": "ASSAD",
+                    "fr": "ASSAD",
+                    "en": "ASSAD"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "سوتيب",
+                    "tn": "SOTIPAPIER",
+                    "fr": "SOTIPAPIER",
+                    "en": "SOTIPAPIER"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "تلنات",
+                    "tn": "Telnet",
+                    "fr": "Telnet Holding",
+                    "en": "Telnet Holding"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "واحة",
+                    "tn": "SFBT",
+                    "fr": "SFBT",
+                    "en": "SFBT"
+                }
+            },
+            {
+                "is_correct": false,
+                "points": 0,
+                "translations": {
+                    "ar": "توتال إنرجي",
+                    "tn": "TotalEnergies",
+                    "fr": "TotalEnergies",
+                    "en": "TotalEnergies"
+                }
+            }
+        ]
+    },
+    {
+        "category": "Economy & Business",
+        "subcategory": "Industries",
+        "region": "Tunisia",
+        "difficulty": 3,
+        "generation": "All",
+        "translations": {
+            "ar": "في أي ولايات توجد مناطق صناعية مهمة؟",
+            "tn": "في أي ولايات فما مناطق صناعية كبيرة؟",
+            "fr": "Quels gouvernorats possèdent d'importantes zones industrielles ?",
+            "en": "Which governorates have major industrial zones?"
+        },
+        "answers": [
+            {
+                "is_correct": true,
+                "points": 5,
+                "translations": {
+                    "ar": "بن عروس",
+                    "tn": "بن عروس",
+                    "fr": "Ben Arous",
+                    "en": "Ben Arous"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 3,
+                "translations": {
+                    "ar": "صفاقس",
+                    "tn": "صفاقس",
+                    "fr": "Sfax",
+                    "en": "Sfax"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 2,
+                "translations": {
+                    "ar": "سوسة",
+                    "tn": "سوسة",
+                    "fr": "Sousse",
+                    "en": "Sousse"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 2,
+                "translations": {
+                    "ar": "نابل",
+                    "tn": "نابل",
+                    "fr": "Nabeul",
+                    "en": "Nabeul"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 2,
+                "translations": {
+                    "ar": "بنزرت",
+                    "tn": "بنزرت",
+                    "fr": "Bizerte",
+                    "en": "Bizerte"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "المنستير",
+                    "tn": "المنستير",
+                    "fr": "Monastir",
+                    "en": "Monastir"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "زغوان",
+                    "tn": "زغوان",
+                    "fr": "Zaghouan",
+                    "en": "Zaghouan"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "قابس",
+                    "tn": "قابس",
+                    "fr": "Gabès",
+                    "en": "Gabès"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "أريانة",
+                    "tn": "أريانة",
+                    "fr": "Ariana",
+                    "en": "Ariana"
+                }
+            },
+            {
+                "is_correct": false,
+                "points": 0,
+                "translations": {
+                    "ar": "إليزي",
+                    "tn": "إليزي",
+                    "fr": "Illizi",
+                    "en": "Illizi"
+                }
+            }
+        ]
+    },
+    {
+        "category": "Economy & Business",
+        "subcategory": "Agriculture",
+        "region": "Tunisia",
+        "difficulty": 3,
+        "generation": "All",
+        "translations": {
+            "ar": "ما هي من الزراعات المنتشرة في شمال تونس؟",
+            "tn": "شنوة من الزراعات المنتشرة في شمال تونس؟",
+            "fr": "Quelles cultures sont répandues dans le nord de la Tunisie ?",
+            "en": "Which crops are common in northern Tunisia?"
+        },
+        "answers": [
+            {
+                "is_correct": true,
+                "points": 5,
+                "translations": {
+                    "ar": "القمح",
+                    "tn": "القمح",
+                    "fr": "Blé",
+                    "en": "Wheat"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 3,
+                "translations": {
+                    "ar": "الشعير",
+                    "tn": "الشعير",
+                    "fr": "Orge",
+                    "en": "Barley"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 2,
+                "translations": {
+                    "ar": "الزيتون",
+                    "tn": "الزيتون",
+                    "fr": "Oliviers",
+                    "en": "Olives"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 2,
+                "translations": {
+                    "ar": "الحمضيات",
+                    "tn": "القوارص",
+                    "fr": "Agrumes",
+                    "en": "Citrus"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 2,
+                "translations": {
+                    "ar": "العنب",
+                    "tn": "العنب",
+                    "fr": "Raisins",
+                    "en": "Grapes"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "الفول",
+                    "tn": "الفول",
+                    "fr": "Fèves",
+                    "en": "Broad beans"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "البطاطا",
+                    "tn": "البطاطا",
+                    "fr": "Pommes de terre",
+                    "en": "Potatoes"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "الطماطم",
+                    "tn": "الماطم",
+                    "fr": "Tomates",
+                    "en": "Tomatoes"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "التفاح",
+                    "tn": "التفاح",
+                    "fr": "Pommes",
+                    "en": "Apples"
+                }
+            },
+            {
+                "is_correct": false,
+                "points": 0,
+                "translations": {
+                    "ar": "الموز",
+                    "tn": "الموز",
+                    "fr": "Bananes",
+                    "en": "Bananas"
+                }
+            }
+        ]
+    },
+    {
+        "category": "Economy & Business",
+        "subcategory": "Tourism",
+        "region": "Tunisia",
+        "difficulty": 4,
+        "generation": "All",
+        "translations": {
+            "ar": "ما هي من مواقع التراث العالمي التي تجذب السياح في تونس؟",
+            "tn": "شنوة من مواقع التراث العالمي في تونس؟",
+            "fr": "Quels sites du patrimoine mondial attirent les touristes en Tunisie ?",
+            "en": "Which UNESCO World Heritage sites attract tourists in Tunisia?"
+        },
+        "answers": [
+            {
+                "is_correct": true,
+                "points": 5,
+                "translations": {
+                    "ar": "قرطاج",
+                    "tn": "قرطاج",
+                    "fr": "Carthage",
+                    "en": "Carthage"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 3,
+                "translations": {
+                    "ar": "القيروان",
+                    "tn": "القيروان",
+                    "fr": "Kairouan",
+                    "en": "Kairouan"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 2,
+                "translations": {
+                    "ar": "المدينة العتيقة بتونس",
+                    "tn": "مدينة تونس",
+                    "fr": "Médina de Tunis",
+                    "en": "Medina of Tunis"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 2,
+                "translations": {
+                    "ar": "دقة",
+                    "tn": "دقة",
+                    "fr": "Dougga",
+                    "en": "Dougga"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 2,
+                "translations": {
+                    "ar": "الجم",
+                    "tn": "الجم",
+                    "fr": "El Jem",
+                    "en": "El Jem"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "إشكل",
+                    "tn": "إشكل",
+                    "fr": "Ichkeul",
+                    "en": "Ichkeul"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "سوسة العتيقة",
+                    "tn": "مدينة سوسة",
+                    "fr": "Médina de Sousse",
+                    "en": "Medina of Sousse"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "كركوان",
+                    "tn": "كركوان",
+                    "fr": "Kerkouane",
+                    "en": "Kerkouane"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "مدينة صفاقس العتيقة",
+                    "tn": "مدينة صفاقس",
+                    "fr": "Médina de Sfax",
+                    "en": "Medina of Sfax"
+                }
+            },
+            {
+                "is_correct": false,
+                "points": 0,
+                "translations": {
+                    "ar": "ماتشو بيتشو",
+                    "tn": "ماتشو بيتشو",
+                    "fr": "Machu Picchu",
+                    "en": "Machu Picchu"
+                }
+            }
+        ]
+    },
+    {
+        "category": "Economy & Business",
+        "subcategory": "Finance",
+        "region": "Tunisia",
+        "difficulty": 2,
+        "generation": "All",
+        "translations": {
+            "ar": "أي من هذه وسائل دفع مستخدمة في تونس؟",
+            "tn": "شنوة من وسائل الدفع المستعملة في تونس؟",
+            "fr": "Quels moyens de paiement sont utilisés en Tunisie ?",
+            "en": "Which payment methods are used in Tunisia?"
+        },
+        "answers": [
+            {
+                "is_correct": true,
+                "points": 5,
+                "translations": {
+                    "ar": "الدينار التونسي",
+                    "tn": "الدينار",
+                    "fr": "Dinar tunisien",
+                    "en": "Tunisian dinar"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 3,
+                "translations": {
+                    "ar": "البطاقة البنكية",
+                    "tn": "الكارت البنكية",
+                    "fr": "Carte bancaire",
+                    "en": "Bank card"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 2,
+                "translations": {
+                    "ar": "الشيك",
+                    "tn": "الشيك",
+                    "fr": "Chèque",
+                    "en": "Cheque"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 2,
+                "translations": {
+                    "ar": "التحويل البنكي",
+                    "tn": "تحويل بنكي",
+                    "fr": "Virement bancaire",
+                    "en": "Bank transfer"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 2,
+                "translations": {
+                    "ar": "النقد",
+                    "tn": "الكاش",
+                    "fr": "Espèces",
+                    "en": "Cash"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "البريد",
+                    "tn": "البريد",
+                    "fr": "La Poste",
+                    "en": "Postal payment"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "الدفع عبر الهاتف",
+                    "tn": "الدفع بالموبايل",
+                    "fr": "Paiement mobile",
+                    "en": "Mobile payment"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "الحوالة",
+                    "tn": "الحوالة",
+                    "fr": "Mandat",
+                    "en": "Money order"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "بطاقة مسبقة الدفع",
+                    "tn": "كارت مسبقة الدفع",
+                    "fr": "Carte prépayée",
+                    "en": "Prepaid card"
+                }
+            },
+            {
+                "is_correct": false,
+                "points": 0,
+                "translations": {
+                    "ar": "البيتكوين كعملة رسمية",
+                    "tn": "البيتكوين الرسمي",
+                    "fr": "Bitcoin comme monnaie officielle",
+                    "en": "Bitcoin as official currency"
+                }
+            }
+        ]
+    },
+    {
+        "category": "Economy & Business",
+        "subcategory": "Companies",
+        "region": "Tunisia",
+        "difficulty": 3,
+        "generation": "All",
+        "translations": {
+            "ar": "ما هي من شركات الاتصالات العاملة في تونس؟",
+            "tn": "شنوة من شركات الاتصالات في تونس؟",
+            "fr": "Quels opérateurs télécoms opèrent en Tunisie ?",
+            "en": "Which telecom operators operate in Tunisia?"
+        },
+        "answers": [
+            {
+                "is_correct": true,
+                "points": 5,
+                "translations": {
+                    "ar": "اتصالات تونس",
+                    "tn": "Tunisie Telecom",
+                    "fr": "Tunisie Telecom",
+                    "en": "Tunisie Telecom"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 3,
+                "translations": {
+                    "ar": "أوريدو تونس",
+                    "tn": "Ooredoo",
+                    "fr": "Ooredoo Tunisie",
+                    "en": "Ooredoo Tunisia"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 3,
+                "translations": {
+                    "ar": "أورنج تونس",
+                    "tn": "Orange",
+                    "fr": "Orange Tunisie",
+                    "en": "Orange Tunisia"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 2,
+                "translations": {
+                    "ar": "تونيزيانا",
+                    "tn": "Tunisiana",
+                    "fr": "Tunisiana",
+                    "en": "Tunisiana"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "إيزي",
+                    "tn": "Easy",
+                    "fr": "Easy",
+                    "en": "Easy"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "فور جي هوم",
+                    "tn": "4G Home",
+                    "fr": "4G Home",
+                    "en": "4G Home"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "أوريدو بيزنس",
+                    "tn": "Ooredoo Business",
+                    "fr": "Ooredoo Business",
+                    "en": "Ooredoo Business"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "أورنج بيزنس",
+                    "tn": "Orange Business",
+                    "fr": "Orange Business",
+                    "en": "Orange Business"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "TT Smart",
+                    "tn": "TT Smart",
+                    "fr": "TT Smart",
+                    "en": "TT Smart"
+                }
+            },
+            {
+                "is_correct": false,
+                "points": 0,
+                "translations": {
+                    "ar": "فودافون تونس",
+                    "tn": "Vodafone Tunisie",
+                    "fr": "Vodafone Tunisie",
+                    "en": "Vodafone Tunisia"
+                }
+            }
+        ]
+    },
+    {
+        "category": "Economy & Business",
+        "subcategory": "Industries",
+        "region": "Tunisia",
+        "difficulty": 4,
+        "generation": "All",
+        "translations": {
+            "ar": "ما هي من أهم صادرات تونس؟",
+            "tn": "شنوة من أهم صادرات تونس؟",
+            "fr": "Quels sont parmi les principaux produits exportés par la Tunisie ?",
+            "en": "Which are among Tunisia's main exports?"
+        },
+        "answers": [
+            {
+                "is_correct": true,
+                "points": 5,
+                "translations": {
+                    "ar": "زيت الزيتون",
+                    "tn": "زيت الزيتون",
+                    "fr": "Huile d'olive",
+                    "en": "Olive oil"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 3,
+                "translations": {
+                    "ar": "التمور",
+                    "tn": "التمور",
+                    "fr": "Dattes",
+                    "en": "Dates"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 2,
+                "translations": {
+                    "ar": "الأسلاك الكهربائية",
+                    "tn": "الكوابل",
+                    "fr": "Câbles électriques",
+                    "en": "Electrical cables"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 2,
+                "translations": {
+                    "ar": "مكونات السيارات",
+                    "tn": "قطع السيارات",
+                    "fr": "Composants automobiles",
+                    "en": "Automotive components"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 2,
+                "translations": {
+                    "ar": "الملابس",
+                    "tn": "الملابس",
+                    "fr": "Vêtements",
+                    "en": "Clothing"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "الفوسفاط",
+                    "tn": "الفسفاط",
+                    "fr": "Phosphates",
+                    "en": "Phosphates"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "المنتجات البحرية",
+                    "tn": "الحوت",
+                    "fr": "Produits de la mer",
+                    "en": "Seafood"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "المنتجات الميكانيكية",
+                    "tn": "الميكانيك",
+                    "fr": "Produits mécaniques",
+                    "en": "Mechanical products"
+                }
+            },
+            {
+                "is_correct": true,
+                "points": 1,
+                "translations": {
+                    "ar": "الأدوية",
+                    "tn": "الأدوية",
+                    "fr": "Produits pharmaceutiques",
+                    "en": "Pharmaceutical products"
+                }
+            },
+            {
+                "is_correct": false,
+                "points": 0,
+                "translations": {
+                    "ar": "خشب استوائي",
+                    "tn": "خشب استوائي",
+                    "fr": "Bois tropical",
+                    "en": "Tropical timber"
+                }
+            }
+        ]

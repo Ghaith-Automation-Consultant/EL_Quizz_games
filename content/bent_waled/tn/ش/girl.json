@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "girl_شيماء",
+    "answer": "شيماء",
+    "normalized": "شيماء",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "girl_ادية",
+    "answer": "ادية",
+    "normalized": "اديت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "girl_شروق",
+    "answer": "شروق",
+    "normalized": "شروق",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "girl_شريفة",
+    "answer": "شريفة",
+    "normalized": "شريفت",
+    "aliases": [],
+    "status": "approved"
+  }
+]

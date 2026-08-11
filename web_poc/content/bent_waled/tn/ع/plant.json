@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "plant_عنب",
+    "answer": "عنب",
+    "normalized": "عنب",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "plant_عدس",
+    "answer": "عدس",
+    "normalized": "عدس",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "plant_عناب",
+    "answer": "عناب",
+    "normalized": "عناب",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "plant_عوسج",
+    "answer": "عوسج",
+    "normalized": "عوسج",
+    "aliases": [],
+    "status": "approved"
+  }
+]

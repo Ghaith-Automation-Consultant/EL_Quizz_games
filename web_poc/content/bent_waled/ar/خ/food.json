@@ -1,0 +1,23 @@
+[
+  {
+    "entity_id": "food_خبز",
+    "answer": "خبز",
+    "normalized": "خبز",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_خبيزة",
+    "answer": "خبيزة",
+    "normalized": "خبيزت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_خليع",
+    "answer": "خليع",
+    "normalized": "خليع",
+    "aliases": [],
+    "status": "approved"
+  }
+]

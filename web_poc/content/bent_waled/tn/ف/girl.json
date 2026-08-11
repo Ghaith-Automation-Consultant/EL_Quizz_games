@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "girl_فاطمة",
+    "answer": "فاطمة",
+    "normalized": "فاطمت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "girl_فريدة",
+    "answer": "فريدة",
+    "normalized": "فريدت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "girl_فوزية",
+    "answer": "فوزية",
+    "normalized": "فوزيت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "girl_فدوى",
+    "answer": "فدوى",
+    "normalized": "فدوي",
+    "aliases": [],
+    "status": "approved"
+  }
+]

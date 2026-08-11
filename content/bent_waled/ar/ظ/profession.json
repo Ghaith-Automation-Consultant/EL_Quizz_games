@@ -1,0 +1,16 @@
+[
+  {
+    "entity_id": "profession_ظهير",
+    "answer": "ظهير",
+    "normalized": "ظهير",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_موظف",
+    "answer": "موظف",
+    "normalized": "موظف",
+    "aliases": [],
+    "status": "approved"
+  }
+]

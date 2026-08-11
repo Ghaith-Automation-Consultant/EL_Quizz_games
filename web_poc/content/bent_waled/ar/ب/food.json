@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "food_بركوكش",
+    "answer": "بركوكش",
+    "normalized": "بركوكش",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_بقلاوة",
+    "answer": "بقلاوة",
+    "normalized": "بقلاوت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_بسيسة",
+    "answer": "بسيسة",
+    "normalized": "بسيست",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_بريك",
+    "answer": "بريك",
+    "normalized": "بريك",
+    "aliases": [],
+    "status": "approved"
+  }
+]

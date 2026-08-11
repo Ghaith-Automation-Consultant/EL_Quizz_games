@@ -1,0 +1,16 @@
+[
+  {
+    "entity_id": "food_أرز_باللحم",
+    "answer": "أرز باللحم",
+    "normalized": "ارز باللحم",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_أومليت",
+    "answer": "أومليت",
+    "normalized": "اومليت",
+    "aliases": [],
+    "status": "approved"
+  }
+]

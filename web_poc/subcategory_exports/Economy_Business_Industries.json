@@ -1,0 +1,252 @@
+[
+  {
+    "id": 142,
+    "category": "Economy & Business",
+    "subcategory": "Industries",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "ما هي من أهم الصناعات في تونس؟",
+      "en": "Which are among Tunisia's main industries?",
+      "fr": "Quels sont parmi les principaux secteurs industriels en Tunisie ?",
+      "tn": "شنوة من أهم الصناعات في تونس؟"
+    },
+    "answers": [
+      {
+        "id": 1405,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "الصناعات الغذائية",
+          "en": "Food industry",
+          "fr": "Industrie agroalimentaire",
+          "tn": "الصناعات الغذائية"
+        }
+      },
+      {
+        "id": 1406,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "صناعة النسيج",
+          "en": "Textile",
+          "fr": "Textile",
+          "tn": "النسيج"
+        }
+      },
+      {
+        "id": 1407,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "الصناعات الميكانيكية",
+          "en": "Mechanical industry",
+          "fr": "Industrie mécanique",
+          "tn": "الميكانيك"
+        }
+      },
+      {
+        "id": 1408,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "الصناعات الكهربائية",
+          "en": "Electrical industry",
+          "fr": "Industrie électrique",
+          "tn": "الإلكتريك"
+        }
+      },
+      {
+        "id": 1409,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "صناعة الفوسفاط",
+          "en": "Phosphate industry",
+          "fr": "Phosphates",
+          "tn": "الفسفاط"
+        }
+      },
+      {
+        "id": 1410,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "صناعة الإسمنت",
+          "en": "Cement",
+          "fr": "Ciment",
+          "tn": "الإسمنت"
+        }
+      },
+      {
+        "id": 1411,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "صناعة الجلود",
+          "en": "Leather",
+          "fr": "Cuir",
+          "tn": "الجلود"
+        }
+      },
+      {
+        "id": 1412,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "صناعة مكونات السيارات",
+          "en": "Automotive components",
+          "fr": "Composants automobiles",
+          "tn": "قطع السيارات"
+        }
+      },
+      {
+        "id": 1413,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الصناعات الدوائية",
+          "en": "Pharmaceutical industry",
+          "fr": "Industrie pharmaceutique",
+          "tn": "الأدوية"
+        }
+      },
+      {
+        "id": 1414,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "بناء السفن النووية",
+          "en": "Nuclear submarine construction",
+          "fr": "Construction de sous-marins nucléaires",
+          "tn": "صناعة الغواصات النووية"
+        }
+      }
+    ]
+  },
+  {
+    "id": 147,
+    "category": "Economy & Business",
+    "subcategory": "Industries",
+    "region": "Tunisia",
+    "difficulty": 3,
+    "translations": {
+      "ar": "في أي ولايات توجد مناطق صناعية مهمة؟",
+      "en": "Which governorates have major industrial zones?",
+      "fr": "Quels gouvernorats possèdent d'importantes zones industrielles ?",
+      "tn": "في أي ولايات فما مناطق صناعية كبيرة؟"
+    },
+    "answers": [
+      {
+        "id": 1455,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "بن عروس",
+          "en": "Ben Arous",
+          "fr": "Ben Arous",
+          "tn": "بن عروس"
+        }
+      },
+      {
+        "id": 1456,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "صفاقس",
+          "en": "Sfax",
+          "fr": "Sfax",
+          "tn": "صفاقس"
+        }
+      },
+      {
+        "id": 1457,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "سوسة",
+          "en": "Sousse",
+          "fr": "Sousse",
+          "tn": "سوسة"
+        }
+      },
+      {
+        "id": 1458,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "نابل",
+          "en": "Nabeul",
+          "fr": "Nabeul",
+          "tn": "نابل"
+        }
+      },
+      {
+        "id": 1459,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "بنزرت",
+          "en": "Bizerte",
+          "fr": "Bizerte",
+          "tn": "بنزرت"
+        }
+      },
+      {
+        "id": 1460,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "المنستير",
+          "en": "Monastir",
+          "fr": "Monastir",
+          "tn": "المنستير"
+        }
+      },
+      {
+        "id": 1461,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "زغوان",
+          "en": "Zaghouan",
+          "fr": "Zaghouan",
+          "tn": "زغوان"
+        }
+      },
+      {
+        "id": 1462,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "قابس",
+          "en": "Gabès",
+          "fr": "Gabès",
+          "tn": "قابس"
+        }
+      },
+      {
+        "id": 1463,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "أريانة",
+          "en": "Ariana",
+          "fr": "Ariana",
+          "tn": "أريانة"
+        }
+      },
+      {
+        "id": 1464,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "إليزي",
+          "en": "Illizi",
+          "fr": "Illizi",
+          "tn": "إليزي"
+        }
+      }
+    ]
+  }
+]

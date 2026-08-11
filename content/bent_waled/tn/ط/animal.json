@@ -1,0 +1,23 @@
+[
+  {
+    "entity_id": "animal_طاوس",
+    "answer": "طاوس",
+    "normalized": "طاوس",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "animal_طنان",
+    "answer": "طنان",
+    "normalized": "طنان",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "animal_طلي",
+    "answer": "طلي",
+    "normalized": "طلي",
+    "aliases": [],
+    "status": "approved"
+  }
+]

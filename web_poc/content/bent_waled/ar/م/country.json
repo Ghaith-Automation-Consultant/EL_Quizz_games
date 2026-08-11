@@ -1,0 +1,46 @@
+[
+  {
+    "entity_id": "country_ma",
+    "answer": "المغرب",
+    "normalized": "المغرب",
+    "aliases": [
+      "مغرب"
+    ],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_mg",
+    "answer": "مدغشقر",
+    "normalized": "مدغشقر",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_مصر",
+    "answer": "مصر",
+    "normalized": "مصر",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_مغرب",
+    "answer": "مغرب",
+    "normalized": "مغرب",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_موريتانيا",
+    "answer": "موريتانيا",
+    "normalized": "موريتانيا",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_ماليزيا",
+    "answer": "ماليزيا",
+    "normalized": "ماليزيا",
+    "aliases": [],
+    "status": "approved"
+  }
+]

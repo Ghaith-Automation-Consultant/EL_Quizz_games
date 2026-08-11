@@ -1,0 +1,16 @@
+[
+  {
+    "entity_id": "food_ضلع_خروف",
+    "answer": "ضلع خروف",
+    "normalized": "ضلع خروف",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_ضيافة",
+    "answer": "ضيافة",
+    "normalized": "ضيافت",
+    "aliases": [],
+    "status": "approved"
+  }
+]

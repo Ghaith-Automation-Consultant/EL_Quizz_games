@@ -1,0 +1,23 @@
+[
+  {
+    "entity_id": "girl_ذهيبة",
+    "answer": "ذهيبة",
+    "normalized": "ذهيبت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "girl_ذكاء",
+    "answer": "ذكاء",
+    "normalized": "ذكاء",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "girl_ذكريات",
+    "answer": "ذكريات",
+    "normalized": "ذكريات",
+    "aliases": [],
+    "status": "approved"
+  }
+]

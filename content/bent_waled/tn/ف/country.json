@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "country_فرنسا",
+    "answer": "فرنسا",
+    "normalized": "فرنسا",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_فلسطين",
+    "answer": "فلسطين",
+    "normalized": "فلسطين",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_فنلندا",
+    "answer": "فنلندا",
+    "normalized": "فنلندا",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_فيتنام",
+    "answer": "فيتنام",
+    "normalized": "فيتنام",
+    "aliases": [],
+    "status": "approved"
+  }
+]

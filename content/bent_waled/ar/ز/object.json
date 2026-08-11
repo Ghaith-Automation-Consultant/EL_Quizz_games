@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "object_زر",
+    "answer": "زر",
+    "normalized": "زر",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_زجاج",
+    "answer": "زجاج",
+    "normalized": "زجاج",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_زورق",
+    "answer": "زورق",
+    "normalized": "زورق",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_زينة",
+    "answer": "زينة",
+    "normalized": "زينت",
+    "aliases": [],
+    "status": "approved"
+  }
+]

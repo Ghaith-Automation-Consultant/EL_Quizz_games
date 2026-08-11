@@ -1,0 +1,23 @@
+[
+  {
+    "entity_id": "profession_لحام",
+    "answer": "لحام",
+    "normalized": "لحام",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_لاعب",
+    "answer": "لاعب",
+    "normalized": "لاعب",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_لغوي",
+    "answer": "لغوي",
+    "normalized": "لغوي",
+    "aliases": [],
+    "status": "approved"
+  }
+]

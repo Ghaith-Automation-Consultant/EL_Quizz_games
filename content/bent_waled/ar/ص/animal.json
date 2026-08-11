@@ -1,0 +1,16 @@
+[
+  {
+    "entity_id": "animal_صقر",
+    "answer": "صقر",
+    "normalized": "صقر",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "animal_صرصور",
+    "answer": "صرصور",
+    "normalized": "صرصور",
+    "aliases": [],
+    "status": "approved"
+  }
+]

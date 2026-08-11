@@ -1,0 +1,23 @@
+[
+  {
+    "entity_id": "food_هريسة",
+    "answer": "هريسة",
+    "normalized": "هريست",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_هريس",
+    "answer": "هريس",
+    "normalized": "هريس",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_همبرغر",
+    "answer": "همبرغر",
+    "normalized": "همبرغر",
+    "aliases": [],
+    "status": "approved"
+  }
+]

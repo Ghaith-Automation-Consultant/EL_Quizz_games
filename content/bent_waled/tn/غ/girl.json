@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "girl_غادة",
+    "answer": "غادة",
+    "normalized": "غادت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "girl_غالية",
+    "answer": "غالية",
+    "normalized": "غاليت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "girl_غدير",
+    "answer": "غدير",
+    "normalized": "غدير",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "girl_غزل",
+    "answer": "غزل",
+    "normalized": "غزل",
+    "aliases": [],
+    "status": "approved"
+  }
+]

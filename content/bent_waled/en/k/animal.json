@@ -1,0 +1,12 @@
+[
+  {
+    "entity_id": "animal_kangaroo",
+    "answer": "Kangaroo",
+    "normalized": "kangaroo",
+    "aliases": [
+      "Kanga",
+      "Joey"
+    ],
+    "status": "approved"
+  }
+]

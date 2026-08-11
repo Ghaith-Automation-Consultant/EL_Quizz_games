@@ -1,0 +1,23 @@
+[
+  {
+    "entity_id": "plant_صبار",
+    "answer": "صبار",
+    "normalized": "صبار",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "plant_صنوبر",
+    "answer": "صنوبر",
+    "normalized": "صنوبر",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "plant_صندل",
+    "answer": "صندل",
+    "normalized": "صندل",
+    "aliases": [],
+    "status": "approved"
+  }
+]

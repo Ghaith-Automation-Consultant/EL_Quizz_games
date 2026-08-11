@@ -1,0 +1,627 @@
+[
+  {
+    "id": 152,
+    "category": "Science & Technology",
+    "subcategory": "Engineering",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "ما هي الجامعات أو المدارس التونسية المعروفة بتكوين المهندسين؟",
+      "en": "Which Tunisian institutions are well known for engineering education?",
+      "fr": "Quelles sont des écoles ou universités tunisiennes connues pour former des ingénieurs ?",
+      "tn": "شنوما الجامعات والمدارس التونسية المعروفة بتكوين المهندسين؟"
+    },
+    "answers": [
+      {
+        "id": 1505,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "المدرسة الوطنية للمهندسين بتونس",
+          "en": "ENIT",
+          "fr": "ENIT",
+          "tn": "ENIT"
+        }
+      },
+      {
+        "id": 1506,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "المعهد الوطني للعلوم التطبيقية والتكنولوجيا",
+          "en": "INSAT",
+          "fr": "INSAT",
+          "tn": "INSAT"
+        }
+      },
+      {
+        "id": 1507,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "المدرسة الوطنية للمهندسين بصفاقس",
+          "en": "ENIS",
+          "fr": "ENIS",
+          "tn": "ENIS"
+        }
+      },
+      {
+        "id": 1508,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "المدرسة الوطنية للمهندسين بسوسة",
+          "en": "ENISO",
+          "fr": "ENISO",
+          "tn": "ENISO"
+        }
+      },
+      {
+        "id": 1509,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "المدرسة الوطنية للمهندسين بالمنستير",
+          "en": "ENIM",
+          "fr": "ENIM",
+          "tn": "ENIM"
+        }
+      },
+      {
+        "id": 1510,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "المدرسة الوطنية للإلكترونيك والاتصالات بصفاقس",
+          "en": "ENET'Com",
+          "fr": "ENET'Com",
+          "tn": "ENET'Com"
+        }
+      },
+      {
+        "id": 1511,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "المعهد العالي لعلوم وتكنولوجيات تونس",
+          "en": "Sup'Com",
+          "fr": "Sup'Com",
+          "tn": "Sup'Com"
+        }
+      },
+      {
+        "id": 1512,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "المدرسة المتعددة التقنيات بتونس",
+          "en": "EPT",
+          "fr": "EPT",
+          "tn": "EPT"
+        }
+      },
+      {
+        "id": 1513,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "المدرسة الوطنية للمهندسين بقابس",
+          "en": "ENIG",
+          "fr": "ENIG",
+          "tn": "ENIG"
+        }
+      },
+      {
+        "id": 1514,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "كلية الحقوق بتونس",
+          "en": "Faculty of Law of Tunis",
+          "fr": "Faculté de droit de Tunis",
+          "tn": "Fac de Droit"
+        }
+      }
+    ]
+  },
+  {
+    "id": 154,
+    "category": "Science & Technology",
+    "subcategory": "Engineering",
+    "region": "Tunisia",
+    "difficulty": 3,
+    "translations": {
+      "ar": "ما هي استخدامات الأقمار الصناعية المهمة لتونس؟",
+      "en": "What are important satellite applications for Tunisia?",
+      "fr": "Quelles sont des utilisations importantes des satellites pour la Tunisie ?",
+      "tn": "شنية استعمالات الساتليت المهمة لتونس؟"
+    },
+    "answers": [
+      {
+        "id": 1525,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "مراقبة الأرض",
+          "en": "Earth observation",
+          "fr": "Observation de la Terre",
+          "tn": "مراقبة الأرض"
+        }
+      },
+      {
+        "id": 1526,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "الاستشعار عن بعد",
+          "en": "Remote sensing",
+          "fr": "Télédétection",
+          "tn": "الاستشعار عن بعد"
+        }
+      },
+      {
+        "id": 1527,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "الزراعة الذكية",
+          "en": "Precision agriculture",
+          "fr": "Agriculture de précision",
+          "tn": "الفلاحة الذكية"
+        }
+      },
+      {
+        "id": 1528,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "إدارة الكوارث",
+          "en": "Disaster management",
+          "fr": "Gestion des catastrophes",
+          "tn": "مقاومة الكوارث"
+        }
+      },
+      {
+        "id": 1529,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "رسم الخرائط",
+          "en": "Mapping",
+          "fr": "Cartographie",
+          "tn": "الكارتوغرافيا"
+        }
+      },
+      {
+        "id": 1530,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الاتصالات",
+          "en": "Telecommunications",
+          "fr": "Télécommunications",
+          "tn": "الاتصالات"
+        }
+      },
+      {
+        "id": 1531,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "مراقبة السواحل",
+          "en": "Coastal monitoring",
+          "fr": "Surveillance côtière",
+          "tn": "مراقبة السواحل"
+        }
+      },
+      {
+        "id": 1532,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "البيئة",
+          "en": "Environmental monitoring",
+          "fr": "Suivi environnemental",
+          "tn": "البيئة"
+        }
+      },
+      {
+        "id": 1533,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "التنبؤ بالطقس",
+          "en": "Weather forecasting",
+          "fr": "Prévisions météorologiques",
+          "tn": "الطقس"
+        }
+      },
+      {
+        "id": 1534,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "استخراج النفط مباشرة",
+          "en": "Direct oil extraction",
+          "fr": "Extraction directe du pétrole",
+          "tn": "يخرج النفط"
+        }
+      }
+    ]
+  },
+  {
+    "id": 159,
+    "category": "Science & Technology",
+    "subcategory": "Engineering",
+    "region": "Tunisia",
+    "difficulty": 3,
+    "translations": {
+      "ar": "ما هي مجالات الهندسة؟",
+      "en": "Which are engineering fields?",
+      "fr": "Quels sont des domaines de l'ingénierie ?",
+      "tn": "شنوما اختصاصات الهندسة؟"
+    },
+    "answers": [
+      {
+        "id": 1575,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "الهندسة المدنية",
+          "en": "Civil engineering",
+          "fr": "Génie civil",
+          "tn": "مدنية"
+        }
+      },
+      {
+        "id": 1576,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "الهندسة الكهربائية",
+          "en": "Electrical engineering",
+          "fr": "Génie électrique",
+          "tn": "كهرباء"
+        }
+      },
+      {
+        "id": 1577,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "الهندسة الميكانيكية",
+          "en": "Mechanical engineering",
+          "fr": "Génie mécanique",
+          "tn": "ميكانيك"
+        }
+      },
+      {
+        "id": 1578,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "الهندسة الصناعية",
+          "en": "Industrial engineering",
+          "fr": "Génie industriel",
+          "tn": "صناعية"
+        }
+      },
+      {
+        "id": 1579,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "هندسة البرمجيات",
+          "en": "Software engineering",
+          "fr": "Génie logiciel",
+          "tn": "برمجيات"
+        }
+      },
+      {
+        "id": 1580,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الهندسة الكيميائية",
+          "en": "Chemical engineering",
+          "fr": "Génie chimique",
+          "tn": "كيميائية"
+        }
+      },
+      {
+        "id": 1581,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "هندسة الاتصالات",
+          "en": "Telecommunications engineering",
+          "fr": "Télécommunications",
+          "tn": "اتصالات"
+        }
+      },
+      {
+        "id": 1582,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الهندسة البيئية",
+          "en": "Environmental engineering",
+          "fr": "Génie environnemental",
+          "tn": "بيئية"
+        }
+      },
+      {
+        "id": 1583,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الهندسة الطبية الحيوية",
+          "en": "Biomedical engineering",
+          "fr": "Génie biomédical",
+          "tn": "طبية"
+        }
+      },
+      {
+        "id": 1584,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "علم النفس",
+          "en": "Psychology",
+          "fr": "Psychologie",
+          "tn": "بسيكولوجيا"
+        }
+      }
+    ]
+  },
+  {
+    "id": 164,
+    "category": "Science & Technology",
+    "subcategory": "Engineering",
+    "region": "Tunisia",
+    "difficulty": 3,
+    "translations": {
+      "ar": "ما هي تطبيقات الروبوتات؟",
+      "en": "Which are applications of robotics?",
+      "fr": "Quelles sont des applications de la robotique ?",
+      "tn": "فين تنجم تستعمل الروبوتات؟"
+    },
+    "answers": [
+      {
+        "id": 1625,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "الصناعة",
+          "en": "Industry",
+          "fr": "Industrie",
+          "tn": "الصناعة"
+        }
+      },
+      {
+        "id": 1626,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "الطب",
+          "en": "Medicine",
+          "fr": "Médecine",
+          "tn": "الطب"
+        }
+      },
+      {
+        "id": 1627,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "الفلاحة",
+          "en": "Agriculture",
+          "fr": "Agriculture",
+          "tn": "الفلاحة"
+        }
+      },
+      {
+        "id": 1628,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "التعليم",
+          "en": "Education",
+          "fr": "Éducation",
+          "tn": "التعليم"
+        }
+      },
+      {
+        "id": 1629,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "اللوجستيات",
+          "en": "Logistics",
+          "fr": "Logistique",
+          "tn": "اللوجستيك"
+        }
+      },
+      {
+        "id": 1630,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الفضاء",
+          "en": "Space",
+          "fr": "Spatial",
+          "tn": "الفضاء"
+        }
+      },
+      {
+        "id": 1631,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الإنقاذ",
+          "en": "Rescue",
+          "fr": "Secours",
+          "tn": "الإنقاذ"
+        }
+      },
+      {
+        "id": 1632,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "التفتيش",
+          "en": "Inspection",
+          "fr": "Inspection",
+          "tn": "المراقبة"
+        }
+      },
+      {
+        "id": 1633,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "البحث العلمي",
+          "en": "Research",
+          "fr": "Recherche",
+          "tn": "البحث"
+        }
+      },
+      {
+        "id": 1634,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "كتابة الشعر فقط",
+          "en": "Only writing poetry",
+          "fr": "Uniquement écrire de la poésie",
+          "tn": "الشعر فقط"
+        }
+      }
+    ]
+  },
+  {
+    "id": 166,
+    "category": "Science & Technology",
+    "subcategory": "Engineering",
+    "region": "Tunisia",
+    "difficulty": 4,
+    "translations": {
+      "ar": "ما هي إنجازات بارزة في قطاع الفضاء التونسي؟",
+      "en": "Which are milestones of Tunisia's space sector?",
+      "fr": "Quels sont des jalons du secteur spatial tunisien ?",
+      "tn": "شنية أبرز إنجازات الفضاء في تونس؟"
+    },
+    "answers": [
+      {
+        "id": 1645,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "القمر الصناعي تشالنج وان",
+          "en": "Challenge ONE",
+          "fr": "Challenge ONE",
+          "tn": "Challenge ONE"
+        }
+      },
+      {
+        "id": 1646,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "المركز الوطني لرسم الخرائط والاستشعار عن بعد",
+          "en": "CNCT",
+          "fr": "CNCT",
+          "tn": "CNCT"
+        }
+      },
+      {
+        "id": 1647,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "اللجنة الوطنية لشؤون الفضاء",
+          "en": "National Commission for Outer Space Affairs",
+          "fr": "Commission nationale de l'espace",
+          "tn": "اللجنة الوطنية للفضاء"
+        }
+      },
+      {
+        "id": 1648,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "برامج الاستشعار عن بعد",
+          "en": "Remote sensing programs",
+          "fr": "Programmes de télédétection",
+          "tn": "الاستشعار عن بعد"
+        }
+      },
+      {
+        "id": 1649,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "تطوير أقمار مراقبة الأرض",
+          "en": "CubeSat development",
+          "fr": "Développement de CubeSats",
+          "tn": "CubeSat"
+        }
+      },
+      {
+        "id": 1650,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "تكوين مهندسين فضائيين",
+          "en": "Space engineering training",
+          "fr": "Formation d'ingénieurs spatiaux",
+          "tn": "تكوين فضائي"
+        }
+      },
+      {
+        "id": 1651,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "التعاون الدولي الفضائي",
+          "en": "International space cooperation",
+          "fr": "Coopération spatiale internationale",
+          "tn": "تعاون فضائي"
+        }
+      },
+      {
+        "id": 1652,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "مدارس صيفية للفضاء",
+          "en": "Space summer schools",
+          "fr": "Écoles d'été spatiales",
+          "tn": "Space Summer School"
+        }
+      },
+      {
+        "id": 1653,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الجمعيات العلمية الفضائية",
+          "en": "Space associations",
+          "fr": "Associations spatiales",
+          "tn": "جمعيات الفضاء"
+        }
+      },
+      {
+        "id": 1654,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "إطلاق رحلة مأهولة تونسية",
+          "en": "Launching a crewed Tunisian space mission",
+          "fr": "Lancement d'une mission spatiale habitée tunisienne",
+          "tn": "رائد فضاء تونسي أطلق من تونس"
+        }
+      }
+    ]
+  }
+]

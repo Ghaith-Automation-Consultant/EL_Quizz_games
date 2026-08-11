@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "plant_كرز",
+    "answer": "كرز",
+    "normalized": "كرز",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "plant_كرفس",
+    "answer": "كرفس",
+    "normalized": "كرفس",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "plant_كمثرى",
+    "answer": "كمثرى",
+    "normalized": "كمثري",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "plant_كيوي",
+    "answer": "كيوي",
+    "normalized": "كيوي",
+    "aliases": [],
+    "status": "approved"
+  }
+]

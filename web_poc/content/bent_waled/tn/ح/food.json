@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "food_حريرة",
+    "answer": "حريرة",
+    "normalized": "حريرت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_حلوى",
+    "answer": "حلوى",
+    "normalized": "حلوي",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_حمص_بطحينة",
+    "answer": "حمص بطحينة",
+    "normalized": "حمص بطحينت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_حلاوة",
+    "answer": "حلاوة",
+    "normalized": "حلاوت",
+    "aliases": [],
+    "status": "approved"
+  }
+]

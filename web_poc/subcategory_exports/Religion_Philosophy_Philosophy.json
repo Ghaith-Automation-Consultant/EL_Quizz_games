@@ -1,0 +1,252 @@
+[
+  {
+    "id": 172,
+    "category": "Religion & Philosophy",
+    "subcategory": "Philosophy",
+    "region": "Tunisia",
+    "difficulty": 3,
+    "translations": {
+      "ar": "من هم فلاسفة أو مفكرون ولدوا في تونس الحالية أو شمال إفريقيا الرومانية؟",
+      "en": "Which philosophers or thinkers are linked to present-day Tunisia or Roman North Africa?",
+      "fr": "Quels philosophes ou penseurs sont liés à la Tunisie actuelle ou à l'Afrique romaine ?",
+      "tn": "شكون الفلاسفة والمفكرين المرتبطين بتونس؟"
+    },
+    "answers": [
+      {
+        "id": 1705,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "ابن خلدون",
+          "en": "Ibn Khaldun",
+          "fr": "Ibn Khaldoun",
+          "tn": "ابن خلدون"
+        }
+      },
+      {
+        "id": 1706,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "القديس أوغسطين",
+          "en": "Saint Augustine",
+          "fr": "Saint Augustine",
+          "tn": "سان أوغستان"
+        }
+      },
+      {
+        "id": 1707,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "ترتليان",
+          "en": "Tertullian",
+          "fr": "Tertullien",
+          "tn": "ترتليان"
+        }
+      },
+      {
+        "id": 1708,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "أرنوبيوس",
+          "en": "Arnobius",
+          "fr": "Arnobe",
+          "tn": "أرنوب"
+        }
+      },
+      {
+        "id": 1709,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "لاكتانتيوس",
+          "en": "Lactantius",
+          "fr": "Lactance",
+          "tn": "لاكتانس"
+        }
+      },
+      {
+        "id": 1710,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "ابن عرفة",
+          "en": "Ibn Arafa",
+          "fr": "Ibn Arafa",
+          "tn": "ابن عرفة"
+        }
+      },
+      {
+        "id": 1711,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "المازري",
+          "en": "Al-Mazari",
+          "fr": "Al-Mazari",
+          "tn": "المازري"
+        }
+      },
+      {
+        "id": 1712,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "سحنون",
+          "en": "Sahnun",
+          "fr": "Sahnoun",
+          "tn": "سحنون"
+        }
+      },
+      {
+        "id": 1713,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "أسد بن الفرات",
+          "en": "Asad ibn al-Furat",
+          "fr": "Asad ibn al-Furat",
+          "tn": "أسد بن الفرات"
+        }
+      },
+      {
+        "id": 1714,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "إسحاق نيوتن",
+          "en": "Isaac Newton",
+          "fr": "Isaac Newton",
+          "tn": "نيوتن"
+        }
+      }
+    ]
+  },
+  {
+    "id": 194,
+    "category": "Religion & Philosophy",
+    "subcategory": "Philosophy",
+    "region": "Tunisia",
+    "difficulty": 3,
+    "translations": {
+      "ar": "أذكر فلاسفة، مفكرين أو مؤرخين تونسيين (أو عاشوا في تونس) عبر التاريخ؟",
+      "en": "Who are famous Tunisian philosophers, thinkers, or historians?",
+      "fr": "Qui sont les philosophes, penseurs ou historiens tunisiens célèbres?",
+      "tn": "شكونهم الفلاسفة ولا المفكرين والمؤرخين التوانسة التاريخيين؟"
+    },
+    "answers": [
+      {
+        "id": 1925,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "ابن خلدون",
+          "en": "Ibn Khaldun",
+          "fr": "Ibn Khaldoun",
+          "tn": "ابن خلدون (مؤسس علم الاجتماع)"
+        }
+      },
+      {
+        "id": 1926,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "سانت أوغسطين",
+          "en": "Saint Augustine",
+          "fr": "Saint Augustin",
+          "tn": "سانت أوغسطين بقرطاج"
+        }
+      },
+      {
+        "id": 1927,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الطاهر الحداد",
+          "en": "Tahar Haddad",
+          "fr": "Tahar Haddad",
+          "tn": "الطاهر الحداد (المصلح والمدافع)"
+        }
+      },
+      {
+        "id": 1928,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "خير الدين باشا",
+          "en": "Hayreddin Pasha",
+          "fr": "Hayreddin Pasha",
+          "tn": "خير الدين باشا (التونسي التجديدي)"
+        }
+      },
+      {
+        "id": 1929,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "عبد العزيز الثعالبي",
+          "en": "Abdelaziz Thaalbi",
+          "fr": "Abdelaziz Thaalbi",
+          "tn": "عبد العزيز الثعالبي (مؤسس الدستور)"
+        }
+      },
+      {
+        "id": 1930,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "أبو الحسن الشاذلي",
+          "en": "Abul Hasan ash-Shadhili",
+          "fr": "Abul Hasan ash-Shadhili",
+          "tn": "سيدي أبو الحسن الشاذلي الصوفي"
+        }
+      },
+      {
+        "id": 1931,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "ابن الجزار",
+          "en": "Ibn Al-Jazzar",
+          "fr": "Ibn Al-Jazzar",
+          "tn": "ابن الجزار القيرواني الفيلسوف الطبيب"
+        }
+      },
+      {
+        "id": 1932,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "ترتليان",
+          "en": "Tertullian",
+          "fr": "Tertullien",
+          "tn": "ترتليان القرطاجي المسيحي القديم"
+        }
+      },
+      {
+        "id": 1933,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "مواصفوس القرطاجي",
+          "en": "Mago the Carthaginian",
+          "fr": "Magon le Carthaginois",
+          "tn": "ماجو القرطاجي (فيلسوف الفلاحة بقرطاج)"
+        }
+      },
+      {
+        "id": 1934,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "ابن رشد",
+          "en": "Averroes",
+          "fr": "Averroes",
+          "tn": "ابن رشد الأندلسي"
+        }
+      }
+    ]
+  }
+]

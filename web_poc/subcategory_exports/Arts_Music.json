@@ -1,0 +1,252 @@
+[
+  {
+    "id": 72,
+    "category": "Arts",
+    "subcategory": "Music",
+    "region": "Tunisia",
+    "difficulty": 3,
+    "translations": {
+      "ar": "أذكر أدوات موسيقية تُستعمل في عزف موسيقى 'المزود' التونسية؟",
+      "en": "Name instruments used in Tunisian \"mezoued\" music?",
+      "fr": "Citez des instruments utilisés dans la musique du « mezoued » tunisien ?",
+      "tn": "أعطيني آلات موسيقية يلعبو بيها في 'المزود' التونسي؟"
+    },
+    "answers": [
+      {
+        "id": 711,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "المزود (قربة الجلد)",
+          "en": "Answer in English: المزود (قربة الجلد)",
+          "fr": "المزود (قربة الجلد)",
+          "tn": "المزود (قربة الجلد)"
+        }
+      },
+      {
+        "id": 712,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الدربوكة",
+          "en": "Answer in English: الدربوكة",
+          "fr": "الدربوكة",
+          "tn": "الدربوكة"
+        }
+      },
+      {
+        "id": 713,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "البندير",
+          "en": "Answer in English: البندير",
+          "fr": "البندير",
+          "tn": "البندير"
+        }
+      },
+      {
+        "id": 714,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "الشكشكة",
+          "en": "Answer in English: الشكشكة",
+          "fr": "الشكشكة",
+          "tn": "الشكشكة"
+        }
+      },
+      {
+        "id": 715,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "الطار",
+          "en": "Answer in English: الطار",
+          "fr": "الطار",
+          "tn": "الطار"
+        }
+      },
+      {
+        "id": 716,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "النقارات",
+          "en": "Answer in English: النقارات",
+          "fr": "النقارات",
+          "tn": "النقارات"
+        }
+      },
+      {
+        "id": 717,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "الدف",
+          "en": "Answer in English: الدف",
+          "fr": "الدف",
+          "tn": "الدف"
+        }
+      },
+      {
+        "id": 718,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "القرع التونسي",
+          "en": "Answer in English: القرع التونسي",
+          "fr": "القرع التونسي",
+          "tn": "القرع التونسي"
+        }
+      },
+      {
+        "id": 719,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "المصفاق",
+          "en": "Answer in English: المصفاق",
+          "fr": "المصفاق",
+          "tn": "المصفاق"
+        }
+      },
+      {
+        "id": 720,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "الساكسفون",
+          "en": "Wrong distractor: الساكسفون",
+          "fr": "الساكسفون",
+          "tn": "الساكسفون"
+        }
+      }
+    ]
+  },
+  {
+    "id": 208,
+    "category": "Arts",
+    "subcategory": "Music",
+    "region": "Tunisia",
+    "difficulty": 3,
+    "translations": {
+      "ar": "أذكر طبوع أو نوبات المالوف التونسي التقليدي؟",
+      "en": "What are the modes (Tab') or noubas of traditional Tunisian Malouf?",
+      "fr": "Quels sont les modes (Tab') ou noubas du Malouf tunisien?",
+      "tn": "شنومة نوبات ولا طبوع المالوف التونسي القديم؟"
+    },
+    "answers": [
+      {
+        "id": 2075,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "نوبة الذيل",
+          "en": "Nouba Ed-Dhil",
+          "fr": "Nouba Ed-Dhil",
+          "tn": "نوبة الذيل الرنانة"
+        }
+      },
+      {
+        "id": 2076,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "نوبة الرصد",
+          "en": "Nouba Er-Rasd",
+          "fr": "Nouba Er-Rasd",
+          "tn": "نوبة الرصد الهادئة"
+        }
+      },
+      {
+        "id": 2077,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "نوبة الرمل",
+          "en": "Nouba Er-Raml",
+          "fr": "Nouba Er-Raml",
+          "tn": "نوبة الرمل"
+        }
+      },
+      {
+        "id": 2078,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "طبع رمل الماية",
+          "en": "Raml Al-Maya Mode",
+          "fr": "Mode Raml Al-Maya",
+          "tn": "طبع رمل الماية"
+        }
+      },
+      {
+        "id": 2079,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "نوبة السيكاه",
+          "en": "Nouba Sikah",
+          "fr": "Nouba Sikah",
+          "tn": "نوبة السيكاه الطربية"
+        }
+      },
+      {
+        "id": 2080,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "نوبة المزموم",
+          "en": "Nouba Mazmoum",
+          "fr": "Nouba Mazmoum",
+          "tn": "نوبة المزموم الشعبية"
+        }
+      },
+      {
+        "id": 2081,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "نوبة الأصبعين",
+          "en": "Nouba Asbayn",
+          "fr": "Nouba Asbayn",
+          "tn": "نوبة الأصبعين الصعبة"
+        }
+      },
+      {
+        "id": 2082,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "نوبة الماية",
+          "en": "Nouba Al-Maya",
+          "fr": "Nouba Al-Maya",
+          "tn": "نوبة الماية الحزينة"
+        }
+      },
+      {
+        "id": 2083,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "نوبة المحير سيكاه",
+          "en": "Nouba M'hayar Sikah",
+          "fr": "Nouba M'hayar Sikah",
+          "tn": "نوبة المحير سيكاه التراثية"
+        }
+      },
+      {
+        "id": 2084,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "موال حجازي",
+          "en": "Hijaz Mawwal",
+          "fr": "Mawwal Hijazi",
+          "tn": "موال حجازي شرقي"
+        }
+      }
+    ]
+  }
+]

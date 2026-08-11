@@ -1,0 +1,37 @@
+[
+  {
+    "entity_id": "boy_رامز",
+    "answer": "رامز",
+    "normalized": "رامز",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "boy_رياض",
+    "answer": "رياض",
+    "normalized": "رياض",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "boy_رامي",
+    "answer": "رامي",
+    "normalized": "رامي",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "boy_رشاد",
+    "answer": "رشاد",
+    "normalized": "رشاد",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "boy_رضا",
+    "answer": "رضا",
+    "normalized": "رضا",
+    "aliases": [],
+    "status": "approved"
+  }
+]

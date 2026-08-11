@@ -1,0 +1,37 @@
+[
+  {
+    "entity_id": "animal_نمر",
+    "answer": "نمر",
+    "normalized": "نمر",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "animal_نسر",
+    "answer": "نسر",
+    "normalized": "نسر",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "animal_نعامة",
+    "answer": "نعامة",
+    "normalized": "نعامت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "animal_نحل",
+    "answer": "نحل",
+    "normalized": "نحل",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "animal_نمل",
+    "answer": "نمل",
+    "normalized": "نمل",
+    "aliases": [],
+    "status": "approved"
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "entity_id": "object_كتاب",
+    "answer": "كتاب",
+    "normalized": "كتاب",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_كرسي",
+    "answer": "كرسي",
+    "normalized": "كرسي",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_كأس",
+    "answer": "كأس",
+    "normalized": "كاس",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_كيس",
+    "answer": "كيس",
+    "normalized": "كيس",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_كرة",
+    "answer": "كرة",
+    "normalized": "كرت",
+    "aliases": [],
+    "status": "approved"
+  }
+]

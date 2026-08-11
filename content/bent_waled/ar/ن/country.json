@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "country_نييجيريا",
+    "answer": "نييجيريا",
+    "normalized": "نييجيريا",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_نرويج",
+    "answer": "نرويج",
+    "normalized": "نرويج",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_نيوزيلندا",
+    "answer": "نيوزيلندا",
+    "normalized": "نيوزيلندا",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_نابلس",
+    "answer": "نابلس",
+    "normalized": "نابلس",
+    "aliases": [],
+    "status": "approved"
+  }
+]

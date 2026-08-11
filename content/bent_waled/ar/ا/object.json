@@ -1,0 +1,23 @@
+[
+  {
+    "entity_id": "object_إبرة",
+    "answer": "إبرة",
+    "normalized": "ابرت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_إبريق",
+    "answer": "إبريق",
+    "normalized": "ابريق",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_أريكة",
+    "answer": "أريكة",
+    "normalized": "اريكت",
+    "aliases": [],
+    "status": "approved"
+  }
+]

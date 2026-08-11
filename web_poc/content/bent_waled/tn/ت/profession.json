@@ -1,0 +1,23 @@
+[
+  {
+    "entity_id": "profession_تاجر",
+    "answer": "تاجر",
+    "normalized": "تاجر",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_ترجمان",
+    "answer": "ترجمان",
+    "normalized": "ترجمان",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_تقني",
+    "answer": "تقني",
+    "normalized": "تقني",
+    "aliases": [],
+    "status": "approved"
+  }
+]

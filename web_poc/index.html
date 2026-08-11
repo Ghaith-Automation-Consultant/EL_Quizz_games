@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="fr" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Quizz — PoC Web</title>
+    <!-- Meta Descriptions for SEO -->
+    <meta name="description" content="Proof of Concept Web d'El Quizz - Le jeu tunisien ultime de questions-réponses en mode Family Feud avec scores de Fibonacci et pénalités de distracteurs.">
+    <!-- Outfit Font from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app" class="glass-container">
+        <!-- Floating Home, Sound & Theme Buttons -->
+        <button id="btn-floating-home" class="btn-floating-home" style="display: none;">🏠</button>
+        <button id="btn-floating-sound" class="btn-floating-sound">🔊</button>
+        <button id="btn-floating-theme" class="btn-floating-theme">☀️</button>
+
+        <!-- Screen 1: Home Page -->
+        <section id="screen-home" class="screen active">
+            <div class="brand-header">
+                <img src="https://img.icons8.com/color/144/chili-pepper.png" alt="El Quizz Logo" class="brand-logo pulse">
+                <h1 class="brand-title">El Quizz</h1>
+                <p class="brand-subtitle" data-i18n="brand_subtitle">النسخة التونسية الأقوى للأسئلة الثقافية</p>
+            </div>
+            
+            <div class="lang-selector-container" style="margin-bottom: 1.5rem; text-align: center;">
+                <label for="main-lang-select" class="config-label" data-i18n="lang_label" style="display: block; margin-bottom: 0.5rem; font-size: 0.95rem; opacity: 0.85;">لغة اللعبة / Game Language:</label>
+                <select id="main-lang-select" class="lang-select" style="background: rgba(0, 0, 0, 0.4); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 10px; padding: 0.5rem 1rem; color: #fff; font-family: 'Outfit', 'Cairo'; outline: none;">
+                    <option value="ar" selected>العربية (Arabic)</option>
+                    <option value="tn">الدارجة التونسية (Tunisian)</option>
+                    <option value="fr">Français (French)</option>
+                    <option value="en">English (English)</option>
+                </select>
+            </div>
+            
+            <div class="home-actions" style="display: flex; flex-direction: column; gap: 1rem; align-items: center; max-width: 480px; margin: 0 auto; width: 100%;">
+                
+                <!-- Game Mode Selection Cards -->
+                <div class="mode-selection-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; width: 100%; margin-bottom: 1rem;">
+                    <!-- Mode 1: Talla3 9 -->
+                    <div id="mode-card-talla3" class="mode-card active" style="background: rgba(255,255,255,0.08); border: 2px solid var(--primary); border-radius: 16px; padding: 15px; cursor: pointer; transition: all 0.3s ease; text-align: center; backdrop-filter: blur(10px); position: relative; box-shadow: 0 4px 15px rgba(253, 224, 71, 0.15);">
+                        <div style="font-size: 2rem; margin-bottom: 5px;">🔢</div>
+                        <h3 style="margin: 5px 0; font-size: 1.05rem; color: #fff; font-weight: bold;" id="lbl-mode-title-talla3">طلّع 9</h3>
+                        <p style="margin: 0; font-size: 0.75rem; color: var(--text-secondary); line-height: 1.2;" id="lbl-mode-desc-talla3">أجب بـ 9 إجابات صحيحة وتجنّب الفخ</p>
+                    </div>
+                    <!-- Mode 2: Bent Waled -->
+                    <div id="mode-card-bw" class="mode-card" style="background: rgba(255,255,255,0.03); border: 2px solid rgba(255,255,255,0.1); border-radius: 16px; padding: 15px; cursor: pointer; transition: all 0.3s ease; text-align: center; backdrop-filter: blur(10px); opacity: 0.7;">
+                        <div style="font-size: 2rem; margin-bottom: 5px;">👦👧</div>
+                        <h3 style="margin: 5px 0; font-size: 1.05rem; color: #fff; font-weight: bold;" id="lbl-mode-title-bw">بنت ولد</h3>
+                        <p style="margin: 0; font-size: 0.75rem; color: var(--text-secondary); line-height: 1.2;" id="lbl-mode-desc-bw">لعبة الحروف والأسماء المشهورة (فردي)</p>
+                    </div>
+                </div>
+
+                <!-- Actions for Talla3 9 Mode (Default Active) -->
+                <div id="actions-talla3" style="width: 100%; display: flex; flex-direction: column; gap: 1rem;">
+                    <div style="display: flex; gap: 1rem; width: 100%;">
+                        <button id="btn-play-local" class="btn btn-primary glow-btn" style="flex: 1; display: flex; justify-content: center; align-items: center; gap: 0.5rem; padding: 12px;">
+                            <span>🏠 Local Party</span>
+                        </button>
+                        <button id="btn-play-fix" class="btn btn-primary" style="flex: 1; display: flex; justify-content: center; align-items: center; gap: 0.5rem; padding: 12px; background: #6366f1; border-color: #6366f1;">
+                            <span>🛠️ Play & Fix</span>
+                        </button>
+                    </div>
+                    <div style="width: 100%;">
+                        <button id="btn-play-online" class="btn btn-secondary glow-btn" style="width: 100%; display: flex; justify-content: center; align-items: center; gap: 0.5rem; border: 1px solid var(--primary); padding: 12px;">
+                            <span>🌐 Online Showdown</span>
+                        </button>
+                    </div>
+                    
+                    <div id="local-resume-container" style="display: none; width: 100%;">
+                        <button id="btn-resume-local" class="btn" style="background: rgba(16, 185, 129, 0.15); border: 1px solid #10b981; color: #10b981; width: 100%; font-weight: bold; padding: 10px; border-radius: 12px; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+                            <span>Resume Active Game 🔄</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Actions for Bent Waled Mode -->
+                <div id="actions-bw" style="width: 100%; display: none; flex-direction: column; gap: 1rem;">
+                    <button id="btn-play-bw-solo" class="btn btn-primary glow-btn" style="width: 100%; display: flex; justify-content: center; align-items: center; gap: 0.5rem; padding: 14px;">
+                        <span>🎮 ابدأ اللعب فردي / Play Solo</span>
+                    </button>
+                </div>
+
+                <!-- Shared Rules & Admin buttons -->
+                <div style="display: flex; gap: 1rem; width: 100%; margin-top: 0.5rem;">
+                    <button id="btn-rules-home" class="btn btn-secondary" style="flex: 1;">
+                        <span data-i18n="btn_rules_home">قواعد اللعبة</span>
+                    </button>
+                    <a href="admin.html" class="btn btn-secondary" style="flex: 1; text-decoration: none; border: 1px dashed rgba(255, 255, 255, 0.25); display: flex; justify-content: center; align-items: center;">
+                        <span data-i18n="btn_admin_home">لوحة التحكم ⚙️</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Screen 1.1: Online Lobby Entry -->
+        <section id="screen-online-entry" class="screen">
+            <h2 class="section-title">Online Showdown 🌐</h2>
+            <p class="section-subtitle">Create a room or join a room code to play with friends</p>
+            
+            <div class="config-card" style="max-width: 450px; margin: 2rem auto; padding: 2rem;">
+                <div class="form-group" style="margin-bottom: 1.5rem; text-align: left;">
+                    <label style="color: var(--text-secondary); margin-bottom: 0.5rem; display: block; font-weight: bold;">Your Nickname</label>
+                    <input type="text" id="online-username" placeholder="Enter username..." style="padding: 10px 14px; font-size: 1rem; width: 100%; box-sizing: border-box; background: rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; color: #fff;">
+                </div>
+                
+                <div style="display: flex; gap: 1rem; margin-top: 2rem;">
+                    <button id="btn-create-room" class="btn btn-primary" style="flex: 1;">Create Room ➕</button>
+                </div>
+                
+                <div style="text-align: center; margin: 1.5rem 0; opacity: 0.6; font-size: 0.9rem;">— OR JOIN EXISTING ROOM —</div>
+                
+                <div style="display: flex; gap: 0.5rem; align-items: center; justify-content: center;">
+                    <input type="text" id="online-room-code" placeholder="ROOM CODE" style="padding: 10px; font-size: 1rem; text-align: center; font-weight: bold; width: 130px; text-transform: uppercase; background: rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; color: #fff;">
+                    <button id="btn-join-room" class="btn btn-secondary" style="flex: 1; padding: 10px 14px;">Join Room 🔑</button>
+                </div>
+            </div>
+            
+            <div class="actions-footer" style="text-align: center; margin-top: 2rem;">
+                <button id="btn-online-entry-back" class="btn btn-back">رجوع</button>
+            </div>
+        </section>
+
+        <!-- Screen 1.2: Online Lobby -->
+        <section id="screen-online-lobby" class="screen">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem;">
+                <div style="text-align: left;">
+                    <h2 class="section-title" style="margin: 0; text-align: left;">Online Lobby</h2>
+                    <p class="section-subtitle" style="margin: 0; text-align: left;">Room Code: <strong id="lobby-code-display" style="color: var(--accent-yellow); font-size: 1.4rem; font-family: var(--font-en);">----</strong></p>
+                </div>
+                <div style="background: rgba(16, 185, 129, 0.15); border: 1px solid var(--primary); padding: 6px 12px; border-radius: 20px; font-size: 0.85rem; font-weight: bold; color: var(--primary);">
+                    Connected
+                </div>
+            </div>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin-top: 1.5rem; text-align: left;">
+                <!-- Left Column: Players List & Team Assignment -->
+                <div class="config-card" style="padding: 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid var(--border-color); border-radius: 16px;">
+                    <h3 style="margin-top: 0; color: var(--secondary); font-size: 1.1rem; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 0.5rem; margin-bottom: 1rem;">Players & Teams</h3>
+                    <div id="lobby-players-container" style="display: flex; flex-direction: column; gap: 0.75rem;">
+                        <!-- Dynamic rendering of player cards -->
+                    </div>
+                </div>
+                
+                <!-- Right Column: Host Settings (Visible/Editable only for Host) -->
+                <div class="config-card" id="lobby-settings-card" style="padding: 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid var(--border-color); border-radius: 16px;">
+                    <h3 style="margin-top: 0; color: var(--secondary); font-size: 1.1rem; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 0.5rem; margin-bottom: 1rem;">Game Configuration</h3>
+                    
+                    <div id="host-settings-controls" style="display: flex; flex-direction: column; gap: 1.25rem;">
+                        <!-- Host Role selection -->
+                        <div class="form-group">
+                            <label style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; display: block; font-weight: bold;">Your Role</label>
+                            <select id="online-host-role" style="background: rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; color: #fff; padding: 8px 12px; font-size: 0.9rem; width: 100%;">
+                                <option value="referee">Host is Referee (Only reveals/notes answers)</option>
+                                <option value="player">Host is Player (Assigned to a team)</option>
+                            </select>
+                        </div>
+                        
+                        <!-- Rounds count -->
+                        <div class="form-group">
+                            <label style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; display: block; font-weight: bold;">Number of Rounds</label>
+                            <select id="online-rounds" style="background: rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; color: #fff; padding: 8px 12px; font-size: 0.9rem; width: 100%;">
+                                <option value="1">1 Round</option>
+                                <option value="2" selected>2 Rounds</option>
+                                <option value="3">3 Rounds</option>
+                                <option value="4">4 Rounds</option>
+                                <option value="5">5 Rounds</option>
+                            </select>
+                        </div>
+
+                        <!-- Number of Teams -->
+                        <div class="form-group">
+                            <label style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.4rem; display: block; font-weight: bold;">Number of Teams</label>
+                            <select id="online-teams-count" style="background: rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; color: #fff; padding: 8px 12px; font-size: 0.9rem; width: 100%;">
+                                <option value="2" selected>2 Teams</option>
+                                <option value="3">3 Teams</option>
+                                <option value="4">4 Teams</option>
+                                <option value="5">5 Teams</option>
+                            </select>
+                        </div>
+                        
+                        <!-- Topics selection trigger -->
+                        <div class="categories-selection" style="margin-top: 0.5rem;">
+                            <label style="font-size: 0.85rem; font-weight: bold; color: var(--text-secondary); margin-bottom: 0.5rem; display: block;">Select Axis Topics</label>
+                            <div id="online-categories-list" class="tags-container" style="max-height: 200px; overflow-y: auto; border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; padding: 10px; background: rgba(0,0,0,0.2); display: flex; flex-direction: column; gap: 0.5rem;">
+                                <!-- Sync categories checkboxes here -->
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Guest wait text -->
+                    <div id="guest-waiting-controls" style="display: none; text-align: center; padding: 2rem 0;">
+                        <div class="spinner" style="margin: 0 auto 1rem auto; width: 30px; height: 30px; border: 3px solid rgba(255,255,255,0.1); border-top-color: var(--primary); border-radius: 50%; animation: spin 1s linear infinite;"></div>
+                        <p style="opacity: 0.8; font-size: 0.95rem; margin: 0; color: var(--text-secondary);">Waiting for the host to configure settings and start the showdown...</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="actions-footer" style="margin-top: 2.5rem; text-align: center; display: flex; gap: 1rem; justify-content: center;">
+                <button id="btn-start-online-game" class="btn btn-primary" style="display: none; padding: 12px 24px;">Start Game 🚀</button>
+                <button id="btn-leave-lobby" class="btn btn-back">Leave Room</button>
+            </div>
+        </section>
+
+        <!-- Screen 2: Game Settings Configuration -->
+        <section id="screen-config" class="screen">
+            <h2 class="section-title" data-i18n="config_title">إعدادات اللعبة</h2>
+            <p class="section-subtitle" data-i18n="config_subtitle">اختر عدد الجولات، الفرق والمحاور الثقافية</p>
+
+            <div class="config-grid">
+                <div class="config-card">
+                    <label class="config-label" data-i18n="rounds_label">عدد الجولات (Rounds)</label>
+                    <div class="counter-control">
+                        <button type="button" class="btn-counter minus" data-target="rounds-count">-</button>
+                        <span id="rounds-count" class="counter-value">2</span>
+                        <button type="button" class="btn-counter plus" data-target="rounds-count">+</button>
+                    </div>
+                </div>
+
+                <div class="config-card">
+                    <label class="config-label" data-i18n="teams_label">عدد الفرق المتنافسة</label>
+                    <div class="counter-control">
+                        <button type="button" class="btn-counter minus" data-target="teams-count">-</button>
+                        <span id="teams-count" class="counter-value">2</span>
+                        <button type="button" class="btn-counter plus" data-target="teams-count">+</button>
+                    </div>
+                </div>
+
+                <div class="config-card">
+                    <label class="config-label" data-i18n="timer_label">مدة الجولة (ثواني)</label>
+                    <div class="counter-control">
+                        <button type="button" class="btn-counter minus" data-target="timer-duration" data-step="15">-</button>
+                        <span id="timer-duration" class="counter-value">60</span>
+                        <button type="button" class="btn-counter plus" data-target="timer-duration" data-step="15">+</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="categories-selection">
+                <h3 class="config-subtitle" data-i18n="categories_label">المحاور المتوفرة</h3>
+                <div id="categories-list" class="tags-container">
+                    <!-- Dynamic rendering of categories checkboxes -->
+                </div>
+            </div>
+
+            <div class="actions-footer">
+                <button id="btn-config-next" class="btn btn-primary" data-i18n="btn_next_config">الموالي</button>
+                <button id="btn-config-back" class="btn btn-back">رجوع</button>
+            </div>
+        </section>
+
+        <!-- Screen 3: Team Customization -->
+        <section id="screen-teams" class="screen">
+            <h2 class="section-title" data-i18n="teams_title">تخصيص الفرق</h2>
+            <p class="section-subtitle" data-i18n="teams_subtitle">اختر اسم الفريق والرمز التونسي المفضل لديك</p>
+
+            <div id="teams-setup-container" class="teams-grid">
+                <!-- Dynamically generated inputs for team names and icon picks -->
+            </div>
+
+            <div class="actions-footer">
+                <button id="btn-teams-next" class="btn btn-primary glow-btn" data-i18n="btn_start_game">ابدأ اللعبة</button>
+                <button id="btn-teams-back" class="btn btn-back">رجوع</button>
+            </div>
+        </section>
+
+        <!-- Screen 4: Pre-Round Turn Introduction -->
+        <section id="screen-intro" class="screen">
+            <div class="round-indicator">
+                <span class="badge"><span data-i18n="round_header">الجولة</span> <span id="intro-round-num">1</span></span>
+            </div>
+            
+            <div class="turn-announcement">
+                <div id="intro-team-icon" class="team-large-avatar pulse">🌶️</div>
+                <h2 id="intro-team-name" class="team-large-name">فريق الهريسة</h2>
+                <p class="turn-call" data-i18n="turn_subtitle">دور الفريق التالي للإجابة:</p>
+            </div>
+
+            <div class="question-intro-card">
+                <span id="intro-question-category" class="question-category">الجغرافيا</span>
+                <p id="intro-question-text" class="question-text">أذكر ولايات تونسية تطل على البحر الأبيض المتوسط؟</p>
+            </div>
+
+            <div class="actions-centered">
+                <button id="btn-start-round" class="btn btn-primary glow-btn" data-i18n="btn_start_board">اضغط للبدء (60 ثانية)</button>
+            </div>
+        </section>
+
+        <!-- Screen 5: Active Round Board -->
+        <section id="screen-round" class="screen">
+            <div class="round-header">
+                <div class="team-score-status">
+                    <span id="round-active-icon">🌶️</span>
+                    <span id="round-active-name">فريق الهريسة</span>
+                    <span class="active-score-badge"><span id="round-current-score">0</span> <span data-i18n="score_badge_points">نقطة</span></span>
+                </div>
+                <div class="timer-container">
+                    <svg class="timer-svg" viewBox="0 0 100 100">
+                        <circle class="timer-track" cx="50" cy="50" r="45"></circle>
+                        <circle id="timer-bar" class="timer-bar" cx="50" cy="50" r="45"></circle>
+                    </svg>
+                    <span id="timer-text" class="timer-text">60</span>
+                </div>
+            </div>
+
+            <div class="round-question-display" style="position: relative;">
+                <span id="round-question-category" class="question-category-mini">الجغرافيا</span>
+                <h3 id="round-question-text" class="question-text-mini">أذكر ولايات تونسية تطل على البحر الأبيض المتوسط؟</h3>
+                <button id="btn-play-fix-edit" class="btn-play-fix-edit" style="display: none; margin-top: 10px; background: rgba(255,255,255,0.25); border: none; padding: 6px 12px; border-radius: 8px; color: white; cursor: pointer; font-size: 0.85rem; font-weight: bold; border: 1px solid rgba(255,255,255,0.35);">🛠️ Edit Question / Answers</button>
+            </div>
+
+            <div class="board-answers-container">
+                <div id="answers-grid" class="answers-grid">
+                    <!-- 10 hidden cards containing 9 correct and 1 wrong answer -->
+                </div>
+            </div>
+
+            <div class="incorrect-strikes" style="display: flex; align-items: center; justify-content: center; gap: 10px; margin-top: 15px;">
+                <span data-i18n="strikes_label" style="font-size: 0.9rem; color: var(--text-secondary);">الأخطاء (Strikes):</span>
+                <div id="strike-container" class="strike-row">
+                    <span class="strike-item">❌</span>
+                </div>
+            </div>
+
+            <div class="actions-footer">
+                <button id="btn-round-complete" class="btn btn-secondary" data-i18n="btn_end_turn">عرض النتائج</button>
+            </div>
+        </section>
+
+        <!-- Screen 6: Turn Graph Standings -->
+        <section id="screen-graph" class="screen">
+            <h2 class="section-title"><span data-i18n="graph_title_prefix">ترتيب جولة</span> <span id="graph-round-num">1</span></h2>
+            <p class="section-subtitle" data-i18n="graph_subtitle">مقارنة النقاط المكتسبة بين الفرق</p>
+
+            <div class="chart-container">
+                <!-- SVG-based animated bar chart -->
+                <svg id="points-chart" class="points-chart" viewBox="0 0 400 300">
+                    <!-- Dynamic rendering of bars and grid lines -->
+                </svg>
+            </div>
+
+            <!-- Feedback / Rating block for the question -->
+            <div id="graph-feedback-card" style="background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.15); border-radius: 16px; padding: 15px; margin: 20px auto; max-width: 400px; text-align: center; backdrop-filter: blur(10px); box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);">
+                <p style="font-weight: bold; font-size: 0.9rem; color: #eee; margin-top: 0; margin-bottom: 10px;" id="feedback-prompt-text">كيف تقيم هذا السؤال؟ / Rate this question:</p>
+                
+                <div style="display: flex; justify-content: center; gap: 12px; margin-bottom: 10px;">
+                    <button class="feedback-btn" data-rating="love" style="background: none; border: none; font-size: 1.8rem; cursor: pointer; transition: transform 0.2s;" title="Love">❤️</button>
+                    <button class="feedback-btn" data-rating="like" style="background: none; border: none; font-size: 1.8rem; cursor: pointer; transition: transform 0.2s;" title="Like">👍</button>
+                    <button class="feedback-btn" data-rating="meh" style="background: none; border: none; font-size: 1.8rem; cursor: pointer; transition: transform 0.2s;" title="Meh">😐</button>
+                    <button class="feedback-btn" data-rating="dislike" style="background: none; border: none; font-size: 1.8rem; cursor: pointer; transition: transform 0.2s;" title="Dislike">👎</button>
+                    <button class="feedback-btn" data-rating="shit" style="background: none; border: none; font-size: 1.8rem; cursor: pointer; transition: transform 0.2s;" title="Shit">💩</button>
+                </div>
+                
+                <button id="btn-toggle-comment" style="background: transparent; border: none; color: var(--primary); font-size: 0.8rem; cursor: pointer; font-weight: bold; text-decoration: underline;">💬 أضف تعليقاً / Add Comment</button>
+                
+                <div id="comment-input-section" style="display: none; margin-top: 10px;">
+                    <textarea id="feedback-comment-text" placeholder="اكتب تعليقك هنا... / Write your comment..." style="width: 100%; height: 60px; padding: 8px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.2); background: rgba(0,0,0,0.3); color: white; font-size: 0.8rem; resize: none; box-sizing: border-box;"></textarea>
+                    <button id="btn-submit-feedback" class="btn" style="margin-top: 8px; padding: 6px 15px; font-size: 0.8rem; background: var(--primary); color: black; font-weight: bold; border-radius: 6px; border: none; cursor: pointer; width: 100%;">إرسال / Submit</button>
+                </div>
+            </div>
+            
+            <div id="feedback-thanks-card" style="display: none; background: rgba(16, 185, 129, 0.15); border: 1px solid rgba(16, 185, 129, 0.3); border-radius: 16px; padding: 15px; margin: 20px auto; max-width: 400px; text-align: center; color: #10b981; font-weight: bold; font-size: 0.9rem; backdrop-filter: blur(10px);">
+                🙏 شكراً لك على تقييمك! / Thank you for your feedback!
+            </div>
+
+            <div class="actions-footer">
+                <button id="btn-graph-next" class="btn btn-primary" data-i18n="btn_next_turn">الموالي</button>
+            </div>
+        </section>
+
+        <!-- Screen 7: Winners Podium Standings -->
+        <section id="screen-podium" class="screen" style="position: relative;">
+            <canvas id="confetti-canvas" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 100;"></canvas>
+            <div class="podium-header" style="position: relative; z-index: 101;">
+                <div class="trophy-wrapper">🏆</div>
+                <h2 class="section-title" data-i18n="gameover_title">الترتيب النهائي</h2>
+                <p class="section-subtitle" data-i18n="gameover_subtitle">مبروك للفائزين!</p>
+            </div>
+
+            <div class="leaderboard-table">
+                <div class="leaderboard-header-row">
+                    <span data-i18n="tbl_rank">الرتبة</span>
+                    <span data-i18n="tbl_team">الفريق</span>
+                    <span data-i18n="tbl_points">النقاط</span>
+                </div>
+                <div id="podium-rows" class="leaderboard-body">
+                    <!-- Dynamic ranking rows -->
+                </div>
+            </div>
+
+            <div class="actions-centered">
+                <button id="btn-restart" class="btn btn-primary glow-btn" data-i18n="btn_restart">لعب مجددا</button>
+            </div>
+        </section>
+
+        <!-- Screen 8: Bent Waled Setup -->
+        <section id="screen-bw-setup" class="screen">
+            <h2 class="section-title"><span id="bw-setup-title-text">إعدادات بنت ولد</span> / Bent Waled Config</h2>
+            <p class="section-subtitle">اختر المحاور المفضلة والمؤقت الزمني</p>
+
+            <div class="config-card" style="max-width: 500px; margin: 2rem auto; padding: 2rem; text-align: left;">
+                <!-- Bent Waled Play Mode Tabs -->
+                <div style="display: flex; gap: 10px; margin-bottom: 20px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 12px;">
+                    <button id="btn-bw-tab-solo" type="button" class="btn" style="flex: 1; padding: 8px; border-radius: 8px; background: var(--primary); color: black; font-weight: bold; border: none; cursor: pointer;">Solo Mode 🧍</button>
+                    <button id="btn-bw-tab-passplay" type="button" class="btn" style="flex: 1; padding: 8px; border-radius: 8px; background: rgba(255,255,255,0.1); color: white; border: 1px solid rgba(255,255,255,0.2); cursor: pointer;">Pass & Play 📱</button>
+                </div>
+
+                <!-- Solo Mode Dashboard -->
+                <div id="bw-config-solo" style="display: block; margin-bottom: 20px; background: rgba(255,255,255,0.03); border: 1px dashed rgba(255,255,255,0.15); border-radius: 12px; padding: 15px;">
+                    <h3 style="margin-top: 0; font-size: 0.95rem; color: var(--accent-yellow); margin-bottom: 8px;">🔥 Solo Dashboard</h3>
+                    <div style="display: flex; justify-content: space-around; text-align: center;">
+                        <div>
+                            <span style="font-size: 0.75rem; color: var(--text-secondary); display: block;">Streak</span>
+                            <span id="bw-solo-streak" style="font-size: 1.3rem; font-weight: bold; color: #fff;">0 🔥</span>
+                        </div>
+                        <div style="border-left: 1px solid rgba(255,255,255,0.1); height: 35px;"></div>
+                        <div>
+                            <span style="font-size: 0.75rem; color: var(--text-secondary); display: block;">High Score</span>
+                            <span id="bw-solo-highscore" style="font-size: 1.3rem; font-weight: bold; color: #fff;">0 pts</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pass & Play Dashboard -->
+                <div id="bw-config-passplay" style="display: none; margin-bottom: 20px;">
+                    <div class="form-group" style="margin-bottom: 15px;">
+                        <label style="color: var(--text-secondary); margin-bottom: 5px; display: block; font-weight: bold;">Rounds Count:</label>
+                        <input type="range" id="bw-rounds-count-range" min="1" max="5" value="3" style="width: 100%; accent-color: var(--primary);">
+                        <span style="font-size: 0.85rem; color: var(--primary); font-weight: bold;" id="bw-rounds-count-lbl">3 Rounds</span>
+                    </div>
+                    
+                    <div class="form-group" style="margin-bottom: 10px;">
+                        <label style="color: var(--text-secondary); margin-bottom: 5px; display: block; font-weight: bold;">Players List:</label>
+                        <div id="bw-players-list-container" style="display: flex; flex-direction: column; gap: 8px; max-height: 160px; overflow-y: auto; padding-right: 5px; margin-bottom: 10px;">
+                            <!-- Dynamic players fields -->
+                        </div>
+                        <button id="btn-bw-add-player" type="button" class="btn btn-secondary" style="font-size: 0.8rem; padding: 6px 12px; width: 100%;">+ Add Player</button>
+                    </div>
+                </div>
+
+                <h3 style="margin-top: 0; font-size: 1.1rem; color: var(--secondary); margin-bottom: 1rem; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 5px;">
+                    📋 المحاور المفضلة / Categories:
+                </h3>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 1.5rem;" id="bw-categories-container">
+                    <label class="bw-cat-card">
+                        <input type="checkbox" class="bw-cat-check" value="boy" checked>
+                        <span data-i18n="bw_cat_boy">👦 ولد (Boy)</span>
+                    </label>
+                    <label class="bw-cat-card">
+                        <input type="checkbox" class="bw-cat-check" value="girl" checked>
+                        <span data-i18n="bw_cat_girl">👧 بنت (Girl)</span>
+                    </label>
+                    <label class="bw-cat-card">
+                        <input type="checkbox" class="bw-cat-check" value="country" checked>
+                        <span data-i18n="bw_cat_country">🇹🇳 بلاد (Country)</span>
+                    </label>
+                    <label class="bw-cat-card">
+                        <input type="checkbox" class="bw-cat-check" value="animal" checked>
+                        <span data-i18n="bw_cat_animal">🦁 حيوان (Animal)</span>
+                    </label>
+                    <label class="bw-cat-card">
+                        <input type="checkbox" class="bw-cat-check" value="object" checked>
+                        <span data-i18n="bw_cat_object">🔑 جماد (Object)</span>
+                    </label>
+                    <label class="bw-cat-card">
+                        <input type="checkbox" class="bw-cat-check" value="plant" checked>
+                        <span data-i18n="bw_cat_plant">🌿 نبات/غلة (Plant)</span>
+                    </label>
+                    <label class="bw-cat-card">
+                        <input type="checkbox" class="bw-cat-check" value="profession" checked>
+                        <span data-i18n="bw_cat_profession">👨‍⚕️ خدمة (Profession)</span>
+                    </label>
+                    <label class="bw-cat-card">
+                        <input type="checkbox" class="bw-cat-check" value="food" checked>
+                        <span data-i18n="bw_cat_food">🍕 ماكلة (Food)</span>
+                    </label>
+                </div>
+
+                <div class="form-group" style="margin-bottom: 1.5rem;">
+                    <label style="color: var(--text-secondary); margin-bottom: 0.5rem; display: block; font-weight: bold;">
+                        ⏱️ مدة الجولة / Round Duration: <span id="bw-duration-val" style="color: var(--primary);">60</span>s
+                    </label>
+                    <input type="range" id="bw-duration-range" min="30" max="120" step="15" value="60" style="width: 100%; accent-color: var(--primary);">
+                </div>
+            </div>
+
+            <div class="actions-footer" style="display: flex; gap: 1rem; justify-content: center; max-width: 500px; margin: 0 auto; width: 100%;">
+                <button id="btn-bw-setup-back" class="btn btn-secondary" style="flex: 1;">رجوع / Back</button>
+                <button id="btn-bw-start" class="btn btn-primary glow-btn" style="flex: 2;">ابدأ / Start Game 🚀</button>
+            </div>
+        </section>
+
+        <!-- Screen 9: Bent Waled Letter Spinner -->
+        <section id="screen-bw-letter" class="screen" style="text-align: center;">
+            <h2 class="section-title" id="bw-spinner-title">اختيار الحرف العشوائي</h2>
+            <p class="section-subtitle" id="bw-spinner-subtitle">جاري تدوير عجلة الحروف...</p>
+
+            <div class="spinner-outer-ring" style="width: 180px; height: 180px; border-radius: 50%; border: 4px dashed var(--primary); margin: 3rem auto; display: flex; align-items: center; justify-content: center; position: relative; box-shadow: 0 0 35px rgba(253, 224, 71, 0.25); background: rgba(255,255,255,0.03);">
+                <div id="bw-spinning-letter" style="font-size: 5.5rem; font-weight: 900; color: #fff; text-shadow: 0 0 20px var(--primary);">أ</div>
+            </div>
+
+            <!-- Pre-game countdown display -->
+            <div id="bw-countdown-overlay" style="display: none; font-size: 2rem; font-weight: 900; color: var(--accent-yellow); margin-top: 1.5rem; text-shadow: 0 0 10px rgba(253,224,71,0.5);">
+                <span id="bw-countdown-prefix">ستبدأ اللعبة بعد: </span><span id="bw-countdown-num">3</span>
+            </div>
+        </section>
+
+        <!-- Screen 10: Bent Waled Gameplay Board -->
+        <section id="screen-bw-play" class="screen">
+            <div class="round-status-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem;">
+                <div style="text-align: left; display: flex; align-items: center; gap: 10px;">
+                    <span style="font-size: 0.95rem; color: var(--text-secondary);" id="lbl-active-letter">الحرف النشط / Letter:</span>
+                    <div id="bw-active-letter-badge" style="background: var(--primary); color: #000; font-size: 1.8rem; font-weight: 900; width: 48px; height: 48px; border-radius: 12px; display: flex; align-items: center; justify-content: center; box-shadow: 0 0 15px var(--primary); border: 2px solid #fff;">ب</div>
+                </div>
+                
+                <div class="timer-container" style="width: 70px; height: 70px;">
+                    <svg class="timer-svg" viewBox="0 0 100 100">
+                        <circle class="timer-track" cx="50" cy="50" r="45"></circle>
+                        <circle id="bw-timer-bar" class="timer-bar" cx="50" cy="50" r="45"></circle>
+                    </svg>
+                    <span id="bw-timer-text" class="timer-text" style="font-size: 1.4rem;">60</span>
+                </div>
+            </div>
+
+            <div id="bw-inputs-grid" style="display: flex; flex-direction: column; gap: 12px; max-width: 480px; margin: 1.5rem auto; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1); padding: 20px; border-radius: 16px; backdrop-filter: blur(10px);">
+                <!-- Inputs will be populated dynamically based on selected categories -->
+            </div>
+
+            <div class="actions-footer" style="text-align: center; width: 100%;">
+                <button id="btn-bw-submit" class="btn btn-primary glow-btn" style="width: 100%; max-width: 480px; padding: 14px; margin: 0 auto; display: block;">أنهيت! / Submit Answers 🏁</button>
+            </div>
+        </section>
+
+        <!-- Screen 11: Bent Waled Review / Grading -->
+        <section id="screen-bw-review" class="screen">
+            <h2 class="section-title">مراجعة الإجابات / Self Grading</h2>
+            <p class="section-subtitle">قم بتقييم إجاباتك للحصول على النقاط النهائية</p>
+
+            <div style="background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.15); border-radius: 16px; padding: 15px; margin: 1rem auto; max-width: 480px; text-align: center; backdrop-filter: blur(10px);">
+                <span id="lbl-bw-score-card" style="font-size: 0.9rem; color: var(--text-secondary); display: block; margin-bottom: 5px;">رصيد الجولة / Round Score:</span>
+                <span id="bw-total-score-badge" style="font-size: 2.2rem; font-weight: 900; color: var(--accent-yellow); text-shadow: 0 0 10px rgba(253, 224, 71, 0.4);">0 <span id="lbl-bw-score-unit" style="font-size: 1.2rem;">نقطة</span></span>
+            </div>
+
+            <div id="bw-review-list" style="display: flex; flex-direction: column; gap: 12px; max-width: 480px; margin: 1.5rem auto; padding: 5px;">
+                <!-- Dynamic list of review cards -->
+            </div>
+
+            <div class="actions-footer" style="display: flex; gap: 1rem; justify-content: center; max-width: 480px; margin: 0 auto; width: 100%;">
+                <button id="btn-bw-review-again" class="btn btn-secondary" style="flex: 1;">إعادة اللعب / Play Again 🔄</button>
+                <button id="btn-bw-finish-lobby" class="btn btn-primary glow-btn" style="flex: 1;">القائمة الرئيسية / Home 🏠</button>
+            </div>
+        </section>
+
+        <!-- Screen 12: Bent Waled Pass Phone -->
+        <section id="screen-bw-pass" class="screen" style="text-align: center;">
+            <div style="margin: 4rem auto; max-width: 400px; display: flex; flex-direction: column; gap: 2rem; justify-content: center; align-items: center;">
+                <div style="font-size: 5rem; animation: pulse 1.5s infinite; filter: drop-shadow(0 0 10px var(--primary-glow));">📱</div>
+                <h2 style="font-size: 1.8rem; font-weight: 800; color: #fff; margin: 0; line-height: 1.3;" id="bw-pass-prompt">
+                    مرّر الهاتف إلى <span id="bw-pass-player-name" style="color: var(--primary);">Ghaith</span>
+                </h2>
+                <p style="color: var(--text-secondary); margin: 0; font-size: 0.95rem;" id="bw-pass-instructions">لا تنظر إلى الشاشة إلا عندما تستلم الهاتف!</p>
+                <button id="btn-bw-pass-ready" class="btn btn-primary glow-btn" style="width: 100%; padding: 15px; font-size: 1.1rem; font-weight: bold; margin-top: 1rem;">
+                    جاهز! / I AM READY 🚀
+                </button>
+            </div>
+        </section>
+
+        <!-- Screen 13: Bent Waled Podium / Standings -->
+        <section id="screen-bw-podium" class="screen" style="position: relative;">
+            <canvas id="bw-confetti-canvas" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 100;"></canvas>
+            <div class="podium-header" style="position: relative; z-index: 101; text-align: center; margin-bottom: 2rem;">
+                <div class="trophy-wrapper" style="font-size: 4.5rem; margin-bottom: 10px; animation: bounce 2s infinite;">🏆</div>
+                <h2 class="section-title" id="bw-podium-title">الترتيب النهائي / Final Standings</h2>
+                <p class="section-subtitle" id="bw-podium-subtitle">نتائج مواجهة بنت ولد</p>
+            </div>
+
+            <div class="leaderboard-table" style="max-width: 480px; margin: 0 auto 2rem auto;">
+                <div class="leaderboard-header-row" style="display: grid; grid-template-columns: 80px 1fr 100px; padding: 12px 16px; font-weight: bold; border-bottom: 2px solid rgba(255,255,255,0.1); color: var(--text-secondary); text-align: center;">
+                    <span id="lbl-bw-tbl-rank">الرتبة</span>
+                    <span id="lbl-bw-tbl-player" style="text-align: right; padding-right: 20px;">اللاعب</span>
+                    <span id="lbl-bw-tbl-score">النقاط</span>
+                </div>
+                <div id="bw-podium-rows" class="leaderboard-body" style="display: flex; flex-direction: column; gap: 8px; margin-top: 10px;">
+                    <!-- Dynamic ranking rows -->
+                </div>
+            </div>
+
+            <div class="actions-centered" style="display: flex; gap: 1rem; justify-content: center; max-width: 480px; margin: 0 auto; width: 100%;">
+                <button id="btn-bw-podium-restart" class="btn btn-secondary" style="flex: 1;">لعب مجددا / Play Again 🔄</button>
+                <button id="btn-bw-podium-home" class="btn btn-primary glow-btn" style="flex: 1;">الرئيسية / Home 🏠</button>
+            </div>
+        </section>
+
+        <!-- Rules modal overlay -->
+        <div id="modal-rules" class="modal">
+            <div class="modal-content">
+                <h2 class="modal-title" data-i18n="rules_title">قواعد اللعبة</h2>
+                <div class="modal-body-content">
+                    <p data-i18n="rules_desc">أهلاً بك في <strong>El Quizz</strong>، النسخة التونسية من اللعبة الشهيرة Family Feud!</p>
+                    <ul>
+                        <li data-i18n="rules_li1">اللعبة تعتمد على الإجابة الجماعية بالتناوب بين الفرق.</li>
+                        <li data-i18n="rules_li2">كل سؤال يحتوي على <strong>9 إجابات صحيحة</strong> متدرجة الصعوبة (من 1 إلى 8 نقاط) و<strong>إجابة واحدة خاطئة</strong> (فخ).</li>
+                        <li data-i18n="rules_li3">نقاط الإجابات مقسمة حسب متتالية فيبوناتشي:
+                            <br>💡 1: سهل | 2: متوسط | 3: صعب | 5: صعب جداً | 8: شبه مستحيل الإيجاد.
+                        </li>
+                        <li data-i18n="rules_li4">عندما يبدأ المؤقت (60 ثانية)، يحاول الفريق إيجاد أكبر عدد ممكن من الإجابات الصحيحة.</li>
+                        <li data-i18n="rules_li5"><strong>تنبيه!</strong> اختيار الإجابة الخاطئة (الفخ) يسقط مباشرة <strong>5 نقاط</strong> من رصيد الجولة للفريق!</li>
+                        <li data-i18n="rules_li6">الفريق الذي يجمع أكبر عدد من النقاط في نهاية الجولات يفوز باللقب! 🏆</li>
+                    </ul>
+                </div>
+                <button id="btn-close-rules" class="btn btn-secondary" data-i18n="btn_close_rules">فهمت!</button>
+            </div>
+        </div>
+
+        <!-- Play & Fix Edit Modal -->
+        <div id="play-fix-modal" class="modal-overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.6); z-index: 10000; align-items: center; justify-content: center; backdrop-filter: blur(10px);">
+            <div class="modal-content" style="background: rgba(255, 255, 255, 0.15); border: 1px solid rgba(255,255,255,0.3); border-radius: 20px; width: 90%; max-width: 600px; max-height: 85vh; overflow-y: auto; padding: 25px; color: white; box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); backdrop-filter: blur(8.5px); -webkit-backdrop-filter: blur(8.5px);">
+                <h3 style="margin-top: 0; border-bottom: 1px solid rgba(255,255,255,0.2); padding-bottom: 10px; text-align: center; color: var(--accent-yellow);">🛠️ Play & Fix Editor</h3>
+                
+                <!-- Tabs for Form vs JSON Editor -->
+                <div style="display: flex; gap: 10px; margin-bottom: 20px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 10px;">
+                    <button id="btn-pf-tab-form" type="button" class="btn" style="flex: 1; padding: 8px; border-radius: 8px; background: var(--primary); color: black; font-weight: bold; border: none; cursor: pointer;">Form Editor</button>
+                    <button id="btn-pf-tab-json" type="button" class="btn" style="flex: 1; padding: 8px; border-radius: 8px; background: rgba(255,255,255,0.1); color: white; border: 1px solid rgba(255,255,255,0.2); cursor: pointer;">JSON Editor 🛠️</button>
+                </div>
+
+                <!-- Form View Container -->
+                <div id="pf-form-editor-view">
+                    <!-- Question edit -->
+                    <div style="margin-bottom: 15px; text-align: left;">
+                        <label style="display: block; margin-bottom: 5px; font-weight: bold; font-size: 0.9rem; color: #eee;">Question Text:</label>
+                        <input type="text" id="pf-edit-q-text" style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.3); background: rgba(0,0,0,0.3); color: white; box-sizing: border-box;">
+                    </div>
+
+                    <!-- Team scores edit -->
+                    <div style="margin-bottom: 15px; display: flex; gap: 15px; text-align: left;">
+                        <div style="flex: 1;">
+                            <label style="display: block; margin-bottom: 5px; font-weight: bold; font-size: 0.9rem; color: #eee;">Active Team Score:</label>
+                            <input type="number" id="pf-edit-team-score" style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.3); background: rgba(0,0,0,0.3); color: white; box-sizing: border-box;">
+                        </div>
+                        <div style="flex: 1;">
+                            <label style="display: block; margin-bottom: 5px; font-weight: bold; font-size: 0.9rem; color: #eee;">Turn Score (Temporary):</label>
+                            <input type="number" id="pf-edit-turn-score" style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.3); background: rgba(0,0,0,0.3); color: white; box-sizing: border-box;">
+                        </div>
+                    </div>
+
+                    <!-- Answers list -->
+                    <h4 style="margin-top: 20px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 5px; font-size: 1rem; text-align: left; color: #eee;">Answers (9 Correct, 1 Wrong):</h4>
+                    <div id="pf-answers-list-container" style="display: flex; flex-direction: column; gap: 10px; max-height: 250px; overflow-y: auto; padding-right: 5px;">
+                        <!-- 10 answer inputs generated dynamically -->
+                    </div>
+                </div>
+
+                <!-- JSON View Container -->
+                <div id="pf-json-editor-view" style="display: none; text-align: left;">
+                    <div style="margin-bottom: 15px;">
+                        <label style="display: block; margin-bottom: 5px; font-weight: bold; font-size: 0.9rem; color: #eee;">Active Question JSON:</label>
+                        <textarea id="pf-edit-json-text" style="width: 100%; height: 280px; padding: 12px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.3); background: rgba(0,0,0,0.4); color: #00ff66; font-family: monospace; font-size: 0.85rem; box-sizing: border-box; resize: vertical;"></textarea>
+                    </div>
+
+                    <!-- AI Prompt helper box -->
+                    <div style="background: rgba(99, 102, 241, 0.15); border: 1px solid rgba(99, 102, 241, 0.35); padding: 15px; border-radius: 12px; margin-top: 15px;">
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                            <span style="font-weight: bold; font-size: 0.9rem; color: var(--accent-yellow);">🤖 Ask AI to Edit JSON</span>
+                            <button id="btn-pf-copy-prompt" type="button" style="padding: 6px 12px; border-radius: 8px; border: 1px solid var(--primary); background: transparent; color: var(--primary); font-size: 0.8rem; cursor: pointer; font-weight: bold;">Copy Prompt 📋</button>
+                        </div>
+                        <p style="font-size: 0.75rem; color: #ccc; margin: 0;">Copies standard constraints, valid categories, subcategories, and active translations so you can ask an AI chat (ChatGPT/Claude) to update it for you!</p>
+                    </div>
+                </div>
+
+                <div style="display: flex; gap: 15px; margin-top: 25px; justify-content: flex-end;">
+                    <button id="btn-pf-save" class="btn btn-primary" style="padding: 10px 20px; border-radius: 10px; font-weight: bold;">Save & Resume</button>
+                    <button id="btn-pf-cancel" class="btn btn-secondary" style="padding: 10px 20px; border-radius: 10px; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); color: white; cursor: pointer;">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script imports -->
+    <script src="content/bent_waled_bundle.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

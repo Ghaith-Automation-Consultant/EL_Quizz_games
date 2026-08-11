@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "object_ريشة",
+    "answer": "ريشة",
+    "normalized": "ريشت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_رف",
+    "answer": "رف",
+    "normalized": "رف",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_رادار",
+    "answer": "رادار",
+    "normalized": "رادار",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_رصاص",
+    "answer": "رصاص",
+    "normalized": "رصاص",
+    "aliases": [],
+    "status": "approved"
+  }
+]

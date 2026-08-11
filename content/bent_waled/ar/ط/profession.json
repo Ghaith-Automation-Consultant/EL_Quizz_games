@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "profession_طبيب",
+    "answer": "طبيب",
+    "normalized": "طبيب",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_طيار",
+    "answer": "طيار",
+    "normalized": "طيار",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_طباخ",
+    "answer": "طباخ",
+    "normalized": "طباخ",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_طالب",
+    "answer": "طالب",
+    "normalized": "طالب",
+    "aliases": [],
+    "status": "approved"
+  }
+]

@@ -1,0 +1,502 @@
+[
+  {
+    "id": 119,
+    "category": "Science & Technology",
+    "subcategory": "Medicine",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "سمِّ بعض أعضاء جسم الإنسان؟",
+      "en": "Name some organs of the human body?",
+      "fr": "Nommez quelques organes du corps humain ?",
+      "tn": "سمّي شوية أعضاء متاع جسم الإنسان؟"
+    },
+    "answers": [
+      {
+        "id": 1175,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "القلب",
+          "en": "the Heart",
+          "fr": "le Cœur",
+          "tn": "القلب"
+        }
+      },
+      {
+        "id": 1176,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الرئتان",
+          "en": "the Lungs",
+          "fr": "les Poumons",
+          "tn": "الرئتين"
+        }
+      },
+      {
+        "id": 1177,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الكبد",
+          "en": "the Liver",
+          "fr": "le Foie",
+          "tn": "الكبد"
+        }
+      },
+      {
+        "id": 1178,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الكلى",
+          "en": "the Kidneys",
+          "fr": "les Reins",
+          "tn": "الكلى"
+        }
+      },
+      {
+        "id": 1179,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "المعدة",
+          "en": "the Stomach",
+          "fr": "l'Estomac",
+          "tn": "المعدة"
+        }
+      },
+      {
+        "id": 1180,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "الدماغ",
+          "en": "the Brain",
+          "fr": "le Cerveau",
+          "tn": "الدماغ"
+        }
+      },
+      {
+        "id": 1181,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "البنكرياس",
+          "en": "the Pancreas",
+          "fr": "le Pancréas",
+          "tn": "البنكرياس"
+        }
+      },
+      {
+        "id": 1182,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "الطحال",
+          "en": "the Spleen",
+          "fr": "la Rate",
+          "tn": "الطحال"
+        }
+      },
+      {
+        "id": 1183,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "الغدة الدرقية",
+          "en": "the Thyroid",
+          "fr": "la Thyroïde",
+          "tn": "الغدة الدرقية"
+        }
+      },
+      {
+        "id": 1184,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "العضلة ذات الرأسين",
+          "en": "the Biceps",
+          "fr": "le Biceps",
+          "tn": "البيسيبس"
+        }
+      }
+    ]
+  },
+  {
+    "id": 156,
+    "category": "Science & Technology",
+    "subcategory": "Medicine",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "في أي مدن توجد كليات طب في تونس؟",
+      "en": "Which Tunisian cities have medical faculties?",
+      "fr": "Dans quelles villes trouve-t-on des facultés de médecine en Tunisie ?",
+      "tn": "في أي مدن فما كليات طب في تونس؟"
+    },
+    "answers": [
+      {
+        "id": 1545,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "تونس",
+          "en": "Tunis",
+          "fr": "Tunis",
+          "tn": "تونس"
+        }
+      },
+      {
+        "id": 1546,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "صفاقس",
+          "en": "Sfax",
+          "fr": "Sfax",
+          "tn": "صفاقس"
+        }
+      },
+      {
+        "id": 1547,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "سوسة",
+          "en": "Sousse",
+          "fr": "Sousse",
+          "tn": "سوسة"
+        }
+      },
+      {
+        "id": 1548,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "المنستير",
+          "en": "Monastir",
+          "fr": "Monastir",
+          "tn": "المنستير"
+        }
+      },
+      {
+        "id": 1549,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "جامعة المنار",
+          "en": "University of Tunis El Manar",
+          "fr": "Université Tunis El Manar",
+          "tn": "المنار"
+        }
+      },
+      {
+        "id": 1550,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "جامعة سوسة",
+          "en": "University of Sousse",
+          "fr": "Université de Sousse",
+          "tn": "جامعة سوسة"
+        }
+      },
+      {
+        "id": 1551,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "جامعة صفاقس",
+          "en": "University of Sfax",
+          "fr": "Université de Sfax",
+          "tn": "جامعة صفاقس"
+        }
+      },
+      {
+        "id": 1552,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "جامعة المنستير",
+          "en": "University of Monastir",
+          "fr": "Université de Monastir",
+          "tn": "جامعة المنستير"
+        }
+      },
+      {
+        "id": 1553,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "كلية الطب بتونس",
+          "en": "Faculty of Medicine of Tunis",
+          "fr": "Faculté de médecine de Tunis",
+          "tn": "طب تونس"
+        }
+      },
+      {
+        "id": 1554,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "توزر",
+          "en": "Tozeur",
+          "fr": "Tozeur",
+          "tn": "توزر"
+        }
+      }
+    ]
+  },
+  {
+    "id": 162,
+    "category": "Science & Technology",
+    "subcategory": "Medicine",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "أي من هذه مهن صحية؟",
+      "en": "Which are healthcare professions?",
+      "fr": "Quelles sont des professions de santé ?",
+      "tn": "شنوما المهن الصحية؟"
+    },
+    "answers": [
+      {
+        "id": 1605,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "طبيب",
+          "en": "Doctor",
+          "fr": "Médecin",
+          "tn": "طبيب"
+        }
+      },
+      {
+        "id": 1606,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "صيدلي",
+          "en": "Pharmacist",
+          "fr": "Pharmacien",
+          "tn": "صيدلي"
+        }
+      },
+      {
+        "id": 1607,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "ممرض",
+          "en": "Nurse",
+          "fr": "Infirmier",
+          "tn": "ممرض"
+        }
+      },
+      {
+        "id": 1608,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "طبيب أسنان",
+          "en": "Dentist",
+          "fr": "Dentiste",
+          "tn": "دنتيست"
+        }
+      },
+      {
+        "id": 1609,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "قابلة",
+          "en": "Midwife",
+          "fr": "Sage-femme",
+          "tn": "قابلة"
+        }
+      },
+      {
+        "id": 1610,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "أخصائي علاج طبيعي",
+          "en": "Physiotherapist",
+          "fr": "Kinésithérapeute",
+          "tn": "كيني"
+        }
+      },
+      {
+        "id": 1611,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "أخصائي مخابر",
+          "en": "Lab technician",
+          "fr": "Technicien de laboratoire",
+          "tn": "مخبر"
+        }
+      },
+      {
+        "id": 1612,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "أخصائي أشعة",
+          "en": "Radiology technician",
+          "fr": "Manipulateur radio",
+          "tn": "راديو"
+        }
+      },
+      {
+        "id": 1613,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "أخصائي تغذية",
+          "en": "Nutritionist",
+          "fr": "Nutritionniste",
+          "tn": "تغذية"
+        }
+      },
+      {
+        "id": 1614,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "طيار",
+          "en": "Pilot",
+          "fr": "Pilote",
+          "tn": "طيار"
+        }
+      }
+    ]
+  },
+  {
+    "id": 195,
+    "category": "Science & Technology",
+    "subcategory": "Medicine",
+    "region": "Tunisia",
+    "difficulty": 3,
+    "translations": {
+      "ar": "أذكر أطباء، علماء أحياء أو باحثين تونسيين مشهورين تاريخياً أو حديثاً؟",
+      "en": "Who are famous historic or modern Tunisian physicians and researchers?",
+      "fr": "Qui sont les médecins ou chercheurs tunisiens célèbres?",
+      "tn": "شكونهم الطبة والعلماء والباحثين التوانسة المعروفين؟"
+    },
+    "answers": [
+      {
+        "id": 1935,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "ابن الجزار القيرواني",
+          "en": "Ibn Al-Jazzar",
+          "fr": "Ibn Al-Jazzar",
+          "tn": "ابن الجزار القيرواني طبيب القيروان"
+        }
+      },
+      {
+        "id": 1936,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "البشير الدنڨزلي",
+          "en": "Bechir Dinguizli",
+          "fr": "Bechir Dinguizli",
+          "tn": "البشير الدنڨزلي أول طبيب تونسي عصري"
+        }
+      },
+      {
+        "id": 1937,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "توحيدة بن الشيخ",
+          "en": "Tawhida Ben Cheikh",
+          "fr": "Tawhida Ben Cheikh",
+          "tn": "توحيدة بن الشيخ أول طبيبة تونسية وعربية"
+        }
+      },
+      {
+        "id": 1938,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "سليمان بن سليمان",
+          "en": "Slimane Ben Slimane",
+          "fr": "Slimane Ben Slimane",
+          "tn": "سليمان بن سليمان"
+        }
+      },
+      {
+        "id": 1939,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "علي الورتاني",
+          "en": "Ali Ouertani",
+          "fr": "Ali Ouertani",
+          "tn": "علي الورتاني طبيب وجراح تونس"
+        }
+      },
+      {
+        "id": 1940,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "كامل السنوسي",
+          "en": "Kamel Sanoussi",
+          "fr": "Kamel Sanoussi",
+          "tn": "كامل السنوسي طبيب البلاط الملكي"
+        }
+      },
+      {
+        "id": 1941,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "محمود الماطري",
+          "en": "Mahmoud El Materi",
+          "fr": "Mahmoud El Materi",
+          "tn": "محمود الماطري الطبيب والمناضل"
+        }
+      },
+      {
+        "id": 1942,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "المنصف حمدون",
+          "en": "Moncef Hamdoun",
+          "fr": "Moncef Hamdoun",
+          "tn": "المنصف حمدون طبيب شرعي معروف"
+        }
+      },
+      {
+        "id": 1943,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "محمد الكساب",
+          "en": "Mohamed El Kassab",
+          "fr": "Mohamed El Kassab",
+          "tn": "محمد الكساب طبيب العظام والكسور"
+        }
+      },
+      {
+        "id": 1944,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "ابن سينا",
+          "en": "Avicenna",
+          "fr": "Avicenne",
+          "tn": "ابن سينا البخاري"
+        }
+      }
+    ]
+  }
+]

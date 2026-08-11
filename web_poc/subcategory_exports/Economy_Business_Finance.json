@@ -1,0 +1,377 @@
+[
+  {
+    "id": 140,
+    "category": "Economy & Business",
+    "subcategory": "Finance",
+    "region": "Tunisia",
+    "difficulty": 3,
+    "translations": {
+      "ar": "ما هي من البنوك العاملة في تونس؟",
+      "en": "Which are among the banks operating in Tunisia?",
+      "fr": "Quelles sont parmi les banques opérant en Tunisie ?",
+      "tn": "شنوة من البنوك الموجودة في تونس؟"
+    },
+    "answers": [
+      {
+        "id": 1385,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "البنك الوطني الفلاحي",
+          "en": "BNA",
+          "fr": "BNA",
+          "tn": "BNA"
+        }
+      },
+      {
+        "id": 1386,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "بنك الأمان",
+          "en": "Amen Bank",
+          "fr": "Amen Bank",
+          "tn": "Amen Bank"
+        }
+      },
+      {
+        "id": 1387,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "التجاري بنك",
+          "en": "Attijari Bank",
+          "fr": "Attijari Bank",
+          "tn": "Attijari Bank"
+        }
+      },
+      {
+        "id": 1388,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "البنك التونسي",
+          "en": "Banque de Tunisie",
+          "fr": "Banque de Tunisie",
+          "tn": "BT"
+        }
+      },
+      {
+        "id": 1389,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "الشركة التونسية للبنك",
+          "en": "STB",
+          "fr": "STB",
+          "tn": "STB"
+        }
+      },
+      {
+        "id": 1390,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "بنك الإسكان",
+          "en": "BH Bank",
+          "fr": "BH Bank",
+          "tn": "BH Bank"
+        }
+      },
+      {
+        "id": 1391,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "UIB",
+          "en": "UIB",
+          "fr": "UIB",
+          "tn": "UIB"
+        }
+      },
+      {
+        "id": 1392,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "UBCI",
+          "en": "UBCI",
+          "fr": "UBCI",
+          "tn": "UBCI"
+        }
+      },
+      {
+        "id": 1393,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "زيتونة بنك",
+          "en": "Zitouna Bank",
+          "fr": "Zitouna Bank",
+          "tn": "Zitouna Bank"
+        }
+      },
+      {
+        "id": 1394,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "بنك الجزائر",
+          "en": "Bank of Algeria",
+          "fr": "Banque d'Algérie",
+          "tn": "Banque d'Algérie"
+        }
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "category": "Economy & Business",
+    "subcategory": "Finance",
+    "region": "Tunisia",
+    "difficulty": 4,
+    "translations": {
+      "ar": "ما هي من المؤسسات المالية الرسمية في تونس؟",
+      "en": "Which are among Tunisia's official financial institutions?",
+      "fr": "Quelles sont parmi les institutions financières officielles en Tunisie ?",
+      "tn": "شنوة من المؤسسات المالية الرسمية في تونس؟"
+    },
+    "answers": [
+      {
+        "id": 1435,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "البنك المركزي التونسي",
+          "en": "Central Bank of Tunisia",
+          "fr": "Banque Centrale de Tunisie",
+          "tn": "البنك المركزي"
+        }
+      },
+      {
+        "id": 1436,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "بورصة تونس",
+          "en": "Tunis Stock Exchange",
+          "fr": "Bourse de Tunis",
+          "tn": "بورصة تونس"
+        }
+      },
+      {
+        "id": 1437,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "مجلس السوق المالية",
+          "en": "Financial Market Council",
+          "fr": "CMF",
+          "tn": "CMF"
+        }
+      },
+      {
+        "id": 1438,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "بنك تمويل المؤسسات الصغرى والمتوسطة",
+          "en": "BFPME",
+          "fr": "BFPME",
+          "tn": "BFPME"
+        }
+      },
+      {
+        "id": 1439,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "صندوق الودائع والأمانات",
+          "en": "CDC Tunisia",
+          "fr": "CDC",
+          "tn": "CDC"
+        }
+      },
+      {
+        "id": 1440,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الديوان الوطني للبريد",
+          "en": "La Poste Tunisienne",
+          "fr": "La Poste Tunisienne",
+          "tn": "البريد التونسي"
+        }
+      },
+      {
+        "id": 1441,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "زيتونة كابيتال",
+          "en": "Zitouna Capital",
+          "fr": "Zitouna Capital",
+          "tn": "Zitouna Capital"
+        }
+      },
+      {
+        "id": 1442,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "التونسي للمقاصة",
+          "en": "Tunisie Clearing",
+          "fr": "Tunisie Clearing",
+          "tn": "Tunisie Clearing"
+        }
+      },
+      {
+        "id": 1443,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "التونسية للمقاصة",
+          "en": "Tunisie Clearing",
+          "fr": "Tunisie Clearing",
+          "tn": "Tunisie Clearing"
+        }
+      },
+      {
+        "id": 1444,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "البنك المركزي المغربي",
+          "en": "Bank Al-Maghrib",
+          "fr": "Bank Al-Maghrib",
+          "tn": "Banque centrale marocaine"
+        }
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "category": "Economy & Business",
+    "subcategory": "Finance",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "أي من هذه وسائل دفع مستخدمة في تونس؟",
+      "en": "Which payment methods are used in Tunisia?",
+      "fr": "Quels moyens de paiement sont utilisés en Tunisie ?",
+      "tn": "شنوة من وسائل الدفع المستعملة في تونس؟"
+    },
+    "answers": [
+      {
+        "id": 1485,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "الدينار التونسي",
+          "en": "Tunisian dinar",
+          "fr": "Dinar tunisien",
+          "tn": "الدينار"
+        }
+      },
+      {
+        "id": 1486,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "البطاقة البنكية",
+          "en": "Bank card",
+          "fr": "Carte bancaire",
+          "tn": "الكارت البنكية"
+        }
+      },
+      {
+        "id": 1487,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "الشيك",
+          "en": "Cheque",
+          "fr": "Chèque",
+          "tn": "الشيك"
+        }
+      },
+      {
+        "id": 1488,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "التحويل البنكي",
+          "en": "Bank transfer",
+          "fr": "Virement bancaire",
+          "tn": "تحويل بنكي"
+        }
+      },
+      {
+        "id": 1489,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "النقد",
+          "en": "Cash",
+          "fr": "Espèces",
+          "tn": "الكاش"
+        }
+      },
+      {
+        "id": 1490,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "البريد",
+          "en": "Postal payment",
+          "fr": "La Poste",
+          "tn": "البريد"
+        }
+      },
+      {
+        "id": 1491,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الدفع عبر الهاتف",
+          "en": "Mobile payment",
+          "fr": "Paiement mobile",
+          "tn": "الدفع بالموبايل"
+        }
+      },
+      {
+        "id": 1492,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الحوالة",
+          "en": "Money order",
+          "fr": "Mandat",
+          "tn": "الحوالة"
+        }
+      },
+      {
+        "id": 1493,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "بطاقة مسبقة الدفع",
+          "en": "Prepaid card",
+          "fr": "Carte prépayée",
+          "tn": "كارت مسبقة الدفع"
+        }
+      },
+      {
+        "id": 1494,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "البيتكوين كعملة رسمية",
+          "en": "Bitcoin as official currency",
+          "fr": "Bitcoin comme monnaie officielle",
+          "tn": "البيتكوين الرسمي"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "entity_id": "food_دجاج_مشوي",
+    "answer": "دجاج مشوي",
+    "normalized": "دجاج مشوي",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_دبلة",
+    "answer": "دبلة",
+    "normalized": "دبلت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_دونات",
+    "answer": "دونات",
+    "normalized": "دونات",
+    "aliases": [],
+    "status": "approved"
+  }
+]

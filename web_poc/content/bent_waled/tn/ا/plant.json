@@ -1,0 +1,23 @@
+[
+  {
+    "entity_id": "plant_أرز",
+    "answer": "أرز",
+    "normalized": "ارز",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "plant_إجاص",
+    "answer": "إجاص",
+    "normalized": "اجاص",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "plant_أناناس",
+    "answer": "أناناس",
+    "normalized": "اناناس",
+    "aliases": [],
+    "status": "approved"
+  }
+]

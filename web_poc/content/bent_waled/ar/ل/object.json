@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "object_لوحة",
+    "answer": "لوحة",
+    "normalized": "لوحت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_لعبة",
+    "answer": "لعبة",
+    "normalized": "لعبت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_لجام",
+    "answer": "لجام",
+    "normalized": "لجام",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_لؤلؤ",
+    "answer": "لؤلؤ",
+    "normalized": "لؤلؤ",
+    "aliases": [],
+    "status": "approved"
+  }
+]

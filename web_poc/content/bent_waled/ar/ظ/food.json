@@ -1,0 +1,16 @@
+[
+  {
+    "entity_id": "food_ظفائر_العسل",
+    "answer": "ظفائر العسل",
+    "normalized": "ظفائر العسل",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_ظلف_خروف",
+    "answer": "ظلف خروف",
+    "normalized": "ظلف خروف",
+    "aliases": [],
+    "status": "approved"
+  }
+]

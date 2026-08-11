@@ -1,0 +1,127 @@
+[
+  {
+    "id": 87,
+    "category": "Arts",
+    "subcategory": "Theatre",
+    "region": "Tunisia",
+    "difficulty": 3,
+    "translations": {
+      "ar": "أذكر مخرجين مسرحيين تونسيين كبار أثروا في المسرح التونسي والعربي؟",
+      "en": "Name major Tunisian theater directors who influenced Tunisian and Arab theater?",
+      "fr": "Citez de grands metteurs en scène tunisiens qui ont marqué le théâtre tunisien et arabe ?",
+      "tn": "أعطيني مخرجين مسرح تونسيين كبار أثرو في المسرح التونسي والعربي؟"
+    },
+    "answers": [
+      {
+        "id": 861,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الفاضل الجعايبي",
+          "en": "Answer in English: الفاضل الجعايبي",
+          "fr": "الفاضل الجعايبي",
+          "tn": "الفاضل الجعايبي"
+        }
+      },
+      {
+        "id": 862,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "توفيق الجبالي",
+          "en": "Answer in English: توفيق الجبالي",
+          "fr": "توفيق الجبالي",
+          "tn": "توفيق الجبالي"
+        }
+      },
+      {
+        "id": 863,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "عز الدين قنون",
+          "en": "Answer in English: عز الدين قنون",
+          "fr": "عز الدين قنون",
+          "tn": "عز الدين قنون"
+        }
+      },
+      {
+        "id": 864,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "المنصف السويسي",
+          "en": "Answer in English: المنصف السويسي",
+          "fr": "المنصف السويسي",
+          "tn": "المنصف السويسي"
+        }
+      },
+      {
+        "id": 865,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "رجاء بن عمار",
+          "en": "Answer in English: رجاء بن عمار",
+          "fr": "رجاء بن عمار",
+          "tn": "رجاء بن عمار"
+        }
+      },
+      {
+        "id": 866,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "عبد القادر مقداد",
+          "en": "Answer in English: عبد القادر مقداد",
+          "fr": "عبد القادر مقداد",
+          "tn": "عبد القادر مقداد"
+        }
+      },
+      {
+        "id": 867,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "محمد إدريس",
+          "en": "Answer in English: محمد إدريس",
+          "fr": "محمد إدريس",
+          "tn": "محمد إدريس"
+        }
+      },
+      {
+        "id": 868,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "الفاضل الجزيري",
+          "en": "Answer in English: الفاضل الجزيري",
+          "fr": "الفاضل الجزيري",
+          "tn": "الفاضل الجزيري"
+        }
+      },
+      {
+        "id": 869,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "جميل الجودي",
+          "en": "Answer in English: جميل الجودي",
+          "fr": "جميل الجودي",
+          "tn": "جميل الجودي"
+        }
+      },
+      {
+        "id": 870,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "ويليام شكسبير",
+          "en": "Wrong distractor: ويليام شكسبير",
+          "fr": "ويليام شكسبير",
+          "tn": "ويليام شكسبير"
+        }
+      }
+    ]
+  }
+]

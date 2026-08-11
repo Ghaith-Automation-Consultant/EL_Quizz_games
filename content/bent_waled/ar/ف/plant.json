@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "plant_فول",
+    "answer": "فول",
+    "normalized": "فول",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "plant_فجل",
+    "answer": "فجل",
+    "normalized": "فجل",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "plant_فريز",
+    "answer": "فريز",
+    "normalized": "فريز",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "plant_فستق",
+    "answer": "فستق",
+    "normalized": "فستق",
+    "aliases": [],
+    "status": "approved"
+  }
+]

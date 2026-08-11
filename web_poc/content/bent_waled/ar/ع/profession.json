@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "profession_عامل",
+    "answer": "عامل",
+    "normalized": "عامل",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_عالم",
+    "answer": "عالم",
+    "normalized": "عالم",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_عسكري",
+    "answer": "عسكري",
+    "normalized": "عسكري",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_عميد",
+    "answer": "عميد",
+    "normalized": "عميد",
+    "aliases": [],
+    "status": "approved"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "profession_دهان",
+    "answer": "دهان",
+    "normalized": "دهان",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_دكتور",
+    "answer": "دكتور",
+    "normalized": "دكتور",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_دبلوماسي",
+    "answer": "دبلوماسي",
+    "normalized": "دبلوماسي",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_دليل",
+    "answer": "دليل",
+    "normalized": "دليل",
+    "aliases": [],
+    "status": "approved"
+  }
+]

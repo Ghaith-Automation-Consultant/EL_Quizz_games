@@ -1,0 +1,252 @@
+[
+  {
+    "id": 170,
+    "category": "Religion & Philosophy",
+    "subcategory": "judism",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "ما هي المدن أو الجزر التي عرفت بوجود جاليات يهودية في تونس؟",
+      "en": "Which Tunisian cities or islands are known for their Jewish communities?",
+      "fr": "Quelles villes ou îles tunisiennes sont connues pour leurs communautés juives ?",
+      "tn": "شنوة المدن ولا الجزر اللي فيها جالية يهودية في تونس؟"
+    },
+    "answers": [
+      {
+        "id": 1685,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "جربة",
+          "en": "Djerba",
+          "fr": "Djerba",
+          "tn": "جربة"
+        }
+      },
+      {
+        "id": 1686,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "تونس",
+          "en": "Tunis",
+          "fr": "Tunis",
+          "tn": "تونس"
+        }
+      },
+      {
+        "id": 1687,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "صفاقس",
+          "en": "Sfax",
+          "fr": "Sfax",
+          "tn": "صفاقس"
+        }
+      },
+      {
+        "id": 1688,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "سوسة",
+          "en": "Sousse",
+          "fr": "Sousse",
+          "tn": "سوسة"
+        }
+      },
+      {
+        "id": 1689,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "قابس",
+          "en": "Gabès",
+          "fr": "Gabès",
+          "tn": "قابس"
+        }
+      },
+      {
+        "id": 1690,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "نابل",
+          "en": "Nabeul",
+          "fr": "Nabeul",
+          "tn": "نابل"
+        }
+      },
+      {
+        "id": 1691,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "المهدية",
+          "en": "Mahdia",
+          "fr": "Mahdia",
+          "tn": "المهدية"
+        }
+      },
+      {
+        "id": 1692,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "بنزرت",
+          "en": "Bizerte",
+          "fr": "Bizerte",
+          "tn": "بنزرت"
+        }
+      },
+      {
+        "id": 1693,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "القيروان",
+          "en": "Kairouan",
+          "fr": "Kairouan",
+          "tn": "القيروان"
+        }
+      },
+      {
+        "id": 1694,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "الرياض",
+          "en": "Riyadh",
+          "fr": "Riyad",
+          "tn": "الرياض"
+        }
+      }
+    ]
+  },
+  {
+    "id": 171,
+    "category": "Religion & Philosophy",
+    "subcategory": "judism",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "أي من هذه المعابد اليهودية توجد في تونس؟",
+      "en": "Which of these synagogues are located in Tunisia?",
+      "fr": "Quelles synagogues se trouvent en Tunisie ?",
+      "tn": "شنوة المعابد اليهودية الموجودة في تونس؟"
+    },
+    "answers": [
+      {
+        "id": 1695,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "معبد الغريبة",
+          "en": "El Ghriba Synagogue",
+          "fr": "Synagogue de la Ghriba",
+          "tn": "الغريبة"
+        }
+      },
+      {
+        "id": 1696,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "كنيس حارة الكبيرة",
+          "en": "Hara Kbira Synagogue",
+          "fr": "Synagogue Hara Kbira",
+          "tn": "كنيس حارة الكبيرة"
+        }
+      },
+      {
+        "id": 1697,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "كنيس حارة الصغيرة",
+          "en": "Hara Sghira Synagogue",
+          "fr": "Synagogue Hara Sghira",
+          "tn": "كنيس حارة الصغيرة"
+        }
+      },
+      {
+        "id": 1698,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "كنيس تونس الكبير",
+          "en": "Great Synagogue of Tunis",
+          "fr": "Grande Synagogue de Tunis",
+          "tn": "كنيس تونس"
+        }
+      },
+      {
+        "id": 1699,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "كنيس صفاقس",
+          "en": "Sfax Synagogue",
+          "fr": "Synagogue de Sfax",
+          "tn": "كنيس صفاقس"
+        }
+      },
+      {
+        "id": 1700,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "كنيس قابس",
+          "en": "Gabès Synagogue",
+          "fr": "Synagogue de Gabès",
+          "tn": "كنيس قابس"
+        }
+      },
+      {
+        "id": 1701,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "كنيس سوسة",
+          "en": "Sousse Synagogue",
+          "fr": "Synagogue de Sousse",
+          "tn": "كنيس سوسة"
+        }
+      },
+      {
+        "id": 1702,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "كنيس نابل",
+          "en": "Nabeul Synagogue",
+          "fr": "Synagogue de Nabeul",
+          "tn": "كنيس نابل"
+        }
+      },
+      {
+        "id": 1703,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "كنيس جرجيس",
+          "en": "Zarzis Synagogue",
+          "fr": "Synagogue de Zarzis",
+          "tn": "كنيس جرجيس"
+        }
+      },
+      {
+        "id": 1704,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "كاتدرائية نوتردام",
+          "en": "Notre-Dame Cathedral",
+          "fr": "Cathédrale Notre-Dame",
+          "tn": "نوتردام"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "entity_id": "profession_ضابط",
+    "answer": "ضابط",
+    "normalized": "ضابط",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_ضامن",
+    "answer": "ضامن",
+    "normalized": "ضامن",
+    "aliases": [],
+    "status": "approved"
+  }
+]

@@ -1,0 +1,252 @@
+[
+  {
+    "id": 128,
+    "category": "Entertainment",
+    "subcategory": "anime",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "ما هي بعض مسلسلات الأنمي الشهيرة؟",
+      "en": "What are some famous anime series?",
+      "fr": "Quels sont quelques célèbres animes ?",
+      "tn": "شنومة بعض مسلسلات الأنمي المشهورة؟"
+    },
+    "answers": [
+      {
+        "id": 1265,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "ون بيس",
+          "en": "One Piece",
+          "fr": "One Piece",
+          "tn": "ون بيس"
+        }
+      },
+      {
+        "id": 1266,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "ناروتو",
+          "en": "Naruto",
+          "fr": "Naruto",
+          "tn": "ناروتو"
+        }
+      },
+      {
+        "id": 1267,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "دراغون بول",
+          "en": "Dragon Ball",
+          "fr": "Dragon Ball",
+          "tn": "دراغون بول"
+        }
+      },
+      {
+        "id": 1268,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "هجوم العمالقة",
+          "en": "Attack on Titan",
+          "fr": "L'Attaque des Titans",
+          "tn": "هجوم العمالقة"
+        }
+      },
+      {
+        "id": 1269,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "دفتر الموت",
+          "en": "Death Note",
+          "fr": "Death Note",
+          "tn": "دفتر الموت"
+        }
+      },
+      {
+        "id": 1270,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "فول ميتال ألكيميست",
+          "en": "Fullmetal Alchemist",
+          "fr": "Fullmetal Alchemist",
+          "tn": "فول ميتال ألكيميست"
+        }
+      },
+      {
+        "id": 1271,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "قاتل الشياطين",
+          "en": "Demon Slayer",
+          "fr": "Demon Slayer",
+          "tn": "قاتل الشياطين"
+        }
+      },
+      {
+        "id": 1272,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "سلاسل الدراغون",
+          "en": "My Hero Academia",
+          "fr": "My Hero Academia",
+          "tn": "سلاسل الدراغون"
+        }
+      },
+      {
+        "id": 1273,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "كوبوي بيبوب",
+          "en": "Cowboy Bebop",
+          "fr": "Cowboy Bebop",
+          "tn": "كوبوي بيبوب"
+        }
+      },
+      {
+        "id": 1274,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "فريندز",
+          "en": "Friends",
+          "fr": "Friends",
+          "tn": "فريندز"
+        }
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "category": "Entertainment",
+    "subcategory": "anime",
+    "region": "Tunisia",
+    "difficulty": 4,
+    "translations": {
+      "ar": "ما هي بعض أفلام استوديو غيبلي؟",
+      "en": "What are some Studio Ghibli films?",
+      "fr": "Quels sont quelques films du Studio Ghibli ?",
+      "tn": "شنومة بعض الأفلام متاع استوديو غيبلي؟"
+    },
+    "answers": [
+      {
+        "id": 1315,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "رحلة تشيهيرو المسحورة",
+          "en": "Spirited Away",
+          "fr": "Le Voyage de Chihiro",
+          "tn": "رحلة تشيهيرو المسحورة"
+        }
+      },
+      {
+        "id": 1316,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "جاري توتورو",
+          "en": "My Neighbor Totoro",
+          "fr": "Mon voisin Totoro",
+          "tn": "جاري توتورو"
+        }
+      },
+      {
+        "id": 1317,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "قلعة هاول المتحركة",
+          "en": "Howl's Moving Castle",
+          "fr": "Le Château ambulant",
+          "tn": "قلعة هاول المتحركة"
+        }
+      },
+      {
+        "id": 1318,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "مقبرة اليراعات",
+          "en": "Grave of the Fireflies",
+          "fr": "Le Tombeau des lucioles",
+          "tn": "مقبرة اليراعات"
+        }
+      },
+      {
+        "id": 1319,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "الأميرة مونونوكي",
+          "en": "Princess Mononoke",
+          "fr": "Princesse Mononoké",
+          "tn": "الأميرة مونونوكي"
+        }
+      },
+      {
+        "id": 1320,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "خدمة توصيل كيكي",
+          "en": "Kiki's Delivery Service",
+          "fr": "Kiki la petite sorcière",
+          "tn": "خدمة توصيل كيكي"
+        }
+      },
+      {
+        "id": 1321,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "بونيو",
+          "en": "Ponyo",
+          "fr": "Ponyo sur la falaise",
+          "tn": "بونيو"
+        }
+      },
+      {
+        "id": 1322,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "صعود الريح",
+          "en": "The Wind Rises",
+          "fr": "Le Vent se lève",
+          "tn": "صعود الريح"
+        }
+      },
+      {
+        "id": 1323,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "حكاية الأميرة كاغويا",
+          "en": "The Tale of the Princess Kaguya",
+          "fr": "Le Conte de la princesse Kaguya",
+          "tn": "حكاية الأميرة كاغويا"
+        }
+      },
+      {
+        "id": 1324,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "شريك",
+          "en": "Shrek",
+          "fr": "Shrek",
+          "tn": "شريك"
+        }
+      }
+    ]
+  }
+]

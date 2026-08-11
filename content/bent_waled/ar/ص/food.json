@@ -1,0 +1,23 @@
+[
+  {
+    "entity_id": "food_صلصة",
+    "answer": "صلصة",
+    "normalized": "صلصت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_صنوبرية",
+    "answer": "صنوبرية",
+    "normalized": "صنوبريت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_صابلي",
+    "answer": "صابلي",
+    "normalized": "صابلي",
+    "aliases": [],
+    "status": "approved"
+  }
+]

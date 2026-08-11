@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "object_شوكة",
+    "answer": "شوكة",
+    "normalized": "شوكت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_شباك",
+    "answer": "شباك",
+    "normalized": "شباك",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_شريط",
+    "answer": "شريط",
+    "normalized": "شريط",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_شمعة",
+    "answer": "شمعة",
+    "normalized": "شمعت",
+    "aliases": [],
+    "status": "approved"
+  }
+]

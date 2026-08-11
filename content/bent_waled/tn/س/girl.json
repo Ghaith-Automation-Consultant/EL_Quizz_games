@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "girl_سلوى",
+    "answer": "سلوى",
+    "normalized": "سلوي",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "girl_سهام",
+    "answer": "سهام",
+    "normalized": "سهام",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "girl_سميرة",
+    "answer": "سميرة",
+    "normalized": "سميرت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "girl_سارة",
+    "answer": "سارة",
+    "normalized": "سارت",
+    "aliases": [],
+    "status": "approved"
+  }
+]

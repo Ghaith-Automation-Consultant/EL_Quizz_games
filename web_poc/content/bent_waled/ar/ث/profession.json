@@ -1,0 +1,16 @@
+[
+  {
+    "entity_id": "profession_ثقافي",
+    "answer": "ثقافي",
+    "normalized": "ثقافي",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_ثائر",
+    "answer": "ثائر",
+    "normalized": "ثائر",
+    "aliases": [],
+    "status": "approved"
+  }
+]

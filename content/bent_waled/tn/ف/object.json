@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "object_فانوس",
+    "answer": "فانوس",
+    "normalized": "فانوس",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_فنجان",
+    "answer": "فنجان",
+    "normalized": "فنجان",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_فأس",
+    "answer": "فأس",
+    "normalized": "فاس",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_فستان",
+    "answer": "فستان",
+    "normalized": "فستان",
+    "aliases": [],
+    "status": "approved"
+  }
+]

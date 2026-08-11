@@ -1,0 +1,16 @@
+[
+  {
+    "entity_id": "plant_ضيمران",
+    "answer": "ضيمران",
+    "normalized": "ضيمران",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "plant_ضرو",
+    "answer": "ضرو",
+    "normalized": "ضرو",
+    "aliases": [],
+    "status": "approved"
+  }
+]

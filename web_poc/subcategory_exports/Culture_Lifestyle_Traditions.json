@@ -1,0 +1,1252 @@
+[
+  {
+    "id": 61,
+    "category": "Culture & Lifestyle",
+    "subcategory": "Traditions",
+    "region": "Tunisia",
+    "difficulty": 3,
+    "translations": {
+      "ar": "أذكر معالم معمارية أو تراثية تقع في المدينة العتيقة بتونس العاصمة؟",
+      "en": "Name landmarks located in the medina of Tunis?",
+      "fr": "Citez des monuments situés dans la médina de Tunis ?",
+      "tn": "أعطيني معالم موجودة في المدينة العتيقة بتونس العاصمة؟"
+    },
+    "answers": [
+      {
+        "id": 601,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "دار بن عبد الله",
+          "en": "Answer in English: دار بن عبد الله",
+          "fr": "دار بن عبد الله",
+          "tn": "دار بن عبد الله"
+        }
+      },
+      {
+        "id": 602,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "تربة الباي",
+          "en": "Answer in English: تربة الباي",
+          "fr": "تربة الباي",
+          "tn": "تربة الباي"
+        }
+      },
+      {
+        "id": 603,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "قصر البلدية",
+          "en": "Answer in English: قصر البلدية",
+          "fr": "قصر البلدية",
+          "tn": "قصر البلدية"
+        }
+      },
+      {
+        "id": 604,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "سوق العطارين",
+          "en": "Answer in English: سوق العطارين",
+          "fr": "سوق العطارين",
+          "tn": "سوق العطارين"
+        }
+      },
+      {
+        "id": 605,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "سوق الشواشين",
+          "en": "Answer in English: سوق الشواشين",
+          "fr": "سوق الشواشين",
+          "tn": "سوق الشواشين"
+        }
+      },
+      {
+        "id": 606,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "المدرسة السليمانية",
+          "en": "Answer in English: المدرسة السليمانية",
+          "fr": "المدرسة السليمانية",
+          "tn": "المدرسة السليمانية"
+        }
+      },
+      {
+        "id": 607,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "باب البحر",
+          "en": "Answer in English: باب البحر",
+          "fr": "باب البحر",
+          "tn": "باب البحر"
+        }
+      },
+      {
+        "id": 608,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "باب الجديد",
+          "en": "Answer in English: باب الجديد",
+          "fr": "باب الجديد",
+          "tn": "باب الجديد"
+        }
+      },
+      {
+        "id": 609,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "جامع يوسف داي",
+          "en": "Answer in English: جامع يوسف داي",
+          "fr": "جامع يوسف داي",
+          "tn": "جامع يوسف داي"
+        }
+      },
+      {
+        "id": 610,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "ساعة بيغ بن",
+          "en": "Wrong distractor: ساعة بيغ بن",
+          "fr": "ساعة بيغ بن",
+          "tn": "ساعة بيغ بن"
+        }
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "category": "Culture & Lifestyle",
+    "subcategory": "Traditions",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "أذكر صناعات تقليدية تشتهر بها مدينة القيروان التاريخية؟",
+      "en": "Name traditional crafts Kairouan is known for?",
+      "fr": "Citez des artisanats traditionnels dont Kairouan est réputée ?",
+      "tn": "أعطيني صناعات تقليدية تشتهر بيهم القيروان؟"
+    },
+    "answers": [
+      {
+        "id": 651,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "صناعة الزربية (السجاد)",
+          "en": "Answer in English: صناعة الزربية (السجاد)",
+          "fr": "صناعة الزربية (السجاد)",
+          "tn": "صناعة الزربية (السجاد)"
+        }
+      },
+      {
+        "id": 652,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "المقروض",
+          "en": "Answer in English: المقروض",
+          "fr": "المقروض",
+          "tn": "المقروض"
+        }
+      },
+      {
+        "id": 653,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "النحاس المطروق",
+          "en": "Answer in English: النحاس المطروق",
+          "fr": "النحاس المطروق",
+          "tn": "النحاس المطروق"
+        }
+      },
+      {
+        "id": 654,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "صناعة الجلود",
+          "en": "Answer in English: صناعة الجلود",
+          "fr": "صناعة الجلود",
+          "tn": "صناعة الجلود"
+        }
+      },
+      {
+        "id": 655,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "تقطير ماء الزهر",
+          "en": "Answer in English: تقطير ماء الزهر",
+          "fr": "تقطير ماء الزهر",
+          "tn": "تقطير ماء الزهر"
+        }
+      },
+      {
+        "id": 656,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "النقش على الخشب",
+          "en": "Answer in English: النقش على الخشب",
+          "fr": "النقش على الخشب",
+          "tn": "النقش على الخشب"
+        }
+      },
+      {
+        "id": 657,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "الفخار التقليدي",
+          "en": "Answer in English: الفخار التقليدي",
+          "fr": "الفخار التقليدي",
+          "tn": "الفخار التقليدي"
+        }
+      },
+      {
+        "id": 658,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "الملابس الصوفية",
+          "en": "Answer in English: الملابس الصوفية",
+          "fr": "الملابس الصوفية",
+          "tn": "الملابس الصوفية"
+        }
+      },
+      {
+        "id": 659,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "الحلويات التقليدية",
+          "en": "Answer in English: الحلويات التقليدية",
+          "fr": "الحلويات التقليدية",
+          "tn": "الحلويات التقليدية"
+        }
+      },
+      {
+        "id": 660,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "تكرير النفط",
+          "en": "Wrong distractor: تكرير النفط",
+          "fr": "تكرير النفط",
+          "tn": "تكرير النفط"
+        }
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "category": "Culture & Lifestyle",
+    "subcategory": "Traditions",
+    "region": "Tunisia",
+    "difficulty": 3,
+    "translations": {
+      "ar": "أذكر مدن أو قرى شهيرة بإنتاج الفخار التقليدي في تونس؟",
+      "en": "Name Tunisian towns or villages known for traditional pottery?",
+      "fr": "Citez des villes ou villages tunisiens réputés pour la poterie traditionnelle ?",
+      "tn": "أعطيني مدن أو قرى معروفة بالفخار التقليدي في تونس؟"
+    },
+    "answers": [
+      {
+        "id": 741,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "قلالالة (جربة)",
+          "en": "Answer in English: قلالالة (جربة)",
+          "fr": "قلالالة (جربة)",
+          "tn": "قلالالة (جربة)"
+        }
+      },
+      {
+        "id": 742,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "نابل",
+          "en": "Answer in English: نابل",
+          "fr": "نابل",
+          "tn": "نابل"
+        }
+      },
+      {
+        "id": 743,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "سجنان",
+          "en": "Answer in English: سجنان",
+          "fr": "سجنان",
+          "tn": "سجنان"
+        }
+      },
+      {
+        "id": 744,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "طبرقة",
+          "en": "Answer in English: طبرقة",
+          "fr": "طبرقة",
+          "tn": "طبرقة"
+        }
+      },
+      {
+        "id": 745,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "بنزرت",
+          "en": "Answer in English: بنزرت",
+          "fr": "بنزرت",
+          "tn": "بنزرت"
+        }
+      },
+      {
+        "id": 746,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "صفاقس",
+          "en": "Answer in English: صفاقس",
+          "fr": "صفاقس",
+          "tn": "صفاقس"
+        }
+      },
+      {
+        "id": 747,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "القيروان",
+          "en": "Answer in English: القيروان",
+          "fr": "القيروان",
+          "tn": "القيروان"
+        }
+      },
+      {
+        "id": 748,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "جربة",
+          "en": "Answer in English: جربة",
+          "fr": "جربة",
+          "tn": "جربة"
+        }
+      },
+      {
+        "id": 749,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "قابس",
+          "en": "Answer in English: قابس",
+          "fr": "قابس",
+          "tn": "قابس"
+        }
+      },
+      {
+        "id": 750,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "توزر المدينة",
+          "en": "Wrong distractor: توزر المدينة",
+          "fr": "توزر المدينة",
+          "tn": "توزر المدينة"
+        }
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "category": "Culture & Lifestyle",
+    "subcategory": "Traditions",
+    "region": "Tunisia",
+    "difficulty": 3,
+    "translations": {
+      "ar": "أذكر أسماء مساجد أو مقامات دينية مشهورة في مدينة القيروان؟",
+      "en": "Name well-known mosques or shrines in Kairouan?",
+      "fr": "Citez des noms de mosquées ou de mausolées connus à Kairouan ?",
+      "tn": "أعطيني أسامي جوامع أو مقامات دينية معروفة في القيروان؟"
+    },
+    "answers": [
+      {
+        "id": 771,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "جامع عقبة بن نافع",
+          "en": "Answer in English: جامع عقبة بن نافع",
+          "fr": "جامع عقبة بن نافع",
+          "tn": "جامع عقبة بن نافع"
+        }
+      },
+      {
+        "id": 772,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "مقام أبي زمعة البلوي",
+          "en": "Answer in English: مقام أبي زمعة البلوي",
+          "fr": "مقام أبي زمعة البلوي",
+          "tn": "مقام أبي زمعة البلوي"
+        }
+      },
+      {
+        "id": 773,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "جامع الأبواب الثلاثة",
+          "en": "Answer in English: جامع الأبواب الثلاثة",
+          "fr": "جامع الأبواب الثلاثة",
+          "tn": "جامع الأبواب الثلاثة"
+        }
+      },
+      {
+        "id": 774,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "فسقية الأغالبة",
+          "en": "Answer in English: فسقية الأغالبة",
+          "fr": "فسقية الأغالبة",
+          "tn": "فسقية الأغالبة"
+        }
+      },
+      {
+        "id": 775,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "مقام سيدي عبيد الغرياني",
+          "en": "Answer in English: مقام سيدي عبيد الغرياني",
+          "fr": "مقام سيدي عبيد الغرياني",
+          "tn": "مقام سيدي عبيد الغرياني"
+        }
+      },
+      {
+        "id": 776,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "بئر بروطة",
+          "en": "Answer in English: بئر بروطة",
+          "fr": "بئر بروطة",
+          "tn": "بئر بروطة"
+        }
+      },
+      {
+        "id": 777,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "مقام سيدي عمر عبادة",
+          "en": "Answer in English: مقام سيدي عمر عبادة",
+          "fr": "مقام سيدي عمر عبادة",
+          "tn": "مقام سيدي عمر عبادة"
+        }
+      },
+      {
+        "id": 778,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "محيط سور المدينة",
+          "en": "Answer in English: محيط سور المدينة",
+          "fr": "محيط سور المدينة",
+          "tn": "محيط سور المدينة"
+        }
+      },
+      {
+        "id": 779,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "مسجد الأنصار",
+          "en": "Answer in English: مسجد الأنصار",
+          "fr": "مسجد الأنصار",
+          "tn": "مسجد الأنصار"
+        }
+      },
+      {
+        "id": 780,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "المسجد النبوي الشريف",
+          "en": "Wrong distractor: المسجد النبوي الشريف",
+          "fr": "المسجد النبوي الشريف",
+          "tn": "المسجد النبوي الشريف"
+        }
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "category": "Culture & Lifestyle",
+    "subcategory": "Traditions",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "أذكر طقوس أو عادات شائعة في الأعراس والاحتفالات التقليدية التونسية؟",
+      "en": "Name common customs at traditional Tunisian weddings and celebrations?",
+      "fr": "Citez des coutumes courantes lors des mariages et fêtes traditionnelles tunisiennes ?",
+      "tn": "أعطيني عادات معروفة في الأعراس والاحتفالات التقليدية التونسية؟"
+    },
+    "answers": [
+      {
+        "id": 911,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "حمام العروسة",
+          "en": "Answer in English: حمام العروسة",
+          "fr": "حمام العروسة",
+          "tn": "حمام العروسة"
+        }
+      },
+      {
+        "id": 912,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "ليلة الحناء",
+          "en": "Answer in English: ليلة الحناء",
+          "fr": "ليلة الحناء",
+          "tn": "ليلة الحناء"
+        }
+      },
+      {
+        "id": 913,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "كسوة العريس",
+          "en": "Answer in English: كسوة العريس",
+          "fr": "كسوة العريس",
+          "tn": "كسوة العريس"
+        }
+      },
+      {
+        "id": 914,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "عقد القران (الكتبان)",
+          "en": "Answer in English: عقد القران (الكتبان)",
+          "fr": "عقد القران (الكتبان)",
+          "tn": "عقد القران (الكتبان)"
+        }
+      },
+      {
+        "id": 915,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "الجلوة التونسية",
+          "en": "Answer in English: الجلوة التونسية",
+          "fr": "الجلوة التونسية",
+          "tn": "الجلوة التونسية"
+        }
+      },
+      {
+        "id": 916,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "البرنوس التونسي",
+          "en": "Answer in English: البرنوس التونسي",
+          "fr": "البرنوس التونسي",
+          "tn": "البرنوس التونسي"
+        }
+      },
+      {
+        "id": 917,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "الفرق التونسية (المزود)",
+          "en": "Answer in English: الفرق التونسية (المزود)",
+          "fr": "الفرق التونسية (المزود)",
+          "tn": "الفرق التونسية (المزود)"
+        }
+      },
+      {
+        "id": 918,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "المحفل",
+          "en": "Answer in English: المحفل",
+          "fr": "المحفل",
+          "tn": "المحفل"
+        }
+      },
+      {
+        "id": 919,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "تقديم البوخوخة",
+          "en": "Answer in English: تقديم البوخوخة",
+          "fr": "تقديم البوخوخة",
+          "tn": "تقديم البوخوخة"
+        }
+      },
+      {
+        "id": 920,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "كسر الصحون اليوناني",
+          "en": "Wrong distractor: كسر الصحون اليوناني",
+          "fr": "كسر الصحون اليوناني",
+          "tn": "كسر الصحون اليوناني"
+        }
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "category": "Culture & Lifestyle",
+    "subcategory": "Traditions",
+    "region": "Tunisia",
+    "difficulty": 3,
+    "translations": {
+      "ar": "أذكر ألوان أو تصاميم تشتهر بها الصناعة التقليدية للزربية (السجاد) في القيروان؟",
+      "en": "Name colors or designs the Kairouan carpet (zarbia) is known for?",
+      "fr": "Citez des couleurs ou motifs pour lesquels le tapis de Kairouan est réputé ?",
+      "tn": "أعطيني ألوان أو تصاميم تشتهر بيهم الزربية القيروانية؟"
+    },
+    "answers": [
+      {
+        "id": 921,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الزربية العلوشة",
+          "en": "Answer in English: الزربية العلوشة",
+          "fr": "الزربية العلوشة",
+          "tn": "الزربية العلوشة"
+        }
+      },
+      {
+        "id": 922,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الزربية الحرير",
+          "en": "Answer in English: الزربية الحرير",
+          "fr": "الزربية الحرير",
+          "tn": "الزربية الحرير"
+        }
+      },
+      {
+        "id": 923,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الزربية الصوف",
+          "en": "Answer in English: الزربية الصوف",
+          "fr": "الزربية الصوف",
+          "tn": "الزربية الصوف"
+        }
+      },
+      {
+        "id": 924,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "الرقمة القيروانية",
+          "en": "Answer in English: الرقمة القيروانية",
+          "fr": "الرقمة القيروانية",
+          "tn": "الرقمة القيروانية"
+        }
+      },
+      {
+        "id": 925,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "المحرب الكلاسيكي",
+          "en": "Answer in English: المحرب الكلاسيكي",
+          "fr": "المحرب الكلاسيكي",
+          "tn": "المحرب الكلاسيكي"
+        }
+      },
+      {
+        "id": 926,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "الخطوط الهندسية البربرية",
+          "en": "Answer in English: الخطوط الهندسية البربرية",
+          "fr": "الخطوط الهندسية البربرية",
+          "tn": "الخطوط الهندسية البربرية"
+        }
+      },
+      {
+        "id": 927,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "الزربية المرقوم",
+          "en": "Answer in English: الزربية المرقوم",
+          "fr": "الزربية المرقوم",
+          "tn": "الزربية المرقوم"
+        }
+      },
+      {
+        "id": 928,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "الزربية الكليم",
+          "en": "Answer in English: الزربية الكليم",
+          "fr": "الزربية الكليم",
+          "tn": "الزربية الكليم"
+        }
+      },
+      {
+        "id": 929,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "التطريز الذهبي",
+          "en": "Answer in English: التطريز الذهبي",
+          "fr": "التطريز الذهبي",
+          "tn": "التطريز الذهبي"
+        }
+      },
+      {
+        "id": 930,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "الرسم ثلاثي الأبعاد",
+          "en": "Wrong distractor: الرسم ثلاثي الأبعاد",
+          "fr": "الرسم ثلاثي الأبعاد",
+          "tn": "الرسم ثلاثي الأبعاد"
+        }
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "category": "Culture & Lifestyle",
+    "subcategory": "Traditions",
+    "region": "Tunisia",
+    "difficulty": 3,
+    "translations": {
+      "ar": "أذكر أسماء تونسية شائعة تُطلق على النباتات العطرية المستعملة في تقطير المياه العطرة؟",
+      "en": "Name aromatic plants used to distill scented water?",
+      "fr": "Citez des noms de plantes aromatiques dont on distille de l'eau parfumée ?",
+      "tn": "أعطيني أسامي نباتات عطرية يتقطر منها الماء العطر؟"
+    },
+    "answers": [
+      {
+        "id": 971,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الزهر (نارنج)",
+          "en": "Answer in English: الزهر (نارنج)",
+          "fr": "الزهر (نارنج)",
+          "tn": "الزهر (نارنج)"
+        }
+      },
+      {
+        "id": 972,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الورد العربي",
+          "en": "Answer in English: الورد العربي",
+          "fr": "الورد العربي",
+          "tn": "الورد العربي"
+        }
+      },
+      {
+        "id": 973,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "العطرشية",
+          "en": "Answer in English: العطرشية",
+          "fr": "العطرشية",
+          "tn": "العطرشية"
+        }
+      },
+      {
+        "id": 974,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "النسري",
+          "en": "Answer in English: النسري",
+          "fr": "النسري",
+          "tn": "النسري"
+        }
+      },
+      {
+        "id": 975,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "الخزامى",
+          "en": "Answer in English: الخزامى",
+          "fr": "الخزامى",
+          "tn": "الخزامى"
+        }
+      },
+      {
+        "id": 976,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "الريحان",
+          "en": "Answer in English: الريحان",
+          "fr": "الريحان",
+          "tn": "الريحان"
+        }
+      },
+      {
+        "id": 977,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "البابونج",
+          "en": "Answer in English: البابونج",
+          "fr": "البابونج",
+          "tn": "البابونج"
+        }
+      },
+      {
+        "id": 978,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "النعناع العربي",
+          "en": "Answer in English: النعناع العربي",
+          "fr": "النعناع العربي",
+          "tn": "النعناع العربي"
+        }
+      },
+      {
+        "id": 979,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "الياسمين التونسي",
+          "en": "Answer in English: الياسمين التونسي",
+          "fr": "الياسمين التونسي",
+          "tn": "الياسمين التونسي"
+        }
+      },
+      {
+        "id": 980,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "نبات الصبار الشوكي",
+          "en": "Wrong distractor: نبات الصبار الشوكي",
+          "fr": "نبات الصبار الشوكي",
+          "tn": "نبات الصبار الشوكي"
+        }
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "category": "Culture & Lifestyle",
+    "subcategory": "Traditions",
+    "region": "Tunisia",
+    "difficulty": 3,
+    "translations": {
+      "ar": "ما هي بعض مواقع التراث العالمي لليونسكو في تونس؟",
+      "en": "Which are some UNESCO World Heritage Sites in Tunisia?",
+      "fr": "Quels sont certains sites tunisiens inscrits au patrimoine mondial de l'UNESCO ?",
+      "tn": "شنية بعض مواقع التراث العالمي في تونس؟"
+    },
+    "answers": [
+      {
+        "id": 1145,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "قرطاج",
+          "en": "Carthage",
+          "fr": "Carthage",
+          "tn": "قرطاج"
+        }
+      },
+      {
+        "id": 1146,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "المدينة العتيقة بتونس",
+          "en": "Medina of Tunis",
+          "fr": "Médina de Tunis",
+          "tn": "المدينة العربي"
+        }
+      },
+      {
+        "id": 1147,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "الجم",
+          "en": "El Jem",
+          "fr": "El Jem",
+          "tn": "الجم"
+        }
+      },
+      {
+        "id": 1148,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "القيروان",
+          "en": "Kairouan",
+          "fr": "Kairouan",
+          "tn": "القيروان"
+        }
+      },
+      {
+        "id": 1149,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "دقة",
+          "en": "Dougga",
+          "fr": "Dougga",
+          "tn": "دقة"
+        }
+      },
+      {
+        "id": 1150,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "إشكُل",
+          "en": "Ichkeul",
+          "fr": "Ichkeul",
+          "tn": "إشكُل"
+        }
+      },
+      {
+        "id": 1151,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "كركوان",
+          "en": "Kerkouane",
+          "fr": "Kerkouane",
+          "tn": "كركوان"
+        }
+      },
+      {
+        "id": 1152,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "مدينة سوسة العتيقة",
+          "en": "Medina of Sousse",
+          "fr": "Médina de Sousse",
+          "tn": "سوسة العربي"
+        }
+      },
+      {
+        "id": 1153,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "مدينة القيروان العتيقة",
+          "en": "Old City of Kairouan",
+          "fr": "Vieille ville de Kairouan",
+          "tn": "المدينة العربي في القيروان"
+        }
+      },
+      {
+        "id": 1154,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "شنني",
+          "en": "Chenini",
+          "fr": "Chenini",
+          "tn": "شنني"
+        }
+      }
+    ]
+  },
+  {
+    "id": 189,
+    "category": "Culture & Lifestyle",
+    "subcategory": "Traditions",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "أذكر عادات، تقاليد أو مراسم تونسية مرتبطة بالأفراح والمناسبات (حنة، زواج، أعياد)؟",
+      "en": "What are Tunisian customs and traditions associated with celebrations and weddings?",
+      "fr": "Quelles sont les coutumes et traditions tunisiennes associées aux fêtes et mariages?",
+      "tn": "شنومة العادات والتقاليد التونسية في الأفراح والأعياد؟"
+    },
+    "answers": [
+      {
+        "id": 1875,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "كسوة العروسة",
+          "en": "Bride's Kiswa",
+          "fr": "Kiswa de la mariée",
+          "tn": "الكسوة والوطية"
+        }
+      },
+      {
+        "id": 1876,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "ليلة الحنة",
+          "en": "Henna Night",
+          "fr": "Nuit de henné",
+          "tn": "ليلة الحنة"
+        }
+      },
+      {
+        "id": 1877,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "حمام العروسة",
+          "en": "Bride's Hammam",
+          "fr": "Hammam de la mariée",
+          "tn": "حمام العروسة بالدربوكة"
+        }
+      },
+      {
+        "id": 1878,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "الخرجة التونسية",
+          "en": "Tunisian Kharja",
+          "fr": "Kharja Tunisienne",
+          "tn": "الخرجة التونسية بالبخور"
+        }
+      },
+      {
+        "id": 1879,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "رباط الصداق",
+          "en": "Marriage contract signing",
+          "fr": "Signature du contrat de mariage",
+          "tn": "كتبان الصداق في البلدية"
+        }
+      },
+      {
+        "id": 1880,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "توزيع الملبس",
+          "en": "Distributing Mlabbes",
+          "fr": "Distribution de Mlabbes",
+          "tn": "توزيع الملبس لوز ولوز"
+        }
+      },
+      {
+        "id": 1881,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "حنة الطهور",
+          "en": "Circumcision Henna",
+          "fr": "Henné de circoncision",
+          "tn": "حنة الطهور للدراري"
+        }
+      },
+      {
+        "id": 1882,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "موسم الهبة",
+          "en": "Seasonal Gift (Hiba)",
+          "fr": "Cadeau de saison (Hiba)",
+          "tn": "حق موسم الهبة للمخطوبة"
+        }
+      },
+      {
+        "id": 1883,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "شريان المهبة",
+          "en": "Eid Mhabba money",
+          "fr": "Mhabba de l'Aïd",
+          "tn": "مهبة العيد للصغار"
+        }
+      },
+      {
+        "id": 1884,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "رمي باقة الورود",
+          "en": "Tossing the bouquet",
+          "fr": "Lancer de bouquet",
+          "tn": "رميان باقة الورد للصحابات"
+        }
+      }
+    ]
+  },
+  {
+    "id": 202,
+    "category": "Culture & Lifestyle",
+    "subcategory": "Traditions",
+    "region": "Tunisia",
+    "difficulty": 3,
+    "translations": {
+      "ar": "أذكر أدوات، مصطلحات، أو عادات مرتبطة بموسم جني الزيتون في تونس؟",
+      "en": "What terms, tools, or traditions are associated with the olive harvest season in Tunisia?",
+      "fr": "Quels termes, outils ou traditions sont liés à la récolte des olives en Tunisie?",
+      "tn": "شنومة الكلمات، الأدوات ولا العادات اللي نستعملوها في موسم جني الزيتون؟"
+    },
+    "answers": [
+      {
+        "id": 2015,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الشيشبان (مفرش الجني)",
+          "en": "Chichban (harvest sheet)",
+          "fr": "Chichban (bâche de récolte)",
+          "tn": "الشيشبان (المفرش اللي يلم الزيتون)"
+        }
+      },
+      {
+        "id": 2016,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "المشط (لقطف الزيتون)",
+          "en": "Harvesting comb",
+          "fr": "Peigne de récolte",
+          "tn": "المشط الجبّاد"
+        }
+      },
+      {
+        "id": 2017,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "السلم (الصياد)",
+          "en": "Ladder (Sayyad)",
+          "fr": "Échelle (Sayyad)",
+          "tn": "السلم ولا الصياد الطويل"
+        }
+      },
+      {
+        "id": 2018,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "المعصرة التقليدية",
+          "en": "Oil press (Maasara)",
+          "fr": "Pressoir d'huile (Maasara)",
+          "tn": "المعصرة (الشياح)"
+        }
+      },
+      {
+        "id": 2019,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "الزيت الجديد (النداح)",
+          "en": "New olive oil",
+          "fr": "Huile d'olive nouvelle",
+          "tn": "الزيت الجديد البكر"
+        }
+      },
+      {
+        "id": 2020,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "القفة الخوص",
+          "en": "Alfa basket",
+          "fr": "Couffin en alfa",
+          "tn": "القفة لتعبيئة الحبات"
+        }
+      },
+      {
+        "id": 2021,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "العاملات (اللقاطات)",
+          "en": "Female olive pickers",
+          "fr": "Ramasseuses de olives",
+          "tn": "النساء اللقاطات للزيتون"
+        }
+      },
+      {
+        "id": 2022,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "الغرارة (خيشة التعبئة)",
+          "en": "Large sack (Ghrara)",
+          "fr": "Sack de transport (Ghrara)",
+          "tn": "الغرارة الكبيرة"
+        }
+      },
+      {
+        "id": 2023,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "الزبوج (الزيتون البري)",
+          "en": "Wild olive tree (Zabouj)",
+          "fr": "Olivier sauvage (Zabouj)",
+          "tn": "شجر الزبوج البري"
+        }
+      },
+      {
+        "id": 2024,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "جرار الحصيدة",
+          "en": "Wheat harvester",
+          "fr": "Moissonneuse-batteuse",
+          "tn": "تراكتور الحصيدة والقمح"
+        }
+      }
+    ]
+  }
+]

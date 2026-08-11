@@ -1,0 +1,37 @@
+[
+  {
+    "entity_id": "object_دفتر",
+    "answer": "دفتر",
+    "normalized": "دفتر",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_دولاب",
+    "answer": "دولاب",
+    "normalized": "دولاب",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_درع",
+    "answer": "درع",
+    "normalized": "درع",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_دبوس",
+    "answer": "دبوس",
+    "normalized": "دبوس",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_دراجة",
+    "answer": "دراجة",
+    "normalized": "دراجت",
+    "aliases": [],
+    "status": "approved"
+  }
+]

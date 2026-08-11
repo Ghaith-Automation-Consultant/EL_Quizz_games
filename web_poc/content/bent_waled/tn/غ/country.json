@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "country_غينيا",
+    "answer": "غينيا",
+    "normalized": "غينيا",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_غانا",
+    "answer": "غانا",
+    "normalized": "غانا",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_غزة",
+    "answer": "غزة",
+    "normalized": "غزت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_غامبيا",
+    "answer": "غامبيا",
+    "normalized": "غامبيا",
+    "aliases": [],
+    "status": "approved"
+  }
+]

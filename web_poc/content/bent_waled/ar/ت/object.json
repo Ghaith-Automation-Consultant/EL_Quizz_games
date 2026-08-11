@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "object_تلفاز",
+    "answer": "تلفاز",
+    "normalized": "تلفاز",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_تاج",
+    "answer": "تاج",
+    "normalized": "تاج",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_تابوت",
+    "answer": "تابوت",
+    "normalized": "تابوت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_تلفون",
+    "answer": "تلفون",
+    "normalized": "تلفون",
+    "aliases": [],
+    "status": "approved"
+  }
+]

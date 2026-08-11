@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "object_ثوب",
+    "answer": "ثوب",
+    "normalized": "ثوب",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_ثريا",
+    "answer": "ثريا",
+    "normalized": "ثريا",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_ثلاجة",
+    "answer": "ثلاجة",
+    "normalized": "ثلاجت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_ثلج",
+    "answer": "ثلج",
+    "normalized": "ثلج",
+    "aliases": [],
+    "status": "approved"
+  }
+]

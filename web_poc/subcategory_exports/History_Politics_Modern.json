@@ -1,0 +1,1877 @@
+[
+  {
+    "id": 11,
+    "category": "History & Politics",
+    "subcategory": "Modern",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "من هم حكام أو قادة تاريخيون ارتبطوا بقرطاج وتونس القديمة؟",
+      "en": "Who are the historical rulers or leaders associated with Carthage and ancient Tunisia?",
+      "fr": "Qui sont les dirigeants ou chefs historiques liés à Carthage et à la Tunisie antique ?",
+      "tn": "شكون هوما الحكام أو القادة التاريخيين اللي مرتبطين بقرطاج وتونس القديمة؟"
+    },
+    "answers": [
+      {
+        "id": 101,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "حنبعل",
+          "en": "Answer in English: حنبعل",
+          "fr": "حنبعل",
+          "tn": "حنبعل"
+        }
+      },
+      {
+        "id": 102,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "أميلكار برقا",
+          "en": "Answer in English: أميلكار برقا",
+          "fr": "أميلكار برقا",
+          "tn": "أميلكار برقا"
+        }
+      },
+      {
+        "id": 103,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "عليسة",
+          "en": "Answer in English: عليسة",
+          "fr": "عليسة",
+          "tn": "عليسة"
+        }
+      },
+      {
+        "id": 104,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "ماسينيسا",
+          "en": "Answer in English: ماسينيسا",
+          "fr": "ماسينيسا",
+          "tn": "ماسينيسا"
+        }
+      },
+      {
+        "id": 105,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "يوغرطة",
+          "en": "Answer in English: يوغرطة",
+          "fr": "يوغرطة",
+          "tn": "يوغرطة"
+        }
+      },
+      {
+        "id": 106,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "صدربعل",
+          "en": "Answer in English: صدربعل",
+          "fr": "صدربعل",
+          "tn": "صدربعل"
+        }
+      },
+      {
+        "id": 107,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "سيفاكس",
+          "en": "Answer in English: سيفاكس",
+          "fr": "سيفاكس",
+          "tn": "سيفاكس"
+        }
+      },
+      {
+        "id": 108,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "حانون",
+          "en": "Answer in English: حانون",
+          "fr": "حانون",
+          "tn": "حانون"
+        }
+      },
+      {
+        "id": 109,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "مملكة نـوميديا",
+          "en": "Answer in English: مملكة نـوميديا",
+          "fr": "مملكة نـوميديا",
+          "tn": "مملكة نـوميديا"
+        }
+      },
+      {
+        "id": 110,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "الإسكندر الأكبر",
+          "en": "Wrong distractor: الإسكندر الأكبر",
+          "fr": "الإسكندر الأكبر",
+          "tn": "الإسكندر الأكبر"
+        }
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "category": "History & Politics",
+    "subcategory": "Modern",
+    "region": "Tunisia",
+    "difficulty": 3,
+    "translations": {
+      "ar": "أذكر معارك تاريخية خاضتها قرطاج أو تونس عبر العصور؟",
+      "en": "Name historical battles fought by Carthage or Tunisia throughout history?",
+      "fr": "Citez des batailles historiques menées par Carthage ou la Tunisie à travers l'histoire ?",
+      "tn": "أعطيني معارك تاريخية خاضتها قرطاج أو تونس عبر التاريخ؟"
+    },
+    "answers": [
+      {
+        "id": 111,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "معركة زاما",
+          "en": "Answer in English: معركة زاما",
+          "fr": "معركة زاما",
+          "tn": "معركة زاما"
+        }
+      },
+      {
+        "id": 112,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "معركة كاناي",
+          "en": "Answer in English: معركة كاناي",
+          "fr": "معركة كاناي",
+          "tn": "معركة كاناي"
+        }
+      },
+      {
+        "id": 113,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "معركة ترابيا",
+          "en": "Answer in English: معركة ترابيا",
+          "fr": "معركة ترابيا",
+          "tn": "معركة ترابيا"
+        }
+      },
+      {
+        "id": 114,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "معركة بحيرة تراسيمين",
+          "en": "Answer in English: معركة بحيرة تراسيمين",
+          "fr": "معركة بحيرة تراسيمين",
+          "tn": "معركة بحيرة تراسيمين"
+        }
+      },
+      {
+        "id": 115,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "معركة قرطاج الأثرية",
+          "en": "Answer in English: معركة قرطاج الأثرية",
+          "fr": "معركة قرطاج الأثرية",
+          "tn": "معركة قرطاج الأثرية"
+        }
+      },
+      {
+        "id": 116,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "معركة مجردة",
+          "en": "Answer in English: معركة مجردة",
+          "fr": "معركة مجردة",
+          "tn": "معركة مجردة"
+        }
+      },
+      {
+        "id": 117,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "معركة جلولاء",
+          "en": "Answer in English: معركة جلولاء",
+          "fr": "معركة جلولاء",
+          "tn": "معركة جلولاء"
+        }
+      },
+      {
+        "id": 118,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "حصار قرطاج",
+          "en": "Answer in English: حصار قرطاج",
+          "fr": "حصار قرطاج",
+          "tn": "حصار قرطاج"
+        }
+      },
+      {
+        "id": 119,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "معركة وادي التين",
+          "en": "Answer in English: معركة وادي التين",
+          "fr": "معركة وادي التين",
+          "tn": "معركة وادي التين"
+        }
+      },
+      {
+        "id": 120,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "معركة Waterloo",
+          "en": "Wrong distractor: معركة Waterloo",
+          "fr": "معركة Waterloo",
+          "tn": "معركة Waterloo"
+        }
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "category": "History & Politics",
+    "subcategory": "Modern",
+    "region": "Tunisia",
+    "difficulty": 3,
+    "translations": {
+      "ar": "أذكر بايات (حكام) من الدولة الحسينية في تونس؟",
+      "en": "Name beys (rulers) of the Husainid dynasty in Tunisia?",
+      "fr": "Citez des beys (dirigeants) de la dynastie husseinite en Tunisie ?",
+      "tn": "أعطيني بايات (حكام) من الدولة الحسينية في تونس؟"
+    },
+    "answers": [
+      {
+        "id": 121,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "حسين بن علي",
+          "en": "Answer in English: حسين بن علي",
+          "fr": "حسين بن علي",
+          "tn": "حسين بن علي"
+        }
+      },
+      {
+        "id": 122,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "علي باي",
+          "en": "Answer in English: علي باي",
+          "fr": "علي باي",
+          "tn": "علي باي"
+        }
+      },
+      {
+        "id": 123,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "حمودة باشا",
+          "en": "Answer in English: حمودة باشا",
+          "fr": "حمودة باشا",
+          "tn": "حمودة باشا"
+        }
+      },
+      {
+        "id": 124,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "أحمد باي الأول",
+          "en": "Answer in English: أحمد باي الأول",
+          "fr": "أحمد باي الأول",
+          "tn": "أحمد باي الأول"
+        }
+      },
+      {
+        "id": 125,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "محمد باي",
+          "en": "Answer in English: محمد باي",
+          "fr": "محمد باي",
+          "tn": "محمد باي"
+        }
+      },
+      {
+        "id": 126,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "محمد الصادق باي",
+          "en": "Answer in English: محمد الصادق باي",
+          "fr": "محمد الصادق باي",
+          "tn": "محمد الصادق باي"
+        }
+      },
+      {
+        "id": 127,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "علي باي الثالث",
+          "en": "Answer in English: علي باي الثالث",
+          "fr": "علي باي الثالث",
+          "tn": "علي باي الثالث"
+        }
+      },
+      {
+        "id": 128,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "المنصف باي",
+          "en": "Answer in English: المنصف باي",
+          "fr": "المنصف باي",
+          "tn": "المنصف باي"
+        }
+      },
+      {
+        "id": 129,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "الأمين باي",
+          "en": "Answer in English: الأمين باي",
+          "fr": "الأمين باي",
+          "tn": "الأمين باي"
+        }
+      },
+      {
+        "id": 130,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "الملك فاروق",
+          "en": "Wrong distractor: الملك فاروق",
+          "fr": "الملك فاروق",
+          "tn": "الملك فاروق"
+        }
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "category": "History & Politics",
+    "subcategory": "Modern",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "أذكر شخصيات وطنية تونسية ناضلت ضد الاستعمار الفرنسي؟",
+      "en": "Name Tunisian nationalist figures who fought against French colonialism?",
+      "fr": "Citez des figures nationalistes tunisiennes qui ont lutté contre le colonialisme français ?",
+      "tn": "أعطيني شخصيات وطنية تونسية ناضلت ضد الاستعمار الفرنسي؟"
+    },
+    "answers": [
+      {
+        "id": 131,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "عبد العزيز الثعالبي",
+          "en": "Answer in English: عبد العزيز الثعالبي",
+          "fr": "عبد العزيز الثعالبي",
+          "tn": "عبد العزيز الثعالبي"
+        }
+      },
+      {
+        "id": 132,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الحبيب بورقيبة",
+          "en": "Answer in English: الحبيب بورقيبة",
+          "fr": "الحبيب بورقيبة",
+          "tn": "الحبيب بورقيبة"
+        }
+      },
+      {
+        "id": 133,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "فرحات حشاد",
+          "en": "Answer in English: فرحات حشاد",
+          "fr": "فرحات حشاد",
+          "tn": "فرحات حشاد"
+        }
+      },
+      {
+        "id": 134,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "الهادي شاكر",
+          "en": "Answer in English: الهادي شاكر",
+          "fr": "الهادي شاكر",
+          "tn": "الهادي شاكر"
+        }
+      },
+      {
+        "id": 135,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "علي البلهوان",
+          "en": "Answer in English: علي البلهوان",
+          "fr": "علي البلهوان",
+          "tn": "علي البلهوان"
+        }
+      },
+      {
+        "id": 136,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "المنجي سليم",
+          "en": "Answer in English: المنجي سليم",
+          "fr": "المنجي سليم",
+          "tn": "المنجي سليم"
+        }
+      },
+      {
+        "id": 137,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "صالح بن يوسف",
+          "en": "Answer in English: صالح بن يوسف",
+          "fr": "صالح بن يوسف",
+          "tn": "صالح بن يوسف"
+        }
+      },
+      {
+        "id": 138,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "محمد الدغباجي",
+          "en": "Answer in English: محمد الدغباجي",
+          "fr": "محمد الدغباجي",
+          "tn": "محمد الدغباجي"
+        }
+      },
+      {
+        "id": 139,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "الدغباجي",
+          "en": "Answer in English: الدغباجي",
+          "fr": "الدغباجي",
+          "tn": "الدغباجي"
+        }
+      },
+      {
+        "id": 140,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "جمال عبد الناصر",
+          "en": "Wrong distractor: جمال عبد الناصر",
+          "fr": "جمال عبد الناصر",
+          "tn": "جمال عبد الناصر"
+        }
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "category": "History & Politics",
+    "subcategory": "Modern",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "أذكر دول تاريخية أو سلالات حكمت تونس عبر التاريخ؟",
+      "en": "Name historical states or dynasties that ruled Tunisia?",
+      "fr": "Citez des États ou dynasties historiques ayant gouverné la Tunisie ?",
+      "tn": "أعطيني دول أو سلالات حكمت تونس عبر التاريخ؟"
+    },
+    "answers": [
+      {
+        "id": 141,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الفينيقيون",
+          "en": "Answer in English: الفينيقيون",
+          "fr": "الفينيقيون",
+          "tn": "الفينيقيون"
+        }
+      },
+      {
+        "id": 142,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الرومان",
+          "en": "Answer in English: الرومان",
+          "fr": "الرومان",
+          "tn": "الرومان"
+        }
+      },
+      {
+        "id": 143,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الوندال",
+          "en": "Answer in English: الوندال",
+          "fr": "الوندال",
+          "tn": "الوندال"
+        }
+      },
+      {
+        "id": 144,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "البيزنطيون",
+          "en": "Answer in English: البيزنطيون",
+          "fr": "البيزنطيون",
+          "tn": "البيزنطيون"
+        }
+      },
+      {
+        "id": 145,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "الأغالبة",
+          "en": "Answer in English: الأغالبة",
+          "fr": "الأغالبة",
+          "tn": "الأغالبة"
+        }
+      },
+      {
+        "id": 146,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "الفاطميون",
+          "en": "Answer in English: الفاطميون",
+          "fr": "الفاطميون",
+          "tn": "الفاطميون"
+        }
+      },
+      {
+        "id": 147,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "الصنهاجيون",
+          "en": "Answer in English: الصنهاجيون",
+          "fr": "الصنهاجيون",
+          "tn": "الصنهاجيون"
+        }
+      },
+      {
+        "id": 148,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "الحفصيون",
+          "en": "Answer in English: الحفصيون",
+          "fr": "الحفصيون",
+          "tn": "الحفصيون"
+        }
+      },
+      {
+        "id": 149,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "العثمانيون",
+          "en": "Answer in English: العثمانيون",
+          "fr": "العثمانيون",
+          "tn": "العثمانيون"
+        }
+      },
+      {
+        "id": 150,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "المغول",
+          "en": "Wrong distractor: المغول",
+          "fr": "المغول",
+          "tn": "المغول"
+        }
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "category": "History & Politics",
+    "subcategory": "Modern",
+    "region": "Tunisia",
+    "difficulty": 3,
+    "translations": {
+      "ar": "أذكر وزراء أولون أو رؤساء حكومات في تونس بعد الاستقلال؟",
+      "en": "Name Tunisian prime ministers or heads of government after independence?",
+      "fr": "Citez des Premiers ministres ou chefs de gouvernement tunisiens après l'indépendance ?",
+      "tn": "أعطيني وزراء أولون أو رؤساء حكومة في تونس بعد الاستقلال؟"
+    },
+    "answers": [
+      {
+        "id": 151,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الباهي الأدغم",
+          "en": "Answer in English: الباهي الأدغم",
+          "fr": "الباهي الأدغم",
+          "tn": "الباهي الأدغم"
+        }
+      },
+      {
+        "id": 152,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الهادي نويرة",
+          "en": "Answer in English: الهادي نويرة",
+          "fr": "الهادي نويرة",
+          "tn": "الهادي نويرة"
+        }
+      },
+      {
+        "id": 153,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "محمد مزالي",
+          "en": "Answer in English: محمد مزالي",
+          "fr": "محمد مزالي",
+          "tn": "محمد مزالي"
+        }
+      },
+      {
+        "id": 154,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "رشيد صفر",
+          "en": "Answer in English: رشيد صفر",
+          "fr": "رشيد صفر",
+          "tn": "رشيد صفر"
+        }
+      },
+      {
+        "id": 155,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "زين العابدين بن علي",
+          "en": "Answer in English: زين العابدين بن علي",
+          "fr": "زين العابدين بن علي",
+          "tn": "زين العابدين بن علي"
+        }
+      },
+      {
+        "id": 156,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "حامد القروي",
+          "en": "Answer in English: حامد القروي",
+          "fr": "حامد القروي",
+          "tn": "حامد القروي"
+        }
+      },
+      {
+        "id": 157,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "محمد الغنوشي",
+          "en": "Answer in English: محمد الغنوشي",
+          "fr": "محمد الغنوشي",
+          "tn": "محمد الغنوشي"
+        }
+      },
+      {
+        "id": 158,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "الباجي قائد السبسي",
+          "en": "Answer in English: الباجي قائد السبسي",
+          "fr": "الباجي قائد السبسي",
+          "tn": "الباجي قائد السبسي"
+        }
+      },
+      {
+        "id": 159,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "حمادي الجبالي",
+          "en": "Answer in English: حمادي الجبالي",
+          "fr": "حمادي الجبالي",
+          "tn": "حمادي الجبالي"
+        }
+      },
+      {
+        "id": 160,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "أنور السادات",
+          "en": "Wrong distractor: أنور السادات",
+          "fr": "أنور السادات",
+          "tn": "أنور السادات"
+        }
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "category": "History & Politics",
+    "subcategory": "Modern",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "أذكر مواقع أو مدن تونسية تحتوي على آثار رومانية هامة؟",
+      "en": "Name Tunisian sites or towns with important Roman ruins?",
+      "fr": "Citez des sites ou villes tunisiennes abritant d'importants vestiges romains ?",
+      "tn": "أعطيني مواقع أو مدن تونسية فيها آثار رومانية مهمة؟"
+    },
+    "answers": [
+      {
+        "id": 161,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "قرطاج",
+          "en": "Answer in English: قرطاج",
+          "fr": "قرطاج",
+          "tn": "قرطاج"
+        }
+      },
+      {
+        "id": 162,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الجم",
+          "en": "Answer in English: الجم",
+          "fr": "الجم",
+          "tn": "الجم"
+        }
+      },
+      {
+        "id": 163,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "دقة",
+          "en": "Answer in English: دقة",
+          "fr": "دقة",
+          "tn": "دقة"
+        }
+      },
+      {
+        "id": 164,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "سبيطلة",
+          "en": "Answer in English: سبيطلة",
+          "fr": "سبيطلة",
+          "tn": "سبيطلة"
+        }
+      },
+      {
+        "id": 165,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "بولا ريجيا",
+          "en": "Answer in English: بولا ريجيا",
+          "fr": "بولا ريجيا",
+          "tn": "بولا ريجيا"
+        }
+      },
+      {
+        "id": 166,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "أوتيك",
+          "en": "Answer in English: أوتيك",
+          "fr": "أوتيك",
+          "tn": "أوتيك"
+        }
+      },
+      {
+        "id": 167,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "مكتريس",
+          "en": "Answer in English: مكتريس",
+          "fr": "مكتريس",
+          "tn": "مكتريس"
+        }
+      },
+      {
+        "id": 168,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "عين طنقة",
+          "en": "Answer in English: عين طنقة",
+          "fr": "عين طنقة",
+          "tn": "عين طنقة"
+        }
+      },
+      {
+        "id": 169,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "شمتو",
+          "en": "Answer in English: شمتو",
+          "fr": "شمتو",
+          "tn": "شمتو"
+        }
+      },
+      {
+        "id": 170,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "البتراء",
+          "en": "Wrong distractor: البتراء",
+          "fr": "البتراء",
+          "tn": "البتراء"
+        }
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "category": "History & Politics",
+    "subcategory": "Modern",
+    "region": "Tunisia",
+    "difficulty": 3,
+    "translations": {
+      "ar": "ما هي المهن أو الحرف التقليدية القديمة في أسواق تونس العتيقة؟",
+      "en": "What are the traditional old crafts or trades found in the souks of Tunis's medina?",
+      "fr": "Quels sont les métiers ou artisanats traditionnels des souks de la médina de Tunis ?",
+      "tn": "شنية المهن أو الحرف التقليدية القديمة في أسواق تونس العتيقة؟"
+    },
+    "answers": [
+      {
+        "id": 171,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "صناعة الشاشية",
+          "en": "Answer in English: صناعة الشاشية",
+          "fr": "صناعة الشاشية",
+          "tn": "صناعة الشاشية"
+        }
+      },
+      {
+        "id": 172,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "النحاسين",
+          "en": "Answer in English: النحاسين",
+          "fr": "النحاسين",
+          "tn": "النحاسين"
+        }
+      },
+      {
+        "id": 173,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الشواشين",
+          "en": "Answer in English: الشواشين",
+          "fr": "الشواشين",
+          "tn": "الشواشين"
+        }
+      },
+      {
+        "id": 174,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "البردعة",
+          "en": "Answer in English: البردعة",
+          "fr": "البردعة",
+          "tn": "البردعة"
+        }
+      },
+      {
+        "id": 175,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "البلغة",
+          "en": "Answer in English: البلغة",
+          "fr": "البلغة",
+          "tn": "البلغة"
+        }
+      },
+      {
+        "id": 176,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "الحايك",
+          "en": "Answer in English: الحايك",
+          "fr": "الحايك",
+          "tn": "الحايك"
+        }
+      },
+      {
+        "id": 177,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "الجلد",
+          "en": "Answer in English: الجلد",
+          "fr": "الجلد",
+          "tn": "الجلد"
+        }
+      },
+      {
+        "id": 178,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "الفخار",
+          "en": "Answer in English: الفخار",
+          "fr": "الفخار",
+          "tn": "الفخار"
+        }
+      },
+      {
+        "id": 179,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "صناعة السجاد",
+          "en": "Answer in English: صناعة السجاد",
+          "fr": "صناعة السجاد",
+          "tn": "صناعة السجاد"
+        }
+      },
+      {
+        "id": 180,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "برمجة الحاسوب",
+          "en": "Wrong distractor: برمجة الحاسوب",
+          "fr": "برمجة الحاسوب",
+          "tn": "برمجة الحاسوب"
+        }
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "category": "History & Politics",
+    "subcategory": "Modern",
+    "region": "Tunisia",
+    "difficulty": 3,
+    "translations": {
+      "ar": "أذكر شهداء أو قادة نقابيين تونسيين خُلّدوا في التاريخ؟",
+      "en": "Name Tunisian martyrs or union leaders remembered in history?",
+      "fr": "Citez des martyrs ou dirigeants syndicaux tunisiens restés dans l'histoire ?",
+      "tn": "أعطيني شهداء أو قادة نقابيين تونسيين بقاو في التاريخ؟"
+    },
+    "answers": [
+      {
+        "id": 181,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "فرحات حشاد",
+          "en": "Answer in English: فرحات حشاد",
+          "fr": "فرحات حشاد",
+          "tn": "فرحات حشاد"
+        }
+      },
+      {
+        "id": 182,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الحبيب عاشور",
+          "en": "Answer in English: الحبيب عاشور",
+          "fr": "الحبيب عاشور",
+          "tn": "الحبيب عاشور"
+        }
+      },
+      {
+        "id": 183,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "أحمد التليلي",
+          "en": "Answer in English: أحمد التليلي",
+          "fr": "أحمد التليلي",
+          "tn": "أحمد التليلي"
+        }
+      },
+      {
+        "id": 184,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "محمد علي الحامي",
+          "en": "Answer in English: محمد علي الحامي",
+          "fr": "محمد علي الحامي",
+          "tn": "محمد علي الحامي"
+        }
+      },
+      {
+        "id": 185,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "سعيد يوسف",
+          "en": "Answer in English: سعيد يوسف",
+          "fr": "سعيد يوسف",
+          "tn": "سعيد يوسف"
+        }
+      },
+      {
+        "id": 186,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "المنجي عمارة",
+          "en": "Answer in English: المنجي عمارة",
+          "fr": "المنجي عمارة",
+          "tn": "المنجي عمارة"
+        }
+      },
+      {
+        "id": 187,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "حسين العباسي",
+          "en": "Answer in English: حسين العباسي",
+          "fr": "حسين العباسي",
+          "tn": "حسين العباسي"
+        }
+      },
+      {
+        "id": 188,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "سعد الله الجبالي",
+          "en": "Answer in English: سعد الله الجبالي",
+          "fr": "سعد الله الجبالي",
+          "tn": "سعد الله الجبالي"
+        }
+      },
+      {
+        "id": 189,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "بشير البكوش",
+          "en": "Answer in English: بشير البكوش",
+          "fr": "بشير البكوش",
+          "tn": "بشير البكوش"
+        }
+      },
+      {
+        "id": 190,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "تشي جيفارا",
+          "en": "Wrong distractor: تشي جيفارا",
+          "fr": "تشي جيفارا",
+          "tn": "تشي جيفارا"
+        }
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "category": "History & Politics",
+    "subcategory": "Modern",
+    "region": "Tunisia",
+    "difficulty": 4,
+    "translations": {
+      "ar": "أذكر بنود أو معاهدات تاريخية وقعت في تونس؟",
+      "en": "Name historical treaties signed in Tunisia?",
+      "fr": "Citez des traités historiques signés en Tunisie ?",
+      "tn": "أعطيني معاهدات تاريخية تمضات في تونس؟"
+    },
+    "answers": [
+      {
+        "id": 191,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "معاهدة باردو",
+          "en": "Answer in English: معاهدة باردو",
+          "fr": "معاهدة باردو",
+          "tn": "معاهدة باردو"
+        }
+      },
+      {
+        "id": 192,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "اتفاقية المرسى",
+          "en": "Answer in English: اتفاقية المرسى",
+          "fr": "اتفاقية المرسى",
+          "tn": "اتفاقية المرسى"
+        }
+      },
+      {
+        "id": 193,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "اتفاقية قرطاج",
+          "en": "Answer in English: اتفاقية قرطاج",
+          "fr": "اتفاقية قرطاج",
+          "tn": "اتفاقية قرطاج"
+        }
+      },
+      {
+        "id": 194,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "عهد الأمان",
+          "en": "Answer in English: عهد الأمان",
+          "fr": "عهد الأمان",
+          "tn": "عهد الأمان"
+        }
+      },
+      {
+        "id": 195,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "دستور 1861",
+          "en": "Answer in English: دستور 1861",
+          "fr": "دستور 1861",
+          "tn": "دستور 1861"
+        }
+      },
+      {
+        "id": 196,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "اتفاقيات الحكم الذاتي",
+          "en": "Answer in English: اتفاقيات الحكم الذاتي",
+          "fr": "اتفاقيات الحكم الذاتي",
+          "tn": "اتفاقيات الحكم الذاتي"
+        }
+      },
+      {
+        "id": 197,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "معاهدة السلام البونيقية",
+          "en": "Answer in English: معاهدة السلام البونيقية",
+          "fr": "معاهدة السلام البونيقية",
+          "tn": "معاهدة السلام البونيقية"
+        }
+      },
+      {
+        "id": 198,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "معاهدة حلق الوادي",
+          "en": "Answer in English: معاهدة حلق الوادي",
+          "fr": "معاهدة حلق الوادي",
+          "tn": "معاهدة حلق الوادي"
+        }
+      },
+      {
+        "id": 199,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "اتفاقية الاستقلال",
+          "en": "Answer in English: اتفاقية الاستقلال",
+          "fr": "اتفاقية الاستقلال",
+          "tn": "اتفاقية الاستقلال"
+        }
+      },
+      {
+        "id": 200,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "معاهدة Versailles",
+          "en": "Wrong distractor: معاهدة Versailles",
+          "fr": "معاهدة Versailles",
+          "tn": "معاهدة Versailles"
+        }
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "category": "History & Politics",
+    "subcategory": "Modern",
+    "region": "Tunisia",
+    "difficulty": 3,
+    "translations": {
+      "ar": "أذكر شخصيات نسائية تونسية تاريخية رائدة في مجالات الفن أو السياسة أو الأدب؟",
+      "en": "Name pioneering Tunisian women in art, politics, or literature?",
+      "fr": "Citez des figures féminines tunisiennes pionnières dans l'art, la politique ou la littérature ?",
+      "tn": "أعطيني نساء تونسيات رائدات في الفن أو السياسة أو الأدب؟"
+    },
+    "answers": [
+      {
+        "id": 641,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "عليسة",
+          "en": "Answer in English: عليسة",
+          "fr": "عليسة",
+          "tn": "عليسة"
+        }
+      },
+      {
+        "id": 642,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الكاهنة",
+          "en": "Answer in English: الكاهنة",
+          "fr": "الكاهنة",
+          "tn": "الكاهنة"
+        }
+      },
+      {
+        "id": 643,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "أروى القيروانية",
+          "en": "Answer in English: أروى القيروانية",
+          "fr": "أروى القيروانية",
+          "tn": "أروى القيروانية"
+        }
+      },
+      {
+        "id": 644,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "فاطمة الفهرية",
+          "en": "Answer in English: فاطمة الفهرية",
+          "fr": "فاطمة الفهرية",
+          "tn": "فاطمة الفهرية"
+        }
+      },
+      {
+        "id": 645,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "راضية الحداد",
+          "en": "Answer in English: راضية الحداد",
+          "fr": "راضية الحداد",
+          "tn": "راضية الحداد"
+        }
+      },
+      {
+        "id": 646,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "توحيدة بن الشيخ",
+          "en": "Answer in English: توحيدة بن الشيخ",
+          "fr": "توحيدة بن الشيخ",
+          "tn": "توحيدة بن الشيخ"
+        }
+      },
+      {
+        "id": 647,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "شريفة المسعدي",
+          "en": "Answer in English: شريفة المسعدي",
+          "fr": "شريفة المسعدي",
+          "tn": "شريفة المسعدي"
+        }
+      },
+      {
+        "id": 648,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "بشيرة بن مراد",
+          "en": "Answer in English: بشيرة بن مراد",
+          "fr": "بشيرة بن مراد",
+          "tn": "بشيرة بن مراد"
+        }
+      },
+      {
+        "id": 649,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "صليحة",
+          "en": "Answer in English: صليحة",
+          "fr": "صليحة",
+          "tn": "صليحة"
+        }
+      },
+      {
+        "id": 650,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "كليوباترا",
+          "en": "Wrong distractor: كليوباترا",
+          "fr": "كليوباترا",
+          "tn": "كليوباترا"
+        }
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "category": "History & Politics",
+    "subcategory": "Modern",
+    "region": "Tunisia",
+    "difficulty": 4,
+    "translations": {
+      "ar": "أذكر حكام أو ملوك حكموا الدولة الفاطمية انطلاقاً من المهدية وتونس؟",
+      "en": "Name Fatimid rulers or caliphs who ruled from Mahdia and Tunisia?",
+      "fr": "Citez des dirigeants ou califes fatimides ayant régné depuis Mahdia et la Tunisie ?",
+      "tn": "أعطيني حكام أو ملوك حكمو الدولة الفاطمية من المهدية وتونس؟"
+    },
+    "answers": [
+      {
+        "id": 721,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "عبيد الله المهدي",
+          "en": "Answer in English: عبيد الله المهدي",
+          "fr": "عبيد الله المهدي",
+          "tn": "عبيد الله المهدي"
+        }
+      },
+      {
+        "id": 722,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "القائم بأمر الله",
+          "en": "Answer in English: القائم بأمر الله",
+          "fr": "القائم بأمر الله",
+          "tn": "القائم بأمر الله"
+        }
+      },
+      {
+        "id": 723,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "المنصور بالله",
+          "en": "Answer in English: المنصور بالله",
+          "fr": "المنصور بالله",
+          "tn": "المنصور بالله"
+        }
+      },
+      {
+        "id": 724,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "المعز لدين الله",
+          "en": "Answer in English: المعز لدين الله",
+          "fr": "المعز لدين الله",
+          "tn": "المعز لدين الله"
+        }
+      },
+      {
+        "id": 725,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "المهدي بالله",
+          "en": "Answer in English: المهدي بالله",
+          "fr": "المهدي بالله",
+          "tn": "المهدي بالله"
+        }
+      },
+      {
+        "id": 726,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "سلالة الفاطميين",
+          "en": "Answer in English: سلالة الفاطميين",
+          "fr": "سلالة الفاطميين",
+          "tn": "سلالة الفاطميين"
+        }
+      },
+      {
+        "id": 727,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "القادة الفاطميون",
+          "en": "Answer in English: القادة الفاطميون",
+          "fr": "القادة الفاطميون",
+          "tn": "القادة الفاطميون"
+        }
+      },
+      {
+        "id": 728,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "الأمراء الفاطميون",
+          "en": "Answer in English: الأمراء الفاطميون",
+          "fr": "الأمراء الفاطميون",
+          "tn": "الأمراء الفاطميون"
+        }
+      },
+      {
+        "id": 729,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "الخلفاء بالمهدية",
+          "en": "Answer in English: الخلفاء بالمهدية",
+          "fr": "الخلفاء بالمهدية",
+          "tn": "الخلفاء بالمهدية"
+        }
+      },
+      {
+        "id": 730,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "هارون الرشيد",
+          "en": "Wrong distractor: هارون الرشيد",
+          "fr": "هارون الرشيد",
+          "tn": "هارون الرشيد"
+        }
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "category": "History & Politics",
+    "subcategory": "Modern",
+    "region": "Tunisia",
+    "difficulty": 4,
+    "translations": {
+      "ar": "أذكر شخصيات لعبت دوراً في تأسيس أو توطيد جامعة الزيتونة التاريخية؟",
+      "en": "Name figures who helped found or strengthen the historic Zitouna University?",
+      "fr": "Citez des personnalités ayant contribué à la fondation ou au rayonnement de la Zitouna ?",
+      "tn": "أعطيني شخصيات ساهمت في تأسيس أو توطيد جامعة الزيتونة التاريخية؟"
+    },
+    "answers": [
+      {
+        "id": 751,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "حسان بن النعمان",
+          "en": "Answer in English: حسان بن النعمان",
+          "fr": "حسان بن النعمان",
+          "tn": "حسان بن النعمان"
+        }
+      },
+      {
+        "id": 752,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "عبيد الله بن الحبحاب",
+          "en": "Answer in English: عبيد الله بن الحبحاب",
+          "fr": "عبيد الله بن الحبحاب",
+          "tn": "عبيد الله بن الحبحاب"
+        }
+      },
+      {
+        "id": 753,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "ابن خلدون",
+          "en": "Answer in English: ابن خلدون",
+          "fr": "ابن خلدون",
+          "tn": "ابن خلدون"
+        }
+      },
+      {
+        "id": 754,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "الإمام المازري",
+          "en": "Answer in English: الإمام المازري",
+          "fr": "الإمام المازري",
+          "tn": "الإمام المازري"
+        }
+      },
+      {
+        "id": 755,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "سحنون بن سعيد",
+          "en": "Answer in English: سحنون بن سعيد",
+          "fr": "سحنون بن سعيد",
+          "tn": "سحنون بن سعيد"
+        }
+      },
+      {
+        "id": 756,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "سالم بوحاجب",
+          "en": "Answer in English: سالم بوحاجب",
+          "fr": "سالم بوحاجب",
+          "tn": "سالم بوحاجب"
+        }
+      },
+      {
+        "id": 757,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "محمد الطاهر بن عاشور",
+          "en": "Answer in English: محمد الطاهر بن عاشور",
+          "fr": "محمد الطاهر بن عاشور",
+          "tn": "محمد الطاهر بن عاشور"
+        }
+      },
+      {
+        "id": 758,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "البشير صفر",
+          "en": "Answer in English: البشير صفر",
+          "fr": "البشير صفر",
+          "tn": "البشير صفر"
+        }
+      },
+      {
+        "id": 759,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "عبد العزيز الثعالبي",
+          "en": "Answer in English: عبد العزيز الثعالبي",
+          "fr": "عبد العزيز الثعالبي",
+          "tn": "عبد العزيز الثعالبي"
+        }
+      },
+      {
+        "id": 760,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "ألبرت أينشتاين",
+          "en": "Wrong distractor: ألبرت أينشتاين",
+          "fr": "ألبرت أينشتاين",
+          "tn": "ألبرت أينشتاين"
+        }
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "category": "History & Politics",
+    "subcategory": "Modern",
+    "region": "Tunisia",
+    "difficulty": 4,
+    "translations": {
+      "ar": "أذكر معارك أو أحداث عسكرية هامة وقعت إبان الحرب العالمية الثانية في تونس؟",
+      "en": "Name battles or military events that took place in Tunisia during World War II?",
+      "fr": "Citez des batailles ou événements militaires survenus en Tunisie pendant la Seconde Guerre mondiale ?",
+      "tn": "أعطيني معارك أو أحداث عسكرية صرات في الحرب العالمية الثانية في تونس؟"
+    },
+    "answers": [
+      {
+        "id": 931,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "معركة خط مارث",
+          "en": "Answer in English: معركة خط مارث",
+          "fr": "معركة خط مارث",
+          "tn": "معركة خط مارث"
+        }
+      },
+      {
+        "id": 932,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "حملة تونس",
+          "en": "Answer in English: حملة تونس",
+          "fr": "حملة تونس",
+          "tn": "حملة تونس"
+        }
+      },
+      {
+        "id": 933,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "معركة القصرين ممر",
+          "en": "Answer in English: معركة القصرين ممر",
+          "fr": "معركة القصرين ممر",
+          "tn": "معركة القصرين ممر"
+        }
+      },
+      {
+        "id": 934,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "معركة مدنين",
+          "en": "Answer in English: معركة مدنين",
+          "fr": "معركة مدنين",
+          "tn": "معركة مدنين"
+        }
+      },
+      {
+        "id": 935,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "معركة سيدي بوزيد",
+          "en": "Answer in English: معركة سيدي بوزيد",
+          "fr": "معركة سيدي بوزيد",
+          "tn": "معركة سيدي بوزيد"
+        }
+      },
+      {
+        "id": 936,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "حصار بنزرت العالمي",
+          "en": "Answer in English: حصار بنزرت العالمي",
+          "fr": "حصار بنزرت العالمي",
+          "tn": "حصار بنزرت العالمي"
+        }
+      },
+      {
+        "id": 937,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "معركة جبل جرف",
+          "en": "Answer in English: معركة جبل جرف",
+          "fr": "معركة جبل جرف",
+          "tn": "معركة جبل جرف"
+        }
+      },
+      {
+        "id": 938,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "اتفاقية الهدنة بتونس",
+          "en": "Answer in English: اتفاقية الهدنة بتونس",
+          "fr": "اتفاقية الهدنة بتونس",
+          "tn": "اتفاقية الهدنة بتونس"
+        }
+      },
+      {
+        "id": 939,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "معركة بوقرنين العالمية",
+          "en": "Answer in English: معركة بوقرنين العالمية",
+          "fr": "معركة بوقرنين العالمية",
+          "tn": "معركة بوقرنين العالمية"
+        }
+      },
+      {
+        "id": 940,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "معركة Pearl Harbor",
+          "en": "Wrong distractor: معركة Pearl Harbor",
+          "fr": "معركة Pearl Harbor",
+          "tn": "معركة Pearl Harbor"
+        }
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "category": "History & Politics",
+    "subcategory": "Modern",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "من هم بعض الشخصيات البارزة في الحركة الوطنية التونسية؟",
+      "en": "Who are some prominent figures of the Tunisian national movement?",
+      "fr": "Quelles sont certaines figures marquantes du mouvement national tunisien ?",
+      "tn": "شكون من أبرز شخصيات الحركة الوطنية التونسية؟"
+    },
+    "answers": [
+      {
+        "id": 1125,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "الحبيب بورقيبة",
+          "en": "Habib Bourguiba",
+          "fr": "Habib Bourguiba",
+          "tn": "الحبيب بورقيبة"
+        }
+      },
+      {
+        "id": 1126,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "صالح بن يوسف",
+          "en": "Salah Ben Youssef",
+          "fr": "Salah Ben Youssef",
+          "tn": "صالح بن يوسف"
+        }
+      },
+      {
+        "id": 1127,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "فرحات حشاد",
+          "en": "Farhat Hached",
+          "fr": "Farhat Hached",
+          "tn": "فرحات حشاد"
+        }
+      },
+      {
+        "id": 1128,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "عبد العزيز الثعالبي",
+          "en": "Abdelaziz Thaalbi",
+          "fr": "Abdelaziz Thâalbi",
+          "tn": "الثعالبي"
+        }
+      },
+      {
+        "id": 1129,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "محمود الماطري",
+          "en": "Mahmoud El Materi",
+          "fr": "Mahmoud El Materi",
+          "tn": "محمود الماطري"
+        }
+      },
+      {
+        "id": 1130,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الهادي شاكر",
+          "en": "Hedi Chaker",
+          "fr": "Hédi Chaker",
+          "tn": "الهادي شاكر"
+        }
+      },
+      {
+        "id": 1131,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "المنجي سليم",
+          "en": "Mongi Slim",
+          "fr": "Mongi Slim",
+          "tn": "المنجي سليم"
+        }
+      },
+      {
+        "id": 1132,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الباهي الأدغم",
+          "en": "Bahi Ladgham",
+          "fr": "Bahi Ladgham",
+          "tn": "الباهي الأدغم"
+        }
+      },
+      {
+        "id": 1133,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الطيب المهيري",
+          "en": "Taieb Mhiri",
+          "fr": "Taïeb Mhiri",
+          "tn": "الطيب المهيري"
+        }
+      },
+      {
+        "id": 1134,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "جمال عبد الناصر",
+          "en": "Gamal Abdel Nasser",
+          "fr": "Gamal Abdel Nasser",
+          "tn": "جمال عبد الناصر"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,1021 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard — Question Management</title>
+    <!-- Outfit & Cairo Font from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="admin_style.css">
+</head>
+<body>
+    <div id="admin-app" class="admin-container">
+        
+        <!-- Sidebar Navigation -->
+        <aside class="admin-sidebar">
+            <div class="sidebar-header">
+                <img src="https://img.icons8.com/color/96/shield.png" alt="Admin Logo" class="sidebar-logo">
+                <h1 class="sidebar-title">Admin Panel</h1>
+                <p class="sidebar-subtitle">El Quizz Questions</p>
+                <div style="margin-top: 15px; width: 100%;">
+                    <label style="font-size: 0.75rem; text-transform: uppercase; color: var(--text-secondary); display: block; margin-bottom: 5px; font-weight: bold;">Active Game Mode:</label>
+                    <select id="admin-mode-select" style="width: 100%; padding: 8px 12px; background: rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.15); border-radius: 8px; color: white; font-weight: bold; cursor: pointer; outline: none; transition: all 0.2s ease;">
+                        <option value="talla3">🔢 Name 9 (Cite 9)</option>
+                        <option value="bent_waled">👦 Bent Waled (Girl Boy)</option>
+                    </select>
+                </div>
+            </div>
+            
+            <nav class="sidebar-nav">
+                <button class="nav-item active" data-tab="tab-dashboard">
+                    <span>Statistical Dashboard</span>
+                </button>
+                <button class="nav-item" data-tab="tab-crud">
+                    <span>Question Database 🗄️</span>
+                </button>
+                <button class="nav-item" data-tab="tab-add-manual">
+                    <span>Add Question Manually</span>
+                </button>
+                <button class="nav-item" data-tab="tab-add-ai">
+                    <span class="ai-sparkle">AI Question Generator ✨</span>
+                </button>
+                <button class="nav-item" data-tab="tab-import-json">
+                    <span>Import from JSON 📥</span>
+                </button>
+            </nav>
+            
+            <div class="sidebar-footer">
+                <a href="index.html" class="btn-sidebar-back">← Back to Game</a>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="admin-content">
+            
+            <!-- Tab 1: Dashboard Visualizations -->
+            <section id="tab-dashboard" class="tab-content active">
+                <h2 class="content-title" id="lbl-dash-title">Questions Dashboard</h2>
+                <p class="content-subtitle" id="lbl-dash-subtitle">Statistics and distribution of questions per category</p>
+
+                <!-- Name 9 Dashboard View -->
+                <div id="dashboard-talla3-view">
+                    <!-- Cards Grid -->
+                    <div class="stats-cards-grid">
+                        <div class="stat-card">
+                            <span class="stat-num" id="stat-total-q">0</span>
+                            <span class="stat-lbl">Total Questions</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-num" id="stat-total-cats">0</span>
+                            <span class="stat-lbl">Categories</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-num" id="stat-total-subcats">0</span>
+                            <span class="stat-lbl">Subcategories</span>
+                        </div>
+                    </div>
+
+                    <!-- Charts Container -->
+                    <div class="charts-row">
+                        <div class="chart-card-full">
+                            <h3 class="chart-title">Questions per Main Category</h3>
+                            <div class="chart-visual">
+                                <svg id="cat-distribution-svg" viewBox="0 0 600 320"></svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="table-card">
+                        <h3 class="chart-title">Most Active Subcategories</h3>
+                        <div class="subcat-table-wrapper">
+                            <table class="subcat-table">
+                                <thead>
+                                    <tr>
+                                        <th>Main Category</th>
+                                        <th>Subcategory</th>
+                                        <th>Questions Count</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="subcat-stats-rows">
+                                    <!-- Dynamic rows -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bent Waled Dashboard View -->
+                <div id="dashboard-bw-view" style="display: none;">
+                    <!-- Cards Grid -->
+                    <div class="stats-cards-grid">
+                        <div class="stat-card">
+                            <span class="stat-num" id="stat-bw-total-words">0</span>
+                            <span class="stat-lbl">Total Words</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-num" id="stat-bw-approved-words">0</span>
+                            <span class="stat-lbl">Approved Words</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-num" id="stat-bw-pending-words">0</span>
+                            <span class="stat-lbl">Pending Review</span>
+                        </div>
+                    </div>
+
+                    <!-- Charts Container -->
+                    <div class="charts-row">
+                        <div class="chart-card-full">
+                            <h3 class="chart-title">Words per Main Category</h3>
+                            <div class="chart-visual">
+                                <svg id="bw-cat-distribution-svg" viewBox="0 0 600 320"></svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="table-card">
+                        <h3 class="chart-title">Words count per Language</h3>
+                        <div class="subcat-table-wrapper">
+                            <table class="subcat-table">
+                                <thead>
+                                    <tr>
+                                        <th>Language Code</th>
+                                        <th>Language Name</th>
+                                        <th>Words Count</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="bw-lang-stats-rows">
+                                    <!-- Dynamic rows -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tab 1.5: Question Database (CRUD) -->
+            <section id="tab-crud" c                <!-- Name 9 (Talla3) Header & Filter -->
+                <div id="crud-talla3-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem;">
+                    <div>
+                        <h2 class="content-title" style="margin-bottom: 0.2rem;">Question Database</h2>
+                        <p class="content-subtitle" style="margin: 0;">Full CRUD controls: Search, filter, edit, or delete questions</p>
+                    </div>
+                    <button class="btn btn-primary" onclick="document.querySelector('[data-tab=\'tab-add-manual\']').click()" style="margin: 0;">+ New Question</button>
+                </div>
+                
+                <!-- Filter bar (Talla3) -->
+                <div id="crud-talla3-filters" class="card" style="padding: 1.25rem; margin-bottom: 1.5rem;">
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.25rem;">
+                        <div class="form-group" style="margin: 0;">
+                            <label style="font-size: 0.8rem; opacity: 0.85; margin-bottom: 0.4rem; display: block; font-weight: 600;">Search Content</label>
+                            <input type="text" id="crud-search" placeholder="Type keywords in any language..." style="width: 100%; box-sizing: border-box;">
+                        </div>
+                        <div class="form-group" style="margin: 0;">
+                            <label style="font-size: 0.8rem; opacity: 0.85; margin-bottom: 0.4rem; display: block; font-weight: 600;">Filter Category</label>
+                            <select id="crud-filter-category" style="width: 100%; box-sizing: border-box;">
+                                <option value="">-- All Categories --</option>
+                                <option value="TO_DO">TO_DO (No Category/Subcategory)</option>
+                                <option value="History & Politics">History & Politics</option>
+                                <option value="Geography">Geography</option>
+                                <option value="Economy & Business">Economy & Business</option>
+                                <option value="Science & Technology">Science & Technology</option>
+                                <option value="Sports">Sports</option>
+                                <option value="Arts">Arts</option>
+                                <option value="Entertainment">Entertainment</option>
+                                <option value="Gastronomy">Gastronomy</option>
+                                <option value="Culture & Lifestyle">Culture & Lifestyle</option>
+                                <option value="Religion & Philosophy">Religion & Philosophy</option>
+                            </select>
+                        </div>
+                        <div class="form-group" style="margin: 0;">
+                            <label style="font-size: 0.8rem; opacity: 0.85; margin-bottom: 0.4rem; display: block; font-weight: 600;">Preview Language</label>
+                            <select id="crud-preview-lang" style="width: 100%; box-sizing: border-box;">
+                                <option value="ar" selected>Standard Arabic (AR)</option>
+                                <option value="tn">Tunisian Derja (TN)</option>
+                                <option value="fr">French (FR)</option>
+                                <option value="en">English (EN)</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bent Waled (BW) Header & Filter -->
+                <div id="crud-bw-header" style="display: none; justify-content: space-between; align-items: center; margin-bottom: 1.5rem;">
+                    <div>
+                        <h2 class="content-title" style="margin-bottom: 0.2rem;">Bent Waled Dictionary</h2>
+                        <p class="content-subtitle" style="margin: 0;">Manage valid words: Search, filter, edit, or delete accepted answers</p>
+                    </div>
+                    <div style="display: flex; gap: 10px; align-items: center;">
+                        <button class="btn btn-secondary" id="btn-bw-export" style="margin: 0; background: rgba(59,130,246,0.15); border: 1px solid #3b82f6; color: #3b82f6;">Export to Disk 💾</button>
+                        <button class="btn btn-primary" onclick="document.querySelector('[data-tab=\'tab-add-manual\']').click()" style="margin: 0;">+ Add Word</button>
+                    </div>
+                </div>
+
+                <!-- Filter bar (BW) -->
+                <div id="crud-bw-filters" class="card" style="display: none; padding: 1.25rem; margin-bottom: 1.5rem;">
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1.25rem;">
+                        <div class="form-group" style="margin: 0;">
+                            <label style="font-size: 0.8rem; opacity: 0.85; margin-bottom: 0.4rem; display: block; font-weight: 600;">Search Word</label>
+                            <input type="text" id="crud-bw-search" placeholder="Type word..." style="width: 100%; box-sizing: border-box;">
+                        </div>
+                        <div class="form-group" style="margin: 0;">
+                            <label style="font-size: 0.8rem; opacity: 0.85; margin-bottom: 0.4rem; display: block; font-weight: 600;">Category</label>
+                            <select id="crud-bw-filter-category" style="width: 100%; box-sizing: border-box;">
+                                <option value="">-- All Categories --</option>
+                                <option value="boy">Boy (ولد)</option>
+                                <option value="girl">Girl (بنت)</option>
+                                <option value="country">Country (بلاد)</option>
+                                <option value="animal">Animal (حيوان)</option>
+                                <option value="object">Object (جماد)</option>
+                                <option value="plant">Plant (نبات)</option>
+                                <option value="profession">Profession (خدمة)</option>
+                                <option value="food">Food (ماكلة)</option>
+                            </select>
+                        </div>
+                        <div class="form-group" style="margin: 0;">
+                            <label style="font-size: 0.8rem; opacity: 0.85; margin-bottom: 0.4rem; display: block; font-weight: 600;">Letter</label>
+                            <input type="text" id="crud-bw-filter-letter" placeholder="Letter..." maxlength="5" style="width: 100%; box-sizing: border-box;">
+                        </div>
+                        <div class="form-group" style="margin: 0;">
+                            <label style="font-size: 0.8rem; opacity: 0.85; margin-bottom: 0.4rem; display: block; font-weight: 600;">Language</label>
+                            <select id="crud-bw-filter-lang" style="width: 100%; box-sizing: border-box;">
+                                <option value="">-- All Languages --</option>
+                                <option value="ar">Arabic (AR)</option>
+                                <option value="tn">Tunisian (TN)</option>
+                                <option value="fr">French (FR)</option>
+                                <option value="en">English (EN)</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Database Grid/Table -->
+                <div class="card" style="padding: 0; overflow-x: auto;">
+                    <!-- Question Table (Talla3) -->
+                    <table id="crud-table-talla3" class="crud-table" style="width: 100%; border-collapse: collapse; text-align: left; font-size: 0.9rem; min-width: 900px;">
+                        <thead>
+                            <tr style="border-bottom: 2px solid var(--panel-border); background: rgba(255,255,255,0.02);">
+                                <th class="sortable-header" data-sort="id" style="padding: 14px 16px; width: 80px; cursor: pointer; user-select: none;">
+                                    ID <span class="sort-icon" id="sort-icon-id" style="font-size: 0.75rem; margin-left: 2px;">▲</span>
+                                </th>
+                                <th class="sortable-header" data-sort="category" style="padding: 14px 16px; width: 160px; cursor: pointer; user-select: none;">
+                                    Category <span class="sort-icon" id="sort-icon-category" style="font-size: 0.75rem; margin-left: 2px; opacity: 0.5;">↕</span>
+                                </th>
+                                <th class="sortable-header" data-sort="subcategory" style="padding: 14px 16px; width: 160px; cursor: pointer; user-select: none;">
+                                    Subcategory <span class="sort-icon" id="sort-icon-subcategory" style="font-size: 0.75rem; margin-left: 2px; opacity: 0.5;">↕</span>
+                                </th>
+                                <th class="sortable-header" data-sort="answers" style="padding: 14px 16px; text-align: center; width: 100px; cursor: pointer; user-select: none;">
+                                    Answers <span class="sort-icon" id="sort-icon-answers" style="font-size: 0.75rem; margin-left: 2px; opacity: 0.5;">↕</span>
+                                </th>
+                                <th style="padding: 14px 16px; text-align: center; width: 45px;">AR</th>
+                                <th style="padding: 14px 16px; text-align: center; width: 45px;">TN</th>
+                                <th style="padding: 14px 16px; text-align: center; width: 45px;">FR</th>
+                                <th style="padding: 14px 16px; text-align: center; width: 45px;">EN</th>
+                                <th class="sortable-header" data-sort="text" style="padding: 14px 16px; cursor: pointer; user-select: none;">
+                                    Question Content Preview <span class="sort-icon" id="sort-icon-text" style="font-size: 0.75rem; margin-left: 2px; opacity: 0.5;">↕</span>
+                                </th>
+                                <th style="padding: 14px 16px; text-align: center; width: 100px;">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="crud-table-body">
+                            <tr>
+                                <td colspan="10" style="padding: 2rem; text-align: center; opacity: 0.6;">Loading question database...</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <!-- Word Table (Bent Waled) -->
+                    <table id="crud-table-bw" class="crud-table" style="display: none; width: 100%; border-collapse: collapse; text-align: left; font-size: 0.9rem; min-width: 900px;">
+                        <thead>
+                            <tr style="border-bottom: 2px solid var(--panel-border); background: rgba(255,255,255,0.02);">
+                                <th style="padding: 14px 16px; width: 60px;">ID</th>
+                                <th style="padding: 14px 16px; width: 140px;">Entity ID</th>
+                                <th style="padding: 14px 16px; width: 120px;">Category</th>
+                                <th style="padding: 14px 16px; width: 80px; text-align: center;">Letter</th>
+                                <th style="padding: 14px 16px; width: 180px;">Word</th>
+                                <th style="padding: 14px 16px;">Aliases / Synonyms</th>
+                                <th style="padding: 14px 16px; width: 90px; text-align: center;">Language</th>
+                                <th style="padding: 14px 16px; width: 90px; text-align: center;">Status</th>
+                                <th style="padding: 14px 16px; text-align: center; width: 100px;">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="crud-bw-table-body">
+                            <tr>
+                                <td colspan="7" style="padding: 2rem; text-align: center; opacity: 0.6;">Loading words dictionary...</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Pagination for Bent Waled dictionary -->
+                <div id="crud-bw-pagination" style="display: none; justify-content: flex-end; gap: 10px; margin-top: 15px; align-items: center; font-size: 0.95rem;">
+                    <span id="crud-bw-pag-info" style="color: var(--text-secondary); margin-right: 10px;">Showing 0-0 of 0</span>
+                    <button id="btn-bw-prev-page" class="btn btn-secondary" style="padding: 6px 12px; margin: 0;">Prev</button>
+                    <button id="btn-bw-next-page" class="btn btn-secondary" style="padding: 6px 12px; margin: 0;">Next</button>
+                </div>
+            </section>
+
+            <!-- Tab 2: Add Question Manually -->
+            <section id="tab-add-manual" class="tab-content">
+                <h2 class="content-title" id="lbl-add-manual-title">Add Question Manually</h2>
+                <p class="content-subtitle" id="lbl-add-manual-subtitle">Enter question metadata, text, and Fibonacci answer weights</p>
+
+                <!-- Name 9 (Talla3) Form -->
+                <form id="form-manual-question" class="question-form">
+                    <div class="form-row-grid">
+                        <div class="form-group">
+                            <label for="man-question-text">Question Text</label>
+                            <input type="text" id="man-question-text" required placeholder="e.g. Name coastal Tunisian cities?">
+                        </div>
+                    </div>
+
+                    <div class="form-row-grid-three">
+                        <div class="form-group">
+                            <label for="man-category">Main Category</label>
+                            <select id="man-category" required>
+                                <option value="History & Politics">History & Politics</option>
+                                <option value="Geography">Geography</option>
+                                <option value="Economy & Business">Economy & Business</option>
+                                <option value="Science & Technology">Science & Technology</option>
+                                <option value="Sports">Sports</option>
+                                <option value="Arts">Arts</option>
+                                <option value="Entertainment">Entertainment</option>
+                                <option value="Gastronomy">Gastronomy</option>
+                                <option value="Culture & Lifestyle">Culture & Lifestyle</option>
+                                <option value="Religion & Philosophy">Religion & Philosophy</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="man-subcategory-select">Subcategory</label>
+                            <select id="man-subcategory-select" required>
+                                <option value="">-- Select Subcategory --</option>
+                                <option value="__NEW__">Other (Create New)...</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="man-region">Target Region</label>
+                            <select id="man-region" required>
+                                <option value="national">National (Tunisia Only)</option>
+                                <option value="regional">Regional (MENA / Arab World)</option>
+                                <option value="global">Global (Universal)</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row-grid man-subcategory-new-group" style="display: none;">
+                        <div class="form-group">
+                            <label for="man-subcategory-new">New Subcategory Name</label>
+                            <input type="text" id="man-subcategory-new" placeholder="Type new subcategory name">
+                        </div>
+                    </div>
+
+                    <h3 class="form-sub-heading">9 Correct Answers (Fibonacci weights)</h3>
+                    <p class="form-desc-text">Provide the answer text and select its Fibonacci difficulty level (1: Easy, 2: Medium, 3: Difficult, 5: Extremely Hard, 8: Near Impossible)</p>
+
+                    <div class="answers-inputs-grid">
+                        <!-- 9 Correct answers -->
+                        <div class="ans-input-row">
+                            <span class="ans-row-num">1</span>
+                            <input type="text" id="man-ans-correct-0" required placeholder="Correct Answer 1">
+                            <select id="man-ans-pts-0">
+                                <option value="1" selected>1 (Easy)</option>
+                                <option value="2">2 (Medium)</option>
+                                <option value="3">3 (Difficult)</option>
+                                <option value="5">5 (Extremely Hard)</option>
+                                <option value="8">8 (Near Impossible)</option>
+                            </select>
+                        </div>
+                        <div class="ans-input-row">
+                            <span class="ans-row-num">2</span>
+                            <input type="text" id="man-ans-correct-1" required placeholder="Correct Answer 2">
+                            <select id="man-ans-pts-1">
+                                <option value="1" selected>1 (Easy)</option>
+                                <option value="2">2 (Medium)</option>
+                                <option value="3">3 (Difficult)</option>
+                                <option value="5">5 (Extremely Hard)</option>
+                                <option value="8">8 (Near Impossible)</option>
+                            </select>
+                        </div>
+                        <div class="ans-input-row">
+                            <span class="ans-row-num">3</span>
+                            <input type="text" id="man-ans-correct-2" required placeholder="Correct Answer 3">
+                            <select id="man-ans-pts-2">
+                                <option value="1" selected>1 (Easy)</option>
+                                <option value="2">2 (Medium)</option>
+                                <option value="3">3 (Difficult)</option>
+                                <option value="5">5 (Extremely Hard)</option>
+                                <option value="8">8 (Near Impossible)</option>
+                            </select>
+                        </div>
+                        <div class="ans-input-row">
+                            <span class="ans-row-num">4</span>
+                            <input type="text" id="man-ans-correct-3" required placeholder="Correct Answer 4">
+                            <select id="man-ans-pts-3">
+                                <option value="1">1 (Easy)</option>
+                                <option value="2" selected>2 (Medium)</option>
+                                <option value="3">3 (Difficult)</option>
+                                <option value="5">5 (Extremely Hard)</option>
+                                <option value="8">8 (Near Impossible)</option>
+                            </select>
+                        </div>
+                        <div class="ans-input-row">
+                            <span class="ans-row-num">5</span>
+                            <input type="text" id="man-ans-correct-4" required placeholder="Correct Answer 5">
+                            <select id="man-ans-pts-4">
+                                <option value="1">1 (Easy)</option>
+                                <option value="2" selected>2 (Medium)</option>
+                                <option value="3">3 (Difficult)</option>
+                                <option value="5">5 (Extremely Hard)</option>
+                                <option value="8">8 (Near Impossible)</option>
+                            </select>
+                        </div>
+                        <div class="ans-input-row">
+                            <span class="ans-row-num">6</span>
+                            <input type="text" id="man-ans-correct-5" required placeholder="Correct Answer 6">
+                            <select id="man-ans-pts-5">
+                                <option value="1">1 (Easy)</option>
+                                <option value="2">2 (Medium)</option>
+                                <option value="3" selected>3 (Difficult)</option>
+                                <option value="5">5 (Extremely Hard)</option>
+                                <option value="8">8 (Near Impossible)</option>
+                            </select>
+                        </div>
+                        <div class="ans-input-row">
+                            <span class="ans-row-num">7</span>
+                            <input type="text" id="man-ans-correct-6" required placeholder="Correct Answer 7">
+                            <select id="man-ans-pts-6">
+                                <option value="1">1 (Easy)</option>
+                                <option value="2">2 (Medium)</option>
+                                <option value="3" selected>3 (Difficult)</option>
+                                <option value="5">5 (Extremely Hard)</option>
+                                <option value="8">8 (Near Impossible)</option>
+                            </select>
+                        </div>
+                        <div class="ans-input-row">
+                            <span class="ans-row-num">8</span>
+                            <input type="text" id="man-ans-correct-7" required placeholder="Correct Answer 8">
+                            <select id="man-ans-pts-7">
+                                <option value="1">1 (Easy)</option>
+                                <option value="2">2 (Medium)</option>
+                                <option value="3">3 (Difficult)</option>
+                                <option value="5" selected>5 (Extremely Hard)</option>
+                                <option value="8">8 (Near Impossible)</option>
+                            </select>
+                        </div>
+                        <div class="ans-input-row">
+                            <span class="ans-row-num">9</span>
+                            <input type="text" id="man-ans-correct-8" required placeholder="Correct Answer 9">
+                            <select id="man-ans-pts-8">
+                                <option value="1">1 (Easy)</option>
+                                <option value="2">2 (Medium)</option>
+                                <option value="3">3 (Difficult)</option>
+                                <option value="5">5 (Extremely Hard)</option>
+                                <option value="8" selected>8 (Near Impossible)</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <h3 class="form-sub-heading text-red">Single Wrong Answer (The Trap)</h3>
+                    <div class="form-row-grid">
+                        <div class="form-group">
+                            <input type="text" id="man-ans-wrong" required placeholder="e.g. Cairo (wrong answer)" class="input-wrong">
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-submit">Save Question</button>
+                </form>
+
+                <!-- Bent Waled (BW) Form -->
+                <form id="form-manual-bw-word" class="question-form" style="display: none;">
+                    <div class="form-row-grid-two">
+                        <div class="form-group">
+                            <label for="man-bw-word">Dictionary Word</label>
+                            <input type="text" id="man-bw-word" required placeholder="e.g. Apple, أرنب, Alice, فرنسا...">
+                        </div>
+                        <div class="form-group">
+                            <label for="man-bw-entity-id">Entity ID (Optional)</label>
+                            <input type="text" id="man-bw-entity-id" placeholder="e.g. country_ma, animal_rabbit...">
+                        </div>
+                    </div>
+                    <div class="form-row-grid" style="margin-bottom: 15px;">
+                        <div class="form-group">
+                            <label for="man-bw-aliases">Aliases / Synonyms (Optional, comma-separated)</label>
+                            <input type="text" id="man-bw-aliases" placeholder="e.g. L'île de Madagascar, Mada...">
+                        </div>
+                    </div>
+
+                    <div class="form-row-grid-three">
+                        <div class="form-group">
+                            <label for="man-bw-category">Category</label>
+                            <select id="man-bw-category" required style="width: 100%; box-sizing: border-box;">
+                                <option value="boy">Boy (ولد)</option>
+                                <option value="girl">Girl (بنت)</option>
+                                <option value="country">Country (بلاد)</option>
+                                <option value="animal">Animal (حيوان)</option>
+                                <option value="object">Object (جماد)</option>
+                                <option value="plant">Plant (نبات)</option>
+                                <option value="profession">Profession (خدمة)</option>
+                                <option value="food">Food (ماكلة)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="man-bw-letter">Starts with Letter</label>
+                            <input type="text" id="man-bw-letter" required maxlength="5" placeholder="e.g. A, ب..." style="width: 100%; box-sizing: border-box;">
+                        </div>
+                        <div class="form-group">
+                            <label for="man-bw-lang">Word Language</label>
+                            <select id="man-bw-lang" required style="width: 100%; box-sizing: border-box;">
+                                <option value="ar">Standard Arabic (AR)</option>
+                                <option value="tn">Tunisian Derja (TN)</option>
+                                <option value="fr">French (FR)</option>
+                                <option value="en" selected>English (EN)</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; align-items: center; gap: 8px; margin-top: 15px; margin-bottom: 25px;">
+                        <input type="checkbox" id="man-bw-approved" checked style="width: auto;">
+                        <label for="man-bw-approved" style="margin: 0; cursor: pointer;">Auto-Approve Word</label>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-submit">Save Word to Dictionary 🚀</button>
+                </form>
+            </section>
+
+            <!-- Tab 3: Generate Question with AI -->
+            <section id="tab-add-ai" class="tab-content">
+                <h2 class="content-title" id="lbl-add-ai-title">AI Question Generator ✨</h2>
+                <p class="content-subtitle" id="lbl-add-ai-subtitle">Use Gemini to generate a batch of cultural questions with 9 answers and 1 trap</p>
+
+                <!-- Name 9 (Talla3) View -->
+                <div id="ai-gen-talla3-view" class="ai-prompt-box">
+                    <div class="form-group">
+                        <label for="ai-prompt">Question Topic / Prompt</label>
+                        <input type="text" id="ai-prompt" placeholder="e.g. Traditional Tunisian dishes, Oasis towns in Tozeur, Carthaginian ruins..." value="Traditional Tunisian dishes">
+                    </div>
+                    
+                    <div class="form-row-grid">
+                        <div class="form-group">
+                            <label style="margin-bottom: 0.5rem; display: block; font-weight: 600; color: var(--text-secondary);">Target Languages (Select one or more to duplicate translations)</label>
+                            <div class="language-checkboxes-grid" style="display: flex; gap: 1.5rem; flex-wrap: wrap; margin-bottom: 1rem;">
+                                <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+                                    <input type="checkbox" name="ai-lang-checkbox" value="en" checked style="width: auto !important; margin: 0 !important;">
+                                    <span>English</span>
+                                </label>
+                                <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+                                    <input type="checkbox" name="ai-lang-checkbox" value="fr" style="width: auto !important; margin: 0 !important;">
+                                    <span>French</span>
+                                </label>
+                                <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+                                    <input type="checkbox" name="ai-lang-checkbox" value="ar" style="width: auto !important; margin: 0 !important;">
+                                    <span>Arabic (Standard)</span>
+                                </label>
+                                <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+                                    <input type="checkbox" name="ai-lang-checkbox" value="tn" style="width: auto !important; margin: 0 !important;">
+                                    <span>Tunisian Arabic (Derja)</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-row-grid-three" style="grid-template-columns: 1fr 1fr; margin-top: 1rem;">
+                        <div class="form-group">
+                            <label for="ai-count">Generation Mode (Batch Size)</label>
+                            <select id="ai-count">
+                                <option value="1" selected>1 Question (Single)</option>
+                                <option value="3">3 Questions (Batch)</option>
+                                <option value="5">5 Questions (Batch)</option>
+                            </select>
+                        </div>
+                        <div class="form-group" style="display: flex; align-items: flex-end;">
+                            <button id="btn-generate-ai" class="btn btn-primary btn-ai glow-btn" style="width: 100%;">
+                                <span>Generate Questions Now</span>
+                                <i class="sparkle-icon">✨</i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bent Waled (BW) View -->
+                <div id="ai-gen-bw-view" class="ai-prompt-box" style="display: none;">
+                    <div class="form-group">
+                        <label for="ai-bw-prompt">AI Prompt Guidance / Details</label>
+                        <input type="text" id="ai-bw-prompt" placeholder="e.g. Traditional Tunisian food, popular French girl names..." value="Tunisian boy and girl names">
+                    </div>
+
+                    <div class="form-row-grid-three">
+                        <div class="form-group">
+                            <label for="ai-bw-category-select">Category</label>
+                            <select id="ai-bw-category-select">
+                                <option value="boy">Boy (ولد)</option>
+                                <option value="girl">Girl (بنت)</option>
+                                <option value="country">Country (بلاد)</option>
+                                <option value="animal">Animal (حيوان)</option>
+                                <option value="object">Object (جماد)</option>
+                                <option value="plant">Plant (نبات)</option>
+                                <option value="profession">Profession (خدمة)</option>
+                                <option value="food">Food (ماكلة)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="ai-bw-letter-input">Target Letter</label>
+                            <input type="text" id="ai-bw-letter-input" maxlength="5" value="A" placeholder="A, B, أ, ب...">
+                        </div>
+                        <div class="form-group">
+                            <label for="ai-bw-lang-select">Language</label>
+                            <select id="ai-bw-lang-select">
+                                <option value="ar">Standard Arabic (AR)</option>
+                                <option value="tn">Tunisian Derja (TN)</option>
+                                <option value="fr">French (FR)</option>
+                                <option value="en" selected>English (EN)</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row-grid-three" style="grid-template-columns: 1fr 1fr; margin-top: 1rem;">
+                        <div class="form-group">
+                            <label for="ai-bw-count">Words Count</label>
+                            <select id="ai-bw-count">
+                                <option value="5">5 Words</option>
+                                <option value="10" selected>10 Words</option>
+                                <option value="25">25 Words</option>
+                                <option value="50">50 Words</option>
+                            </select>
+                        </div>
+                        <div class="form-group" style="display: flex; align-items: flex-end;">
+                            <button id="btn-generate-ai-bw" class="btn btn-primary btn-ai glow-btn" style="width: 100%;">
+                                <span>Generate Words Now</span>
+                                <i class="sparkle-icon">✨</i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AI Generation Loading Spinner -->
+                <div id="ai-loading" class="ai-loading-container" style="display: none;">
+                    <div class="spinner"></div>
+                    <p class="spinner-text" id="ai-loading-text">Connecting to Gemini to design batch questions and trap answers...</p>
+                </div>
+
+                <!-- AI Output Preview Card (Talla3) -->
+                <div id="ai-output-preview" class="ai-preview-card" style="display: none;">
+                    <h3 class="preview-heading">Review & Edit Generated Questions</h3>
+                    <div id="ai-preview-cards-container"></div>
+                    <div class="preview-actions" style="margin-top: 2rem; border-top: 1px solid var(--panel-border); padding-top: 1.5rem;">
+                        <button id="btn-save-ai-question" class="btn btn-primary">Save All to Database</button>
+                        <button id="btn-discard-ai" class="btn btn-secondary">Discard All</button>
+                    </div>
+                </div>
+
+                <!-- AI Output Preview Card (BW) -->
+                <div id="ai-output-preview-bw" class="ai-preview-card" style="display: none;">
+                    <h3 class="preview-heading">Review & Edit Generated Words</h3>
+                    <div style="overflow-x: auto; margin-bottom: 1.5rem;">
+                        <table class="crud-table" style="width: 100%;">
+                            <thead>
+                                <tr>
+                                    <th style="width: 50px;">Select</th>
+                                    <th>Category</th>
+                                    <th>Letter</th>
+                                    <th>Word</th>
+                                    <th>Language</th>
+                                </tr>
+                            </thead>
+                            <tbody id="ai-bw-preview-rows">
+                                <!-- JS inserts word rows -->
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="preview-actions" style="margin-top: 2rem; border-top: 1px solid var(--panel-border); padding-top: 1.5rem;">
+                        <button id="btn-save-ai-bw" class="btn btn-primary">Save Selected to Dictionary</button>
+                        <button id="btn-discard-ai-bw" class="btn btn-secondary">Discard All</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tab 5: JSON Questions Import -->
+            <section id="tab-import-json" class="tab-content">
+                <h2 class="content-title" id="lbl-import-title">Import Questions from JSON 📥</h2>
+                <p class="content-subtitle" id="lbl-import-subtitle">
+                    Import a list of questions with multi-language translations and custom points in bulk by pasting a JSON array.
+                </p>
+
+                <!-- Name 9 (Talla3) Prompt View -->
+                <div id="import-talla3-view" class="table-card" style="margin-bottom: 2rem; padding: 1.5rem;">
+                    <h3 class="chart-title" style="margin-bottom: 0.75rem; color: var(--secondary-color);">
+                        💡 How to Generate the JSON with a Chatbot
+                    </h3>
+                    <p style="font-size: 0.95rem; line-height: 1.6; color: var(--text-secondary); margin-bottom: 1rem;">
+                        Copy the prompt template below and paste it into ChatGPT, Claude, Gemini, or any chatbot to generate a correctly formatted question list.
+                    </p>
+                    
+                    <!-- Prompt Configuration Dropdowns -->
+                    <div class="form-row-grid-three" style="margin-bottom: 1.5rem; grid-template-columns: 1fr 1fr 120px; gap: 1rem; border-bottom: 1px solid var(--panel-border); padding-bottom: 1.5rem;">
+                        <div class="form-group">
+                            <label for="import-prompt-category">Category Focus</label>
+                            <select id="import-prompt-category" style="background: rgba(0,0,0,0.4); color: var(--text-primary); border: 1px solid var(--panel-border); border-radius: 8px; padding: 0.5rem; width: 100%;">
+                                <option value="">-- All Categories (Random) --</option>
+                                <option value="History & Politics">History & Politics</option>
+                                <option value="Geography">Geography</option>
+                                <option value="Economy & Business">Economy & Business</option>
+                                <option value="Science & Technology">Science & Technology</option>
+                                <option value="Sports">Sports</option>
+                                <option value="Arts">Arts</option>
+                                <option value="Entertainment">Entertainment</option>
+                                <option value="Gastronomy">Gastronomy</option>
+                                <option value="Culture & Lifestyle">Culture & Lifestyle</option>
+                                <option value="Religion & Philosophy">Religion & Philosophy</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="import-prompt-subcategory">Subcategory Focus</label>
+                            <select id="import-prompt-subcategory" style="background: rgba(0,0,0,0.4); color: var(--text-primary); border: 1px solid var(--panel-border); border-radius: 8px; padding: 0.5rem; width: 100%;">
+                                <option value="">-- All Subcategories --</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="import-prompt-count">Questions Count</label>
+                            <select id="import-prompt-count" style="background: rgba(0,0,0,0.4); color: var(--text-primary); border: 1px solid var(--panel-border); border-radius: 8px; padding: 0.5rem; width: 100%;">
+                                <option value="1">1</option>
+                                <option value="3" selected>3</option>
+                                <option value="5">5</option>
+                                <option value="10">10</option>
+                                <option value="15">15</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label style="display: flex; justify-content: space-between; align-items: center;">
+                            <span>Chatbot Prompt Template</span>
+                            <button class="btn btn-secondary" style="padding: 0.25rem 0.75rem; font-size: 0.8rem;" onclick="copyPromptTemplate('talla3')">Copy Prompt</button>
+                        </label>
+                        <textarea id="prompt-template-text" readonly class="form-control" style="min-height: 300px; font-family: monospace; font-size: 0.85rem; background: rgba(0,0,0,0.3); resize: none; margin-top: 0.5rem; line-height: 1.4; width: 100%;">Act as a professional trivia content designer for the Tunisian mobile game "El Quizz".
+Generate exactly 3 trivia questions about Tunisian cultural heritage, history, or geography.
+Return the response strictly as a single raw JSON array. DO NOT wrap it in markdown code block tags like ```json, and do not write any additional introductory or explanatory text.
+Each question in the array must follow this exact format:
+{
+  "category": "Geography",
+  "subcategory": "Country",
+  "region": "Tunisia",
+  "difficulty": 3,
+  "generation": "All",
+  "translations": {
+    "ar": "ما هي بعض الولايات التونسية الساحلية؟",
+    "tn": "شنومة بعض الولايات التونسية الساحلية؟",
+    "fr": "Quels sont des gouvernorats côtiers tunisiens?",
+    "en": "What are some coastal Tunisian governorates?"
+  },
+  "answers": [
+    {
+      "is_correct": true,
+      "points": 1,
+      "translations": {
+        "ar": "بنزرت",
+        "tn": "بنزرت",
+        "fr": "Bizerte",
+        "en": "Bizerte"
+      }
+    },
+    {
+      "is_correct": false,
+      "points": 0,
+      "translations": {
+        "ar": "القيروان",
+        "tn": "القيروان",
+        "fr": "Kairouan",
+        "en": "Kairouan"
+      }
+    }
+  ]
+}</textarea>
+                    </div>
+                </div>
+
+                <!-- Bent Waled (BW) Prompt View -->
+                <div id="import-bw-view" class="table-card" style="display: none; margin-bottom: 2rem; padding: 1.5rem;">
+                    <h3 class="chart-title" style="margin-bottom: 0.75rem; color: var(--secondary-color);">
+                        💡 How to Generate Dictionary JSON with a Chatbot
+                    </h3>
+                    <p style="font-size: 0.95rem; line-height: 1.6; color: var(--text-secondary); margin-bottom: 1rem;">
+                        Copy the prompt template below and paste it into ChatGPT, Claude, Gemini, or any chatbot to generate a correctly formatted dictionary word list.
+                    </p>
+
+                    <div class="form-group">
+                        <label style="display: flex; justify-content: space-between; align-items: center;">
+                            <span>Chatbot Prompt Template (Bent Waled)</span>
+                            <button class="btn btn-secondary" style="padding: 0.25rem 0.75rem; font-size: 0.8rem;" onclick="copyPromptTemplate('bw')">Copy Prompt</button>
+                        </label>
+                        <textarea id="prompt-template-text-bw" readonly class="form-control" style="min-height: 300px; font-family: monospace; font-size: 0.85rem; background: rgba(0,0,0,0.3); resize: none; margin-top: 0.5rem; line-height: 1.4; width: 100%;">Act as a professional dictionary content builder for the Tunisian mobile game "El Quizz".
+Generate a list of 25 vocabulary words starting with specific letters for the game categories: boy, girl, country, animal, object, plant, profession, food.
+Return the response strictly as a single raw JSON array. DO NOT wrap it in markdown code block tags like ```json, and do not write any introductory text.
+Each item in the array must follow this exact format:
+[
+  {
+    "category": "animal",
+    "letter": "A",
+    "word": "Alligator",
+    "language": "en"
+  }
+]</textarea>
+                    </div>
+                </div>
+
+                <!-- Pasting Input Form -->
+                <div class="table-card" style="padding: 1.5rem;">
+                    <h3 class="chart-title" id="lbl-paste-json-title" style="margin-bottom: 1rem; color: var(--accent-color);">
+                        📋 Paste Question JSON Array
+                    </h3>
+                    <div class="form-group">
+                        <textarea id="json-import-textarea" class="form-control" style="min-height: 280px; font-family: monospace; font-size: 0.9rem; line-height: 1.4; background: rgba(0,0,0,0.4); border: 1px solid var(--panel-border); border-radius: 12px; padding: 1rem; width: 100%; resize: vertical;" placeholder="[&#10;  {&#10;    &quot;category&quot;: &quot;Geography&quot;,&#10;    ...&#10;  }&#10;]"></textarea>
+                    </div>
+                    
+                    <div style="display: flex; gap: 1rem; margin-top: 1rem;">
+                        <button id="btn-import-json" class="btn btn-primary" style="flex-grow: 1;">Validate & Import Questions</button>
+                        <button id="btn-clear-json" class="btn btn-secondary">Clear Input</button>
+                    </div>
+                </div>
+
+                <!-- Import Status Logger -->
+                <div id="json-import-status" style="display: none; margin-top: 1.5rem; padding: 1.25rem; background: rgba(13,17,30,0.85); border: 1px solid var(--panel-border); border-radius: 12px;">
+                    <h4 style="margin-bottom: 0.75rem; color: var(--text-primary); font-size: 1.1rem; display: flex; align-items: center; gap: 0.5rem;">
+                        <span>Import Status Log</span>
+                        <span id="import-log-badge" style="font-size: 0.75rem; padding: 0.15rem 0.5rem; border-radius: 10px; background: var(--primary-color);">Processing...</span>
+                    </h4>
+                    <div id="json-import-log-rows" style="font-family: monospace; max-height: 250px; overflow-y: auto; font-size: 0.85rem; line-height: 1.5; color: var(--text-secondary); background: rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.05); border-radius: 8px; padding: 0.75rem;">
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Edit Question Modal Overlay -->
+    <div id="modal-edit-question" class="modal-overlay" style="display: none;">
+        <div class="glass-modal" style="max-width: 900px; width: 95%; max-height: 90vh; overflow-y: auto;">
+            <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--panel-border); padding-bottom: 1rem; margin-bottom: 1.5rem;">
+                <h3 style="margin: 0; color: var(--accent-color); font-size: 1.4rem; font-weight: 800;">Edit Question Details</h3>
+                <span id="close-edit-modal" style="cursor: pointer; font-size: 1.5rem; opacity: 0.7;">&times;</span>
+            </div>
+            
+            <form id="form-edit-question">
+                <input type="hidden" id="edit-q-id">
+                
+                <!-- Question Texts Grid -->
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1rem; margin-bottom: 1.5rem;">
+                    <div class="form-group">
+                        <label>Question Text (Standard Arabic - AR)</label>
+                        <textarea id="edit-q-text-ar" rows="2" placeholder="Question in standard Arabic"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Question Text (Tunisian Derja - TN)</label>
+                        <textarea id="edit-q-text-tn" rows="2" placeholder="Question in Tunisian dialect"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Question Text (French - FR)</label>
+                        <textarea id="edit-q-text-fr" rows="2" placeholder="Question in French"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Question Text (English - EN)</label>
+                        <textarea id="edit-q-text-en" rows="2" placeholder="Question in English"></textarea>
+                    </div>
+                </div>
+
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-bottom: 1.5rem;">
+                    <div class="form-group">
+                        <label>Category</label>
+                        <select id="edit-q-category" required>
+                            <option value="History & Politics">History & Politics</option>
+                            <option value="Geography">Geography</option>
+                            <option value="Economy & Business">Economy & Business</option>
+                            <option value="Science & Technology">Science & Technology</option>
+                            <option value="Sports">Sports</option>
+                            <option value="Arts">Arts</option>
+                            <option value="Entertainment">Entertainment</option>
+                            <option value="Gastronomy">Gastronomy</option>
+                            <option value="Culture & Lifestyle">Culture & Lifestyle</option>
+                            <option value="Religion & Philosophy">Religion & Philosophy</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Subcategory</label>
+                        <select id="edit-q-subcategory-select" required></select>
+                    </div>
+                    <div class="form-group">
+                        <label>Difficulty (1-5)</label>
+                        <select id="edit-q-difficulty">
+                            <option value="1">1 (Easy)</option>
+                            <option value="2">2 (Medium)</option>
+                            <option value="3">3 (Difficult)</option>
+                            <option value="4">4 (Extremely Hard)</option>
+                            <option value="5">5 (Near Impossible)</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-row-grid edit-subcategory-new-group" style="display: none; margin-bottom: 1.5rem;">
+                    <div class="form-group">
+                        <label>New Subcategory Name</label>
+                        <input type="text" id="edit-q-subcategory-new" placeholder="Type new subcategory name">
+                    </div>
+                </div>
+
+                <!-- Correct Answers Grid (9 items) -->
+                <h4 style="margin-bottom: 1rem; color: var(--secondary-color); border-bottom: 1px solid var(--panel-border); padding-bottom: 0.5rem;">Correct Answers (Fibonacci Point Values)</h4>
+                <div style="display: grid; grid-template-columns: 1fr; gap: 1rem; margin-bottom: 2rem;" id="edit-correct-answers-container">
+                    <!-- Javascript generates 9 answers items -->
+                </div>
+
+                <!-- Trap Answer Section -->
+                <h4 style="margin-bottom: 1rem; color: #ef4444; border-bottom: 1px solid var(--panel-border); padding-bottom: 0.5rem;">Wrong Trap Answer (0 Points)</h4>
+                <div style="display: grid; grid-template-columns: 1fr; gap: 1rem; margin-bottom: 2rem;" id="edit-trap-answers-container">
+                    <!-- Javascript generates wrong answer languages inputs -->
+                </div>
+
+                <div style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid var(--panel-border); padding-top: 1.5rem; margin-top: 2rem;">
+                    <button type="button" class="btn btn-secondary" id="btn-edit-delete" style="background: rgba(239, 68, 68, 0.15); border: 1px solid #ef4444; color: #ef4444;">Delete Question 🗑️</button>
+                    <div style="display: flex; gap: 1rem;">
+                        <button type="button" class="btn btn-secondary" id="btn-edit-cancel">Cancel ❌</button>
+                        <button type="submit" class="btn btn-primary">Save Changes 💾</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Modal: Edit Bent Waled Word -->
+    <div id="modal-edit-word" class="modal-overlay" style="display: none;">
+        <div class="glass-modal" style="max-width: 500px; width: 90%;">
+            <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--panel-border); padding-bottom: 1rem; margin-bottom: 1.5rem;">
+                <h3 style="margin: 0; color: var(--accent-color); font-size: 1.4rem; font-weight: 800;">Edit Dictionary Word 📝</h3>
+                <span id="close-edit-word-modal" style="cursor: pointer; font-size: 1.5rem; opacity: 0.7;">&times;</span>
+            </div>
+            
+            <form id="form-edit-word">
+                <input type="hidden" id="edit-word-id">
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 15px;">
+                    <div class="form-group">
+                        <label for="edit-word-text">Word</label>
+                        <input type="text" id="edit-word-text" required style="width: 100%; box-sizing: border-box;">
+                    </div>
+                    <div class="form-group">
+                        <label for="edit-word-entity-id">Entity ID</label>
+                        <input type="text" id="edit-word-entity-id" style="width: 100%; box-sizing: border-box;">
+                    </div>
+                </div>
+                <div class="form-group" style="margin-bottom: 15px;">
+                    <label for="edit-word-aliases">Aliases / Synonyms (comma-separated)</label>
+                    <input type="text" id="edit-word-aliases" style="width: 100%; box-sizing: border-box;">
+                </div>
+                
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 15px;">
+                    <div class="form-group">
+                        <label for="edit-word-category">Category</label>
+                        <select id="edit-word-category" required style="width: 100%; box-sizing: border-box;">
+                            <option value="boy">Boy (ولد)</option>
+                            <option value="girl">Girl (بنت)</option>
+                            <option value="country">Country (بلاد)</option>
+                            <option value="animal">Animal (حيوان)</option>
+                            <option value="object">Object (جماد)</option>
+                            <option value="plant">Plant (نبات)</option>
+                            <option value="profession">Profession (خدمة)</option>
+                            <option value="food">Food (ماكلة)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="edit-word-letter">Letter</label>
+                        <input type="text" id="edit-word-letter" required maxlength="5" style="width: 100%; box-sizing: border-box;">
+                    </div>
+                </div>
+
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 15px;">
+                    <div class="form-group">
+                        <label for="edit-word-lang">Language</label>
+                        <select id="edit-word-lang" required style="width: 100%; box-sizing: border-box;">
+                            <option value="ar">Arabic (AR)</option>
+                            <option value="tn">Tunisian (TN)</option>
+                            <option value="fr">French (FR)</option>
+                            <option value="en">English (EN)</option>
+                        </select>
+                    </div>
+                    <div class="form-group" style="display: flex; align-items: center; gap: 8px; margin-top: 25px;">
+                        <input type="checkbox" id="edit-word-approved" checked style="width: auto;">
+                        <label for="edit-word-approved" style="margin: 0; cursor: pointer;">Approved</label>
+                    </div>
+                </div>
+
+                <div style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid var(--panel-border); padding-top: 15px; margin-top: 20px;">
+                    <button type="button" class="btn btn-secondary" id="btn-edit-word-delete" style="background: rgba(239, 68, 68, 0.15); border: 1px solid #ef4444; color: #ef4444; margin: 0;">Delete Word 🗑️</button>
+                    <div style="display: flex; gap: 10px;">
+                        <button type="button" class="btn btn-secondary" id="btn-edit-word-cancel" style="margin: 0;">Cancel</button>
+                        <button type="submit" class="btn btn-primary" style="margin: 0;">Save Word 💾</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Script imports -->
+    <script src="admin_app.js"></script>
+</body>
+</html>

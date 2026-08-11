@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "plant_تفاح",
+    "answer": "تفاح",
+    "normalized": "تفاح",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "plant_تمر",
+    "answer": "تمر",
+    "normalized": "تمر",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "plant_تين",
+    "answer": "تين",
+    "normalized": "تين",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "plant_توت",
+    "answer": "توت",
+    "normalized": "توت",
+    "aliases": [],
+    "status": "approved"
+  }
+]

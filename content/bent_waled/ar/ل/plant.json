@@ -1,0 +1,23 @@
+[
+  {
+    "entity_id": "plant_ليمون",
+    "answer": "ليمون",
+    "normalized": "ليمون",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "plant_لوبياء",
+    "answer": "لوبياء",
+    "normalized": "لوبياء",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "plant_لوز",
+    "answer": "لوز",
+    "normalized": "لوز",
+    "aliases": [],
+    "status": "approved"
+  }
+]

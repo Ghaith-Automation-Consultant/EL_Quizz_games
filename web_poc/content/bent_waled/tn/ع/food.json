@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "food_عجة",
+    "answer": "عجة",
+    "normalized": "عجت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_عصيدة",
+    "answer": "عصيدة",
+    "normalized": "عصيدت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_عسل",
+    "answer": "عسل",
+    "normalized": "عسل",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_عنبية",
+    "answer": "عنبية",
+    "normalized": "عنبيت",
+    "aliases": [],
+    "status": "approved"
+  }
+]

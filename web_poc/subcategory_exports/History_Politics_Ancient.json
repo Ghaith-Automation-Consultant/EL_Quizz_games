@@ -1,0 +1,127 @@
+[
+  {
+    "id": 105,
+    "category": "History & Politics",
+    "subcategory": "Ancient",
+    "region": "Tunisia",
+    "difficulty": 3,
+    "translations": {
+      "ar": "أذكر بلداناً كانت تابعة للإمبراطورية القرطاجية القديمة؟",
+      "en": "Name countries that were once part of the ancient Carthaginian empire?",
+      "fr": "Citez des pays qui faisaient partie de l'ancien empire carthaginois ?",
+      "tn": "أعطيني بلدان توة كانت تابعة للإمبراطورية القرطاجية القديمة؟"
+    },
+    "answers": [
+      {
+        "id": 1041,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "تونس",
+          "en": "Tunisia",
+          "fr": "Tunisie",
+          "tn": "تونس"
+        }
+      },
+      {
+        "id": 1042,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الجزائر",
+          "en": "Algeria",
+          "fr": "Algérie",
+          "tn": "الجزائر"
+        }
+      },
+      {
+        "id": 1043,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "إسبانيا",
+          "en": "Spain",
+          "fr": "Espagne",
+          "tn": "إسبانيا"
+        }
+      },
+      {
+        "id": 1044,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "المغرب",
+          "en": "Morocco",
+          "fr": "Maroc",
+          "tn": "المغرب"
+        }
+      },
+      {
+        "id": 1045,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "ليبيا",
+          "en": "Libya",
+          "fr": "Libye",
+          "tn": "ليبيا"
+        }
+      },
+      {
+        "id": 1046,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "إيطاليا",
+          "en": "Italy",
+          "fr": "Italie",
+          "tn": "إيطاليا"
+        }
+      },
+      {
+        "id": 1047,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "مالطا",
+          "en": "Malta",
+          "fr": "Malte",
+          "tn": "مالطا"
+        }
+      },
+      {
+        "id": 1048,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "البرتغال",
+          "en": "Portugal",
+          "fr": "Portugal",
+          "tn": "البرتغال"
+        }
+      },
+      {
+        "id": 1049,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "فرنسا",
+          "en": "France",
+          "fr": "France",
+          "tn": "فرنسا"
+        }
+      },
+      {
+        "id": 1050,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "مصر",
+          "en": "Egypt",
+          "fr": "Égypte",
+          "tn": "مصر"
+        }
+      }
+    ]
+  }
+]

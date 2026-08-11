@@ -1,0 +1,16 @@
+[
+  {
+    "entity_id": "object_ذخيرة",
+    "answer": "ذخيرة",
+    "normalized": "ذخيرت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_ذهب",
+    "answer": "ذهب",
+    "normalized": "ذهب",
+    "aliases": [],
+    "status": "approved"
+  }
+]

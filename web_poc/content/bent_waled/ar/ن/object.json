@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "object_نظارة",
+    "answer": "نظارة",
+    "normalized": "نظارت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_نافذة",
+    "answer": "نافذة",
+    "normalized": "نافذت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_ناقوس",
+    "answer": "ناقوس",
+    "normalized": "ناقوس",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_نول",
+    "answer": "نول",
+    "normalized": "نول",
+    "aliases": [],
+    "status": "approved"
+  }
+]

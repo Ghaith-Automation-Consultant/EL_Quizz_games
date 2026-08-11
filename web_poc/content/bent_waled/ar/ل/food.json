@@ -1,0 +1,23 @@
+[
+  {
+    "entity_id": "food_لوبيا_بالكرعين",
+    "answer": "لوبيا بالكرعين",
+    "normalized": "لوبيا بالكرعين",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_لزانيا",
+    "answer": "لزانيا",
+    "normalized": "لزانيا",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_لقمة_القاضي",
+    "answer": "لقمة القاضي",
+    "normalized": "لقمت القاضي",
+    "aliases": [],
+    "status": "approved"
+  }
+]

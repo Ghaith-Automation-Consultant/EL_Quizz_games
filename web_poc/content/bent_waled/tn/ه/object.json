@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "object_هاتف",
+    "answer": "هاتف",
+    "normalized": "هاتف",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_هلال",
+    "answer": "هلال",
+    "normalized": "هلال",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_هدية",
+    "answer": "هدية",
+    "normalized": "هديت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_هودج",
+    "answer": "هودج",
+    "normalized": "هودج",
+    "aliases": [],
+    "status": "approved"
+  }
+]

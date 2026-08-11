@@ -1,0 +1,16 @@
+[
+  {
+    "entity_id": "plant_غار",
+    "answer": "غار",
+    "normalized": "غار",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "plant_غاف",
+    "answer": "غاف",
+    "normalized": "غاف",
+    "aliases": [],
+    "status": "approved"
+  }
+]

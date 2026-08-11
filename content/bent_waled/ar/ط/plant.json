@@ -1,0 +1,23 @@
+[
+  {
+    "entity_id": "plant_طماطم",
+    "answer": "طماطم",
+    "normalized": "طماطم",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "plant_طلح",
+    "answer": "طلح",
+    "normalized": "طلح",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "plant_طرخون",
+    "answer": "طرخون",
+    "normalized": "طرخون",
+    "aliases": [],
+    "status": "approved"
+  }
+]

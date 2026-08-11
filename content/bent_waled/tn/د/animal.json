@@ -1,0 +1,37 @@
+[
+  {
+    "entity_id": "animal_دلفين",
+    "answer": "دلفين",
+    "normalized": "دلفين",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "animal_دجاجة",
+    "answer": "دجاجة",
+    "normalized": "دجاجت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "animal_ديك",
+    "answer": "ديك",
+    "normalized": "ديك",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "animal_دودة",
+    "answer": "دودة",
+    "normalized": "دودت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "animal_دب",
+    "answer": "دب",
+    "normalized": "دب",
+    "aliases": [],
+    "status": "approved"
+  }
+]

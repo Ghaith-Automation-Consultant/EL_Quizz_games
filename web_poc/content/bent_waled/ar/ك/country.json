@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "country_كندا",
+    "answer": "كندا",
+    "normalized": "كندا",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_كينيا",
+    "answer": "كينيا",
+    "normalized": "كينيا",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_كويت",
+    "answer": "كويت",
+    "normalized": "كويت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_كولومبيا",
+    "answer": "كولومبيا",
+    "normalized": "كولومبيا",
+    "aliases": [],
+    "status": "approved"
+  }
+]

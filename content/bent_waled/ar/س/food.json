@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "food_سلطة",
+    "answer": "سلطة",
+    "normalized": "سلطت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_كسكسي",
+    "answer": "كسكسي",
+    "normalized": "كسكسي",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_سفنز",
+    "answer": "سفنز",
+    "normalized": "سفنز",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_سميد",
+    "answer": "سميد",
+    "normalized": "سميد",
+    "aliases": [],
+    "status": "approved"
+  }
+]

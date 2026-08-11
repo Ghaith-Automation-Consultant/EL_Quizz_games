@@ -1,0 +1,502 @@
+[
+  {
+    "id": 141,
+    "category": "Economy & Business",
+    "subcategory": "Companies",
+    "region": "Tunisia",
+    "difficulty": 3,
+    "translations": {
+      "ar": "ما هي من الشركات التونسية المعروفة؟",
+      "en": "Which are among well-known Tunisian companies?",
+      "fr": "Quelles sont parmi les entreprises tunisiennes connues ?",
+      "tn": "شنوة من الشركات التونسية المعروفة؟"
+    },
+    "answers": [
+      {
+        "id": 1395,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "اتصالات تونس",
+          "en": "Tunisie Telecom",
+          "fr": "Tunisie Telecom",
+          "tn": "Tunisie Telecom"
+        }
+      },
+      {
+        "id": 1396,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "أوريدو تونس",
+          "en": "Ooredoo Tunisia",
+          "fr": "Ooredoo Tunisie",
+          "tn": "Ooredoo Tunisie"
+        }
+      },
+      {
+        "id": 1397,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "أورنج تونس",
+          "en": "Orange Tunisia",
+          "fr": "Orange Tunisie",
+          "tn": "Orange Tunisie"
+        }
+      },
+      {
+        "id": 1398,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "شركة فسفاط قفصة",
+          "en": "CPG",
+          "fr": "CPG",
+          "tn": "CPG"
+        }
+      },
+      {
+        "id": 1399,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "سيفاكس",
+          "en": "Syphax",
+          "fr": "Syphax",
+          "tn": "Syphax"
+        }
+      },
+      {
+        "id": 1400,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "دليس",
+          "en": "Délice",
+          "fr": "Délice",
+          "tn": "Délice"
+        }
+      },
+      {
+        "id": 1401,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "ليلا",
+          "en": "Lilas",
+          "fr": "Lilas",
+          "tn": "Lilas"
+        }
+      },
+      {
+        "id": 1402,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "بولينا",
+          "en": "Poulina",
+          "fr": "Poulina",
+          "tn": "Poulina"
+        }
+      },
+      {
+        "id": 1403,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "سوترابيل",
+          "en": "Sotrapil",
+          "fr": "Sotrapil",
+          "tn": "Sotrapil"
+        }
+      },
+      {
+        "id": 1404,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "سوناطراك",
+          "en": "Sonatrach",
+          "fr": "Sonatrach",
+          "tn": "Sonatrach"
+        }
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "category": "Economy & Business",
+    "subcategory": "Companies",
+    "region": "Tunisia",
+    "difficulty": 4,
+    "translations": {
+      "ar": "أي من هذه الشركات مدرجة في بورصة تونس؟",
+      "en": "Which of these companies are listed on the Tunis Stock Exchange?",
+      "fr": "Quelles entreprises sont cotées à la Bourse de Tunis ?",
+      "tn": "شنوة من هالشركات مدرجة في بورصة تونس؟"
+    },
+    "answers": [
+      {
+        "id": 1445,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "بولينا",
+          "en": "Poulina Group Holding",
+          "fr": "Poulina Group Holding",
+          "tn": "Poulina"
+        }
+      },
+      {
+        "id": 1446,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "بي تي",
+          "en": "Banque de Tunisie",
+          "fr": "Banque de Tunisie",
+          "tn": "Banque de Tunisie"
+        }
+      },
+      {
+        "id": 1447,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "التجاري بنك",
+          "en": "Attijari Bank",
+          "fr": "Attijari Bank",
+          "tn": "Attijari Bank"
+        }
+      },
+      {
+        "id": 1448,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "أمن بنك",
+          "en": "Amen Bank",
+          "fr": "Amen Bank",
+          "tn": "Amen Bank"
+        }
+      },
+      {
+        "id": 1449,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "دليس القابضة",
+          "en": "Délice Holding",
+          "fr": "Délice Holding",
+          "tn": "Délice Holding"
+        }
+      },
+      {
+        "id": 1450,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "أسد",
+          "en": "ASSAD",
+          "fr": "ASSAD",
+          "tn": "ASSAD"
+        }
+      },
+      {
+        "id": 1451,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "سوتيب",
+          "en": "SOTIPAPIER",
+          "fr": "SOTIPAPIER",
+          "tn": "SOTIPAPIER"
+        }
+      },
+      {
+        "id": 1452,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "تلنات",
+          "en": "Telnet Holding",
+          "fr": "Telnet Holding",
+          "tn": "Telnet"
+        }
+      },
+      {
+        "id": 1453,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "واحة",
+          "en": "SFBT",
+          "fr": "SFBT",
+          "tn": "SFBT"
+        }
+      },
+      {
+        "id": 1454,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "توتال إنرجي",
+          "en": "TotalEnergies",
+          "fr": "TotalEnergies",
+          "tn": "TotalEnergies"
+        }
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "category": "Economy & Business",
+    "subcategory": "Companies",
+    "region": "Tunisia",
+    "difficulty": 3,
+    "translations": {
+      "ar": "ما هي من شركات الاتصالات العاملة في تونس؟",
+      "en": "Which telecom operators operate in Tunisia?",
+      "fr": "Quels opérateurs télécoms opèrent en Tunisie ?",
+      "tn": "شنوة من شركات الاتصالات في تونس؟"
+    },
+    "answers": [
+      {
+        "id": 1495,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "اتصالات تونس",
+          "en": "Tunisie Telecom",
+          "fr": "Tunisie Telecom",
+          "tn": "Tunisie Telecom"
+        }
+      },
+      {
+        "id": 1496,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "أوريدو تونس",
+          "en": "Ooredoo Tunisia",
+          "fr": "Ooredoo Tunisie",
+          "tn": "Ooredoo"
+        }
+      },
+      {
+        "id": 1497,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "أورنج تونس",
+          "en": "Orange Tunisia",
+          "fr": "Orange Tunisie",
+          "tn": "Orange"
+        }
+      },
+      {
+        "id": 1498,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "تونيزيانا",
+          "en": "Tunisiana",
+          "fr": "Tunisiana",
+          "tn": "Tunisiana"
+        }
+      },
+      {
+        "id": 1499,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "إيزي",
+          "en": "Easy",
+          "fr": "Easy",
+          "tn": "Easy"
+        }
+      },
+      {
+        "id": 1500,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "فور جي هوم",
+          "en": "4G Home",
+          "fr": "4G Home",
+          "tn": "4G Home"
+        }
+      },
+      {
+        "id": 1501,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "أوريدو بيزنس",
+          "en": "Ooredoo Business",
+          "fr": "Ooredoo Business",
+          "tn": "Ooredoo Business"
+        }
+      },
+      {
+        "id": 1502,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "أورنج بيزنس",
+          "en": "Orange Business",
+          "fr": "Orange Business",
+          "tn": "Orange Business"
+        }
+      },
+      {
+        "id": 1503,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "TT Smart",
+          "en": "TT Smart",
+          "fr": "TT Smart",
+          "tn": "TT Smart"
+        }
+      },
+      {
+        "id": 1504,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "فودافون تونس",
+          "en": "Vodafone Tunisia",
+          "fr": "Vodafone Tunisie",
+          "tn": "Vodafone Tunisie"
+        }
+      }
+    ]
+  },
+  {
+    "id": 187,
+    "category": "Economy & Business",
+    "subcategory": "Companies",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "أذكر علامات تجارية أو شركات تونسية مشهورة (غذائية، خدماتية، صناعية)؟",
+      "en": "What are famous Tunisian brands or companies?",
+      "fr": "Quelles sont les marques ou entreprises tunisiennes célèbres?",
+      "tn": "شنومة الماركات ولا الشركات التونسية المعروفة (ماكلة، خدمات، صناعة)؟"
+    },
+    "answers": [
+      {
+        "id": 1855,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "بوڨا",
+          "en": "Boga",
+          "fr": "Boga",
+          "tn": "بوڨا"
+        }
+      },
+      {
+        "id": 1856,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "صبرين",
+          "en": "Sabrine",
+          "fr": "Sabrine",
+          "tn": "صبرين"
+        }
+      },
+      {
+        "id": 1857,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "صافية",
+          "en": "Safia",
+          "fr": "Safia",
+          "tn": "صافية"
+        }
+      },
+      {
+        "id": 1858,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "دليس",
+          "en": "Delice",
+          "fr": "Delice",
+          "tn": "دليس"
+        }
+      },
+      {
+        "id": 1859,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "الخطوط التونسية",
+          "en": "Tunisair",
+          "fr": "Tunisair",
+          "tn": "تونيسار"
+        }
+      },
+      {
+        "id": 1860,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "أوريدو تونس",
+          "en": "Ooredoo",
+          "fr": "Ooredoo Tunisia",
+          "tn": "أوريدو"
+        }
+      },
+      {
+        "id": 1861,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "المزرعة",
+          "en": "El Mazraa",
+          "fr": "El Mazraa",
+          "tn": "المزرعة"
+        }
+      },
+      {
+        "id": 1862,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "اتصالات تونس",
+          "en": "Tunisie Telecom",
+          "fr": "Tunisie Telecom",
+          "tn": "تلكوم"
+        }
+      },
+      {
+        "id": 1863,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "سعيد (بسكويت)",
+          "en": "Saida",
+          "fr": "Saida",
+          "tn": "سيدة للشكلاطة والفرينة"
+        }
+      },
+      {
+        "id": 1864,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "كوكا كولا",
+          "en": "Coca Cola",
+          "fr": "Coca Cola",
+          "tn": "كوكا كولا"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "country_دنمارك",
+    "answer": "دنمارك",
+    "normalized": "دنمارك",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_دوحة",
+    "answer": "دوحة",
+    "normalized": "دوحت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_دمشق",
+    "answer": "دمشق",
+    "normalized": "دمشق",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_دبلن",
+    "answer": "دبلن",
+    "normalized": "دبلن",
+    "aliases": [],
+    "status": "approved"
+  }
+]

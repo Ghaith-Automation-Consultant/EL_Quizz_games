@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "profession_رسام",
+    "answer": "رسام",
+    "normalized": "رسام",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_رئيس",
+    "answer": "رئيس",
+    "normalized": "رئيس",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_ربان",
+    "answer": "ربان",
+    "normalized": "ربان",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_رياضي",
+    "answer": "رياضي",
+    "normalized": "رياضي",
+    "aliases": [],
+    "status": "approved"
+  }
+]

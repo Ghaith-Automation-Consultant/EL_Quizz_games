@@ -1,0 +1,23 @@
+[
+  {
+    "entity_id": "animal_غزال",
+    "answer": "غزال",
+    "normalized": "غزال",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "animal_غراب",
+    "answer": "غراب",
+    "normalized": "غراب",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "animal_غوريلا",
+    "answer": "غوريلا",
+    "normalized": "غوريلا",
+    "aliases": [],
+    "status": "approved"
+  }
+]

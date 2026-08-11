@@ -1,0 +1,23 @@
+[
+  {
+    "entity_id": "food_تمر_محشي",
+    "answer": "تمر محشي",
+    "normalized": "تمر محشي",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_تارت",
+    "answer": "تارت",
+    "normalized": "تارت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_تونة",
+    "answer": "تونة",
+    "normalized": "تونت",
+    "aliases": [],
+    "status": "approved"
+  }
+]

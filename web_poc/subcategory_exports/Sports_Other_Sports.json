@@ -1,0 +1,127 @@
+[
+  {
+    "id": 56,
+    "category": "Sports",
+    "subcategory": "Other Sports",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "أذكر رياضات فردية مشهورة في تونس ويحقق فيها التونسيون ألقاباً؟",
+      "en": "Name popular individual sports in Tunisia where Tunisians have won titles?",
+      "fr": "Citez des sports individuels populaires en Tunisie où les Tunisiens ont remporté des titres ?",
+      "tn": "أعطيني رياضات فردية معروفة في تونس يحقق فيها التوانسة ألقاب؟"
+    },
+    "answers": [
+      {
+        "id": 551,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "التنس",
+          "en": "Answer in English: التنس",
+          "fr": "التنس",
+          "tn": "التنس"
+        }
+      },
+      {
+        "id": 552,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "السباحة",
+          "en": "Answer in English: السباحة",
+          "fr": "السباحة",
+          "tn": "السباحة"
+        }
+      },
+      {
+        "id": 553,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "التايكواندو",
+          "en": "Answer in English: التايكواندو",
+          "fr": "التايكواندو",
+          "tn": "التايكواندو"
+        }
+      },
+      {
+        "id": 554,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "المصارعة",
+          "en": "Answer in English: المصارعة",
+          "fr": "المصارعة",
+          "tn": "المصارعة"
+        }
+      },
+      {
+        "id": 555,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "الملاكمة",
+          "en": "Answer in English: الملاكمة",
+          "fr": "الملاكمة",
+          "tn": "الملاكمة"
+        }
+      },
+      {
+        "id": 556,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "ألعاب القوى",
+          "en": "Answer in English: ألعاب القوى",
+          "fr": "ألعاب القوى",
+          "tn": "ألعاب القوى"
+        }
+      },
+      {
+        "id": 557,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "رفع الأثقال",
+          "en": "Answer in English: رفع الأثقال",
+          "fr": "رفع الأثقال",
+          "tn": "رفع الأثقال"
+        }
+      },
+      {
+        "id": 558,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "الجودو",
+          "en": "Answer in English: الجودو",
+          "fr": "الجودو",
+          "tn": "الجودو"
+        }
+      },
+      {
+        "id": 559,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "الكاراتيه",
+          "en": "Answer in English: الكاراتيه",
+          "fr": "الكاراتيه",
+          "tn": "الكاراتيه"
+        }
+      },
+      {
+        "id": 560,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "التزلج على الجليد",
+          "en": "Wrong distractor: التزلج على الجليد",
+          "fr": "التزلج على الجليد",
+          "tn": "التزلج على الجليد"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,127 @@
+[
+  {
+    "id": 196,
+    "category": "Gastronomy",
+    "subcategory": "Ingredients",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "أذكر مكونات أو بهارات تونسية تقليدية لا تغيب عن المطبخ التونسي؟",
+      "en": "What are essential ingredients or spices of Tunisian cuisine?",
+      "fr": "Quels sont les ingrédients ou épices indispensables de la cuisine tunisienne?",
+      "tn": "شنومة الفاحات والمكونات اللي ما تغيبش على المطبخ التونسي؟"
+    },
+    "answers": [
+      {
+        "id": 1945,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الهريسة التونسية",
+          "en": "Tunisian Harissa",
+          "fr": "Harissa Tunisienne",
+          "tn": "الهريسة الحارة العربي"
+        }
+      },
+      {
+        "id": 1946,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "زيت الزيتون",
+          "en": "Olive Oil",
+          "fr": "Huile d'olive",
+          "tn": "زيت زيتونة ساحلي ولا صفاقسي"
+        }
+      },
+      {
+        "id": 1947,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "تابل وكروية",
+          "en": "Tabel and Karouia",
+          "fr": "Tabel et Karouia",
+          "tn": "التابل والكروية الفياحة"
+        }
+      },
+      {
+        "id": 1948,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "طماطم معجونة",
+          "en": "Tomato Paste",
+          "fr": "Double concentre de tomate",
+          "tn": "حكة الطماطم المعجونة الباطا"
+        }
+      },
+      {
+        "id": 1949,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "الرند",
+          "en": "Bay Leaf (Rend)",
+          "fr": "Feuilles de laurier (Rend)",
+          "tn": "ورق الرند الأخضر الفواح"
+        }
+      },
+      {
+        "id": 1950,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "الثوم",
+          "en": "Garlic",
+          "fr": "Ail",
+          "tn": "الثوم المرحي ولا الفصوص"
+        }
+      },
+      {
+        "id": 1951,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "القرنيط الشايح",
+          "en": "Dried Octopus",
+          "fr": "Poulpe seche",
+          "tn": "القرنيط الشايح متاع كسكسي الشتا"
+        }
+      },
+      {
+        "id": 1952,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "القديد",
+          "en": "Qadid",
+          "fr": "Qadid (Viande sechee)",
+          "tn": "القديد والخلع المملح"
+        }
+      },
+      {
+        "id": 1953,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "الشبت",
+          "en": "Dill (Chebbet)",
+          "fr": "Aneth (Chebbet)",
+          "tn": "الشبت لكسكسي الحوت والصفاقسي"
+        }
+      },
+      {
+        "id": 1954,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "زعفران هندي",
+          "en": "Indian Saffron",
+          "fr": "Safran des Indes",
+          "tn": "زعفران هندي أصفر"
+        }
+      }
+    ]
+  }
+]

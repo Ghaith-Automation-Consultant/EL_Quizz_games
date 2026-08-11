@@ -1,0 +1,37 @@
+[
+  {
+    "entity_id": "object_خاتم",
+    "answer": "خاتم",
+    "normalized": "خاتم",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_خيط",
+    "answer": "خيط",
+    "normalized": "خيط",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_خزانة",
+    "answer": "خزانة",
+    "normalized": "خزانت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_خوذة",
+    "answer": "خوذة",
+    "normalized": "خوذت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_خريطة",
+    "answer": "خريطة",
+    "normalized": "خريطت",
+    "aliases": [],
+    "status": "approved"
+  }
+]

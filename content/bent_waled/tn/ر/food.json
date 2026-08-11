@@ -1,0 +1,23 @@
+[
+  {
+    "entity_id": "food_رشتة",
+    "answer": "رشتة",
+    "normalized": "رشتت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_رفيسة",
+    "answer": "رفيسة",
+    "normalized": "رفيست",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_رز_بالفاكهة",
+    "answer": "رز بالفاكهة",
+    "normalized": "رز بالفاكهت",
+    "aliases": [],
+    "status": "approved"
+  }
+]

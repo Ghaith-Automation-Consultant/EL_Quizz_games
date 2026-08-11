@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "profession_بناء",
+    "answer": "بناء",
+    "normalized": "بناء",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_بائع",
+    "answer": "بائع",
+    "normalized": "بائع",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_بستاني",
+    "answer": "بستاني",
+    "normalized": "بستاني",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_بحار",
+    "answer": "بحار",
+    "normalized": "بحار",
+    "aliases": [],
+    "status": "approved"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "country_يمن",
+    "answer": "يمن",
+    "normalized": "يمن",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_يونان",
+    "answer": "يونان",
+    "normalized": "يونان",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_يابان",
+    "answer": "يابان",
+    "normalized": "يابان",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_يثرب",
+    "answer": "يثرب",
+    "normalized": "يثرب",
+    "aliases": [],
+    "status": "approved"
+  }
+]

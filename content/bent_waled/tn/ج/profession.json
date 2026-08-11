@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "profession_جزار",
+    "answer": "جزار",
+    "normalized": "جزار",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_جندي",
+    "answer": "جندي",
+    "normalized": "جندي",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_جيولوجي",
+    "answer": "جيولوجي",
+    "normalized": "جيولوجي",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_جابي",
+    "answer": "جابي",
+    "normalized": "جابي",
+    "aliases": [],
+    "status": "approved"
+  }
+]

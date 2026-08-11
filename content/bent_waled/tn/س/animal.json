@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "animal_سلحفاة",
+    "answer": "سلحفاة",
+    "normalized": "سلحفات",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "animal_سمكة",
+    "answer": "سمكة",
+    "normalized": "سمكت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "animal_سنجاب",
+    "answer": "سنجاب",
+    "normalized": "سنجاب",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "animal_سرطان",
+    "answer": "سرطان",
+    "normalized": "سرطان",
+    "aliases": [],
+    "status": "approved"
+  }
+]

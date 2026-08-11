@@ -1,0 +1,127 @@
+[
+  {
+    "id": 207,
+    "category": "History & Politics",
+    "subcategory": "Contemporary",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "أذكر تواريخ، أعياد وطنية أو أحداث هامة في تاريخ تونس الحديث والمعاصر؟",
+      "en": "What are key national holidays or historic dates in Tunisia?",
+      "fr": "Quelles sont les fetes nationales ou dates historiques cles en Tunisie?",
+      "tn": "شنومة الأعياد الوطنية والتواريخ المهمة في تاريخ تونس؟"
+    },
+    "answers": [
+      {
+        "id": 2065,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "عيد الاستقلال (20 مارس)",
+          "en": "Independence Day (March 20)",
+          "fr": "Fete de l'independance (20 Mars)",
+          "tn": "نهار عيد الاستقلال 20 مارس"
+        }
+      },
+      {
+        "id": 2066,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "عيد الجلاء (15 أكتوبر)",
+          "en": "Evacuation Day (October 15)",
+          "fr": "Fete de l'evacuation (15 Octobre)",
+          "tn": "نهار عيد الجلاء ببنزرت 15 اكتوبر"
+        }
+      },
+      {
+        "id": 2067,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "عيد الشهداء (9 أفريل)",
+          "en": "Martyrs' Day (April 9)",
+          "fr": "Fete des Martyrs (9 Avril)",
+          "tn": "نهار عيد الشهداء 9 افريل"
+        }
+      },
+      {
+        "id": 2068,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "عيد الجمهورية (25 جويلية)",
+          "en": "Republic Day (July 25)",
+          "fr": "Fete de la Republique (25 Juillet)",
+          "tn": "نهار عيد الجمهورية 25 جويلية"
+        }
+      },
+      {
+        "id": 2069,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "عيد الثورة (17 ديسمبر)",
+          "en": "Revolution Day (December 17)",
+          "fr": "Fete de la Revolution (17 Decembre)",
+          "tn": "نهار عيد الثورة بسيدي بوزيد 17 ديسمبر"
+        }
+      },
+      {
+        "id": 2070,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "عيد المرأة (13 أوت)",
+          "en": "Women's Day (August 13)",
+          "fr": "Fete de la Femme (13 Aout)",
+          "tn": "عيد المرأة ومجلة الأحوال الشخصية 13 اوت"
+        }
+      },
+      {
+        "id": 2071,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "عيد الشغل (1 ماي)",
+          "en": "Labor Day (May 1)",
+          "fr": "Fete du Travail (1er Mai)",
+          "tn": "عيد الشغل والعواطف 1 ماي"
+        }
+      },
+      {
+        "id": 2072,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "تاريخ إعلان أول دستور (1861)",
+          "en": "First Constitution (1861)",
+          "fr": "Premiere constitution (1861)",
+          "tn": "دستور عهد الأمان 1861"
+        }
+      },
+      {
+        "id": 2073,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "تاريخ إلغاء العبودية (1846)",
+          "en": "Abolition of Slavery (1846)",
+          "fr": "Abolition de l'esclavage (1846)",
+          "tn": "عتق الرق وإلغاء العبودية 1846"
+        }
+      },
+      {
+        "id": 2074,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "عيد تحرير سيناء",
+          "en": "Sinai Liberation Day",
+          "fr": "Liberation du Sinai",
+          "tn": "عيد تحرير سيناء المصري"
+        }
+      }
+    ]
+  }
+]

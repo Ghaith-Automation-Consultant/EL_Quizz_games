@@ -1,0 +1,16 @@
+[
+  {
+    "entity_id": "country_ذي_قار",
+    "answer": "ذي قار",
+    "normalized": "ذي قار",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_ذهيبات",
+    "answer": "ذهيبات",
+    "normalized": "ذهيبات",
+    "aliases": [],
+    "status": "approved"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "profession_خباز",
+    "answer": "خباز",
+    "normalized": "خباز",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_خياط",
+    "answer": "خياط",
+    "normalized": "خياط",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_خبير",
+    "answer": "خبير",
+    "normalized": "خبير",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_خادم",
+    "answer": "خادم",
+    "normalized": "خادم",
+    "aliases": [],
+    "status": "approved"
+  }
+]

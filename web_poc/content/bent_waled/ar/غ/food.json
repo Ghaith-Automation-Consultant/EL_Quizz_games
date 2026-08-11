@@ -1,0 +1,16 @@
+[
+  {
+    "entity_id": "food_غريبة",
+    "answer": "غريبة",
+    "normalized": "غريبت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_غزل_البنات",
+    "answer": "غزل البنات",
+    "normalized": "غزل البنات",
+    "aliases": [],
+    "status": "approved"
+  }
+]

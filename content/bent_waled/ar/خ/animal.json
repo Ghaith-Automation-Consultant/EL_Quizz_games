@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "animal_خروف",
+    "answer": "خروف",
+    "normalized": "خروف",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "animal_خنزير",
+    "answer": "خنزير",
+    "normalized": "خنزير",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "animal_خفاش",
+    "answer": "خفاش",
+    "normalized": "خفاش",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "animal_خلد",
+    "answer": "خلد",
+    "normalized": "خلد",
+    "aliases": [],
+    "status": "approved"
+  }
+]

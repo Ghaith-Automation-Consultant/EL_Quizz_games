@@ -1,0 +1,23 @@
+[
+  {
+    "entity_id": "food_زلابية",
+    "answer": "زلابية",
+    "normalized": "زلابيت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_زيتون_محشي",
+    "answer": "زيتون محشي",
+    "normalized": "زيتون محشي",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_زبدة",
+    "answer": "زبدة",
+    "normalized": "زبدت",
+    "aliases": [],
+    "status": "approved"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "country_زامبيا",
+    "answer": "زامبيا",
+    "normalized": "زامبيا",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_زيمبابوي",
+    "answer": "زيمبابوي",
+    "normalized": "زيمبابوي",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_زغوان",
+    "answer": "زغوان",
+    "normalized": "زغوان",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_زيورخ",
+    "answer": "زيورخ",
+    "normalized": "زيورخ",
+    "aliases": [],
+    "status": "approved"
+  }
+]

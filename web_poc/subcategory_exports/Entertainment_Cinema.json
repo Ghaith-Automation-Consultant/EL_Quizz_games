@@ -1,0 +1,377 @@
+[
+  {
+    "id": 125,
+    "category": "Entertainment",
+    "subcategory": "Cinema",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "ما هي بعض أفلام ستيفن سبيلبرغ؟",
+      "en": "What are some Steven Spielberg movies?",
+      "fr": "Quels sont quelques films de Steven Spielberg ?",
+      "tn": "شنومة بعض الأفلام متاع ستيفن سبيلبرغ؟"
+    },
+    "answers": [
+      {
+        "id": 1235,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الفك المفترس",
+          "en": "Jaws",
+          "fr": "Les Dents de la mer",
+          "tn": "الفك المفترس"
+        }
+      },
+      {
+        "id": 1236,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "إي تي",
+          "en": "E.T. the Extra-Terrestrial",
+          "fr": "E.T. l'extra-terrestre",
+          "tn": "إي تي"
+        }
+      },
+      {
+        "id": 1237,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "حديقة جوراسيك",
+          "en": "Jurassic Park",
+          "fr": "Jurassic Park",
+          "tn": "حديقة جوراسيك"
+        }
+      },
+      {
+        "id": 1238,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "إنقاذ الجندي رايان",
+          "en": "Saving Private Ryan",
+          "fr": "Il faut sauver le soldat Ryan",
+          "tn": "إنقاذ الجندي رايان"
+        }
+      },
+      {
+        "id": 1239,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "قائمة شندلر",
+          "en": "Schindler's List",
+          "fr": "La Liste de Schindler",
+          "tn": "قائمة شندلر"
+        }
+      },
+      {
+        "id": 1240,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "إنديانا جونز",
+          "en": "Indiana Jones",
+          "fr": "Indiana Jones",
+          "tn": "إنديانا جونز"
+        }
+      },
+      {
+        "id": 1241,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "الأقلية القاتلة",
+          "en": "Minority Report",
+          "fr": "Minority Report",
+          "tn": "الأقلية القاتلة"
+        }
+      },
+      {
+        "id": 1242,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "لقاء من النوع الثالث",
+          "en": "Close Encounters of the Third Kind",
+          "fr": "Rencontres du troisième type",
+          "tn": "لقاء من النوع الثالث"
+        }
+      },
+      {
+        "id": 1243,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "جسر الجواسيس",
+          "en": "Bridge of Spies",
+          "fr": "Le Pont des espions",
+          "tn": "جسر الجواسيس"
+        }
+      },
+      {
+        "id": 1244,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "العراب",
+          "en": "The Godfather",
+          "fr": "Le Parrain",
+          "tn": "العراب"
+        }
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "category": "Entertainment",
+    "subcategory": "Cinema",
+    "region": "Tunisia",
+    "difficulty": 3,
+    "translations": {
+      "ar": "ما هي بعض الأفلام الحائزة على جائزة الأوسكار لأفضل فيلم؟",
+      "en": "What are some Best Picture Oscar-winning films?",
+      "fr": "Quels sont quelques films ayant remporté l'Oscar du meilleur film ?",
+      "tn": "شنومة بعض الأفلام إلي حازت الأوسكار لأحسن فيلم؟"
+    },
+    "answers": [
+      {
+        "id": 1285,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "باراسايت",
+          "en": "Parasite",
+          "fr": "Parasite",
+          "tn": "باراسايت"
+        }
+      },
+      {
+        "id": 1286,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "تيتانيك",
+          "en": "Titanic",
+          "fr": "Titanic",
+          "tn": "تيتانيك"
+        }
+      },
+      {
+        "id": 1287,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "فورست غامب",
+          "en": "Forrest Gump",
+          "fr": "Forrest Gump",
+          "tn": "فورست غامب"
+        }
+      },
+      {
+        "id": 1288,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "إيفري ثينغ إفري وير أول أت وانس",
+          "en": "Everything Everywhere All at Once",
+          "fr": "Everything Everywhere All at Once",
+          "tn": "إيفري ثينغ إفري وير أول أت وانس"
+        }
+      },
+      {
+        "id": 1289,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "سبوت لايت",
+          "en": "Spotlight",
+          "fr": "Spotlight",
+          "tn": "سبوت لايت"
+        }
+      },
+      {
+        "id": 1290,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "سكيمة الرقص السفلي",
+          "en": "Chicago",
+          "fr": "Chicago",
+          "tn": "شيكاغو"
+        }
+      },
+      {
+        "id": 1291,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "الرجل الذي وقف",
+          "en": "Moonlight",
+          "fr": "La La Land (nominé, non gagnant)",
+          "tn": "لا لا لاند"
+        }
+      },
+      {
+        "id": 1292,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "العراب",
+          "en": "The Godfather",
+          "fr": "Le Parrain",
+          "tn": "العراب"
+        }
+      },
+      {
+        "id": 1293,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "أوبنهايمر",
+          "en": "Oppenheimer",
+          "fr": "Oppenheimer",
+          "tn": "أوبنهايمر"
+        }
+      },
+      {
+        "id": 1294,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "حديقة جوراسيك",
+          "en": "Jurassic Park",
+          "fr": "Jurassic Park",
+          "tn": "حديقة جوراسيك"
+        }
+      }
+    ]
+  },
+  {
+    "id": 203,
+    "category": "Entertainment",
+    "subcategory": "Cinema",
+    "region": "Tunisia",
+    "difficulty": 3,
+    "translations": {
+      "ar": "أذكر مواقع تصوير فيلم حرب النجوم (Star Wars) في الجنوب التونسي؟",
+      "en": "What are the filming locations of Star Wars in southern Tunisia?",
+      "fr": "Quels sont les sites de tournage de Star Wars dans le sud tunisien?",
+      "tn": "شنومة البلايص اللي تصور فيهم فيلم حرب النجوم في الجنوب التونسي؟"
+    },
+    "answers": [
+      {
+        "id": 2025,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "مطماطة",
+          "en": "Matmata (Sidi Driss Hotel)",
+          "fr": "Matmata (Hotel Sidi Driss)",
+          "tn": "مطماطة (حوش لوك سكايواكر الأثري)"
+        }
+      },
+      {
+        "id": 2026,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "عنق الجمل بنفطة",
+          "en": "Ong Jemel (Nefta)",
+          "fr": "Ong Jemel (Nefta)",
+          "tn": "عنق الجمل بنفطة وتوزر"
+        }
+      },
+      {
+        "id": 2027,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "تطاوين",
+          "en": "Tataouine",
+          "fr": "Tataouine",
+          "tn": "ولاية تطاوين (كوكب تاتوين)"
+        }
+      },
+      {
+        "id": 2028,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "شط الجريد",
+          "en": "Chott el Djerid",
+          "fr": "Chott el Djerid",
+          "tn": "شط الجريد الملح الممتد"
+        }
+      },
+      {
+        "id": 2029,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "قصار مدنين",
+          "en": "Ksour of Medenine",
+          "fr": "Ksour de Medenine",
+          "tn": "قصار مدنين الأثرية"
+        }
+      },
+      {
+        "id": 2030,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "قصر أولاد سلطان",
+          "en": "Ksar Ouled Soltane",
+          "fr": "Ksar Ouled Soltane",
+          "tn": "قصر أولاد سلطان بتطاوين"
+        }
+      },
+      {
+        "id": 2031,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "دوز",
+          "en": "Douz",
+          "fr": "Douz",
+          "tn": "صحراء دوز بوابة الصحراء"
+        }
+      },
+      {
+        "id": 2032,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "قصر حدادة",
+          "en": "Ksar Hadada",
+          "fr": "Ksar Hadada",
+          "tn": "قصر حدادة بتطاوين"
+        }
+      },
+      {
+        "id": 2033,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "أجيم بجربة",
+          "en": "Ajim (Djerba)",
+          "fr": "Ajim (Djerba)",
+          "tn": "أجيم بجربة (مرفأ موس ايسلي التخيلي)"
+        }
+      },
+      {
+        "id": 2034,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "سيدي بوسعيد",
+          "en": "Sidi Bou Said",
+          "fr": "Sidi Bou Said",
+          "tn": "سيدي بوسعيد السياحية"
+        }
+      }
+    ]
+  }
+]

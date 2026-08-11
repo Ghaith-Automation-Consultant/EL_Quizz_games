@@ -1,0 +1,37 @@
+[
+  {
+    "entity_id": "profession_حلاق",
+    "answer": "حلاق",
+    "normalized": "حلاق",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_حارس",
+    "answer": "حارس",
+    "normalized": "حارس",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_حداد",
+    "answer": "حداد",
+    "normalized": "حداد",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_حاكم",
+    "answer": "حاكم",
+    "normalized": "حاكم",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_حائك",
+    "answer": "حائك",
+    "normalized": "حائك",
+    "aliases": [],
+    "status": "approved"
+  }
+]

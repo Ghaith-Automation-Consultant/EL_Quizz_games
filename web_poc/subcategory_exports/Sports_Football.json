@@ -1,0 +1,752 @@
+[
+  {
+    "id": 103,
+    "category": "Sports",
+    "subcategory": "Football",
+    "region": "Tunisia",
+    "difficulty": 3,
+    "translations": {
+      "ar": "أذكر أندية كرة قدم تونسية فازت ببطولة تونس (الرابطة المحترفة الأولى)؟",
+      "en": "Name Tunisian football clubs that have won the Tunisian championship (Professional League 1)?",
+      "fr": "Citez des clubs de football tunisiens ayant remporté le championnat de Tunisie (Ligue 1 professionnelle) ?",
+      "tn": "أعطيني جمعيات كورة تونسية ربحت بطولة تونس لكرة القدم (الرابطة المحترفة الأولى)؟"
+    },
+    "answers": [
+      {
+        "id": 1021,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الترجي الرياضي التونسي",
+          "en": "Esperance de Tunis",
+          "fr": "Esperance de Tunis",
+          "tn": "الترجي الرياضي"
+        }
+      },
+      {
+        "id": 1022,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "النادي الإفريقي",
+          "en": "Club Africain",
+          "fr": "Club Africain",
+          "tn": "النادي الإفريقي"
+        }
+      },
+      {
+        "id": 1023,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "النجم الرياضي الساحلي",
+          "en": "Etoile du Sahel",
+          "fr": "Etoile du Sahel",
+          "tn": "النجم الساحلي"
+        }
+      },
+      {
+        "id": 1024,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "النادي الرياضي الصفاقسي",
+          "en": "CS Sfaxien",
+          "fr": "CS Sfaxien",
+          "tn": "النادي الصفاقسي"
+        }
+      },
+      {
+        "id": 1025,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "الملعب التونسي",
+          "en": "Stade Tunisien",
+          "fr": "Stade Tunisien",
+          "tn": "الملعب التونسي"
+        }
+      },
+      {
+        "id": 1026,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "النادي الرياضي البنزرتي",
+          "en": "CA Bizertin",
+          "fr": "CA Bizertin",
+          "tn": "النادي البنزرتي"
+        }
+      },
+      {
+        "id": 1027,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "النادي الرياضي لحمام الأنف",
+          "en": "CS Hammam-Lif",
+          "fr": "CS Hammam-Lif",
+          "tn": "نادي حمام الأنف"
+        }
+      },
+      {
+        "id": 1028,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "الشبيبة الرياضية القيروانية",
+          "en": "JS Kairouan",
+          "fr": "JS Kairouan",
+          "tn": "الشبيبة القيروانية"
+        }
+      },
+      {
+        "id": 1029,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "سكك الحديد الصفاقسي",
+          "en": "Sfax Railways Sports",
+          "fr": "Sfax Railways Sports",
+          "tn": "سكك الحديد الصفاقسي"
+        }
+      },
+      {
+        "id": 1030,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "الاتحاد الرياضي المنستيري",
+          "en": "US Monastir",
+          "fr": "US Monastir",
+          "tn": "الاتحاد المنستيري"
+        }
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "category": "Sports",
+    "subcategory": "Football",
+    "region": "Tunisia",
+    "difficulty": 1,
+    "translations": {
+      "ar": "أذكر فرق أو جمعيات تلعب في الرابطة التونسية المحترفة الأولى لكرة القدم؟",
+      "en": "Name teams that play in the Tunisian Professional League 1 (football)?",
+      "fr": "Citez des équipes qui jouent en Ligue 1 professionnelle tunisienne de football ?",
+      "tn": "أعطيني فرق تلعب في الرابطة المحترفة الأولى لكرة القدم؟"
+    },
+    "answers": [
+      {
+        "id": 501,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الترجي الرياضي",
+          "en": "Answer in English: الترجي الرياضي",
+          "fr": "الترجي الرياضي",
+          "tn": "الترجي الرياضي"
+        }
+      },
+      {
+        "id": 502,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "النادي الإفريقي",
+          "en": "Answer in English: النادي الإفريقي",
+          "fr": "النادي الإفريقي",
+          "tn": "النادي الإفريقي"
+        }
+      },
+      {
+        "id": 503,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "النجم الساحلي",
+          "en": "Answer in English: النجم الساحلي",
+          "fr": "النجم الساحلي",
+          "tn": "النجم الساحلي"
+        }
+      },
+      {
+        "id": 504,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "النادي الصفاقسي",
+          "en": "Answer in English: النادي الصفاقسي",
+          "fr": "النادي الصفاقسي",
+          "tn": "النادي الصفاقسي"
+        }
+      },
+      {
+        "id": 505,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "الملعب التونسي",
+          "en": "Answer in English: الملعب التونسي",
+          "fr": "الملعب التونسي",
+          "tn": "الملعب التونسي"
+        }
+      },
+      {
+        "id": 506,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "الاتحاد المنستيري",
+          "en": "Answer in English: الاتحاد المنستيري",
+          "fr": "الاتحاد المنستيري",
+          "tn": "الاتحاد المنستيري"
+        }
+      },
+      {
+        "id": 507,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "النادي البنزرتي",
+          "en": "Answer in English: النادي البنزرتي",
+          "fr": "النادي البنزرتي",
+          "tn": "النادي البنزرتي"
+        }
+      },
+      {
+        "id": 508,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "شبيبة القيروان",
+          "en": "Answer in English: شبيبة القيروان",
+          "fr": "شبيبة القيروان",
+          "tn": "شبيبة القيروان"
+        }
+      },
+      {
+        "id": 509,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "مستقبل المرسى",
+          "en": "Answer in English: مستقبل المرسى",
+          "fr": "مستقبل المرسى",
+          "tn": "مستقبل المرسى"
+        }
+      },
+      {
+        "id": 510,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "الأهلي المصري",
+          "en": "Wrong distractor: الأهلي المصري",
+          "fr": "الأهلي المصري",
+          "tn": "الأهلي المصري"
+        }
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "category": "Sports",
+    "subcategory": "Football",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "أذكر لاعبين حاليين أو سابقين في المنتخب التونسي لكرة القدم؟",
+      "en": "Name current or former players of the Tunisian national football team?",
+      "fr": "Citez des joueurs actuels ou anciens de l'équipe nationale tunisienne de football ?",
+      "tn": "أعطيني لاعبين في المنتخب التونسي، توة ولا قبل؟"
+    },
+    "answers": [
+      {
+        "id": 511,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "طارق ذياب",
+          "en": "Answer in English: طارق ذياب",
+          "fr": "طارق ذياب",
+          "tn": "طارق ذياب"
+        }
+      },
+      {
+        "id": 512,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "شكري الواعر",
+          "en": "Answer in English: شكري الواعر",
+          "fr": "شكري الواعر",
+          "tn": "شكري الواعر"
+        }
+      },
+      {
+        "id": 513,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "راضي الجعايدي",
+          "en": "Answer in English: راضي الجعايدي",
+          "fr": "راضي الجعايدي",
+          "tn": "راضي الجعايدي"
+        }
+      },
+      {
+        "id": 514,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "يوسف المساكني",
+          "en": "Answer in English: يوسف المساكني",
+          "fr": "يوسف المساكني",
+          "tn": "يوسف المساكني"
+        }
+      },
+      {
+        "id": 515,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "وهبي الخزري",
+          "en": "Answer in English: وهبي الخزري",
+          "fr": "وهبي الخزري",
+          "tn": "وهبي الخزري"
+        }
+      },
+      {
+        "id": 516,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "حاتم الطرابلسي",
+          "en": "Answer in English: حاتم الطرابلسي",
+          "fr": "حاتم الطرابلسي",
+          "tn": "حاتم الطرابلسي"
+        }
+      },
+      {
+        "id": 517,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "حمادي العقربي",
+          "en": "Answer in English: حمادي العقربي",
+          "fr": "حمادي العقربي",
+          "tn": "حمادي العقربي"
+        }
+      },
+      {
+        "id": 518,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "زياد التلمساني",
+          "en": "Answer in English: زياد التلمساني",
+          "fr": "زياد التلمساني",
+          "tn": "زياد التلمساني"
+        }
+      },
+      {
+        "id": 519,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "عيسى العيدوني",
+          "en": "Answer in English: عيسى العيدوني",
+          "fr": "عيسى العيدوني",
+          "tn": "عيسى العيدوني"
+        }
+      },
+      {
+        "id": 520,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "Lionel Messi",
+          "en": "Wrong distractor: Lionel Messi",
+          "fr": "Lionel Messi",
+          "tn": "Lionel Messi"
+        }
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "category": "Sports",
+    "subcategory": "Football",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "أذكر ملاعب كرة قدم كبرى في تونس؟",
+      "en": "Name major football stadiums in Tunisia?",
+      "fr": "Citez de grands stades de football en Tunisie ?",
+      "tn": "أعطيني ملاعب كرة قدم كبيرة في تونس؟"
+    },
+    "answers": [
+      {
+        "id": 531,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "ملعب حمادي العقربي برادس",
+          "en": "Answer in English: ملعب حمادي العقربي برادس",
+          "fr": "ملعب حمادي العقربي برادس",
+          "tn": "ملعب حمادي العقربي برادس"
+        }
+      },
+      {
+        "id": 532,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "ملعب المنزه",
+          "en": "Answer in English: ملعب المنزه",
+          "fr": "ملعب المنزه",
+          "tn": "ملعب المنزه"
+        }
+      },
+      {
+        "id": 533,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "ملعب الشاذلي زويتن",
+          "en": "Answer in English: ملعب الشاذلي زويتن",
+          "fr": "ملعب الشاذلي زويتن",
+          "tn": "ملعب الشاذلي زويتن"
+        }
+      },
+      {
+        "id": 534,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "ملعب الطيب المهيري بصفاقس",
+          "en": "Answer in English: ملعب الطيب المهيري بصفاقس",
+          "fr": "ملعب الطيب المهيري بصفاقس",
+          "tn": "ملعب الطيب المهيري بصفاقس"
+        }
+      },
+      {
+        "id": 535,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "ملعب سوسة الأولمبي",
+          "en": "Answer in English: ملعب سوسة الأولمبي",
+          "fr": "ملعب سوسة الأولمبي",
+          "tn": "ملعب سوسة الأولمبي"
+        }
+      },
+      {
+        "id": 536,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "ملعب مصطفى بن جنات بالمنستير",
+          "en": "Answer in English: ملعب مصطفى بن جنات بالمنستير",
+          "fr": "ملعب مصطفى بن جنات بالمنستير",
+          "tn": "ملعب مصطفى بن جنات بالمنستير"
+        }
+      },
+      {
+        "id": 537,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "ملعب 15 أكتوبر ببنزرت",
+          "en": "Answer in English: ملعب 15 أكتوبر ببنزرت",
+          "fr": "ملعب 15 أكتوبر ببنزرت",
+          "tn": "ملعب 15 أكتوبر ببنزرت"
+        }
+      },
+      {
+        "id": 538,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "ملعب قابس",
+          "en": "Answer in English: ملعب قابس",
+          "fr": "ملعب قابس",
+          "tn": "ملعب قابس"
+        }
+      },
+      {
+        "id": 539,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "ملعب قفصة الأولمبي",
+          "en": "Answer in English: ملعب قفصة الأولمبي",
+          "fr": "ملعب قفصة الأولمبي",
+          "tn": "ملعب قفصة الأولمبي"
+        }
+      },
+      {
+        "id": 540,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "ملعب Camp Nou",
+          "en": "Wrong distractor: ملعب Camp Nou",
+          "fr": "ملعب Camp Nou",
+          "tn": "ملعب Camp Nou"
+        }
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "category": "Sports",
+    "subcategory": "Football",
+    "region": "Tunisia",
+    "difficulty": 3,
+    "translations": {
+      "ar": "أذكر مدربين تونسيين أشرفوا على تدريب المنتخب الوطني لكرة القدم؟",
+      "en": "Name Tunisian coaches who managed the national football team?",
+      "fr": "Citez des entraîneurs tunisiens qui ont dirigé l'équipe nationale de football ?",
+      "tn": "أعطيني مدربين تونسيين دربو المنتخب الوطني لكرة القدم؟"
+    },
+    "answers": [
+      {
+        "id": 541,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "عبد المجيد الشتالي",
+          "en": "Answer in English: عبد المجيد الشتالي",
+          "fr": "عبد المجيد الشتالي",
+          "tn": "عبد المجيد الشتالي"
+        }
+      },
+      {
+        "id": 542,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "فوزي البنزرتي",
+          "en": "Answer in English: فوزي البنزرتي",
+          "fr": "فوزي البنزرتي",
+          "tn": "فوزي البنزرتي"
+        }
+      },
+      {
+        "id": 543,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "نبيل معلول",
+          "en": "Answer in English: نبيل معلول",
+          "fr": "نبيل معلول",
+          "tn": "نبيل معلول"
+        }
+      },
+      {
+        "id": 544,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "جلال القادري",
+          "en": "Answer in English: جلال القادري",
+          "fr": "جلال القادري",
+          "tn": "جلال القادري"
+        }
+      },
+      {
+        "id": 545,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "منذر الكبير",
+          "en": "Answer in English: منذر الكبير",
+          "fr": "منذر الكبير",
+          "tn": "منذر الكبير"
+        }
+      },
+      {
+        "id": 546,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "ماهر الكنزاري",
+          "en": "Answer in English: ماهر الكنزاري",
+          "fr": "ماهر الكنزاري",
+          "tn": "ماهر الكنزاري"
+        }
+      },
+      {
+        "id": 547,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "خالد بن يحيى",
+          "en": "Answer in English: خالد بن يحيى",
+          "fr": "خالد بن يحيى",
+          "tn": "خالد بن يحيى"
+        }
+      },
+      {
+        "id": 548,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "يوسف الزواوي",
+          "en": "Answer in English: يوسف الزواوي",
+          "fr": "يوسف الزواوي",
+          "tn": "يوسف الزواوي"
+        }
+      },
+      {
+        "id": 549,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "مراد العقبي",
+          "en": "Answer in English: مراد العقبي",
+          "fr": "مراد العقبي",
+          "tn": "مراد العقبي"
+        }
+      },
+      {
+        "id": 550,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "Pep Guardiola",
+          "en": "Wrong distractor: Pep Guardiola",
+          "fr": "Pep Guardiola",
+          "tn": "Pep Guardiola"
+        }
+      }
+    ]
+  },
+  {
+    "id": 191,
+    "category": "Sports",
+    "subcategory": "Football",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "أذكر أندية كرة قدم تونسية تنشط أو نشطت في الرابطة المحترفة الأولى؟",
+      "en": "What are Tunisian football clubs playing in Ligue 1?",
+      "fr": "Quels sont les clubs de football tunisiens de la Ligue Professionnelle 1?",
+      "tn": "شنومة جمعيات الكورة التونسية اللي تلعب في الناسيونال؟"
+    },
+    "answers": [
+      {
+        "id": 1895,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الترجي الرياضي التونسي",
+          "en": "Esperance de Tunis",
+          "fr": "Esperance de Tunis",
+          "tn": "الترجي (الجمعية)"
+        }
+      },
+      {
+        "id": 1896,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "النادي الإفريقي",
+          "en": "Club Africain",
+          "fr": "Club Africain",
+          "tn": "الإفريقي (الغالية)"
+        }
+      },
+      {
+        "id": 1897,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "النجم الرياضي الساحلي",
+          "en": "Etoile du Sahel",
+          "fr": "Etoile du Sahel",
+          "tn": "ليتوال (النجم الساحلي)"
+        }
+      },
+      {
+        "id": 1898,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "النادي الرياضي الصفاقسي",
+          "en": "CS Sfaxien",
+          "fr": "CS Sfaxien",
+          "tn": "سي اس اس (الصفاقسي)"
+        }
+      },
+      {
+        "id": 1899,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "الملعب التونسي",
+          "en": "Stade Tunisien",
+          "fr": "Stade Tunisien",
+          "tn": "البقلاوة (الملعب التونسي)"
+        }
+      },
+      {
+        "id": 1900,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "النادي الرياضي البنزرتي",
+          "en": "CA Bizertin",
+          "fr": "CA Bizertin",
+          "tn": "سي اي بي (البنزرتي)"
+        }
+      },
+      {
+        "id": 1901,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "الاتحاد الرياضي المنستيري",
+          "en": "US Monastir",
+          "fr": "US Monastir",
+          "tn": "الاتحاد المنستيري"
+        }
+      },
+      {
+        "id": 1902,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "المستقبل الرياضي بالمرسى",
+          "en": "AS Marsa",
+          "fr": "AS Marsa",
+          "tn": "الڨناوية (المرسى)"
+        }
+      },
+      {
+        "id": 1903,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "الشبيبة الرياضية القيروانية",
+          "en": "JS Kairouan",
+          "fr": "JS Kairouan",
+          "tn": "الجي اس كا (شبيبة القيروان)"
+        }
+      },
+      {
+        "id": 1904,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "الأهلي المصري",
+          "en": "Al Ahly",
+          "fr": "Al Ahly Egypt",
+          "tn": "الأهلي المصري"
+        }
+      }
+    ]
+  }
+]

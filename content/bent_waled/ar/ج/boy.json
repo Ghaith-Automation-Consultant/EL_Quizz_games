@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "boy_جلال",
+    "answer": "جلال",
+    "normalized": "جلال",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "boy_جمال",
+    "answer": "جمال",
+    "normalized": "جمال",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "boy_جعفر",
+    "answer": "جعفر",
+    "normalized": "جعفر",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "boy_جميل",
+    "answer": "جميل",
+    "normalized": "جميل",
+    "aliases": [],
+    "status": "approved"
+  }
+]

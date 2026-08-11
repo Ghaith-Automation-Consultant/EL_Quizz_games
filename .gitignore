@@ -1,0 +1,31 @@
+# Python caching
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environments and configs
+.env
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# Logs
+*.log
+backend/uvicorn.log
+
+# Editor configurations
+.vscode/
+.idea/
+
+# Legacy flutter app
+V1/
+
+# OS specific files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "object_باب",
+    "answer": "باب",
+    "normalized": "باب",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_برميل",
+    "answer": "برميل",
+    "normalized": "برميل",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_بندقية",
+    "answer": "بندقية",
+    "normalized": "بندقيت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_بساط",
+    "answer": "بساط",
+    "normalized": "بساط",
+    "aliases": [],
+    "status": "approved"
+  }
+]

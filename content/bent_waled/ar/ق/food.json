@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "food_قهوة",
+    "answer": "قهوة",
+    "normalized": "قهوت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_قطايف",
+    "answer": "قطايف",
+    "normalized": "قطايف",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_قلاية",
+    "answer": "قلاية",
+    "normalized": "قلايت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_قديد",
+    "answer": "قديد",
+    "normalized": "قديد",
+    "aliases": [],
+    "status": "approved"
+  }
+]

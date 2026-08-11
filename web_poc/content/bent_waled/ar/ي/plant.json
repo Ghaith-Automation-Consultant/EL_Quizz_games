@@ -1,0 +1,23 @@
+[
+  {
+    "entity_id": "plant_يقطين",
+    "answer": "يقطين",
+    "normalized": "يقطين",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "plant_ياسمين",
+    "answer": "ياسمين",
+    "normalized": "ياسمين",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "plant_يوسفي",
+    "answer": "يوسفي",
+    "normalized": "يوسفي",
+    "aliases": [],
+    "status": "approved"
+  }
+]

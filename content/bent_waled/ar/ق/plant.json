@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "plant_قمح",
+    "answer": "قمح",
+    "normalized": "قمح",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "plant_قطن",
+    "answer": "قطن",
+    "normalized": "قطن",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "plant_قرنبيط",
+    "answer": "قرنبيط",
+    "normalized": "قرنبيط",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "plant_قرع",
+    "answer": "قرع",
+    "normalized": "قرع",
+    "aliases": [],
+    "status": "approved"
+  }
+]

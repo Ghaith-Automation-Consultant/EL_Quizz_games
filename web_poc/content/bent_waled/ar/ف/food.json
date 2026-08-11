@@ -1,0 +1,23 @@
+[
+  {
+    "entity_id": "food_فول_مدمس",
+    "answer": "فول مدمس",
+    "normalized": "فول مدمس",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_فريك",
+    "answer": "فريك",
+    "normalized": "فريك",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_فطيرة",
+    "answer": "فطيرة",
+    "normalized": "فطيرت",
+    "aliases": [],
+    "status": "approved"
+  }
+]

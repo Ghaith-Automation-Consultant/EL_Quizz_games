@@ -1,0 +1,127 @@
+[
+  {
+    "id": 108,
+    "category": "Geography",
+    "subcategory": "Cities & Borders",
+    "region": "Tunisia",
+    "difficulty": 3,
+    "translations": {
+      "ar": "ما هي بعض الولايات التونسية الساحلية (التي تطل على البحر)؟",
+      "en": "What are some coastal Tunisian governorates?",
+      "fr": "Quels sont des gouvernorats côtiers tunisiens?",
+      "tn": "أعطيني ولايات تونسية تطل على البحر (ساحلية)؟"
+    },
+    "answers": [
+      {
+        "id": 2005,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "بنزرت",
+          "en": "Bizerte",
+          "fr": "Bizerte",
+          "tn": "بنزرت"
+        }
+      },
+      {
+        "id": 2006,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "سوسة",
+          "en": "Sousse",
+          "fr": "Sousse",
+          "tn": "سوسة"
+        }
+      },
+      {
+        "id": 2007,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "المنستير",
+          "en": "Monastir",
+          "fr": "Monastir",
+          "tn": "المنستير"
+        }
+      },
+      {
+        "id": 2008,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "المهدية",
+          "en": "Mahdia",
+          "fr": "Mahdia",
+          "tn": "المهدية"
+        }
+      },
+      {
+        "id": 2009,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "صفاقس",
+          "en": "Sfax",
+          "fr": "Sfax",
+          "tn": "صفاقس"
+        }
+      },
+      {
+        "id": 2010,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "نابل",
+          "en": "Nabeul",
+          "fr": "Nabeul",
+          "tn": "نابل"
+        }
+      },
+      {
+        "id": 2011,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "تونس",
+          "en": "Tunis",
+          "fr": "Tunis",
+          "tn": "تونس العاصمة"
+        }
+      },
+      {
+        "id": 2012,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "أريانة",
+          "en": "Ariana",
+          "fr": "Ariana",
+          "tn": "أريانة"
+        }
+      },
+      {
+        "id": 2013,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "بن عروس",
+          "en": "Ben Arous",
+          "fr": "Ben Arous",
+          "tn": "بن عروس"
+        }
+      },
+      {
+        "id": 2014,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "القيروان",
+          "en": "Kairouan",
+          "fr": "Kairouan",
+          "tn": "القيروان"
+        }
+      }
+    ]
+  }
+]

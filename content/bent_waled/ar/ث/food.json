@@ -1,0 +1,16 @@
+[
+  {
+    "entity_id": "food_ثريد",
+    "answer": "ثريد",
+    "normalized": "ثريد",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_ثومية",
+    "answer": "ثومية",
+    "normalized": "ثوميت",
+    "aliases": [],
+    "status": "approved"
+  }
+]

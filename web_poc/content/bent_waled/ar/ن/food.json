@@ -1,0 +1,23 @@
+[
+  {
+    "entity_id": "food_نودلز",
+    "answer": "نودلز",
+    "normalized": "نودلز",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_نواصر",
+    "answer": "نواصر",
+    "normalized": "نواصر",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_نوتيلا",
+    "answer": "نوتيلا",
+    "normalized": "نوتيلا",
+    "aliases": [],
+    "status": "approved"
+  }
+]

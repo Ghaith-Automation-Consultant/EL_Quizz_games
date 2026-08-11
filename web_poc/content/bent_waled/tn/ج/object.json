@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "object_جرس",
+    "answer": "جرس",
+    "normalized": "جرس",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_جوال",
+    "answer": "جوال",
+    "normalized": "جوال",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_جورب",
+    "answer": "جورب",
+    "normalized": "جورب",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_جدار",
+    "answer": "جدار",
+    "normalized": "جدار",
+    "aliases": [],
+    "status": "approved"
+  }
+]

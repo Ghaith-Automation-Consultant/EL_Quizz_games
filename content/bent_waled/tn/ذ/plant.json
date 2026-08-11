@@ -1,0 +1,16 @@
+[
+  {
+    "entity_id": "plant_ذرة",
+    "answer": "ذرة",
+    "normalized": "ذرت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "plant_ذرق",
+    "answer": "ذرق",
+    "normalized": "ذرق",
+    "aliases": [],
+    "status": "approved"
+  }
+]

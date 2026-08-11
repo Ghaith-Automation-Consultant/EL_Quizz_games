@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "food_ملوخية",
+    "answer": "ملوخية",
+    "normalized": "ملوخيت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_مسكوتة",
+    "answer": "مسكوتة",
+    "normalized": "مسكوتت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_مقروض",
+    "answer": "مقروض",
+    "normalized": "مقروض",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_مسفوف",
+    "answer": "مسفوف",
+    "normalized": "مسفوف",
+    "aliases": [],
+    "status": "approved"
+  }
+]

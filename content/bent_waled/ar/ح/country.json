@@ -1,0 +1,23 @@
+[
+  {
+    "entity_id": "country_حلب",
+    "answer": "حلب",
+    "normalized": "حلب",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_حمص",
+    "answer": "حمص",
+    "normalized": "حمص",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_حائل",
+    "answer": "حائل",
+    "normalized": "حائل",
+    "aliases": [],
+    "status": "approved"
+  }
+]

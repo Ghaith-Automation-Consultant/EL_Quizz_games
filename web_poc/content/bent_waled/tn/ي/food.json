@@ -1,0 +1,16 @@
+[
+  {
+    "entity_id": "food_يخنة",
+    "answer": "يخنة",
+    "normalized": "يخنت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_يوسفي_حلو",
+    "answer": "يوسفي حلو",
+    "normalized": "يوسفي حلو",
+    "aliases": [],
+    "status": "approved"
+  }
+]

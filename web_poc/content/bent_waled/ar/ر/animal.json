@@ -1,0 +1,23 @@
+[
+  {
+    "entity_id": "animal_رنة",
+    "answer": "رنة",
+    "normalized": "رنت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "animal_راكون",
+    "answer": "راكون",
+    "normalized": "راكون",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "animal_ربيان",
+    "answer": "ربيان",
+    "normalized": "ربيان",
+    "aliases": [],
+    "status": "approved"
+  }
+]

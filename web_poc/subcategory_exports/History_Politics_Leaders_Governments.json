@@ -1,0 +1,127 @@
+[
+  {
+    "id": 192,
+    "category": "History & Politics",
+    "subcategory": "Leaders & Governments",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "أذكر رؤساء الجمهورية التونسية منذ الاستقلال حتى الآن؟",
+      "en": "Who are the presidents of the Tunisian Republic since independence?",
+      "fr": "Qui sont les présidents de la République Tunisienne depuis l'indépendance?",
+      "tn": "شكونهم رؤساء تونس ملي استقلت لليوم؟"
+    },
+    "answers": [
+      {
+        "id": 1905,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الحبيب بورقيبة",
+          "en": "Habib Bourguiba",
+          "fr": "Habib Bourguiba",
+          "tn": "الحبيب بورقيبة (المجاهد الأكبر)"
+        }
+      },
+      {
+        "id": 1906,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "زين العابدين بن علي",
+          "en": "Zine El Abidine Ben Ali",
+          "fr": "Zine El Abidine Ben Ali",
+          "tn": "زين العابدين بن علي (الرئيس الثاني)"
+        }
+      },
+      {
+        "id": 1907,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "قيس سعيد",
+          "en": "Kais Saied",
+          "fr": "Kais Saied",
+          "tn": "قيس سعيد (الرئيس الحالي)"
+        }
+      },
+      {
+        "id": 1908,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "الباجي قائد السبسي",
+          "en": "Beji Caid Essebsi",
+          "fr": "Beji Caid Essebsi",
+          "tn": "الباجي قائد السبسي (البجبوج)"
+        }
+      },
+      {
+        "id": 1909,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "محمد المنصف المرزوقي",
+          "en": "Moncef Marzouki",
+          "fr": "Moncef Marzouki",
+          "tn": "المنصف المرزوقي (الدكتور)"
+        }
+      },
+      {
+        "id": 1910,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "فؤاد المبزع",
+          "en": "Fouad Mebazaa",
+          "fr": "Fouad Mebazaa",
+          "tn": "فؤاد المبزع (مؤقت بعد الثورة)"
+        }
+      },
+      {
+        "id": 1911,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "محمد الناصر",
+          "en": "Mohamed Ennaceur",
+          "fr": "Mohamed Ennaceur",
+          "tn": "محمد الناصر (مؤقت بعد الباجي)"
+        }
+      },
+      {
+        "id": 1912,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "محمد الغنوشي",
+          "en": "Mohamed Ghannouchi",
+          "fr": "Mohamed Ghannouchi",
+          "tn": "محمد الغنوشي (بالنيابة ليوم واحد)"
+        }
+      },
+      {
+        "id": 1913,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "الأمين باي",
+          "en": "Lamine Bey",
+          "fr": "Lamine Bey (Monarque)",
+          "tn": "الملك الأمين باي (آخر باي ملك لتونس)"
+        }
+      },
+      {
+        "id": 1914,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "صدام حسين",
+          "en": "Saddam Hussein",
+          "fr": "Saddam Hussein",
+          "tn": "صدام حسين"
+        }
+      }
+    ]
+  }
+]

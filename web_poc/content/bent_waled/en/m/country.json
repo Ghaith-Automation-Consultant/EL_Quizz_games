@@ -1,0 +1,16 @@
+[
+  {
+    "entity_id": "country_ma",
+    "answer": "Morocco",
+    "normalized": "morocco",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_mg",
+    "answer": "Madagascar",
+    "normalized": "madagascar",
+    "aliases": [],
+    "status": "approved"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "entity_id": "girl_ثريا",
+    "answer": "ثريا",
+    "normalized": "ثريا",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "girl_ثمينة",
+    "answer": "ثمينة",
+    "normalized": "ثمينت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "girl_ثناء",
+    "answer": "ثناء",
+    "normalized": "ثناء",
+    "aliases": [],
+    "status": "approved"
+  }
+]

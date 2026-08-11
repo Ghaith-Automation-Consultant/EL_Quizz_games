@@ -1,0 +1,23 @@
+[
+  {
+    "entity_id": "animal_تيس",
+    "answer": "تيس",
+    "normalized": "تيس",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "animal_تمساح",
+    "answer": "تمساح",
+    "normalized": "تمساح",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "animal_تنين",
+    "answer": "تنين",
+    "normalized": "تنين",
+    "aliases": [],
+    "status": "approved"
+  }
+]

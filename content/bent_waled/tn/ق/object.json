@@ -1,0 +1,37 @@
+[
+  {
+    "entity_id": "object_قلم",
+    "answer": "قلم",
+    "normalized": "قلم",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_قفل",
+    "answer": "قفل",
+    "normalized": "قفل",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_قارب",
+    "answer": "قارب",
+    "normalized": "قارب",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_قبعة",
+    "answer": "قبعة",
+    "normalized": "قبعت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_قميص",
+    "answer": "قميص",
+    "normalized": "قميص",
+    "aliases": [],
+    "status": "approved"
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "entity_id": "object_عربة",
+    "answer": "عربة",
+    "normalized": "عربت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_علم",
+    "answer": "علم",
+    "normalized": "علم",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_عقد",
+    "answer": "عقد",
+    "normalized": "عقد",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_علبة",
+    "answer": "علبة",
+    "normalized": "علبت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_عصا",
+    "answer": "عصا",
+    "normalized": "عصا",
+    "aliases": [],
+    "status": "approved"
+  }
+]

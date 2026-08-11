@@ -1,0 +1,23 @@
+[
+  {
+    "entity_id": "food_طاجين",
+    "answer": "طاجين",
+    "normalized": "طاجين",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_طحينة",
+    "answer": "طحينة",
+    "normalized": "طحينت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_طماطم_محشية",
+    "answer": "طماطم محشية",
+    "normalized": "طماطم محشيت",
+    "aliases": [],
+    "status": "approved"
+  }
+]

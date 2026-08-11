@@ -1,0 +1,752 @@
+[
+  {
+    "id": 49,
+    "category": "Arts",
+    "subcategory": "Literature",
+    "region": "Tunisia",
+    "difficulty": 3,
+    "translations": {
+      "ar": "أذكر روايات أو مؤلفات شهيرة لكتاب تونسيين؟",
+      "en": "Name famous novels or works by Tunisian writers?",
+      "fr": "Citez des romans ou œuvres célèbres d'écrivains tunisiens ?",
+      "tn": "أعطيني روايات أو كتب معروفة لكتاب تونسيين؟"
+    },
+    "answers": [
+      {
+        "id": 481,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "مقدمة ابن خلدون",
+          "en": "Answer in English: مقدمة ابن خلدون",
+          "fr": "مقدمة ابن خلدون",
+          "tn": "مقدمة ابن خلدون"
+        }
+      },
+      {
+        "id": 482,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "أغاني الحياة",
+          "en": "Answer in English: أغاني الحياة",
+          "fr": "أغاني الحياة",
+          "tn": "أغاني الحياة"
+        }
+      },
+      {
+        "id": 483,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "السد",
+          "en": "Answer in English: السد",
+          "fr": "السد",
+          "tn": "السد"
+        }
+      },
+      {
+        "id": 484,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "حدث أبو هريرة قال",
+          "en": "Answer in English: حدث أبو هريرة قال",
+          "fr": "حدث أبو هريرة قال",
+          "tn": "حدث أبو هريرة قال"
+        }
+      },
+      {
+        "id": 485,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "المرأة والعمل",
+          "en": "Answer in English: المرأة والعمل",
+          "fr": "المرأة والعمل",
+          "tn": "المرأة والعمل"
+        }
+      },
+      {
+        "id": 486,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "دار الباشا",
+          "en": "Answer in English: دار الباشا",
+          "fr": "دار الباشا",
+          "tn": "دار الباشا"
+        }
+      },
+      {
+        "id": 487,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "موت فوضوي",
+          "en": "Answer in English: موت فوضوي",
+          "fr": "موت فوضوي",
+          "tn": "موت فوضوي"
+        }
+      },
+      {
+        "id": 488,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "برق الليل",
+          "en": "Answer in English: برق الليل",
+          "fr": "برق الليل",
+          "tn": "برق الليل"
+        }
+      },
+      {
+        "id": 489,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "طليان المحروسة",
+          "en": "Answer in English: طليان المحروسة",
+          "fr": "طليان المحروسة",
+          "tn": "طليان المحروسة"
+        }
+      },
+      {
+        "id": 490,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "هاري بوتر",
+          "en": "Wrong distractor: هاري بوتر",
+          "fr": "هاري بوتر",
+          "tn": "هاري بوتر"
+        }
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "category": "Arts",
+    "subcategory": "Literature",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "من هم بعض الكتّاب التونسيين المشهورين؟",
+      "en": "Who are some famous Tunisian writers?",
+      "fr": "Quels sont quelques écrivains tunisiens célèbres ?",
+      "tn": "شكون بعض الكتاب التوانسة المشهورين؟"
+    },
+    "answers": [
+      {
+        "id": 1185,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "أبو القاسم الشابي",
+          "en": "Abou el Kacem Chebbi",
+          "fr": "Abou el Kacem Chebbi",
+          "tn": "أبو القاسم الشابي"
+        }
+      },
+      {
+        "id": 1186,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "البشير خريف",
+          "en": "Béchir Khraief",
+          "fr": "Béchir Khraief",
+          "tn": "البشير خريف"
+        }
+      },
+      {
+        "id": 1187,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "محمود المسعدي",
+          "en": "Mahmoud Messadi",
+          "fr": "Mahmoud Messadi",
+          "tn": "محمود المسعدي"
+        }
+      },
+      {
+        "id": 1188,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "حسونة المصباحي",
+          "en": "Hassouna Mosbahi",
+          "fr": "Hassouna Mosbahi",
+          "tn": "حسونة المصباحي"
+        }
+      },
+      {
+        "id": 1189,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "ألبير ميمي",
+          "en": "Albert Memmi",
+          "fr": "Albert Memmi",
+          "tn": "ألبير ميمي"
+        }
+      },
+      {
+        "id": 1190,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "محمد الماغوط",
+          "en": "Mustapha Tlili",
+          "fr": "Mustapha Tlili",
+          "tn": "محمد الماغوط"
+        }
+      },
+      {
+        "id": 1191,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "عبد الوهاب المدب",
+          "en": "Abdelwahab Meddeb",
+          "fr": "Abdelwahab Meddeb",
+          "tn": "عبد الوهاب المدب"
+        }
+      },
+      {
+        "id": 1192,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "آمنة الرمضاني",
+          "en": "Amina Saïd",
+          "fr": "Amina Saïd",
+          "tn": "آمنة الرمضاني"
+        }
+      },
+      {
+        "id": 1193,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "فرج الحوار",
+          "en": "Faraj Al-Hiwar",
+          "fr": "Faraj Al-Hiwar",
+          "tn": "فرج الحوار"
+        }
+      },
+      {
+        "id": 1194,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "نجيب محفوظ",
+          "en": "Naguib Mahfouz",
+          "fr": "Naguib Mahfouz",
+          "tn": "نجيب محفوظ"
+        }
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "category": "Arts",
+    "subcategory": "Literature",
+    "region": "Tunisia",
+    "difficulty": 3,
+    "translations": {
+      "ar": "ما هي بعض روايات نجيب محفوظ؟",
+      "en": "What are some novels by Naguib Mahfouz?",
+      "fr": "Quels sont quelques romans de Naguib Mahfouz ?",
+      "tn": "شنومة بعض الروايات متاع نجيب محفوظ؟"
+    },
+    "answers": [
+      {
+        "id": 1195,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "بين القصرين",
+          "en": "Palace Walk",
+          "fr": "Impasse des deux palais",
+          "tn": "بين القصرين"
+        }
+      },
+      {
+        "id": 1196,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "قصر الشوق",
+          "en": "Palace of Desire",
+          "fr": "Le Palais du désir",
+          "tn": "قصر الشوق"
+        }
+      },
+      {
+        "id": 1197,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "السكرية",
+          "en": "Sugar Street",
+          "fr": "Le Jardin du passé",
+          "tn": "السكرية"
+        }
+      },
+      {
+        "id": 1198,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "أولاد حارتنا",
+          "en": "Children of Gebelawi",
+          "fr": "Les Fils de la médina",
+          "tn": "أولاد حارتنا"
+        }
+      },
+      {
+        "id": 1199,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "زقاق المدق",
+          "en": "Midaq Alley",
+          "fr": "Passage des miracles",
+          "tn": "زقاق المدق"
+        }
+      },
+      {
+        "id": 1200,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "اللص والكلاب",
+          "en": "The Thief and the Dogs",
+          "fr": "Le Voleur et les chiens",
+          "tn": "اللص والكلاب"
+        }
+      },
+      {
+        "id": 1201,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "ميرامار",
+          "en": "Miramar",
+          "fr": "Miramar",
+          "tn": "ميرامار"
+        }
+      },
+      {
+        "id": 1202,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "الحرافيش",
+          "en": "The Harafish",
+          "fr": "Les Harafiches",
+          "tn": "الحرافيش"
+        }
+      },
+      {
+        "id": 1203,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "ثرثرة فوق النيل",
+          "en": "Adrift on the Nile",
+          "fr": "Vagabonds du Nil",
+          "tn": "ثرثرة فوق النيل"
+        }
+      },
+      {
+        "id": 1204,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "مدن الملح",
+          "en": "Cities of Salt",
+          "fr": "Cities of Salt",
+          "tn": "مدن الملح"
+        }
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "category": "Arts",
+    "subcategory": "Literature",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "ما هي بعض قصائد أبو القاسم الشابي؟",
+      "en": "What are some poems by Abou el Kacem Chebbi?",
+      "fr": "Quels sont quelques poèmes d'Abou el Kacem Chebbi ?",
+      "tn": "شنومة بعض القصايد متاع أبو القاسم الشابي؟"
+    },
+    "answers": [
+      {
+        "id": 1205,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "إرادة الحياة",
+          "en": "The Will to Live",
+          "fr": "La Volonté de vivre",
+          "tn": "إرادة الحياة"
+        }
+      },
+      {
+        "id": 1206,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "صلوات في هيكل الحب",
+          "en": "Prayers in the Temple of Love",
+          "fr": "Prières dans le temple de l'amour",
+          "tn": "صلوات في هيكل الحب"
+        }
+      },
+      {
+        "id": 1207,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "النبي المجهول",
+          "en": "The Unknown Prophet",
+          "fr": "Le Prophète inconnu",
+          "tn": "النبي المجهول"
+        }
+      },
+      {
+        "id": 1208,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "أغاني الحياة",
+          "en": "Songs of Life",
+          "fr": "Chants de la vie",
+          "tn": "أغاني الحياة"
+        }
+      },
+      {
+        "id": 1209,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "إلى طغاة العالم",
+          "en": "To the Tyrants of the World",
+          "fr": "Aux tyrans du monde",
+          "tn": "إلى طغاة العالم"
+        }
+      },
+      {
+        "id": 1210,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "الشاعر ولد اليوم",
+          "en": "The Poet Was Born Today",
+          "fr": "Le poète est né aujourd'hui",
+          "tn": "الشاعر ولد اليوم"
+        }
+      },
+      {
+        "id": 1211,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "نشيد الحياة",
+          "en": "Hymn to Life",
+          "fr": "Hymne à la vie",
+          "tn": "نشيد الحياة"
+        }
+      },
+      {
+        "id": 1212,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "هكذا غنى بروميثيوس",
+          "en": "Thus Sang Prometheus",
+          "fr": "Ainsi chanta Prométhée",
+          "tn": "هكذا غنى بروميثيوس"
+        }
+      },
+      {
+        "id": 1213,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "يا ابن أمي",
+          "en": "O Son of My Mother",
+          "fr": "Ô fils de ma mère",
+          "tn": "يا ابن أمي"
+        }
+      },
+      {
+        "id": 1214,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "الأطلال",
+          "en": "The Ruins",
+          "fr": "Al-Atlal",
+          "tn": "الأطلال"
+        }
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "category": "Arts",
+    "subcategory": "Literature",
+    "region": "Tunisia",
+    "difficulty": 4,
+    "translations": {
+      "ar": "ما هي بعض الروايات الحائزة على جائزة البوكر العربية؟",
+      "en": "What are some novels that won the International Prize for Arabic Fiction (Arabic Booker)?",
+      "fr": "Quels sont quelques romans lauréats du Booker arabe ?",
+      "tn": "شنومة بعض الروايات إلي حازت جايزة البوكر العربية؟"
+    },
+    "answers": [
+      {
+        "id": 1215,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "واحة الغروب",
+          "en": "Sunset Oasis",
+          "fr": "L'Oasis du couchant",
+          "tn": "واحة الغروب"
+        }
+      },
+      {
+        "id": 1216,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "ترمي بشرر",
+          "en": "Throwing Sparks",
+          "fr": "Elle jette des étincelles",
+          "tn": "ترمي بشرر"
+        }
+      },
+      {
+        "id": 1217,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "ساق البامبو",
+          "en": "The Bamboo Stalk",
+          "fr": "La Tige de bambou",
+          "tn": "ساق البامبو"
+        }
+      },
+      {
+        "id": 1218,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "فرانكشتاين في بغداد",
+          "en": "Frankenstein in Baghdad",
+          "fr": "Frankenstein à Bagdad",
+          "tn": "فرانكشتاين في بغداد"
+        }
+      },
+      {
+        "id": 1219,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "القوس والفراشة",
+          "en": "The Arch and the Butterfly",
+          "fr": "L'Arc et le papillon",
+          "tn": "القوس والفراشة"
+        }
+      },
+      {
+        "id": 1220,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "طوق الحمام",
+          "en": "The Dove's Necklace",
+          "fr": "Le Collier de la colombe",
+          "tn": "طوق الحمام"
+        }
+      },
+      {
+        "id": 1221,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "موت صغير",
+          "en": "A Small Death",
+          "fr": "Une petite mort",
+          "tn": "موت صغير"
+        }
+      },
+      {
+        "id": 1222,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "الطلياني",
+          "en": "The Italian",
+          "fr": "L'Italien",
+          "tn": "الطلياني"
+        }
+      },
+      {
+        "id": 1223,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "دفاتر الوراق",
+          "en": "The Bookseller's Notebooks",
+          "fr": "Les Cahiers du copiste",
+          "tn": "دفاتر الوراق"
+        }
+      },
+      {
+        "id": 1224,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "مائة عام من العزلة",
+          "en": "One Hundred Years of Solitude",
+          "fr": "Cent Ans de solitude",
+          "tn": "مائة عام من العزلة"
+        }
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "category": "Arts",
+    "subcategory": "Literature",
+    "region": "Tunisia",
+    "difficulty": 3,
+    "translations": {
+      "ar": "ما هي بعض أشهر الروايات الفرنسية الكلاسيكية؟",
+      "en": "What are some famous classic French novels?",
+      "fr": "Quels sont quelques célèbres romans classiques français ?",
+      "tn": "شنومة بعض أشهر الروايات الفرنسية الكلاسيكية؟"
+    },
+    "answers": [
+      {
+        "id": 1225,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "البؤساء",
+          "en": "Les Misérables",
+          "fr": "Les Misérables",
+          "tn": "البؤساء"
+        }
+      },
+      {
+        "id": 1226,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "أحدب نوتردام",
+          "en": "The Hunchback of Notre-Dame",
+          "fr": "Notre-Dame de Paris",
+          "tn": "أحدب نوتردام"
+        }
+      },
+      {
+        "id": 1227,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "الكونت دي مونت كريستو",
+          "en": "The Count of Monte Cristo",
+          "fr": "Le Comte de Monte-Cristo",
+          "tn": "الكونت دي مونت كريستو"
+        }
+      },
+      {
+        "id": 1228,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "مدام بوفاري",
+          "en": "Madame Bovary",
+          "fr": "Madame Bovary",
+          "tn": "مدام بوفاري"
+        }
+      },
+      {
+        "id": 1229,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "البحث عن الزمن المفقود",
+          "en": "In Search of Lost Time",
+          "fr": "À la recherche du temps perdu",
+          "tn": "البحث عن الزمن المفقود"
+        }
+      },
+      {
+        "id": 1230,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "الغريب",
+          "en": "The Stranger",
+          "fr": "L'Étranger",
+          "tn": "الغريب"
+        }
+      },
+      {
+        "id": 1231,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "الأمير الصغير",
+          "en": "The Little Prince",
+          "fr": "Le Petit Prince",
+          "tn": "الأمير الصغير"
+        }
+      },
+      {
+        "id": 1232,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "الشقاء الإنساني",
+          "en": "Man's Fate",
+          "fr": "La Condition humaine",
+          "tn": "الشقاء الإنساني"
+        }
+      },
+      {
+        "id": 1233,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "الغثيان",
+          "en": "Nausea",
+          "fr": "La Nausée",
+          "tn": "الغثيان"
+        }
+      },
+      {
+        "id": 1234,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "الحرب والسلام",
+          "en": "War and Peace",
+          "fr": "Guerre et Paix",
+          "tn": "الحرب والسلام"
+        }
+      }
+    ]
+  }
+]

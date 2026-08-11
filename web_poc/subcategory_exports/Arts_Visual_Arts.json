@@ -1,0 +1,1502 @@
+[
+  {
+    "id": 41,
+    "category": "Arts",
+    "subcategory": "Visual Arts",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "أذكر فنانين ومطربين تونسيين كبار في الطرب الشعبي أو الكلاسيكي؟",
+      "en": "Name major Tunisian artists and singers in popular or classical music?",
+      "fr": "Citez de grands artistes et chanteurs tunisiens de musique populaire ou classique ?",
+      "tn": "أعطيني فنانين ومطربين تونسيين كبار في الطرب الشعبي أو الكلاسيكي؟"
+    },
+    "answers": [
+      {
+        "id": 401,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "علي الرياحي",
+          "en": "Answer in English: علي الرياحي",
+          "fr": "علي الرياحي",
+          "tn": "علي الرياحي"
+        }
+      },
+      {
+        "id": 402,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الهادي الجويني",
+          "en": "Answer in English: الهادي الجويني",
+          "fr": "الهادي الجويني",
+          "tn": "الهادي الجويني"
+        }
+      },
+      {
+        "id": 403,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "صليحة",
+          "en": "Answer in English: صليحة",
+          "fr": "صليحة",
+          "tn": "صليحة"
+        }
+      },
+      {
+        "id": 404,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "نعمة",
+          "en": "Answer in English: نعمة",
+          "fr": "نعمة",
+          "tn": "نعمة"
+        }
+      },
+      {
+        "id": 405,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "علية",
+          "en": "Answer in English: علية",
+          "fr": "علية",
+          "tn": "علية"
+        }
+      },
+      {
+        "id": 406,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "الهادي حبوبة",
+          "en": "Answer in English: الهادي حبوبة",
+          "fr": "الهادي حبوبة",
+          "tn": "الهادي حبوبة"
+        }
+      },
+      {
+        "id": 407,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "لطفي بوشناق",
+          "en": "Answer in English: لطفي بوشناق",
+          "fr": "لطفي بوشناق",
+          "tn": "لطفي بوشناق"
+        }
+      },
+      {
+        "id": 408,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "صابر الرباعي",
+          "en": "Answer in English: صابر الرباعي",
+          "fr": "صابر الرباعي",
+          "tn": "صابر الرباعي"
+        }
+      },
+      {
+        "id": 409,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "زياد غرسة",
+          "en": "Answer in English: زياد غرسة",
+          "fr": "زياد غرسة",
+          "tn": "زياد غرسة"
+        }
+      },
+      {
+        "id": 410,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "عمرو دياب",
+          "en": "Wrong distractor: عمرو دياب",
+          "fr": "عمرو دياب",
+          "tn": "عمرو دياب"
+        }
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "category": "Arts",
+    "subcategory": "Visual Arts",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "أذكر آلات موسيقية تقليدية تُعزف في تونس؟",
+      "en": "Name traditional musical instruments played in Tunisia?",
+      "fr": "Citez des instruments de musique traditionnels joués en Tunisie ?",
+      "tn": "أعطيني آلات موسيقية تقليدية يلعبو بيها في تونس؟"
+    },
+    "answers": [
+      {
+        "id": 411,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "المزود",
+          "en": "Answer in English: المزود",
+          "fr": "المزود",
+          "tn": "المزود"
+        }
+      },
+      {
+        "id": 412,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الدربوكة",
+          "en": "Answer in English: الدربوكة",
+          "fr": "الدربوكة",
+          "tn": "الدربوكة"
+        }
+      },
+      {
+        "id": 413,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "العود التونسي",
+          "en": "Answer in English: العود التونسي",
+          "fr": "العود التونسي",
+          "tn": "العود التونسي"
+        }
+      },
+      {
+        "id": 414,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "البندير",
+          "en": "Answer in English: البندير",
+          "fr": "البندير",
+          "tn": "البندير"
+        }
+      },
+      {
+        "id": 415,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "الناي",
+          "en": "Answer in English: الناي",
+          "fr": "الناي",
+          "tn": "الناي"
+        }
+      },
+      {
+        "id": 416,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "الطار",
+          "en": "Answer in English: الطار",
+          "fr": "الطار",
+          "tn": "الطار"
+        }
+      },
+      {
+        "id": 417,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "القانون",
+          "en": "Answer in English: القانون",
+          "fr": "القانون",
+          "tn": "القانون"
+        }
+      },
+      {
+        "id": 418,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "الكمنجة",
+          "en": "Answer in English: الكمنجة",
+          "fr": "الكمنجة",
+          "tn": "الكمنجة"
+        }
+      },
+      {
+        "id": 419,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "القرقابو",
+          "en": "Answer in English: القرقابو",
+          "fr": "القرقابو",
+          "tn": "القرقابو"
+        }
+      },
+      {
+        "id": 420,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "الدرامز الإلكتروني",
+          "en": "Wrong distractor: الدرامز الإلكتروني",
+          "fr": "الدرامز الإلكتروني",
+          "tn": "الدرامز الإلكتروني"
+        }
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "category": "Arts",
+    "subcategory": "Visual Arts",
+    "region": "Tunisia",
+    "difficulty": 1,
+    "translations": {
+      "ar": "أذكر مسلسلات تونسية كوميدية أو درامية مشهورة تُعرض في رمضان؟",
+      "en": "Name well-known Tunisian comedy or drama series aired during Ramadan?",
+      "fr": "Citez des séries tunisiennes comiques ou dramatiques connues diffusées pendant le Ramadan ?",
+      "tn": "أعطيني مسلسلات تونسية كوميدية أو دراما معروفة تتعرض في رمضان؟"
+    },
+    "answers": [
+      {
+        "id": 421,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "شوفلي حل",
+          "en": "Answer in English: شوفلي حل",
+          "fr": "شوفلي حل",
+          "tn": "شوفلي حل"
+        }
+      },
+      {
+        "id": 422,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الخطاب على الباب",
+          "en": "Answer in English: الخطاب على الباب",
+          "fr": "الخطاب على الباب",
+          "tn": "الخطاب على الباب"
+        }
+      },
+      {
+        "id": 423,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "نسيبتي العزيزة",
+          "en": "Answer in English: نسيبتي العزيزة",
+          "fr": "نسيبتي العزيزة",
+          "tn": "نسيبتي العزيزة"
+        }
+      },
+      {
+        "id": 424,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "مكتوب",
+          "en": "Answer in English: مكتوب",
+          "fr": "مكتوب",
+          "tn": "مكتوب"
+        }
+      },
+      {
+        "id": 425,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "صيد الريم",
+          "en": "Answer in English: صيد الريم",
+          "fr": "صيد الريم",
+          "tn": "صيد الريم"
+        }
+      },
+      {
+        "id": 426,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "أولاد مفيدة",
+          "en": "Answer in English: أولاد مفيدة",
+          "fr": "أولاد مفيدة",
+          "tn": "أولاد مفيدة"
+        }
+      },
+      {
+        "id": 427,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "قمرة سيدي المحروس",
+          "en": "Answer in English: قمرة سيدي المحروس",
+          "fr": "قمرة سيدي المحروس",
+          "tn": "قمرة سيدي المحروس"
+        }
+      },
+      {
+        "id": 428,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "حسابات وعقابات",
+          "en": "Answer in English: حسابات وعقابات",
+          "fr": "حسابات وعقابات",
+          "tn": "حسابات وعقابات"
+        }
+      },
+      {
+        "id": 429,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "الفوندو",
+          "en": "Answer in English: الفوندو",
+          "fr": "الفوندو",
+          "tn": "الفوندو"
+        }
+      },
+      {
+        "id": 430,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "باب الحارة",
+          "en": "Wrong distractor: باب الحارة",
+          "fr": "باب الحارة",
+          "tn": "باب الحارة"
+        }
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "category": "Arts",
+    "subcategory": "Visual Arts",
+    "region": "Tunisia",
+    "difficulty": 1,
+    "translations": {
+      "ar": "أذكر شخصيات خيالية أو حقيقية من المسلسل التونسي الشهير 'شوفلي حل'؟",
+      "en": "Name characters from the famous Tunisian series \"Choufli Hal\"?",
+      "fr": "Citez des personnages de la célèbre série tunisienne « Choufli Hal » ?",
+      "tn": "أعطيني شخصيات من مسلسل 'شوفلي حل'؟"
+    },
+    "answers": [
+      {
+        "id": 431,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الباجي",
+          "en": "Answer in English: الباجي",
+          "fr": "الباجي",
+          "tn": "الباجي"
+        }
+      },
+      {
+        "id": 432,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "سليمان الأبيض",
+          "en": "Answer in English: سليمان الأبيض",
+          "fr": "سليمان الأبيض",
+          "tn": "سليمان الأبيض"
+        }
+      },
+      {
+        "id": 433,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "السبوعي",
+          "en": "Answer in English: السبوعي",
+          "fr": "السبوعي",
+          "tn": "السبوعي"
+        }
+      },
+      {
+        "id": 434,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "زينب",
+          "en": "Answer in English: زينب",
+          "fr": "زينب",
+          "tn": "زينب"
+        }
+      },
+      {
+        "id": 435,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "دوجة",
+          "en": "Answer in English: دوجة",
+          "fr": "دوجة",
+          "tn": "دوجة"
+        }
+      },
+      {
+        "id": 436,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "فوشيكة",
+          "en": "Answer in English: فوشيكة",
+          "fr": "فوشيكة",
+          "tn": "فوشيكة"
+        }
+      },
+      {
+        "id": 437,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "أماني",
+          "en": "Answer in English: أماني",
+          "fr": "أماني",
+          "tn": "أماني"
+        }
+      },
+      {
+        "id": 438,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "جميلة",
+          "en": "Answer in English: جميلة",
+          "fr": "جميلة",
+          "tn": "جميلة"
+        }
+      },
+      {
+        "id": 439,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "شكيب",
+          "en": "Answer in English: شكيب",
+          "fr": "شكيب",
+          "tn": "شكيب"
+        }
+      },
+      {
+        "id": 440,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "معتز",
+          "en": "Wrong distractor: معتز",
+          "fr": "معتز",
+          "tn": "معتز"
+        }
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "category": "Arts",
+    "subcategory": "Visual Arts",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "أذكر ملابس أو أزياء تقليدية تونسية رجالية أو نسائية؟",
+      "en": "Name traditional Tunisian clothing or attire, for men or women?",
+      "fr": "Citez des vêtements ou tenues traditionnelles tunisiennes, hommes ou femmes ?",
+      "tn": "أعطيني حوايج أو أزياء تقليدية تونسية رجالة أو نسوان؟"
+    },
+    "answers": [
+      {
+        "id": 441,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الجبة",
+          "en": "Answer in English: الجبة",
+          "fr": "الجبة",
+          "tn": "الجبة"
+        }
+      },
+      {
+        "id": 442,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الشاشية",
+          "en": "Answer in English: الشاشية",
+          "fr": "الشاشية",
+          "tn": "الشاشية"
+        }
+      },
+      {
+        "id": 443,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "البرنوس",
+          "en": "Answer in English: البرنوس",
+          "fr": "البرنوس",
+          "tn": "البرنوس"
+        }
+      },
+      {
+        "id": 444,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "السفساري",
+          "en": "Answer in English: السفساري",
+          "fr": "السفساري",
+          "tn": "السفساري"
+        }
+      },
+      {
+        "id": 445,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "القشابية",
+          "en": "Answer in English: القشابية",
+          "fr": "القشابية",
+          "tn": "القشابية"
+        }
+      },
+      {
+        "id": 446,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "الكدروون",
+          "en": "Answer in English: الكدروون",
+          "fr": "الكدروون",
+          "tn": "الكدروون"
+        }
+      },
+      {
+        "id": 447,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "الفرملة",
+          "en": "Answer in English: الفرملة",
+          "fr": "الفرملة",
+          "tn": "الفرملة"
+        }
+      },
+      {
+        "id": 448,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "الفوطة والبلوزة",
+          "en": "Answer in English: الفوطة والبلوزة",
+          "fr": "الفوطة والبلوزة",
+          "tn": "الفوطة والبلوزة"
+        }
+      },
+      {
+        "id": 449,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "البلغة",
+          "en": "Answer in English: البلغة",
+          "fr": "البلغة",
+          "tn": "البلغة"
+        }
+      },
+      {
+        "id": 450,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "الساري الهندي",
+          "en": "Wrong distractor: الساري الهندي",
+          "fr": "الساري الهندي",
+          "tn": "الساري الهندي"
+        }
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "category": "Arts",
+    "subcategory": "Visual Arts",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "أذكر مهرجانات دولية أو محلية تُقام سنوياً في تونس؟",
+      "en": "Name international or local festivals held every year in Tunisia?",
+      "fr": "Citez des festivals internationaux ou locaux organisés chaque année en Tunisie ?",
+      "tn": "أعطيني مهرجانات دولية أو محلية تتنظم كل عام في تونس؟"
+    },
+    "answers": [
+      {
+        "id": 451,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "أيام قرطاج السينمائية",
+          "en": "Answer in English: أيام قرطاج السينمائية",
+          "fr": "أيام قرطاج السينمائية",
+          "tn": "أيام قرطاج السينمائية"
+        }
+      },
+      {
+        "id": 452,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "مهرجان قرطاج الدولي",
+          "en": "Answer in English: مهرجان قرطاج الدولي",
+          "fr": "مهرجان قرطاج الدولي",
+          "tn": "مهرجان قرطاج الدولي"
+        }
+      },
+      {
+        "id": 453,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "مهرجان الحمامات الدولي",
+          "en": "Answer in English: مهرجان الحمامات الدولي",
+          "fr": "مهرجان الحمامات الدولي",
+          "tn": "مهرجان الحمامات الدولي"
+        }
+      },
+      {
+        "id": 454,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "أيام قرطاج المسرحية",
+          "en": "Answer in English: أيام قرطاج المسرحية",
+          "fr": "أيام قرطاج المسرحية",
+          "tn": "أيام قرطاج المسرحية"
+        }
+      },
+      {
+        "id": 455,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "مهرجان الجم للموسيقى السمفونية",
+          "en": "Answer in English: مهرجان الجم للموسيقى السمفونية",
+          "fr": "مهرجان الجم للموسيقى السمفونية",
+          "tn": "مهرجان الجم للموسيقى السمفونية"
+        }
+      },
+      {
+        "id": 456,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "مهرجان الصحراء بدوز",
+          "en": "Answer in English: مهرجان الصحراء بدوز",
+          "fr": "مهرجان الصحراء بدوز",
+          "tn": "مهرجان الصحراء بدوز"
+        }
+      },
+      {
+        "id": 457,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "مهرجان الواحات بتوزر",
+          "en": "Answer in English: مهرجان الواحات بتوزر",
+          "fr": "مهرجان الواحات بتوزر",
+          "tn": "مهرجان الواحات بتوزر"
+        }
+      },
+      {
+        "id": 458,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "مهرجان قفصة الدولي",
+          "en": "Answer in English: مهرجان قفصة الدولي",
+          "fr": "مهرجان قفصة الدولي",
+          "tn": "مهرجان قفصة الدولي"
+        }
+      },
+      {
+        "id": 459,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "مهرجان بنزرت الدولي",
+          "en": "Answer in English: مهرجان بنزرت الدولي",
+          "fr": "مهرجان بنزرت الدولي",
+          "tn": "مهرجان بنزرت الدولي"
+        }
+      },
+      {
+        "id": 460,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "مهرجان كلوشيلا",
+          "en": "Wrong distractor: مهرجان كلوشيلا",
+          "fr": "مهرجان كلوشيلا",
+          "tn": "مهرجان كلوشيلا"
+        }
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "category": "Arts",
+    "subcategory": "Visual Arts",
+    "region": "Tunisia",
+    "difficulty": 4,
+    "translations": {
+      "ar": "أذكر مخرجين أو منتجين في السينما التونسية؟",
+      "en": "Name directors or producers in Tunisian cinema?",
+      "fr": "Citez des réalisateurs ou producteurs du cinéma tunisien ?",
+      "tn": "أعطيني مخرجين أو منتجين في السينما التونسية؟"
+    },
+    "answers": [
+      {
+        "id": 461,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "النوري بوزيد",
+          "en": "Answer in English: النوري بوزيد",
+          "fr": "النوري بوزيد",
+          "tn": "النوري بوزيد"
+        }
+      },
+      {
+        "id": 462,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "مفيدة التلاتلي",
+          "en": "Answer in English: مفيدة التلاتلي",
+          "fr": "مفيدة التلاتلي",
+          "tn": "مفيدة التلاتلي"
+        }
+      },
+      {
+        "id": 463,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "عبد اللطيف كشيش",
+          "en": "Answer in English: عبد اللطيف كشيش",
+          "fr": "عبد اللطيف كشيش",
+          "tn": "عبد اللطيف كشيش"
+        }
+      },
+      {
+        "id": 464,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "كوثر بن هنية",
+          "en": "Answer in English: كوثر بن هنية",
+          "fr": "كوثر بن هنية",
+          "tn": "كوثر بن هنية"
+        }
+      },
+      {
+        "id": 465,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "فريد بوغدير",
+          "en": "Answer in English: فريد بوغدير",
+          "fr": "فريد بوغدير",
+          "tn": "فريد بوغدير"
+        }
+      },
+      {
+        "id": 466,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "سلمى بكار",
+          "en": "Answer in English: سلمى بكار",
+          "fr": "سلمى بكار",
+          "tn": "سلمى بكار"
+        }
+      },
+      {
+        "id": 467,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "محمد دمق",
+          "en": "Answer in English: محمد دمق",
+          "fr": "محمد دمق",
+          "tn": "محمد دمق"
+        }
+      },
+      {
+        "id": 468,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "منصف ذويب",
+          "en": "Answer in English: منصف ذويب",
+          "fr": "منصف ذويب",
+          "tn": "منصف ذويب"
+        }
+      },
+      {
+        "id": 469,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "رضا الباهي",
+          "en": "Answer in English: رضا الباهي",
+          "fr": "رضا الباهي",
+          "tn": "رضا الباهي"
+        }
+      },
+      {
+        "id": 470,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "Steven Spielberg",
+          "en": "Wrong distractor: Steven Spielberg",
+          "fr": "Steven Spielberg",
+          "tn": "Steven Spielberg"
+        }
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "category": "Arts",
+    "subcategory": "Visual Arts",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "أذكر مغنين راب تونسيين مشهورين؟",
+      "en": "Name well-known Tunisian rappers?",
+      "fr": "Citez des rappeurs tunisiens connus ?",
+      "tn": "أعطيني رابورز (مغنين راب) تونسيين معروفين؟"
+    },
+    "answers": [
+      {
+        "id": 471,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "بلطي",
+          "en": "Answer in English: بلطي",
+          "fr": "بلطي",
+          "tn": "بلطي"
+        }
+      },
+      {
+        "id": 472,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "علاء",
+          "en": "Answer in English: علاء",
+          "fr": "علاء",
+          "tn": "علاء"
+        }
+      },
+      {
+        "id": 473,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "كافون",
+          "en": "Answer in English: كافون",
+          "fr": "كافون",
+          "tn": "كافون"
+        }
+      },
+      {
+        "id": 474,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "أرماستا",
+          "en": "Answer in English: أرماستا",
+          "fr": "أرماستا",
+          "tn": "أرماستا"
+        }
+      },
+      {
+        "id": 475,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "مروان نوردو",
+          "en": "Answer in English: مروان نوردو",
+          "fr": "مروان نوردو",
+          "tn": "مروان نوردو"
+        }
+      },
+      {
+        "id": 476,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "سمارا",
+          "en": "Answer in English: سمارا",
+          "fr": "سمارا",
+          "tn": "سمارا"
+        }
+      },
+      {
+        "id": 477,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "الجنرال",
+          "en": "Answer in English: الجنرال",
+          "fr": "الجنرال",
+          "tn": "الجنرال"
+        }
+      },
+      {
+        "id": 478,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "بلينقز",
+          "en": "Answer in English: بلينقز",
+          "fr": "بلينقز",
+          "tn": "بلينقز"
+        }
+      },
+      {
+        "id": 479,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "كلاي بي بي جي",
+          "en": "Answer in English: كلاي بي بي جي",
+          "fr": "كلاي بي بي جي",
+          "tn": "كلاي بي بي جي"
+        }
+      },
+      {
+        "id": 480,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "Eminem",
+          "en": "Wrong distractor: Eminem",
+          "fr": "Eminem",
+          "tn": "Eminem"
+        }
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "category": "Arts",
+    "subcategory": "Visual Arts",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "أذكر معالم دينية أو جوامع تاريخية كبرى في تونس؟",
+      "en": "Name major historic mosques or religious landmarks in Tunisia?",
+      "fr": "Citez de grandes mosquées ou monuments religieux historiques en Tunisie ?",
+      "tn": "أعطيني جوامع أو معالم دينية تاريخية كبيرة في تونس؟"
+    },
+    "answers": [
+      {
+        "id": 491,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "جامع الزيتونة",
+          "en": "Answer in English: جامع الزيتونة",
+          "fr": "جامع الزيتونة",
+          "tn": "جامع الزيتونة"
+        }
+      },
+      {
+        "id": 492,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "جامع عقبة بن نافع",
+          "en": "Answer in English: جامع عقبة بن نافع",
+          "fr": "جامع عقبة بن نافع",
+          "tn": "جامع عقبة بن نافع"
+        }
+      },
+      {
+        "id": 493,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "جامع الهوا",
+          "en": "Answer in English: جامع الهوا",
+          "fr": "جامع الهوا",
+          "tn": "جامع الهوا"
+        }
+      },
+      {
+        "id": 494,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "جامع القصبة",
+          "en": "Answer in English: جامع القصبة",
+          "fr": "جامع القصبة",
+          "tn": "جامع القصبة"
+        }
+      },
+      {
+        "id": 495,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "جامع الغفران",
+          "en": "Answer in English: جامع الغفران",
+          "fr": "جامع الغفران",
+          "tn": "جامع الغفران"
+        }
+      },
+      {
+        "id": 496,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "مقام أبي زمعة البلوي",
+          "en": "Answer in English: مقام أبي زمعة البلوي",
+          "fr": "مقام أبي زمعة البلوي",
+          "tn": "مقام أبي زمعة البلوي"
+        }
+      },
+      {
+        "id": 497,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "جامع سنان باشا",
+          "en": "Answer in English: جامع سنان باشا",
+          "fr": "جامع سنان باشا",
+          "tn": "جامع سنان باشا"
+        }
+      },
+      {
+        "id": 498,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "مقام سيدي الحاري",
+          "en": "Answer in English: مقام سيدي الحاري",
+          "fr": "مقام سيدي الحاري",
+          "tn": "مقام سيدي الحاري"
+        }
+      },
+      {
+        "id": 499,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "جامع التوفيق",
+          "en": "Answer in English: جامع التوفيق",
+          "fr": "جامع التوفيق",
+          "tn": "جامع التوفيق"
+        }
+      },
+      {
+        "id": 500,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "المسجد الأقصى",
+          "en": "Wrong distractor: المسجد الأقصى",
+          "fr": "المسجد الأقصى",
+          "tn": "المسجد الأقصى"
+        }
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "category": "Arts",
+    "subcategory": "Visual Arts",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "أذكر شعراء تونسيين كبار خلدوا أسماءهم في الأدب العربي؟",
+      "en": "Name major Tunisian poets whose names live on in Arabic literature?",
+      "fr": "Citez de grands poètes tunisiens dont le nom est resté dans la littérature arabe ?",
+      "tn": "أعطيني شعراء تونسيين كبار بقات أسامهم في الأدب العربي؟"
+    },
+    "answers": [
+      {
+        "id": 791,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "أبو القاسم الشابي",
+          "en": "Answer in English: أبو القاسم الشابي",
+          "fr": "أبو القاسم الشابي",
+          "tn": "أبو القاسم الشابي"
+        }
+      },
+      {
+        "id": 792,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "منور صمادح",
+          "en": "Answer in English: منور صمادح",
+          "fr": "منور صمادح",
+          "tn": "منور صمادح"
+        }
+      },
+      {
+        "id": 793,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "جعفر ماجد",
+          "en": "Answer in English: جعفر ماجد",
+          "fr": "جعفر ماجد",
+          "tn": "جعفر ماجد"
+        }
+      },
+      {
+        "id": 794,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "أولاد أحمد",
+          "en": "Answer in English: أولاد أحمد",
+          "fr": "أولاد أحمد",
+          "tn": "أولاد أحمد"
+        }
+      },
+      {
+        "id": 795,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "محمد الصغير أولاد أحمد",
+          "en": "Answer in English: محمد الصغير أولاد أحمد",
+          "fr": "محمد الصغير أولاد أحمد",
+          "tn": "محمد الصغير أولاد أحمد"
+        }
+      },
+      {
+        "id": 796,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "جميلة الماجري",
+          "en": "Answer in English: جميلة الماجري",
+          "fr": "جميلة الماجري",
+          "tn": "جميلة الماجري"
+        }
+      },
+      {
+        "id": 797,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "مصطفى خريف",
+          "en": "Answer in English: مصطفى خريف",
+          "fr": "مصطفى خريف",
+          "tn": "مصطفى خريف"
+        }
+      },
+      {
+        "id": 798,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "البشير خريف",
+          "en": "Answer in English: البشير خريف",
+          "fr": "البشير خريف",
+          "tn": "البشير خريف"
+        }
+      },
+      {
+        "id": 799,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "المنصف المزغني",
+          "en": "Answer in English: المنصف المزغني",
+          "fr": "المنصف المزغني",
+          "tn": "المنصف المزغني"
+        }
+      },
+      {
+        "id": 800,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "نزار قباني",
+          "en": "Wrong distractor: نزار قباني",
+          "fr": "نزار قباني",
+          "tn": "نزار قباني"
+        }
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "category": "Arts",
+    "subcategory": "Visual Arts",
+    "region": "Tunisia",
+    "difficulty": 3,
+    "translations": {
+      "ar": "أذكر أسماء مصممي أزياء أو دور أزياء تونسية عالمية؟",
+      "en": "Name Tunisian fashion designers or fashion houses known worldwide?",
+      "fr": "Citez des créateurs de mode ou maisons de couture tunisiens connus dans le monde ?",
+      "tn": "أعطيني مصممي أزياء أو دور أزياء تونسية معروفين عالمياً؟"
+    },
+    "answers": [
+      {
+        "id": 941,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "عز الدين علية",
+          "en": "Answer in English: عز الدين علية",
+          "fr": "عز الدين علية",
+          "tn": "عز الدين علية"
+        }
+      },
+      {
+        "id": 942,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "ماكس عزرية",
+          "en": "Answer in English: ماكس عزرية",
+          "fr": "ماكس عزرية",
+          "tn": "ماكس عزرية"
+        }
+      },
+      {
+        "id": 943,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "سفيان بن حليمة",
+          "en": "Answer in English: سفيان بن حليمة",
+          "fr": "سفيان بن حليمة",
+          "tn": "سفيان بن حليمة"
+        }
+      },
+      {
+        "id": 944,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "هادي سليمان",
+          "en": "Answer in English: هادي سليمان",
+          "fr": "هادي سليمان",
+          "tn": "هادي سليمان"
+        }
+      },
+      {
+        "id": 945,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "فارس الشيرازي",
+          "en": "Answer in English: فارس الشيرازي",
+          "fr": "فارس الشيرازي",
+          "tn": "فارس الشيرازي"
+        }
+      },
+      {
+        "id": 946,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "أنيسة عايد",
+          "en": "Answer in English: أنيسة عايد",
+          "fr": "أنيسة عايد",
+          "tn": "أنيسة عايد"
+        }
+      },
+      {
+        "id": 947,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "دار الكسوة التونسية",
+          "en": "Answer in English: دار الكسوة التونسية",
+          "fr": "دار الكسوة التونسية",
+          "tn": "دار الكسوة التونسية"
+        }
+      },
+      {
+        "id": 948,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "مهدي كليبي",
+          "en": "Answer in English: مهدي كليبي",
+          "fr": "مهدي كليبي",
+          "tn": "مهدي كليبي"
+        }
+      },
+      {
+        "id": 949,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "ليلى بن خليفة",
+          "en": "Answer in English: ليلى بن خليفة",
+          "fr": "ليلى بن خليفة",
+          "tn": "ليلى بن خليفة"
+        }
+      },
+      {
+        "id": 950,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "Coco Chanel",
+          "en": "Wrong distractor: Coco Chanel",
+          "fr": "Coco Chanel",
+          "tn": "Coco Chanel"
+        }
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "category": "Arts",
+    "subcategory": "Visual Arts",
+    "region": "Tunisia",
+    "difficulty": 1,
+    "translations": {
+      "ar": "أذكر فنانين وممثلين تونسيين اشتهروا بأدوارهم في المسلسل الكوميدي 'شوفلي حل'؟",
+      "en": "Name artists and actors known for their roles in the series \"Choufli Hal\"?",
+      "fr": "Citez des artistes et acteurs connus pour leurs rôles dans la série « Choufli Hal » ?",
+      "tn": "أعطيني فنانين وممثلين اشتهرو بأدوارهم في مسلسل 'شوفلي حل'؟"
+    },
+    "answers": [
+      {
+        "id": 981,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "كمال التواتي",
+          "en": "Answer in English: كمال التواتي",
+          "fr": "كمال التواتي",
+          "tn": "كمال التواتي"
+        }
+      },
+      {
+        "id": 982,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "سفيان الشعري",
+          "en": "Answer in English: سفيان الشعري",
+          "fr": "سفيان الشعري",
+          "tn": "سفيان الشعري"
+        }
+      },
+      {
+        "id": 983,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "منى نور الدين",
+          "en": "Answer in English: منى نور الدين",
+          "fr": "منى نور الدين",
+          "tn": "منى نور الدين"
+        }
+      },
+      {
+        "id": 984,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "جميلة الشيحي",
+          "en": "Answer in English: جميلة الشيحي",
+          "fr": "جميلة الشيحي",
+          "tn": "جميلة الشيحي"
+        }
+      },
+      {
+        "id": 985,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "كوثر الباردي",
+          "en": "Answer in English: كوثر الباردي",
+          "fr": "كوثر الباردي",
+          "tn": "كوثر الباردي"
+        }
+      },
+      {
+        "id": 986,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "فيصل بالزين",
+          "en": "Answer in English: فيصل بالزين",
+          "fr": "فيصل بالزين",
+          "tn": "فيصل بالزين"
+        }
+      },
+      {
+        "id": 987,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "أسماء بن عثمان",
+          "en": "Answer in English: أسماء بن عثمان",
+          "fr": "أسماء بن عثمان",
+          "tn": "أسماء بن عثمان"
+        }
+      },
+      {
+        "id": 988,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "توفيق البحري",
+          "en": "Answer in English: توفيق البحري",
+          "fr": "توفيق البحري",
+          "tn": "توفيق البحري"
+        }
+      },
+      {
+        "id": 989,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "آمال البكوش",
+          "en": "Answer in English: آمال البكوش",
+          "fr": "آمال البكوش",
+          "tn": "آمال البكوش"
+        }
+      },
+      {
+        "id": 990,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "ياسر العظمة",
+          "en": "Wrong distractor: ياسر العظمة",
+          "fr": "ياسر العظمة",
+          "tn": "ياسر العظمة"
+        }
+      }
+    ]
+  }
+]

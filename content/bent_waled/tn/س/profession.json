@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "profession_سائق",
+    "answer": "سائق",
+    "normalized": "سائق",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_سباك",
+    "answer": "سباك",
+    "normalized": "سباك",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_سكرتير",
+    "answer": "سكرتير",
+    "normalized": "سكرتير",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_سفير",
+    "answer": "سفير",
+    "normalized": "سفير",
+    "aliases": [],
+    "status": "approved"
+  }
+]

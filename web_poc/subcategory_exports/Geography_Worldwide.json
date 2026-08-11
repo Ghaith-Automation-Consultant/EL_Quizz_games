@@ -1,0 +1,127 @@
+[
+  {
+    "id": 205,
+    "category": "Geography",
+    "subcategory": "Worldwide",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "أذكر دولاً تطل على البحر الأبيض المتوسط (بحر تونس)؟",
+      "en": "Which countries border the Mediterranean Sea?",
+      "fr": "Quels pays bordent la mer Méditerranée?",
+      "tn": "شنومة الدول اللي تطل على البحر الأبيض المتوسط؟"
+    },
+    "answers": [
+      {
+        "id": 2045,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "تونس",
+          "en": "Tunisia",
+          "fr": "Tunisie",
+          "tn": "تونس الخضراء"
+        }
+      },
+      {
+        "id": 2046,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "إيطاليا",
+          "en": "Italy",
+          "fr": "Italie",
+          "tn": "الطاليان (إيطاليا)"
+        }
+      },
+      {
+        "id": 2047,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "فرنسا",
+          "en": "France",
+          "fr": "France",
+          "tn": "فرنسا"
+        }
+      },
+      {
+        "id": 2048,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "إسبانيا",
+          "en": "Spain",
+          "fr": "Espagne",
+          "tn": "إسبانيا"
+        }
+      },
+      {
+        "id": 2049,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "اليونان",
+          "en": "Greece",
+          "fr": "Grece",
+          "tn": "اليونان"
+        }
+      },
+      {
+        "id": 2050,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "مصر",
+          "en": "Egypt",
+          "fr": "Egypte",
+          "tn": "مصر"
+        }
+      },
+      {
+        "id": 2051,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "المغرب",
+          "en": "Morocco",
+          "fr": "Maroc",
+          "tn": "المغرب الأقصى"
+        }
+      },
+      {
+        "id": 2052,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "تركيا",
+          "en": "Turkey",
+          "fr": "Turquie",
+          "tn": "تركيا"
+        }
+      },
+      {
+        "id": 2053,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "كرواتيا",
+          "en": "Croatia",
+          "fr": "Croatie",
+          "tn": "كرواتيا الاوروبية"
+        }
+      },
+      {
+        "id": 2054,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "المملكة العربية السعودية",
+          "en": "Saudi Arabia",
+          "fr": "Arabie Saoudite",
+          "tn": "السعودية"
+        }
+      }
+    ]
+  }
+]

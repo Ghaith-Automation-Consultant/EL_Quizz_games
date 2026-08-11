@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "plant_زعتر",
+    "answer": "زعتر",
+    "normalized": "زعتر",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "plant_زنجبيل",
+    "answer": "زنجبيل",
+    "normalized": "زنجبيل",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "plant_زيتون",
+    "answer": "زيتون",
+    "normalized": "زيتون",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "plant_زهور",
+    "answer": "زهور",
+    "normalized": "زهور",
+    "aliases": [],
+    "status": "approved"
+  }
+]

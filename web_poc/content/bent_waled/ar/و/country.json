@@ -1,0 +1,23 @@
+[
+  {
+    "entity_id": "country_واشنطن",
+    "answer": "واشنطن",
+    "normalized": "واشنطن",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_وجدة",
+    "answer": "وجدة",
+    "normalized": "وجدت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_ولاية_تونس",
+    "answer": "ولاية تونس",
+    "normalized": "ولايت تونس",
+    "aliases": [],
+    "status": "approved"
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "entity_id": "profession_يوتيوبر",
+    "answer": "يوتيوبر",
+    "normalized": "يوتيوبر",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_نقابي",
+    "answer": "نقابي",
+    "normalized": "نقابي",
+    "aliases": [],
+    "status": "approved"
+  }
+]

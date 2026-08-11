@@ -1,0 +1,16 @@
+[
+  {
+    "entity_id": "food_ذرة_مشوية",
+    "answer": "ذرة مشوية",
+    "normalized": "ذرت مشويت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_ذبلة",
+    "answer": "ذبلة",
+    "normalized": "ذبلت",
+    "aliases": [],
+    "status": "approved"
+  }
+]

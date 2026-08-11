@@ -1,0 +1,23 @@
+[
+  {
+    "entity_id": "country_عراق",
+    "answer": "عراق",
+    "normalized": "عراق",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_عمان",
+    "answer": "عمان",
+    "normalized": "عمان",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_عدن",
+    "answer": "عدن",
+    "normalized": "عدن",
+    "aliases": [],
+    "status": "approved"
+  }
+]

@@ -1,0 +1,127 @@
+[
+  {
+    "id": 211,
+    "category": "Gastronomy",
+    "subcategory": "Drinks",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "أذكر مشروبات تونسية تقليدية أو مصنعة محلياً تُقدم باردة أو ساخنة؟",
+      "en": "What are traditional or popular local Tunisian drinks?",
+      "fr": "Quelles sont les boissons tunisiennes traditionnelles ou locales?",
+      "tn": "شنومة المشروبات التونسية المعروفة الباردة والسخونة؟"
+    },
+    "answers": [
+      {
+        "id": 2105,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "شاي أحمر بالبندق",
+          "en": "Red tea with pine nuts",
+          "fr": "The rouge aux pignons",
+          "tn": "تاي أحمر بالبندق التونسي"
+        }
+      },
+      {
+        "id": 2106,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "شاي أخضر بالنعناع",
+          "en": "Green mint tea",
+          "fr": "The vert a la menthe",
+          "tn": "تاي أخضر بالنعناع الفياح"
+        }
+      },
+      {
+        "id": 2107,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "بوڨا ليمون",
+          "en": "Boga Lim",
+          "fr": "Boga Lim",
+          "tn": "بوڨا ليم (مشروب غازي)"
+        }
+      },
+      {
+        "id": 2108,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "لاقمي",
+          "en": "Lagmi (palm sap)",
+          "fr": "Lagmi (jus de palmier)",
+          "tn": "اللاقمي البارد (عصير النخل)"
+        }
+      },
+      {
+        "id": 2109,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "شربات صفاقسي",
+          "en": "Sfaxian Cherbet",
+          "fr": "Cherbet Sfaxienne",
+          "tn": "شربات صفاقسية بالليمون"
+        }
+      },
+      {
+        "id": 2110,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "قهوة عربي بالزهر",
+          "en": "Arabic coffee with orange blossom",
+          "fr": "Cafe turc a l'eau de fleur d'oranger",
+          "tn": "قهوة عربي بماء الزهر والهل"
+        }
+      },
+      {
+        "id": 2111,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "عصير التين الشوكي",
+          "en": "Prickly pear juice",
+          "fr": "Jus de figue de barbarie",
+          "tn": "عصير الهندي البارد"
+        }
+      },
+      {
+        "id": 2112,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "شراب البسيسة",
+          "en": "Bsissa drink",
+          "fr": "Boisson de Bsissa",
+          "tn": "روينة بسيسة تونسية بالزيت"
+        }
+      },
+      {
+        "id": 2113,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "مشروب بوخا",
+          "en": "Boukha drink",
+          "fr": "Boukha (eau de vie de figue)",
+          "tn": "بوخا التين التقليدية"
+        }
+      },
+      {
+        "id": 2114,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "مشروب المته",
+          "en": "Mate drink",
+          "fr": "Boisson Mate",
+          "tn": "المته الشامية الأرجنتينية"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "entity_id": "country_خرطوم",
+    "answer": "خرطوم",
+    "normalized": "خرطوم",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_خنت",
+    "answer": "خنت",
+    "normalized": "خنت",
+    "aliases": [],
+    "status": "approved"
+  }
+]

@@ -1,0 +1,502 @@
+[
+  {
+    "id": 138,
+    "category": "Economy & Business",
+    "subcategory": "Agriculture",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "ما هي من أهم المنتجات الفلاحية في تونس؟",
+      "en": "Which are among Tunisia's main agricultural products?",
+      "fr": "Quels sont parmi les principaux produits agricoles de la Tunisie ?",
+      "tn": "شنوة من أهم المنتوجات الفلاحية في تونس؟"
+    },
+    "answers": [
+      {
+        "id": 1365,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "زيت الزيتون",
+          "en": "Olive oil",
+          "fr": "Huile d'olive",
+          "tn": "زيت الزيتون"
+        }
+      },
+      {
+        "id": 1366,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "التمور",
+          "en": "Dates",
+          "fr": "Dattes",
+          "tn": "التمور"
+        }
+      },
+      {
+        "id": 1367,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "الحمضيات",
+          "en": "Citrus fruits",
+          "fr": "Agrumes",
+          "tn": "القوارص"
+        }
+      },
+      {
+        "id": 1368,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "الحبوب",
+          "en": "Cereals",
+          "fr": "Céréales",
+          "tn": "القمح والشعير"
+        }
+      },
+      {
+        "id": 1369,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "العنب",
+          "en": "Grapes",
+          "fr": "Raisins",
+          "tn": "العنب"
+        }
+      },
+      {
+        "id": 1370,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الطماطم",
+          "en": "Tomatoes",
+          "fr": "Tomates",
+          "tn": "الماطم"
+        }
+      },
+      {
+        "id": 1371,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "اللوز",
+          "en": "Almonds",
+          "fr": "Amandes",
+          "tn": "اللوز"
+        }
+      },
+      {
+        "id": 1372,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الفلفل",
+          "en": "Peppers",
+          "fr": "Piments",
+          "tn": "الفلفل"
+        }
+      },
+      {
+        "id": 1373,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الرمان",
+          "en": "Pomegranates",
+          "fr": "Grenades",
+          "tn": "الرمان"
+        }
+      },
+      {
+        "id": 1374,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "الكاكاو",
+          "en": "Cocoa",
+          "fr": "Cacao",
+          "tn": "الكاكاو"
+        }
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "category": "Economy & Business",
+    "subcategory": "Agriculture",
+    "region": "Tunisia",
+    "difficulty": 3,
+    "translations": {
+      "ar": "في أي ولايات تشتهر زراعة التمور؟",
+      "en": "Which governorates are known for date cultivation?",
+      "fr": "Quels gouvernorats sont réputés pour la culture des dattes ?",
+      "tn": "في أي ولايات مشهورة بالتمور؟"
+    },
+    "answers": [
+      {
+        "id": 1415,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "قبلي",
+          "en": "Kébili",
+          "fr": "Kébili",
+          "tn": "قبلي"
+        }
+      },
+      {
+        "id": 1416,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "توزر",
+          "en": "Tozeur",
+          "fr": "Tozeur",
+          "tn": "توزر"
+        }
+      },
+      {
+        "id": 1417,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "قفصة",
+          "en": "Gafsa",
+          "fr": "Gafsa",
+          "tn": "قفصة"
+        }
+      },
+      {
+        "id": 1418,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "قابس",
+          "en": "Gabès",
+          "fr": "Gabès",
+          "tn": "قابس"
+        }
+      },
+      {
+        "id": 1419,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "مدنين",
+          "en": "Médenine",
+          "fr": "Médenine",
+          "tn": "مدنين"
+        }
+      },
+      {
+        "id": 1420,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "تطاوين",
+          "en": "Tataouine",
+          "fr": "Tataouine",
+          "tn": "تطاوين"
+        }
+      },
+      {
+        "id": 1421,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "توزر القديمة",
+          "en": "Nefta",
+          "fr": "Nefta",
+          "tn": "نفطة"
+        }
+      },
+      {
+        "id": 1422,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "دوز",
+          "en": "Douz",
+          "fr": "Douz",
+          "tn": "دوز"
+        }
+      },
+      {
+        "id": 1423,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الفوار",
+          "en": "El Faouar",
+          "fr": "El Faouar",
+          "tn": "الفوار"
+        }
+      },
+      {
+        "id": 1424,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "بنزرت",
+          "en": "Bizerte",
+          "fr": "Bizerte",
+          "tn": "بنزرت"
+        }
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "category": "Economy & Business",
+    "subcategory": "Agriculture",
+    "region": "Tunisia",
+    "difficulty": 3,
+    "translations": {
+      "ar": "ما هي من الزراعات المنتشرة في شمال تونس؟",
+      "en": "Which crops are common in northern Tunisia?",
+      "fr": "Quelles cultures sont répandues dans le nord de la Tunisie ?",
+      "tn": "شنوة من الزراعات المنتشرة في شمال تونس؟"
+    },
+    "answers": [
+      {
+        "id": 1465,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "القمح",
+          "en": "Wheat",
+          "fr": "Blé",
+          "tn": "القمح"
+        }
+      },
+      {
+        "id": 1466,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "الشعير",
+          "en": "Barley",
+          "fr": "Orge",
+          "tn": "الشعير"
+        }
+      },
+      {
+        "id": 1467,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "الزيتون",
+          "en": "Olives",
+          "fr": "Oliviers",
+          "tn": "الزيتون"
+        }
+      },
+      {
+        "id": 1468,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "الحمضيات",
+          "en": "Citrus",
+          "fr": "Agrumes",
+          "tn": "القوارص"
+        }
+      },
+      {
+        "id": 1469,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "العنب",
+          "en": "Grapes",
+          "fr": "Raisins",
+          "tn": "العنب"
+        }
+      },
+      {
+        "id": 1470,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الفول",
+          "en": "Broad beans",
+          "fr": "Fèves",
+          "tn": "الفول"
+        }
+      },
+      {
+        "id": 1471,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "البطاطا",
+          "en": "Potatoes",
+          "fr": "Pommes de terre",
+          "tn": "البطاطا"
+        }
+      },
+      {
+        "id": 1472,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الطماطم",
+          "en": "Tomatoes",
+          "fr": "Tomates",
+          "tn": "الماطم"
+        }
+      },
+      {
+        "id": 1473,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "التفاح",
+          "en": "Apples",
+          "fr": "Pommes",
+          "tn": "التفاح"
+        }
+      },
+      {
+        "id": 1474,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "الموز",
+          "en": "Bananas",
+          "fr": "Bananes",
+          "tn": "الموز"
+        }
+      }
+    ]
+  },
+  {
+    "id": 199,
+    "category": "Economy & Business",
+    "subcategory": "Agriculture",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "أذكر منتجات فلاحية تونسية تشتهر تونس بتصديرها أو زراعتها بكثرة؟",
+      "en": "What are the main agricultural products cultivated or exported by Tunisia?",
+      "fr": "Quels sont les principaux produits agricoles exportés ou cultivés en Tunisie?",
+      "tn": "شنومة الغلال والخضار والمنتوجات الفلاحية اللي معروفة بيهم تونس وتصدرهم؟"
+    },
+    "answers": [
+      {
+        "id": 1975,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "زيت الزيتون",
+          "en": "Extra virgin olive oil",
+          "fr": "Huile d'olive extra vierge",
+          "tn": "زيت الزيتون التونسي الحر البكر"
+        }
+      },
+      {
+        "id": 1976,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "دڨلة النور",
+          "en": "Deglet Nour Dates",
+          "fr": "Dattes Deglet Nour",
+          "tn": "دڨلة النور الڨبلية متاع توزر وقبلي"
+        }
+      },
+      {
+        "id": 1977,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "برتقال مالطي",
+          "en": "Maltese Oranges",
+          "fr": "Oranges Maltaises",
+          "tn": "البرتقال المالطي متاع نابل والوطن القبلي"
+        }
+      },
+      {
+        "id": 1978,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "قوارص نابل",
+          "en": "Cap Bon Citrus",
+          "fr": "Agrumes du Cap Bon",
+          "tn": "قوارص الوطن القبلي ليمون وڨريب فروت"
+        }
+      },
+      {
+        "id": 1979,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "رمان قابس",
+          "en": "Gabes Pomegranates",
+          "fr": "Grenades de Gabes",
+          "tn": "رمان قابس الحلو المزيز"
+        }
+      },
+      {
+        "id": 1980,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "تين كسرى",
+          "en": "Kesra Figs",
+          "fr": "Figues de Kesra",
+          "tn": "كرموس (تين) كسرى الباهي"
+        }
+      },
+      {
+        "id": 1981,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "ملوخية تونسية",
+          "en": "Mloukhia leaves",
+          "fr": "Feuilles de Mloukhia",
+          "tn": "أوراق الملوخية المرحية الخضراء"
+        }
+      },
+      {
+        "id": 1982,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "تفاح سبيبة",
+          "en": "Sbiba Apples",
+          "fr": "Pommes de Sbiba",
+          "tn": "تفاح سبيبة بالقصرين الأحمر"
+        }
+      },
+      {
+        "id": 1983,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "مشمش تستور",
+          "en": "Testour Apricots",
+          "fr": "Abricots de Testour",
+          "tn": "مشمش تستور اللذيذ والبريڨوڨ"
+        }
+      },
+      {
+        "id": 1984,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "الأرز البسمتي",
+          "en": "Basmati Rice",
+          "fr": "Riz Basmati",
+          "tn": "الأرز البسمتي المستورد"
+        }
+      }
+    ]
+  }
+]

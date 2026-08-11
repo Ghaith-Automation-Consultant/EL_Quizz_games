@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "country_صين",
+    "answer": "صين",
+    "normalized": "صين",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_صومال",
+    "answer": "صومال",
+    "normalized": "صومال",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_صيدا",
+    "answer": "صيدا",
+    "normalized": "صيدا",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_صنعاء",
+    "answer": "صنعاء",
+    "normalized": "صنعاء",
+    "aliases": [],
+    "status": "approved"
+  }
+]

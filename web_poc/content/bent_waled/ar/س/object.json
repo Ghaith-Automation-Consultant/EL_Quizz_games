@@ -1,0 +1,37 @@
+[
+  {
+    "entity_id": "object_سيف",
+    "answer": "سيف",
+    "normalized": "سيف",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_ساعة",
+    "answer": "ساعة",
+    "normalized": "ساعت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_سرير",
+    "answer": "سرير",
+    "normalized": "سرير",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_سلة",
+    "answer": "سلة",
+    "normalized": "سلت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_سيارة",
+    "answer": "سيارة",
+    "normalized": "سيارت",
+    "aliases": [],
+    "status": "approved"
+  }
+]

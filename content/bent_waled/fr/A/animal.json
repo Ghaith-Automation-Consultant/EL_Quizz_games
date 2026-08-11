@@ -1,0 +1,18 @@
+[
+  {
+    "entity_id": "animal_alligator",
+    "answer": "Alligator",
+    "normalized": "alligator",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "animal_ane",
+    "answer": "Âne",
+    "normalized": "âne",
+    "aliases": [
+      "l'âne"
+    ],
+    "status": "approved"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "entity_id": "girl_طاهرة",
+    "answer": "طاهرة",
+    "normalized": "طاهرت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "girl_طيبة",
+    "answer": "طيبة",
+    "normalized": "طيبت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "girl_طيوف",
+    "answer": "طيوف",
+    "normalized": "طيوف",
+    "aliases": [],
+    "status": "approved"
+  }
+]

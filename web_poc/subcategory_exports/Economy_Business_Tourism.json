@@ -1,0 +1,502 @@
+[
+  {
+    "id": 139,
+    "category": "Economy & Business",
+    "subcategory": "Tourism",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "ما هي من أشهر الوجهات السياحية في تونس؟",
+      "en": "Which are among Tunisia's most famous tourist destinations?",
+      "fr": "Quelles sont parmi les destinations touristiques les plus célèbres de Tunisie ?",
+      "tn": "شنوة من أشهر البلايص السياحية في تونس؟"
+    },
+    "answers": [
+      {
+        "id": 1375,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "جربة",
+          "en": "Djerba",
+          "fr": "Djerba",
+          "tn": "جربة"
+        }
+      },
+      {
+        "id": 1376,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "الحمامات",
+          "en": "Hammamet",
+          "fr": "Hammamet",
+          "tn": "الحمامات"
+        }
+      },
+      {
+        "id": 1377,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "سوسة",
+          "en": "Sousse",
+          "fr": "Sousse",
+          "tn": "سوسة"
+        }
+      },
+      {
+        "id": 1378,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "طبرقة",
+          "en": "Tabarka",
+          "fr": "Tabarka",
+          "tn": "طبرقة"
+        }
+      },
+      {
+        "id": 1379,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "توزر",
+          "en": "Tozeur",
+          "fr": "Tozeur",
+          "tn": "توزر"
+        }
+      },
+      {
+        "id": 1380,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "المهدية",
+          "en": "Mahdia",
+          "fr": "Mahdia",
+          "tn": "المهدية"
+        }
+      },
+      {
+        "id": 1381,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "القيروان",
+          "en": "Kairouan",
+          "fr": "Kairouan",
+          "tn": "القيروان"
+        }
+      },
+      {
+        "id": 1382,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "قرطاج",
+          "en": "Carthage",
+          "fr": "Carthage",
+          "tn": "قرطاج"
+        }
+      },
+      {
+        "id": 1383,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "دوز",
+          "en": "Douz",
+          "fr": "Douz",
+          "tn": "دوز"
+        }
+      },
+      {
+        "id": 1384,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "تبسة",
+          "en": "Tebessa",
+          "fr": "Tébessa",
+          "tn": "تبسة"
+        }
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "category": "Economy & Business",
+    "subcategory": "Tourism",
+    "region": "Tunisia",
+    "difficulty": 3,
+    "translations": {
+      "ar": "ما هي من المدن الساحلية التي تضم منتجعات سياحية كبيرة؟",
+      "en": "Which coastal cities have major tourist resorts?",
+      "fr": "Quelles villes côtières possèdent d'importantes stations touristiques ?",
+      "tn": "شنوة من المدن الساحلية فيها منتجعات سياحية كبار؟"
+    },
+    "answers": [
+      {
+        "id": 1425,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "الحمامات",
+          "en": "Hammamet",
+          "fr": "Hammamet",
+          "tn": "الحمامات"
+        }
+      },
+      {
+        "id": 1426,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "سوسة",
+          "en": "Sousse",
+          "fr": "Sousse",
+          "tn": "سوسة"
+        }
+      },
+      {
+        "id": 1427,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "المنستير",
+          "en": "Monastir",
+          "fr": "Monastir",
+          "tn": "المنستير"
+        }
+      },
+      {
+        "id": 1428,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "المهدية",
+          "en": "Mahdia",
+          "fr": "Mahdia",
+          "tn": "المهدية"
+        }
+      },
+      {
+        "id": 1429,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "جربة",
+          "en": "Djerba",
+          "fr": "Djerba",
+          "tn": "جربة"
+        }
+      },
+      {
+        "id": 1430,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "طبرقة",
+          "en": "Tabarka",
+          "fr": "Tabarka",
+          "tn": "طبرقة"
+        }
+      },
+      {
+        "id": 1431,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "بنزرت",
+          "en": "Bizerte",
+          "fr": "Bizerte",
+          "tn": "بنزرت"
+        }
+      },
+      {
+        "id": 1432,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "نابل",
+          "en": "Nabeul",
+          "fr": "Nabeul",
+          "tn": "نابل"
+        }
+      },
+      {
+        "id": 1433,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "قليبية",
+          "en": "Kelibia",
+          "fr": "Kelibia",
+          "tn": "قليبية"
+        }
+      },
+      {
+        "id": 1434,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "تندوف",
+          "en": "Tindouf",
+          "fr": "Tindouf",
+          "tn": "تندوف"
+        }
+      }
+    ]
+  },
+  {
+    "id": 149,
+    "category": "Economy & Business",
+    "subcategory": "Tourism",
+    "region": "Tunisia",
+    "difficulty": 4,
+    "translations": {
+      "ar": "ما هي من مواقع التراث العالمي التي تجذب السياح في تونس؟",
+      "en": "Which UNESCO World Heritage sites attract tourists in Tunisia?",
+      "fr": "Quels sites du patrimoine mondial attirent les touristes en Tunisie ?",
+      "tn": "شنوة من مواقع التراث العالمي في تونس؟"
+    },
+    "answers": [
+      {
+        "id": 1475,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "قرطاج",
+          "en": "Carthage",
+          "fr": "Carthage",
+          "tn": "قرطاج"
+        }
+      },
+      {
+        "id": 1476,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "القيروان",
+          "en": "Kairouan",
+          "fr": "Kairouan",
+          "tn": "القيروان"
+        }
+      },
+      {
+        "id": 1477,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "المدينة العتيقة بتونس",
+          "en": "Medina of Tunis",
+          "fr": "Médina de Tunis",
+          "tn": "مدينة تونس"
+        }
+      },
+      {
+        "id": 1478,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "دقة",
+          "en": "Dougga",
+          "fr": "Dougga",
+          "tn": "دقة"
+        }
+      },
+      {
+        "id": 1479,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "الجم",
+          "en": "El Jem",
+          "fr": "El Jem",
+          "tn": "الجم"
+        }
+      },
+      {
+        "id": 1480,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "إشكل",
+          "en": "Ichkeul",
+          "fr": "Ichkeul",
+          "tn": "إشكل"
+        }
+      },
+      {
+        "id": 1481,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "سوسة العتيقة",
+          "en": "Medina of Sousse",
+          "fr": "Médina de Sousse",
+          "tn": "مدينة سوسة"
+        }
+      },
+      {
+        "id": 1482,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "كركوان",
+          "en": "Kerkouane",
+          "fr": "Kerkouane",
+          "tn": "كركوان"
+        }
+      },
+      {
+        "id": 1483,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "مدينة صفاقس العتيقة",
+          "en": "Medina of Sfax",
+          "fr": "Médina de Sfax",
+          "tn": "مدينة صفاقس"
+        }
+      },
+      {
+        "id": 1484,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "ماتشو بيتشو",
+          "en": "Machu Picchu",
+          "fr": "Machu Picchu",
+          "tn": "ماتشو بيتشو"
+        }
+      }
+    ]
+  },
+  {
+    "id": 198,
+    "category": "Economy & Business",
+    "subcategory": "Tourism",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "أذكر مناطق أو مدن سياحية تونسية تشتهر بنزلها وشواطئها الجذابة؟",
+      "en": "What are the most famous tourist areas or coastal cities in Tunisia?",
+      "fr": "Quelles sont les zones touristiques les plus célèbres de Tunisie?",
+      "tn": "شنومة البلايص السياحية في تونس المعروفة بالبحر والنزل؟"
+    },
+    "answers": [
+      {
+        "id": 1965,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الحمامات",
+          "en": "Hammamet",
+          "fr": "Hammamet",
+          "tn": "الحمامات والياسمين"
+        }
+      },
+      {
+        "id": 1966,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "سوسة القنطاوي",
+          "en": "Port El Kantaoui Sousse",
+          "fr": "Port El Kantaoui Sousse",
+          "tn": "القنطاوي بسوسة والمارينا"
+        }
+      },
+      {
+        "id": 1967,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "جربة حومة السوق",
+          "en": "Djerba Houmt Souk",
+          "fr": "Djerba Houmt Souk",
+          "tn": "جربة حومة السوق والمنطقة السياحية"
+        }
+      },
+      {
+        "id": 1968,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "المنستير",
+          "en": "Monastir Skanes",
+          "fr": "Monastir Skanes",
+          "tn": "المنستير والدخيلة والرباط"
+        }
+      },
+      {
+        "id": 1969,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "طبرقة",
+          "en": "Tabarka",
+          "fr": "Tabarka",
+          "tn": "طبرقة والمرجان والغوص"
+        }
+      },
+      {
+        "id": 1970,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "المهدية",
+          "en": "Mahdia",
+          "fr": "Mahdia",
+          "tn": "المهدية الغضابنة وشواطئها البيضاء"
+        }
+      },
+      {
+        "id": 1971,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "قمرت",
+          "en": "Gammarth",
+          "fr": "Gammarth",
+          "tn": "شواطئ قمرت الفخمة والنزل"
+        }
+      },
+      {
+        "id": 1972,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "عين دراهم",
+          "en": "Ain Draham",
+          "fr": "Ain Draham forestiere",
+          "tn": "عين دراهم الغابية والسياحة الايكولوجية"
+        }
+      },
+      {
+        "id": 1973,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "قليبية شاطئ المنصورة",
+          "en": "Kelibia Mansoura",
+          "fr": "Kelibia Mansoura",
+          "tn": "قليبية المنصورة أنقى بحر في البحر المتوسط"
+        }
+      },
+      {
+        "id": 1974,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "شرم الشيخ",
+          "en": "Sharm El Sheikh",
+          "fr": "Sharm El Sheikh",
+          "tn": "شرم الشيخ المصرية"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "entity_id": "plant_ورد",
+    "answer": "ورد",
+    "normalized": "ورد",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "plant_وسابي",
+    "answer": "وسابي",
+    "normalized": "وسابي",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "plant_وسمة",
+    "answer": "وسمة",
+    "normalized": "وسمت",
+    "aliases": [],
+    "status": "approved"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "plant_حمص",
+    "answer": "حمص",
+    "normalized": "حمص",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "plant_حلبة",
+    "answer": "حلبة",
+    "normalized": "حلبت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "plant_حبق",
+    "answer": "حبق",
+    "normalized": "حبق",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "plant_حرشف",
+    "answer": "حرشف",
+    "normalized": "حرشف",
+    "aliases": [],
+    "status": "approved"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "food_شوربة",
+    "answer": "شوربة",
+    "normalized": "شوربت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_شوكولاتة",
+    "answer": "شوكولاتة",
+    "normalized": "شوكولاتت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_شاورما",
+    "answer": "شاورما",
+    "normalized": "شاورما",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_شكشوكة",
+    "answer": "شكشوكة",
+    "normalized": "شكشوكت",
+    "aliases": [],
+    "status": "approved"
+  }
+]

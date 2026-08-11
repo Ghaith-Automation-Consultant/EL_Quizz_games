@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "animal_كلب",
+    "answer": "كلب",
+    "normalized": "كلب",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "animal_كنغر",
+    "answer": "كنغر",
+    "normalized": "كنغر",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "animal_كوالا",
+    "answer": "كوالا",
+    "normalized": "كوالا",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "animal_كركدن",
+    "answer": "كركدن",
+    "normalized": "كركدن",
+    "aliases": [],
+    "status": "approved"
+  }
+]

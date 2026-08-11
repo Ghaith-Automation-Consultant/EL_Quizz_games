@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "country_روسيا",
+    "answer": "روسيا",
+    "normalized": "روسيا",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_رومانيا",
+    "answer": "رومانيا",
+    "normalized": "رومانيا",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_رواندا",
+    "answer": "رواندا",
+    "normalized": "رواندا",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_رياض",
+    "answer": "رياض",
+    "normalized": "رياض",
+    "aliases": [],
+    "status": "approved"
+  }
+]

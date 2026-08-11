@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "profession_قاضي",
+    "answer": "قاضي",
+    "normalized": "قاضي",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_قائد",
+    "answer": "قائد",
+    "normalized": "قائد",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_قصاب",
+    "answer": "قصاب",
+    "normalized": "قصاب",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_قبطان",
+    "answer": "قبطان",
+    "normalized": "قبطان",
+    "aliases": [],
+    "status": "approved"
+  }
+]

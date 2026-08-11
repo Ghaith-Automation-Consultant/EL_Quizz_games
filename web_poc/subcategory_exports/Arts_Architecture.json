@@ -1,0 +1,127 @@
+[
+  {
+    "id": 200,
+    "category": "Arts",
+    "subcategory": "Architecture",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "أذكر معالم معمارية فريدة، قصور أو مباني تاريخية توجد في تونس؟",
+      "en": "What are remarkable architectural monuments or historic palaces in Tunisia?",
+      "fr": "Quels sont les monuments architecturaux ou palais historiques remarquables en Tunisie?",
+      "tn": "شنومة البنايات التاريخية، المعالم والقصور المعمارية المعروفة في تونس؟"
+    },
+    "answers": [
+      {
+        "id": 1985,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "مسرح الجم الروماني",
+          "en": "El Jem Amphitheatre",
+          "fr": "Amphitheatre d'El Jem",
+          "tn": "قصر الجم الروماني الأثري"
+        }
+      },
+      {
+        "id": 1986,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "قصر غيلان",
+          "en": "Ksar Ghilane",
+          "fr": "Ksar Ghilane",
+          "tn": "قصر غيلان بالصحراء التونسية"
+        }
+      },
+      {
+        "id": 1987,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "ديار الحفر بمطماطة",
+          "en": "Matmata troglodyte houses",
+          "fr": "Maisons troglodytes Matmata",
+          "tn": "ديار الحفر المغمورة في تراب مطماطة"
+        }
+      },
+      {
+        "id": 1988,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "قصر البارون ديرلانجي",
+          "en": "Ennejma Ezzahra Palace",
+          "fr": "Palais Ennejma Ezzahra",
+          "tn": "النجمة الزهراء في سيدي بوسعيد"
+        }
+      },
+      {
+        "id": 1989,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "دار الباي",
+          "en": "Dar El Bey",
+          "fr": "Dar El Bey Tunis",
+          "tn": "دار الباي بالمدينة العتيقة"
+        }
+      },
+      {
+        "id": 1990,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "قصر الوردة",
+          "en": "Palais de la Rose",
+          "fr": "Palais de la Rose Manouba",
+          "tn": "قصر الوردة بمنوبة (المتحف العسكري)"
+        }
+      },
+      {
+        "id": 1991,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "شنني",
+          "en": "Chenini Berber Village",
+          "fr": "Village de Chenini",
+          "tn": "شنني القرية البربرية الجبلية المعلقة"
+        }
+      },
+      {
+        "id": 1992,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "معبد المياه بزغوان",
+          "en": "Zaghouan Water Temple",
+          "fr": "Temple des eaux Zaghouan",
+          "tn": "معبد المياه الأثري بزغوان"
+        }
+      },
+      {
+        "id": 1993,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "قصر أولاد سلطان",
+          "en": "Ksar Ouled Soltane",
+          "fr": "Ksar Ouled Soltane",
+          "tn": "قصر أولاد سلطان بتطاوين (غرف التخزين)"
+        }
+      },
+      {
+        "id": 1994,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "برج إيفل",
+          "en": "Eiffel Tower",
+          "fr": "Tour Eiffel",
+          "tn": "برج إيفل الباريسي"
+        }
+      }
+    ]
+  }
+]

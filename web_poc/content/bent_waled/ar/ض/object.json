@@ -1,0 +1,23 @@
+[
+  {
+    "entity_id": "object_ضمادة",
+    "answer": "ضمادة",
+    "normalized": "ضمادت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_ضريح",
+    "answer": "ضريح",
+    "normalized": "ضريح",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_ضوء",
+    "answer": "ضوء",
+    "normalized": "ضوء",
+    "aliases": [],
+    "status": "approved"
+  }
+]

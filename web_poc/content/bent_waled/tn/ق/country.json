@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "country_قطر",
+    "answer": "قطر",
+    "normalized": "قطر",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_قيروان",
+    "answer": "قيروان",
+    "normalized": "قيروان",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_قصر_هلال",
+    "answer": "قصر هلال",
+    "normalized": "قصر هلال",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_قسنطينة",
+    "answer": "قسنطينة",
+    "normalized": "قسنطينت",
+    "aliases": [],
+    "status": "approved"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "country_شيلي",
+    "answer": "شيلي",
+    "normalized": "شيلي",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_شيشان",
+    "answer": "شيشان",
+    "normalized": "شيشان",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_شارقة",
+    "answer": "شارقة",
+    "normalized": "شارقت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_شيكاغو",
+    "answer": "شيكاغو",
+    "normalized": "شيكاغو",
+    "aliases": [],
+    "status": "approved"
+  }
+]

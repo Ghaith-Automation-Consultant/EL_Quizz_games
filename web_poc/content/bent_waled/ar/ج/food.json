@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "food_جبن",
+    "answer": "جبن",
+    "normalized": "جبن",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_جلبانة",
+    "answer": "جلبانة",
+    "normalized": "جلبانت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_جريش",
+    "answer": "جريش",
+    "normalized": "جريش",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "food_جيلاتي",
+    "answer": "جيلاتي",
+    "normalized": "جيلاتي",
+    "aliases": [],
+    "status": "approved"
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "entity_id": "profession_غواص",
+    "answer": "غواص",
+    "normalized": "غواص",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_غسال",
+    "answer": "غسال",
+    "normalized": "غسال",
+    "aliases": [],
+    "status": "approved"
+  }
+]

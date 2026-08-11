@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "girl_تهاني",
+    "answer": "تهاني",
+    "normalized": "تهاني",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "girl_تسنيم",
+    "answer": "تسنيم",
+    "normalized": "تسنيم",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "girl_تقوى",
+    "answer": "تقوى",
+    "normalized": "تقوي",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "girl_تماضر",
+    "answer": "تماضر",
+    "normalized": "تماضر",
+    "aliases": [],
+    "status": "approved"
+  }
+]

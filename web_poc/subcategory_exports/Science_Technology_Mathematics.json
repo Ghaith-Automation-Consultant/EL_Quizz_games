@@ -1,0 +1,252 @@
+[
+  {
+    "id": 110,
+    "category": "Science & Technology",
+    "subcategory": "Mathematics",
+    "region": "Tunisia",
+    "difficulty": 3,
+    "translations": {
+      "ar": "اذكر فروعاً أو مجالات في الرياضيات؟",
+      "en": "Name branches or fields of mathematics?",
+      "fr": "Nommez des branches ou domaines des mathématiques ?",
+      "tn": "أعطينا فروع والا مجالات متاع رياضيات؟"
+    },
+    "answers": [
+      {
+        "id": 1085,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الجبر",
+          "en": "Algebra",
+          "fr": "Algèbre",
+          "tn": "ألجبر"
+        }
+      },
+      {
+        "id": 1086,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الهندسة",
+          "en": "Geometry",
+          "fr": "Géométrie",
+          "tn": "الهندسة"
+        }
+      },
+      {
+        "id": 1087,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الحساب",
+          "en": "Arithmetic",
+          "fr": "Arithmétique",
+          "tn": "الحساب"
+        }
+      },
+      {
+        "id": 1088,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "التفاضل والتكامل",
+          "en": "Calculus",
+          "fr": "Analyse",
+          "tn": "التفاضل والتكامل"
+        }
+      },
+      {
+        "id": 1089,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "الإحصاء",
+          "en": "Statistics",
+          "fr": "Statistiques",
+          "tn": "الإحصاء"
+        }
+      },
+      {
+        "id": 1090,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "الاحتمالات",
+          "en": "Probability",
+          "fr": "Probabilités",
+          "tn": "الاحتمالات"
+        }
+      },
+      {
+        "id": 1091,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "حساب المثلثات",
+          "en": "Trigonometry",
+          "fr": "Trigonométrie",
+          "tn": "حساب المثلثات"
+        }
+      },
+      {
+        "id": 1092,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "نظرية الأعداد",
+          "en": "Number Theory",
+          "fr": "Théorie des nombres",
+          "tn": "نظرية الأعداد"
+        }
+      },
+      {
+        "id": 1093,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "الطوبولوجيا",
+          "en": "Topology",
+          "fr": "Topologie",
+          "tn": "الطوبولوجيا"
+        }
+      },
+      {
+        "id": 1094,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "التنجيم",
+          "en": "Astrology",
+          "fr": "Astrologie",
+          "tn": "التنجيم"
+        }
+      }
+    ]
+  },
+  {
+    "id": 157,
+    "category": "Science & Technology",
+    "subcategory": "Mathematics",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "أي من هذه المواد تندرج ضمن الرياضيات؟",
+      "en": "Which of these are branches of mathematics?",
+      "fr": "Lesquelles de ces disciplines relèvent des mathématiques ?",
+      "tn": "شنوما المواد التابعة للرياضيات؟"
+    },
+    "answers": [
+      {
+        "id": 1555,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "الجبر",
+          "en": "Algebra",
+          "fr": "Algèbre",
+          "tn": "الجبر"
+        }
+      },
+      {
+        "id": 1556,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "الهندسة",
+          "en": "Geometry",
+          "fr": "Géométrie",
+          "tn": "الهندسة"
+        }
+      },
+      {
+        "id": 1557,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "الإحصاء",
+          "en": "Statistics",
+          "fr": "Statistiques",
+          "tn": "الإحصاء"
+        }
+      },
+      {
+        "id": 1558,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "الاحتمالات",
+          "en": "Probability",
+          "fr": "Probabilités",
+          "tn": "الاحتمالات"
+        }
+      },
+      {
+        "id": 1559,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "حساب التفاضل",
+          "en": "Calculus",
+          "fr": "Calcul différentiel",
+          "tn": "التفاضل"
+        }
+      },
+      {
+        "id": 1560,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "نظرية الأعداد",
+          "en": "Number theory",
+          "fr": "Théorie des nombres",
+          "tn": "الأعداد"
+        }
+      },
+      {
+        "id": 1561,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الرياضيات المنفصلة",
+          "en": "Discrete mathematics",
+          "fr": "Mathématiques discrètes",
+          "tn": "المنفصلة"
+        }
+      },
+      {
+        "id": 1562,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "المنطق الرياضي",
+          "en": "Mathematical logic",
+          "fr": "Logique mathématique",
+          "tn": "المنطق"
+        }
+      },
+      {
+        "id": 1563,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الطوبولوجيا",
+          "en": "Topology",
+          "fr": "Topologie",
+          "tn": "الطوبولوجيا"
+        }
+      },
+      {
+        "id": 1564,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "علم الآثار",
+          "en": "Archaeology",
+          "fr": "Archéologie",
+          "tn": "الآثار"
+        }
+      }
+    ]
+  }
+]

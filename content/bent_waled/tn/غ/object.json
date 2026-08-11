@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "object_غطاء",
+    "answer": "غطاء",
+    "normalized": "غطاء",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_غربال",
+    "answer": "غربال",
+    "normalized": "غربال",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_غليون",
+    "answer": "غليون",
+    "normalized": "غليون",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_غسالة",
+    "answer": "غسالة",
+    "normalized": "غسالت",
+    "aliases": [],
+    "status": "approved"
+  }
+]

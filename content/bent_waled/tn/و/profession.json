@@ -1,0 +1,23 @@
+[
+  {
+    "entity_id": "profession_وزير",
+    "answer": "وزير",
+    "normalized": "وزير",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_وكيل",
+    "answer": "وكيل",
+    "normalized": "وكيل",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_وسيط",
+    "answer": "وسيط",
+    "normalized": "وسيط",
+    "aliases": [],
+    "status": "approved"
+  }
+]

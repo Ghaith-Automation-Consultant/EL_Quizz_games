@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "object_طاولة",
+    "answer": "طاولة",
+    "normalized": "طاولت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_طائرة",
+    "answer": "طائرة",
+    "normalized": "طائرت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_طابع",
+    "answer": "طابع",
+    "normalized": "طابع",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_طبل",
+    "answer": "طبل",
+    "normalized": "طبل",
+    "aliases": [],
+    "status": "approved"
+  }
+]

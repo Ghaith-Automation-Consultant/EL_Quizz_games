@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "profession_شرطي",
+    "answer": "شرطي",
+    "normalized": "شرطي",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_شاعر",
+    "answer": "شاعر",
+    "normalized": "شاعر",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_شيف",
+    "answer": "شيف",
+    "normalized": "شيف",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_شحاذ",
+    "answer": "شحاذ",
+    "normalized": "شحاذ",
+    "aliases": [],
+    "status": "approved"
+  }
+]

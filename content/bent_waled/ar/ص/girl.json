@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "girl_صباح",
+    "answer": "صباح",
+    "normalized": "صباح",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "girl_صابرين",
+    "answer": "صابرين",
+    "normalized": "صابرين",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "girl_صفاء",
+    "answer": "صفاء",
+    "normalized": "صفاء",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "girl_صوفية",
+    "answer": "صوفية",
+    "normalized": "صوفيت",
+    "aliases": [],
+    "status": "approved"
+  }
+]

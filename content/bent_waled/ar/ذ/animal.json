@@ -1,0 +1,16 @@
+[
+  {
+    "entity_id": "animal_ذئب",
+    "answer": "ذئب",
+    "normalized": "ذئب",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "animal_ذبابة",
+    "answer": "ذبابة",
+    "normalized": "ذبابت",
+    "aliases": [],
+    "status": "approved"
+  }
+]

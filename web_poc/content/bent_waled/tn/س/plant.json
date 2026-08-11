@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "plant_سلق",
+    "answer": "سلق",
+    "normalized": "سلق",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "plant_سفرجل",
+    "answer": "سفرجل",
+    "normalized": "سفرجل",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "plant_سمسم",
+    "answer": "سمسم",
+    "normalized": "سمسم",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "plant_سدر",
+    "answer": "سدر",
+    "normalized": "سدر",
+    "aliases": [],
+    "status": "approved"
+  }
+]

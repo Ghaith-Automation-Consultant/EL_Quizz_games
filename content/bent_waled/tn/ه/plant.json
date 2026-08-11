@@ -1,0 +1,23 @@
+[
+  {
+    "entity_id": "plant_هيال",
+    "answer": "هيال",
+    "normalized": "هيال",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "plant_هيل",
+    "answer": "هيل",
+    "normalized": "هيل",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "plant_هندباء",
+    "answer": "هندباء",
+    "normalized": "هندباء",
+    "aliases": [],
+    "status": "approved"
+  }
+]

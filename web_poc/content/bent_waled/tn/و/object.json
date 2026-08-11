@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "object_وسادة",
+    "answer": "وسادة",
+    "normalized": "وسادت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_ورقة",
+    "answer": "ورقة",
+    "normalized": "ورقت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_وعاء",
+    "answer": "وعاء",
+    "normalized": "وعاء",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_وشاح",
+    "answer": "وشاح",
+    "normalized": "وشاح",
+    "aliases": [],
+    "status": "approved"
+  }
+]

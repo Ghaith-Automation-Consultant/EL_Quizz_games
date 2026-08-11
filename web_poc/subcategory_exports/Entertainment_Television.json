@@ -1,0 +1,502 @@
+[
+  {
+    "id": 102,
+    "category": "Entertainment",
+    "subcategory": "Television",
+    "region": "Tunisia",
+    "difficulty": 3,
+    "translations": {
+      "ar": "أذكر سيتكومات (سلسلات كوميدية) تونسية معروفة عُرضت في التلفزة؟",
+      "en": "Name well-known Tunisian sitcoms aired on TV?",
+      "fr": "Citez des sitcoms tunisiens connus diffusés à la télévision ?",
+      "tn": "أعطيني سيتكومات (مسلسلات كوميدية) تونسية معروفة اتعرضات في التلفزة؟"
+    },
+    "answers": [
+      {
+        "id": 1011,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "شوفلي حل",
+          "en": "Choufli Hal",
+          "fr": "Chouli Hal",
+          "tn": "شوفلي حل"
+        }
+      },
+      {
+        "id": 1012,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "نسيبتي العزيزة",
+          "en": "Nsibti La'ziza",
+          "fr": "Nsibti La'ziza",
+          "tn": "نسيبتي العزيزة"
+        }
+      },
+      {
+        "id": 1013,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "دار الوزير",
+          "en": "Dar El Wazir",
+          "fr": "Dar El Wazir",
+          "tn": "دار الوزير"
+        }
+      },
+      {
+        "id": 1014,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "شيز عزاير",
+          "en": "Chez Azaiez",
+          "fr": "Chez Azaiez",
+          "tn": "شيز عزاير"
+        }
+      },
+      {
+        "id": 1015,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "لوتيل",
+          "en": "L'Hotel",
+          "fr": "L'Hotel",
+          "tn": "لوتيل"
+        }
+      },
+      {
+        "id": 1016,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "بوليس كتفكت",
+          "en": "Bolice",
+          "fr": "Bolice",
+          "tn": "بوليس كتفكت"
+        }
+      },
+      {
+        "id": 1017,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "بنت ولد",
+          "en": "Bent Walad",
+          "fr": "Bent Walad",
+          "tn": "بنت ولد"
+        }
+      },
+      {
+        "id": 1018,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "قهوة جلول",
+          "en": "Jalloul Coffee",
+          "fr": "Qahwet Jalloul",
+          "tn": "قهوة جلول"
+        }
+      },
+      {
+        "id": 1019,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "الحجامة",
+          "en": "El Hajjama",
+          "fr": "El Hajjama",
+          "tn": "الحجامة"
+        }
+      },
+      {
+        "id": 1020,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "مكتوب",
+          "en": "Maktoub",
+          "fr": "Maktoub",
+          "tn": "مكتوب"
+        }
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "category": "Entertainment",
+    "subcategory": "Television",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "ما هي بعض المسلسلات التلفزيونية الأمريكية الشهيرة؟",
+      "en": "What are some famous American TV series?",
+      "fr": "Quelles sont quelques célèbres séries télévisées américaines ?",
+      "tn": "شنومة بعض المسلسلات الأمريكية المشهورة؟"
+    },
+    "answers": [
+      {
+        "id": 1245,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "فريندز",
+          "en": "Friends",
+          "fr": "Friends",
+          "tn": "فريندز"
+        }
+      },
+      {
+        "id": 1246,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "صراع العروش",
+          "en": "Game of Thrones",
+          "fr": "Game of Thrones",
+          "tn": "صراع العروش"
+        }
+      },
+      {
+        "id": 1247,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "بريكينغ باد",
+          "en": "Breaking Bad",
+          "fr": "Breaking Bad",
+          "tn": "بريكينغ باد"
+        }
+      },
+      {
+        "id": 1248,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "ذا أوفيس",
+          "en": "The Office",
+          "fr": "The Office",
+          "tn": "ذا أوفيس"
+        }
+      },
+      {
+        "id": 1249,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "ذا سيمبسونز",
+          "en": "The Simpsons",
+          "fr": "Les Simpson",
+          "tn": "ذا سيمبسونز"
+        }
+      },
+      {
+        "id": 1250,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "ستراينجر ثينغز",
+          "en": "Stranger Things",
+          "fr": "Stranger Things",
+          "tn": "ستراينجر ثينغز"
+        }
+      },
+      {
+        "id": 1251,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "ذا كراون",
+          "en": "The Crown",
+          "fr": "The Crown",
+          "tn": "ذا كراون"
+        }
+      },
+      {
+        "id": 1252,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "ذا وير",
+          "en": "The Wire",
+          "fr": "The Wire",
+          "tn": "ذا وير"
+        }
+      },
+      {
+        "id": 1253,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "سوبرانوز",
+          "en": "The Sopranos",
+          "fr": "Les Soprano",
+          "tn": "سوبرانوز"
+        }
+      },
+      {
+        "id": 1254,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "باب الحارة",
+          "en": "Bab Al-Hara",
+          "fr": "Bab Al-Hara",
+          "tn": "باب الحارة"
+        }
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "category": "Entertainment",
+    "subcategory": "Television",
+    "region": "Tunisia",
+    "difficulty": 3,
+    "translations": {
+      "ar": "ما هي بعض المسلسلات المصرية أو العربية الشهيرة؟",
+      "en": "What are some famous Egyptian or Arab TV series?",
+      "fr": "Quelles sont quelques célèbres séries égyptiennes ou arabes ?",
+      "tn": "شنومة بعض المسلسلات المصرية ولا العربية المشهورة؟"
+    },
+    "answers": [
+      {
+        "id": 1295,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "باب الحارة",
+          "en": "Bab Al-Hara",
+          "fr": "Bab Al-Hara",
+          "tn": "باب الحارة"
+        }
+      },
+      {
+        "id": 1296,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الاختيار",
+          "en": "Al-Ekhtyar",
+          "fr": "Al-Ekhtyar",
+          "tn": "الاختيار"
+        }
+      },
+      {
+        "id": 1297,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "ليالي الحلمية",
+          "en": "Layali El Helmeya",
+          "fr": "Layali El Helmeya",
+          "tn": "ليالي الحلمية"
+        }
+      },
+      {
+        "id": 1298,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "الداعية",
+          "en": "El Da3ya",
+          "fr": "El Da3ya",
+          "tn": "الداعية"
+        }
+      },
+      {
+        "id": 1299,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "جراند أوتيل",
+          "en": "Grand Hotel",
+          "fr": "Grand Hotel",
+          "tn": "جراند أوتيل"
+        }
+      },
+      {
+        "id": 1300,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "رأفت الهجان",
+          "en": "Raafat El Haggan",
+          "fr": "Raafat El Haggan",
+          "tn": "رأفت الهجان"
+        }
+      },
+      {
+        "id": 1301,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "لعبة النسيان",
+          "en": "Lo3bet El Nesyan",
+          "fr": "Lo3bet El Nesyan",
+          "tn": "لعبة النسيان"
+        }
+      },
+      {
+        "id": 1302,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "نسر الصعيد",
+          "en": "Nesr El Sa3eed",
+          "fr": "Nesr El Sa3eed",
+          "tn": "نسر الصعيد"
+        }
+      },
+      {
+        "id": 1303,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "الأسطورة",
+          "en": "El Ostoora",
+          "fr": "El Ostoora",
+          "tn": "الأسطورة"
+        }
+      },
+      {
+        "id": 1304,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "فريندز",
+          "en": "Friends",
+          "fr": "Friends",
+          "tn": "فريندز"
+        }
+      }
+    ]
+  },
+  {
+    "id": 190,
+    "category": "Entertainment",
+    "subcategory": "Television",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "أذكر مسلسلات أو سيتكومات تونسية شهيرة نالت شعبية واسعة؟",
+      "en": "What are famous Tunisian television series or sitcoms?",
+      "fr": "Quelles sont les séries ou sitcoms tunisiennes célèbres?",
+      "tn": "شنومة المسلسلات ولا السيتكومات التونسية اللي عملت ضجة وعجب الناس؟"
+    },
+    "answers": [
+      {
+        "id": 1885,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "شوفلي حل",
+          "en": "Choufli Hal",
+          "fr": "Choufli Hal",
+          "tn": "شوفلي حل مع سليمان وسبوعي"
+        }
+      },
+      {
+        "id": 1886,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "نسيبتي العزيزة",
+          "en": "Nsibti La'ziza",
+          "fr": "Nsibti La'ziza",
+          "tn": "نسيبتي العزيزة والمنجي"
+        }
+      },
+      {
+        "id": 1887,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الخطاب على الباب",
+          "en": "El Khottab Al Bab",
+          "fr": "El Khottab Al Bab",
+          "tn": "الخطاب على الباب والشيخ تحيفة"
+        }
+      },
+      {
+        "id": 1888,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "أولاد مفيدة",
+          "en": "Ouled Moufida",
+          "fr": "Ouled Moufida",
+          "tn": "أولاد مفيدة وبيرم"
+        }
+      },
+      {
+        "id": 1889,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "صيد الريم",
+          "en": "Sayd Errim",
+          "fr": "Sayd Errim",
+          "tn": "صيد الريم والرياحي"
+        }
+      },
+      {
+        "id": 1890,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "قمرة سيدي المحروس",
+          "en": "Gamret Sidi Mahrous",
+          "fr": "Gamret Sidi Mahrous",
+          "tn": "قمرة سيدي المحروس ودليلة"
+        }
+      },
+      {
+        "id": 1891,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "الدوار",
+          "en": "El Douar",
+          "fr": "El Douar",
+          "tn": "مسلسل الدوار وحسين"
+        }
+      },
+      {
+        "id": 1892,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "حسابات وعقابات",
+          "en": "Hsabet w Aqabet",
+          "fr": "Hsabet w Aqabet",
+          "tn": "حسابات وعقابات والمنجي الكافور"
+        }
+      },
+      {
+        "id": 1893,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "فلاش باك",
+          "en": "Flashback",
+          "fr": "Flashback",
+          "tn": "فلاش باك مع لطفي العبدلي"
+        }
+      },
+      {
+        "id": 1894,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "باب الحارة",
+          "en": "Bab Al-Hara",
+          "fr": "Bab Al-Hara",
+          "tn": "باب الحارة السوري"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,127 @@
+[
+  {
+    "id": 111,
+    "category": "History & Politics",
+    "subcategory": "National Movement",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "من هم بعض الشخصيات البارزة في الحركة الوطنية التونسية؟",
+      "en": "Who are some prominent figures of the Tunisian national movement?",
+      "fr": "Quelles sont certaines figures marquantes du mouvement national tunisien ?",
+      "tn": "شكون من أبرز شخصيات الحركة الوطنية التونسية؟"
+    },
+    "answers": [
+      {
+        "id": 1095,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "الحبيب بورقيبة",
+          "en": "Habib Bourguiba",
+          "fr": "Habib Bourguiba",
+          "tn": "الحبيب بورقيبة"
+        }
+      },
+      {
+        "id": 1096,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "صالح بن يوسف",
+          "en": "Salah Ben Youssef",
+          "fr": "Salah Ben Youssef",
+          "tn": "صالح بن يوسف"
+        }
+      },
+      {
+        "id": 1097,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "فرحات حشاد",
+          "en": "Farhat Hached",
+          "fr": "Farhat Hached",
+          "tn": "فرحات حشاد"
+        }
+      },
+      {
+        "id": 1098,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "عبد العزيز الثعالبي",
+          "en": "Abdelaziz Thaalbi",
+          "fr": "Abdelaziz Thâalbi",
+          "tn": "الثعالبي"
+        }
+      },
+      {
+        "id": 1099,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الهادي شاكر",
+          "en": "Hedi Chaker",
+          "fr": "Hédi Chaker",
+          "tn": "الهادي شاكر"
+        }
+      },
+      {
+        "id": 1100,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "المنجي سليم",
+          "en": "Mongi Slim",
+          "fr": "Mongi Slim",
+          "tn": "المنجي سليم"
+        }
+      },
+      {
+        "id": 1101,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الباهي الأدغم",
+          "en": "Bahi Ladgham",
+          "fr": "Bahi Ladgham",
+          "tn": "الباهي الأدغم"
+        }
+      },
+      {
+        "id": 1102,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الطيب المهيري",
+          "en": "Taieb Mhiri",
+          "fr": "Taïeb Mhiri",
+          "tn": "الطيب المهيري"
+        }
+      },
+      {
+        "id": 1103,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "محمود الماطري",
+          "en": "Mahmoud El Materi",
+          "fr": "Mahmoud El Materi",
+          "tn": "محمود الماطري"
+        }
+      },
+      {
+        "id": 1104,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "جمال عبد الناصر",
+          "en": "Gamal Abdel Nasser",
+          "fr": "Gamal Abdel Nasser",
+          "tn": "جمال عبد الناصر"
+        }
+      }
+    ]
+  }
+]

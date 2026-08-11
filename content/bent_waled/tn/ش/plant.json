@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "plant_شعير",
+    "answer": "شعير",
+    "normalized": "شعير",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "plant_شمام",
+    "answer": "شمام",
+    "normalized": "شمام",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "plant_شمندر",
+    "answer": "شمندر",
+    "normalized": "شمندر",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "plant_شيح",
+    "answer": "شيح",
+    "normalized": "شيح",
+    "aliases": [],
+    "status": "approved"
+  }
+]

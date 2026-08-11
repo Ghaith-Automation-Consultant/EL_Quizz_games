@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "profession_فلاح",
+    "answer": "فلاح",
+    "normalized": "فلاح",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_فنان",
+    "answer": "فنان",
+    "normalized": "فنان",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_فيزيائي",
+    "answer": "فيزيائي",
+    "normalized": "فيزيائي",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_فلكي",
+    "answer": "فلكي",
+    "normalized": "فلكي",
+    "aliases": [],
+    "status": "approved"
+  }
+]

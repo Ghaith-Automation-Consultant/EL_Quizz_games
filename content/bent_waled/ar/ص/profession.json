@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "profession_صياد",
+    "answer": "صياد",
+    "normalized": "صياد",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_صائغ",
+    "answer": "صائغ",
+    "normalized": "صائغ",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_صحفي",
+    "answer": "صحفي",
+    "normalized": "صحفي",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_صيدلي",
+    "answer": "صيدلي",
+    "normalized": "صيدلي",
+    "aliases": [],
+    "status": "approved"
+  }
+]

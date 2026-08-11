@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "plant_بصل",
+    "answer": "بصل",
+    "normalized": "بصل",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "plant_بطاطا",
+    "answer": "بطاطا",
+    "normalized": "بطاطا",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "plant_بازلاء",
+    "answer": "بازلاء",
+    "normalized": "بازلاء",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "plant_باذنجان",
+    "answer": "باذنجان",
+    "normalized": "باذنجان",
+    "aliases": [],
+    "status": "approved"
+  }
+]

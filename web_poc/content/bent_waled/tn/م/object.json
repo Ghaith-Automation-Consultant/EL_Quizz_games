@@ -1,0 +1,37 @@
+[
+  {
+    "entity_id": "object_مفتاح",
+    "answer": "مفتاح",
+    "normalized": "مفتاح",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_مقص",
+    "answer": "مقص",
+    "normalized": "مقص",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_مرآة",
+    "answer": "مرآة",
+    "normalized": "مرات",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_مظلة",
+    "answer": "مظلة",
+    "normalized": "مظلت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "object_محفظة",
+    "answer": "محفظة",
+    "normalized": "محفظت",
+    "aliases": [],
+    "status": "approved"
+  }
+]

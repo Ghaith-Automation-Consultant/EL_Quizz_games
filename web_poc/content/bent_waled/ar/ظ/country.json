@@ -1,0 +1,16 @@
+[
+  {
+    "entity_id": "country_ظهران",
+    "answer": "ظهران",
+    "normalized": "ظهران",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_ظفار",
+    "answer": "ظفار",
+    "normalized": "ظفار",
+    "aliases": [],
+    "status": "approved"
+  }
+]

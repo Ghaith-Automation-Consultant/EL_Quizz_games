@@ -1,0 +1,252 @@
+[
+  {
+    "id": 174,
+    "category": "Religion & Philosophy",
+    "subcategory": "other religions",
+    "region": "Tunisia",
+    "difficulty": 3,
+    "translations": {
+      "ar": "أي من هذه الديانات أو المعتقدات وُجدت في تونس عبر التاريخ؟",
+      "en": "Which religions or beliefs have existed in Tunisia throughout history?",
+      "fr": "Quelles religions ou croyances ont existé en Tunisie au cours de l'histoire ?",
+      "tn": "شنوة الديانات اللي كانت موجودة في تونس عبر التاريخ؟"
+    },
+    "answers": [
+      {
+        "id": 1725,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "الإسلام",
+          "en": "Islam",
+          "fr": "Islam",
+          "tn": "الإسلام"
+        }
+      },
+      {
+        "id": 1726,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "المسيحية",
+          "en": "Christianity",
+          "fr": "Christianisme",
+          "tn": "المسيحية"
+        }
+      },
+      {
+        "id": 1727,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "اليهودية",
+          "en": "Judaism",
+          "fr": "Judaïsme",
+          "tn": "اليهودية"
+        }
+      },
+      {
+        "id": 1728,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "الديانة القرطاجية",
+          "en": "Carthaginian religion",
+          "fr": "Religion carthaginoise",
+          "tn": "ديانة قرطاج"
+        }
+      },
+      {
+        "id": 1729,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الديانة الرومانية",
+          "en": "Roman religion",
+          "fr": "Religion romaine",
+          "tn": "ديانة الرومان"
+        }
+      },
+      {
+        "id": 1730,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الديانة الأمازيغية التقليدية",
+          "en": "Traditional Amazigh religion",
+          "fr": "Religion amazighe traditionnelle",
+          "tn": "ديانة أمازيغية"
+        }
+      },
+      {
+        "id": 1731,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "عبادة بعل",
+          "en": "Cult of Baal",
+          "fr": "Culte de Baal",
+          "tn": "عبادة بعل"
+        }
+      },
+      {
+        "id": 1732,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "عبادة تانيت",
+          "en": "Cult of Tanit",
+          "fr": "Culte de Tanit",
+          "tn": "عبادة تانيت"
+        }
+      },
+      {
+        "id": 1733,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الزرادشتية بين بعض الفرس المقيمين",
+          "en": "Zoroastrianism among some Persians",
+          "fr": "Zoroastrisme chez certains Perses",
+          "tn": "الزرادشتية"
+        }
+      },
+      {
+        "id": 1734,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "الشنتوية كديانة تاريخية رئيسية",
+          "en": "Shinto as a major historical religion",
+          "fr": "Le shinto comme religion historique majeure",
+          "tn": "الشنتوية"
+        }
+      }
+    ]
+  },
+  {
+    "id": 201,
+    "category": "Religion & Philosophy",
+    "subcategory": "other religions",
+    "region": "Tunisia",
+    "difficulty": 3,
+    "translations": {
+      "ar": "أذكر آلهة معبودات تاريخية عبدها القرطاجيون أو الفينيقيون في تونس القديمة؟",
+      "en": "What are Carthaginian or Phoenician deities worshipped in ancient Carthage?",
+      "fr": "Quelles sont les divinités carthaginoises ou phéniciennes adorées à Carthage?",
+      "tn": "شكونهم الآلهة ولا المعبودات القديمة اللي كانو يعبدوهم في قرطاج؟"
+    },
+    "answers": [
+      {
+        "id": 1995,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "تانيت",
+          "en": "Tanit",
+          "fr": "Tanit",
+          "tn": "الإلهة تانيت (إلهة الخصوبة والنماء)"
+        }
+      },
+      {
+        "id": 1996,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "بعل حمون",
+          "en": "Baal Hammon",
+          "fr": "Baal Hammon",
+          "tn": "بعل حمون (الإله الأكبر لقرطاج)"
+        }
+      },
+      {
+        "id": 1997,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "ملقارت",
+          "en": "Melqart",
+          "fr": "Melqart",
+          "tn": "ملقارت (حامي مدينة صور وقرطاج)"
+        }
+      },
+      {
+        "id": 1998,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "عشتاروت",
+          "en": "Astarte",
+          "fr": "Astarte",
+          "tn": "عشتاروت إلهة الحب والحرب"
+        }
+      },
+      {
+        "id": 1999,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "أشمون",
+          "en": "Eshmun",
+          "fr": "Eshmun",
+          "tn": "أشمون إله الشفاء والطب القرطاجي"
+        }
+      },
+      {
+        "id": 2000,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "أدونيس",
+          "en": "Adonis",
+          "fr": "Adonis",
+          "tn": "أدونيس إله الجمال والربيع"
+        }
+      },
+      {
+        "id": 2001,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "بتاح",
+          "en": "Ptah",
+          "fr": "Ptah",
+          "tn": "الإله بتاح بتاثير مصري قديم"
+        }
+      },
+      {
+        "id": 2002,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "ريشيف",
+          "en": "Resheph",
+          "fr": "Resheph",
+          "tn": "ريشيف إله البرق والنار والحرب بقرطاج"
+        }
+      },
+      {
+        "id": 2003,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "ديميتير",
+          "en": "Demeter",
+          "fr": "Demeter",
+          "tn": "ديميتير إلهة الزراعة والحصاد الإغريقية بقرطاج"
+        }
+      },
+      {
+        "id": 2004,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "زيوس",
+          "en": "Zeus",
+          "fr": "Zeus",
+          "tn": "زيوس كبير الآلهة الإغريقية في اليونان"
+        }
+      }
+    ]
+  }
+]

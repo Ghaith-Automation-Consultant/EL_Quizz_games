@@ -1,0 +1,23 @@
+[
+  {
+    "entity_id": "profession_أستاذ",
+    "answer": "أستاذ",
+    "normalized": "استاذ",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_أمين_مكتبة",
+    "answer": "أمين مكتبة",
+    "normalized": "امين مكتبت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_اختصاصي",
+    "answer": "اختصاصي",
+    "normalized": "اختصاصي",
+    "aliases": [],
+    "status": "approved"
+  }
+]

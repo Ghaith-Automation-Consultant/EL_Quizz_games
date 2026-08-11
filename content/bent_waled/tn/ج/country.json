@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "country_الجزائر",
+    "answer": "الجزائر",
+    "normalized": "الجزائر",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_جورجيا",
+    "answer": "جورجيا",
+    "normalized": "جورجيا",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_جيبوتي",
+    "answer": "جيبوتي",
+    "normalized": "جيبوتي",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_جامايكا",
+    "answer": "جامايكا",
+    "normalized": "جامايكا",
+    "aliases": [],
+    "status": "approved"
+  }
+]

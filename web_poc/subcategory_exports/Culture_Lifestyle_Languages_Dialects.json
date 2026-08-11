@@ -1,0 +1,1627 @@
+[
+  {
+    "id": 31,
+    "category": "Culture & Lifestyle",
+    "subcategory": "Languages & Dialects",
+    "region": "Tunisia",
+    "difficulty": 1,
+    "translations": {
+      "ar": "أذكر كلمات تونسية بالدارجة تُستعمل للترحيب أو السؤال عن الحال؟",
+      "en": "Name Tunisian dialect words used for greeting or asking how someone is?",
+      "fr": "Citez des mots en dialecte tunisien utilisés pour saluer ou demander des nouvelles ?",
+      "tn": "أعطيني كلمات بالدارجة التونسية نقولوها باش نرحبو أو نسألو على الحال؟"
+    },
+    "answers": [
+      {
+        "id": 301,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "شنحوالك",
+          "en": "Answer in English: شنحوالك",
+          "fr": "شنحوالك",
+          "tn": "شنحوالك"
+        }
+      },
+      {
+        "id": 302,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "شني أحوالك",
+          "en": "Answer in English: شني أحوالك",
+          "fr": "شني أحوالك",
+          "tn": "شني أحوالك"
+        }
+      },
+      {
+        "id": 303,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "شخبارك",
+          "en": "Answer in English: شخبارك",
+          "fr": "شخبارك",
+          "tn": "شخبارك"
+        }
+      },
+      {
+        "id": 304,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "يا هلا",
+          "en": "Answer in English: يا هلا",
+          "fr": "يا هلا",
+          "tn": "يا هلا"
+        }
+      },
+      {
+        "id": 305,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "عسلاّمة",
+          "en": "Answer in English: عسلاّمة",
+          "fr": "عسلاّمة",
+          "tn": "عسلاّمة"
+        }
+      },
+      {
+        "id": 306,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "شني الأمور",
+          "en": "Answer in English: شني الأمور",
+          "fr": "شني الأمور",
+          "tn": "شني الأمور"
+        }
+      },
+      {
+        "id": 307,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "لاباس",
+          "en": "Answer in English: لاباس",
+          "fr": "لاباس",
+          "tn": "لاباس"
+        }
+      },
+      {
+        "id": 308,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "شحوالك",
+          "en": "Answer in English: شحوالك",
+          "fr": "شحوالك",
+          "tn": "شحوالك"
+        }
+      },
+      {
+        "id": 309,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "شنية أحوال العائلة",
+          "en": "Answer in English: شنية أحوال العائلة",
+          "fr": "شنية أحوال العائلة",
+          "tn": "شنية أحوال العائلة"
+        }
+      },
+      {
+        "id": 310,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "إزيك يا زول",
+          "en": "Wrong distractor: إزيك يا زول",
+          "fr": "إزيك يا زول",
+          "tn": "إزيك يا زول"
+        }
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "category": "Culture & Lifestyle",
+    "subcategory": "Languages & Dialects",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "أذكر أسماء لقطع أثاث أو أدوات منزلية بالدارجة التونسية؟",
+      "en": "Name Tunisian dialect words for furniture or household items?",
+      "fr": "Citez des noms en dialecte tunisien de meubles ou d'objets domestiques ?",
+      "tn": "أعطيني أسامي بالدارجة لقطع أثاث أو أدوات في الدار؟"
+    },
+    "answers": [
+      {
+        "id": 311,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "المنقالة",
+          "en": "Answer in English: المنقالة",
+          "fr": "المنقالة",
+          "tn": "المنقالة"
+        }
+      },
+      {
+        "id": 312,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "المحبس",
+          "en": "Answer in English: المحبس",
+          "fr": "المحبس",
+          "tn": "المحبس"
+        }
+      },
+      {
+        "id": 313,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "السرير",
+          "en": "Answer in English: السرير",
+          "fr": "السرير",
+          "tn": "السرير"
+        }
+      },
+      {
+        "id": 314,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "الكانابي",
+          "en": "Answer in English: الكانابي",
+          "fr": "الكانابي",
+          "tn": "الكانابي"
+        }
+      },
+      {
+        "id": 315,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "الكومود",
+          "en": "Answer in English: الكومود",
+          "fr": "الكومود",
+          "tn": "الكومود"
+        }
+      },
+      {
+        "id": 316,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "المرفع",
+          "en": "Answer in English: المرفع",
+          "fr": "المرفع",
+          "tn": "المرفع"
+        }
+      },
+      {
+        "id": 317,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "القصعة",
+          "en": "Answer in English: القصعة",
+          "fr": "القصعة",
+          "tn": "القصعة"
+        }
+      },
+      {
+        "id": 318,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "المقفول",
+          "en": "Answer in English: المقفول",
+          "fr": "المقفول",
+          "tn": "المقفول"
+        }
+      },
+      {
+        "id": 319,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "الكسكاس",
+          "en": "Answer in English: الكسكاس",
+          "fr": "الكسكاس",
+          "tn": "الكسكاس"
+        }
+      },
+      {
+        "id": 320,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "التلفاز الذكي",
+          "en": "Wrong distractor: التلفاز الذكي",
+          "fr": "التلفاز الذكي",
+          "tn": "التلفاز الذكي"
+        }
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "category": "Culture & Lifestyle",
+    "subcategory": "Languages & Dialects",
+    "region": "Tunisia",
+    "difficulty": 1,
+    "translations": {
+      "ar": "أذكر كلمات بالدارجة التونسية تُطلق على أفراد العائلة أو الأقارب؟",
+      "en": "Name Tunisian dialect words for family members or relatives?",
+      "fr": "Citez des mots en dialecte tunisien désignant les membres de la famille ou les proches ?",
+      "tn": "أعطيني كلمات بالدارجة نقولوها على أفراد العايلة أو القرايب؟"
+    },
+    "answers": [
+      {
+        "id": 321,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "أمي",
+          "en": "Answer in English: أمي",
+          "fr": "أمي",
+          "tn": "أمي"
+        }
+      },
+      {
+        "id": 322,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "بابا",
+          "en": "Answer in English: بابا",
+          "fr": "بابا",
+          "tn": "بابا"
+        }
+      },
+      {
+        "id": 323,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "خويا",
+          "en": "Answer in English: خويا",
+          "fr": "خويا",
+          "tn": "خويا"
+        }
+      },
+      {
+        "id": 324,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "أختي",
+          "en": "Answer in English: أختي",
+          "fr": "أختي",
+          "tn": "أختي"
+        }
+      },
+      {
+        "id": 325,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "سيدي",
+          "en": "Answer in English: سيدي",
+          "fr": "سيدي",
+          "tn": "سيدي"
+        }
+      },
+      {
+        "id": 326,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "للا",
+          "en": "Answer in English: للا",
+          "fr": "للا",
+          "tn": "للا"
+        }
+      },
+      {
+        "id": 327,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "حنا",
+          "en": "Answer in English: حنا",
+          "fr": "حنا",
+          "tn": "حنا"
+        }
+      },
+      {
+        "id": 328,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "جداتي",
+          "en": "Answer in English: جداتي",
+          "fr": "جداتي",
+          "tn": "جداتي"
+        }
+      },
+      {
+        "id": 329,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "العزوزة",
+          "en": "Answer in English: العزوزة",
+          "fr": "العزوزة",
+          "tn": "العزوزة"
+        }
+      },
+      {
+        "id": 330,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "ألفريدو",
+          "en": "Wrong distractor: ألفريدو",
+          "fr": "ألفريدو",
+          "tn": "ألفريدو"
+        }
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "category": "Culture & Lifestyle",
+    "subcategory": "Languages & Dialects",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "أذكر ألوان بالعامية التونسية تستعمل في وصف الأشياء؟",
+      "en": "Name colors in Tunisian dialect used to describe things?",
+      "fr": "Citez des couleurs en dialecte tunisien utilisées pour décrire les objets ?",
+      "tn": "أعطيني ألوان بالدارجة التونسية نستعملوها باش نوصفو الحاجات؟"
+    },
+    "answers": [
+      {
+        "id": 331,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "أزرق",
+          "en": "Answer in English: أزرق",
+          "fr": "أزرق",
+          "tn": "أزرق"
+        }
+      },
+      {
+        "id": 332,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "أحمر",
+          "en": "Answer in English: أحمر",
+          "fr": "أحمر",
+          "tn": "أحمر"
+        }
+      },
+      {
+        "id": 333,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "أكحل",
+          "en": "Answer in English: أكحل",
+          "fr": "أكحل",
+          "tn": "أكحل"
+        }
+      },
+      {
+        "id": 334,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "أبيض",
+          "en": "Answer in English: أبيض",
+          "fr": "أبيض",
+          "tn": "أبيض"
+        }
+      },
+      {
+        "id": 335,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "أصفر",
+          "en": "Answer in English: أصفر",
+          "fr": "أصفر",
+          "tn": "أصفر"
+        }
+      },
+      {
+        "id": 336,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "أخضر",
+          "en": "Answer in English: أخضر",
+          "fr": "أخضر",
+          "tn": "أخضر"
+        }
+      },
+      {
+        "id": 337,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "أشقر",
+          "en": "Answer in English: أشقر",
+          "fr": "أشقر",
+          "tn": "أشقر"
+        }
+      },
+      {
+        "id": 338,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "روز",
+          "en": "Answer in English: روز",
+          "fr": "روز",
+          "tn": "روز"
+        }
+      },
+      {
+        "id": 339,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "موف",
+          "en": "Answer in English: موف",
+          "fr": "موف",
+          "tn": "موف"
+        }
+      },
+      {
+        "id": 340,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "Ultra Violet",
+          "en": "Wrong distractor: Ultra Violet",
+          "fr": "Ultra Violet",
+          "tn": "Ultra Violet"
+        }
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "category": "Culture & Lifestyle",
+    "subcategory": "Languages & Dialects",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "أذكر كلمات بالعامية التونسية تُعبر عن مشاعر الغضب أو الانزعاج؟",
+      "en": "Name Tunisian dialect words expressing anger or annoyance?",
+      "fr": "Citez des mots en dialecte tunisien exprimant la colère ou l'agacement ?",
+      "tn": "أعطيني كلمات بالدارجة نقولوها كي نتغاضبو ولا نتضايقو؟"
+    },
+    "answers": [
+      {
+        "id": 341,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "فادد",
+          "en": "Answer in English: فادد",
+          "fr": "فادد",
+          "tn": "فادد"
+        }
+      },
+      {
+        "id": 342,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "قلقان",
+          "en": "Answer in English: قلقان",
+          "fr": "قلقان",
+          "tn": "قلقان"
+        }
+      },
+      {
+        "id": 343,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "مغشّش",
+          "en": "Answer in English: مغشّش",
+          "fr": "مغشّش",
+          "tn": "مغشّش"
+        }
+      },
+      {
+        "id": 344,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "متغشش",
+          "en": "Answer in English: متغشش",
+          "fr": "متغشش",
+          "tn": "متغشش"
+        }
+      },
+      {
+        "id": 345,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "منرفز",
+          "en": "Answer in English: منرفز",
+          "fr": "منرفز",
+          "tn": "منرفز"
+        }
+      },
+      {
+        "id": 346,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "طالعلي الدم",
+          "en": "Answer in English: طالعلي الدم",
+          "fr": "طالعلي الدم",
+          "tn": "طالعلي الدم"
+        }
+      },
+      {
+        "id": 347,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "روحي في خناقي",
+          "en": "Answer in English: روحي في خناقي",
+          "fr": "روحي في خناقي",
+          "tn": "روحي في خناقي"
+        }
+      },
+      {
+        "id": 348,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "مستكي",
+          "en": "Answer in English: مستكي",
+          "fr": "مستكي",
+          "tn": "مستكي"
+        }
+      },
+      {
+        "id": 349,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "مكبّب",
+          "en": "Answer in English: مكبّب",
+          "fr": "مكبّب",
+          "tn": "مكبّب"
+        }
+      },
+      {
+        "id": 350,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "فرحان",
+          "en": "Wrong distractor: فرحان",
+          "fr": "فرحان",
+          "tn": "فرحان"
+        }
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "category": "Culture & Lifestyle",
+    "subcategory": "Languages & Dialects",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "أذكر كلمات بالعامية التونسية تدل على وسائل النقل والمواصلات؟",
+      "en": "Name Tunisian dialect words for means of transport?",
+      "fr": "Citez des mots en dialecte tunisien désignant les moyens de transport ?",
+      "tn": "أعطيني كلمات بالدارجة على وسائل النقل؟"
+    },
+    "answers": [
+      {
+        "id": 351,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الكار",
+          "en": "Answer in English: الكار",
+          "fr": "الكار",
+          "tn": "الكار"
+        }
+      },
+      {
+        "id": 352,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الكروسة",
+          "en": "Answer in English: الكروسة",
+          "fr": "الكروسة",
+          "tn": "الكروسة"
+        }
+      },
+      {
+        "id": 353,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "البسكلات",
+          "en": "Answer in English: البسكلات",
+          "fr": "البسكلات",
+          "tn": "البسكلات"
+        }
+      },
+      {
+        "id": 354,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "الموتور",
+          "en": "Answer in English: الموتور",
+          "fr": "الموتور",
+          "tn": "الموتور"
+        }
+      },
+      {
+        "id": 355,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "الترامواى",
+          "en": "Answer in English: الترامواى",
+          "fr": "الترامواى",
+          "tn": "الترامواى"
+        }
+      },
+      {
+        "id": 356,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "القطار",
+          "en": "Answer in English: القطار",
+          "fr": "القطار",
+          "tn": "القطار"
+        }
+      },
+      {
+        "id": 357,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "التاكسي جماعي",
+          "en": "Answer in English: التاكسي جماعي",
+          "fr": "التاكسي جماعي",
+          "tn": "التاكسي جماعي"
+        }
+      },
+      {
+        "id": 358,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "اللوّاج",
+          "en": "Answer in English: اللوّاج",
+          "fr": "اللوّاج",
+          "tn": "اللوّاج"
+        }
+      },
+      {
+        "id": 359,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "بابور",
+          "en": "Answer in English: بابور",
+          "fr": "بابور",
+          "tn": "بابور"
+        }
+      },
+      {
+        "id": 360,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "طائرة F-16",
+          "en": "Wrong distractor: طائرة F-16",
+          "fr": "طائرة F-16",
+          "tn": "طائرة F-16"
+        }
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "category": "Culture & Lifestyle",
+    "subcategory": "Languages & Dialects",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "أذكر مفردات بالعامية التونسية تُعبر عن الطقس وحالات الجو؟",
+      "en": "Name Tunisian dialect words used to talk about the weather?",
+      "fr": "Citez des mots en dialecte tunisien pour parler de la météo ?",
+      "tn": "أعطيني كلمات بالدارجة نقولوها على الطقس والجو؟"
+    },
+    "answers": [
+      {
+        "id": 361,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "سخانة",
+          "en": "Answer in English: سخانة",
+          "fr": "سخانة",
+          "tn": "سخانة"
+        }
+      },
+      {
+        "id": 362,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "البرْد",
+          "en": "Answer in English: البرْد",
+          "fr": "البرْد",
+          "tn": "البرْد"
+        }
+      },
+      {
+        "id": 363,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "القرة",
+          "en": "Answer in English: القرة",
+          "fr": "القرة",
+          "tn": "القرة"
+        }
+      },
+      {
+        "id": 364,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "النوّ",
+          "en": "Answer in English: النوّ",
+          "fr": "النوّ",
+          "tn": "النوّ"
+        }
+      },
+      {
+        "id": 365,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "المطر تصب",
+          "en": "Answer in English: المطر تصب",
+          "fr": "المطر تصب",
+          "tn": "المطر تصب"
+        }
+      },
+      {
+        "id": 366,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "عجاج",
+          "en": "Answer in English: عجاج",
+          "fr": "عجاج",
+          "tn": "عجاج"
+        }
+      },
+      {
+        "id": 367,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "ريح شرش",
+          "en": "Answer in English: ريح شرش",
+          "fr": "ريح شرش",
+          "tn": "ريح شرش"
+        }
+      },
+      {
+        "id": 368,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "الشهيلي",
+          "en": "Answer in English: الشهيلي",
+          "fr": "الشهيلي",
+          "tn": "الشهيلي"
+        }
+      },
+      {
+        "id": 369,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "صقيع",
+          "en": "Answer in English: صقيع",
+          "fr": "صقيع",
+          "tn": "صقيع"
+        }
+      },
+      {
+        "id": 370,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "تسونامي",
+          "en": "Wrong distractor: تسونامي",
+          "fr": "تسونامي",
+          "tn": "تسونامي"
+        }
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "category": "Culture & Lifestyle",
+    "subcategory": "Languages & Dialects",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "أذكر كلمات بالعامية التونسية تعني السرعة أو الاستعجال؟",
+      "en": "Name Tunisian dialect words meaning speed or urgency?",
+      "fr": "Citez des mots en dialecte tunisien qui expriment la rapidité ou l'urgence ?",
+      "tn": "أعطيني كلمات بالدارجة تعني الزربة أو الاستعجال؟"
+    },
+    "answers": [
+      {
+        "id": 371,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "فيسع",
+          "en": "Answer in English: فيسع",
+          "fr": "فيسع",
+          "tn": "فيسع"
+        }
+      },
+      {
+        "id": 372,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "بالزربة",
+          "en": "Answer in English: بالزربة",
+          "fr": "بالزربة",
+          "tn": "بالزربة"
+        }
+      },
+      {
+        "id": 373,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "أجري",
+          "en": "Answer in English: أجري",
+          "fr": "أجري",
+          "tn": "أجري"
+        }
+      },
+      {
+        "id": 374,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "تخطف خطف",
+          "en": "Answer in English: تخطف خطف",
+          "fr": "تخطف خطف",
+          "tn": "تخطف خطف"
+        }
+      },
+      {
+        "id": 375,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "طيران",
+          "en": "Answer in English: طيران",
+          "fr": "طيران",
+          "tn": "طيران"
+        }
+      },
+      {
+        "id": 376,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "خف يدك",
+          "en": "Answer in English: خف يدك",
+          "fr": "خف يدك",
+          "tn": "خف يدك"
+        }
+      },
+      {
+        "id": 377,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "سريع",
+          "en": "Answer in English: سريع",
+          "fr": "سريع",
+          "tn": "سريع"
+        }
+      },
+      {
+        "id": 378,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "تزرب",
+          "en": "Answer in English: تزرب",
+          "fr": "تزرب",
+          "tn": "تزرب"
+        }
+      },
+      {
+        "id": 379,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "طير",
+          "en": "Answer in English: طير",
+          "fr": "طير",
+          "tn": "طير"
+        }
+      },
+      {
+        "id": 380,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "بالسياسة",
+          "en": "Wrong distractor: بالسياسة",
+          "fr": "بالسياسة",
+          "tn": "بالسياسة"
+        }
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "category": "Culture & Lifestyle",
+    "subcategory": "Languages & Dialects",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "أذكر كلمات تونسية دارجة لوصف المال أو العملات النقدية؟",
+      "en": "Name Tunisian dialect words for money?",
+      "fr": "Citez des mots en dialecte tunisien désignant l'argent ?",
+      "tn": "أعطيني كلمات بالدارجة نقولوها على الفلوس؟"
+    },
+    "answers": [
+      {
+        "id": 381,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الفلوس",
+          "en": "Answer in English: الفلوس",
+          "fr": "الفلوس",
+          "tn": "الفلوس"
+        }
+      },
+      {
+        "id": 382,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الدينار",
+          "en": "Answer in English: الدينار",
+          "fr": "الدينار",
+          "tn": "الدينار"
+        }
+      },
+      {
+        "id": 383,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الفرنك",
+          "en": "Answer in English: الفرنك",
+          "fr": "الفرنك",
+          "tn": "الفرنك"
+        }
+      },
+      {
+        "id": 384,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "الصوردي",
+          "en": "Answer in English: الصوردي",
+          "fr": "الصوردي",
+          "tn": "الصوردي"
+        }
+      },
+      {
+        "id": 385,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "القصة",
+          "en": "Answer in English: القصة",
+          "fr": "القصة",
+          "tn": "القصة"
+        }
+      },
+      {
+        "id": 386,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "الباكو",
+          "en": "Answer in English: الباكو",
+          "fr": "الباكو",
+          "tn": "الباكو"
+        }
+      },
+      {
+        "id": 387,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "الطرف",
+          "en": "Answer in English: الطرف",
+          "fr": "الطرف",
+          "tn": "الطرف"
+        }
+      },
+      {
+        "id": 388,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "الشيليت",
+          "en": "Answer in English: الشيليت",
+          "fr": "الشيليت",
+          "tn": "الشيليت"
+        }
+      },
+      {
+        "id": 389,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "المليون",
+          "en": "Answer in English: المليون",
+          "fr": "المليون",
+          "tn": "المليون"
+        }
+      },
+      {
+        "id": 390,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "الدولار",
+          "en": "Wrong distractor: الدولار",
+          "fr": "الدولار",
+          "tn": "الدولار"
+        }
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "category": "Culture & Lifestyle",
+    "subcategory": "Languages & Dialects",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "أذكر مفردات عامية تونسية لوصف الملابس أو الأزياء اليومية؟",
+      "en": "Name Tunisian dialect words for clothes?",
+      "fr": "Citez des mots en dialecte tunisien désignant les vêtements ?",
+      "tn": "أعطيني كلمات بالدارجة على الحوايج والألبسة؟"
+    },
+    "answers": [
+      {
+        "id": 391,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "السورية",
+          "en": "Answer in English: السورية",
+          "fr": "السورية",
+          "tn": "السورية"
+        }
+      },
+      {
+        "id": 392,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "المريول",
+          "en": "Answer in English: المريول",
+          "fr": "المريول",
+          "tn": "المريول"
+        }
+      },
+      {
+        "id": 393,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الفيستة",
+          "en": "Answer in English: الفيستة",
+          "fr": "الفيستة",
+          "tn": "الفيستة"
+        }
+      },
+      {
+        "id": 394,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "الصباط",
+          "en": "Answer in English: الصباط",
+          "fr": "الصباط",
+          "tn": "الصباط"
+        }
+      },
+      {
+        "id": 395,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "الشرت",
+          "en": "Answer in English: الشرت",
+          "fr": "الشرت",
+          "tn": "الشرت"
+        }
+      },
+      {
+        "id": 396,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "القشابية",
+          "en": "Answer in English: القشابية",
+          "fr": "القشابية",
+          "tn": "القشابية"
+        }
+      },
+      {
+        "id": 397,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "الكبوط",
+          "en": "Answer in English: الكبوط",
+          "fr": "الكبوط",
+          "tn": "الكبوط"
+        }
+      },
+      {
+        "id": 398,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "المنديل",
+          "en": "Answer in English: المنديل",
+          "fr": "المنديل",
+          "tn": "المنديل"
+        }
+      },
+      {
+        "id": 399,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "الشلاكة",
+          "en": "Answer in English: الشلاكة",
+          "fr": "الشلاكة",
+          "tn": "الشلاكة"
+        }
+      },
+      {
+        "id": 400,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "البيكيني",
+          "en": "Wrong distractor: البيكيني",
+          "fr": "البيكيني",
+          "tn": "البيكيني"
+        }
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "category": "Culture & Lifestyle",
+    "subcategory": "Languages & Dialects",
+    "region": "Tunisia",
+    "difficulty": 1,
+    "translations": {
+      "ar": "أذكر كلمات تونسية دارجة تُعبر عن التقدير أو الموافقة (مثال: 'حسناً' أو 'جيد')؟",
+      "en": "Name Tunisian dialect words expressing approval or appreciation (e.g. \"bèhi\" or \"ya'tik saha\")?",
+      "fr": "Citez des mots en dialecte tunisien exprimant l'accord ou l'appréciation (ex : « bèhi » ou « ya'tik saha ») ?",
+      "tn": "أعطيني كلمات بالدارجة نقولوها كي نوافقو ولا تعجبنا الحاجة (مثلا: 'باهي' أو 'يعطيك الصحة')؟"
+    },
+    "answers": [
+      {
+        "id": 671,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "باهي",
+          "en": "Answer in English: باهي",
+          "fr": "باهي",
+          "tn": "باهي"
+        }
+      },
+      {
+        "id": 672,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "مريغل",
+          "en": "Answer in English: مريغل",
+          "fr": "مريغل",
+          "tn": "مريغل"
+        }
+      },
+      {
+        "id": 673,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "واضح",
+          "en": "Answer in English: واضح",
+          "fr": "واضح",
+          "tn": "واضح"
+        }
+      },
+      {
+        "id": 674,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "صار هو",
+          "en": "Answer in English: صار هو",
+          "fr": "صار هو",
+          "tn": "صار هو"
+        }
+      },
+      {
+        "id": 675,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "باهي برشا",
+          "en": "Answer in English: باهي برشا",
+          "fr": "باهي برشا",
+          "tn": "باهي برشا"
+        }
+      },
+      {
+        "id": 676,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "على راسي",
+          "en": "Answer in English: على راسي",
+          "fr": "على راسي",
+          "tn": "على راسي"
+        }
+      },
+      {
+        "id": 677,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "نعمين",
+          "en": "Answer in English: نعمين",
+          "fr": "نعمين",
+          "tn": "نعمين"
+        }
+      },
+      {
+        "id": 678,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "سافا",
+          "en": "Answer in English: سافا",
+          "fr": "سافا",
+          "tn": "سافا"
+        }
+      },
+      {
+        "id": 679,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "منظم",
+          "en": "Answer in English: منظم",
+          "fr": "منظم",
+          "tn": "منظم"
+        }
+      },
+      {
+        "id": 680,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "خلاص",
+          "en": "Wrong distractor: خلاص",
+          "fr": "خلاص",
+          "tn": "خلاص"
+        }
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "category": "Culture & Lifestyle",
+    "subcategory": "Languages & Dialects",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "أذكر مفردات بالعامية التونسية تُطلق على أجزاء أو غرف المنزل؟",
+      "en": "Name Tunisian dialect words for rooms of a house?",
+      "fr": "Citez des mots en dialecte tunisien désignant les pièces de la maison ?",
+      "tn": "أعطيني كلمات بالدارجة على قسمات الدار؟"
+    },
+    "answers": [
+      {
+        "id": 831,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "البيت",
+          "en": "Answer in English: البيت",
+          "fr": "البيت",
+          "tn": "البيت"
+        }
+      },
+      {
+        "id": 832,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الصالون",
+          "en": "Answer in English: الصالون",
+          "fr": "الصالون",
+          "tn": "الصالون"
+        }
+      },
+      {
+        "id": 833,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "الكوجينة",
+          "en": "Answer in English: الكوجينة",
+          "fr": "الكوجينة",
+          "tn": "الكوجينة"
+        }
+      },
+      {
+        "id": 834,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "البيت البانو",
+          "en": "Answer in English: البيت البانو",
+          "fr": "البيت البانو",
+          "tn": "البيت البانو"
+        }
+      },
+      {
+        "id": 835,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "الفراندا",
+          "en": "Answer in English: الفراندا",
+          "fr": "الفراندا",
+          "tn": "الفراندا"
+        }
+      },
+      {
+        "id": 836,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "وسط الدار",
+          "en": "Answer in English: وسط الدار",
+          "fr": "وسط الدار",
+          "tn": "وسط الدار"
+        }
+      },
+      {
+        "id": 837,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "السطح",
+          "en": "Answer in English: السطح",
+          "fr": "السطح",
+          "tn": "السطح"
+        }
+      },
+      {
+        "id": 838,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "الدهليز",
+          "en": "Answer in English: الدهليز",
+          "fr": "الدهليز",
+          "tn": "الدهليز"
+        }
+      },
+      {
+        "id": 839,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "السقيفة",
+          "en": "Answer in English: السقيفة",
+          "fr": "السقيفة",
+          "tn": "السقيفة"
+        }
+      },
+      {
+        "id": 840,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "الإيوان",
+          "en": "Wrong distractor: الإيوان",
+          "fr": "الإيوان",
+          "tn": "الإيوان"
+        }
+      }
+    ]
+  },
+  {
+    "id": 210,
+    "category": "Culture & Lifestyle",
+    "subcategory": "Languages & Dialects",
+    "region": "Tunisia",
+    "difficulty": 2,
+    "translations": {
+      "ar": "أذكر كلمات في الدارجة التونسية تعود أصولها إلى لغات أخرى (إيطالية، فرنسية، تركية، بربرية)؟",
+      "en": "Which Tunisian Derja words originate from foreign languages (Italian, French, Turkish, Spanish)?",
+      "fr": "Quels mots de la Derja tunisienne sont d'origine etrangere (italien, francais, turc, espagnol)?",
+      "tn": "شنومة الكلمات بالدارجة التونسية اللي أصلهم من لغات أجنبية (طاليان، فرنسيس، ترك، بربر)؟"
+    },
+    "answers": [
+      {
+        "id": 2095,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "ڨاطو",
+          "en": "Gateau (French)",
+          "fr": "Gateau (français)",
+          "tn": "ڨاطو (أصل فرنسي Gateau)"
+        }
+      },
+      {
+        "id": 2096,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "كارتا",
+          "en": "Carta (Italian)",
+          "fr": "Carta (italien)",
+          "tn": "كارتا (أصل إيطالي Carta)"
+        }
+      },
+      {
+        "id": 2097,
+        "is_correct": true,
+        "points": 1,
+        "translations": {
+          "ar": "بستاش",
+          "en": "Pistache (French)",
+          "fr": "Pistache (français)",
+          "tn": "بستاش (أصل فرنسي Pistache)"
+        }
+      },
+      {
+        "id": 2098,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "كوجينة",
+          "en": "Couchina (Italian)",
+          "fr": "Couchina (italien - Cucina)",
+          "tn": "كوجينة (أصل إيطالي Cucina)"
+        }
+      },
+      {
+        "id": 2099,
+        "is_correct": true,
+        "points": 2,
+        "translations": {
+          "ar": "بيسكلات",
+          "en": "Bicycle (French)",
+          "fr": "Bicyclette (français)",
+          "tn": "بيسكلات (أصل فرنسي Bicyclette)"
+        }
+      },
+      {
+        "id": 2100,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "شلاكة",
+          "en": "Shlaka (Turkish)",
+          "fr": "Shlaka (turc)",
+          "tn": "شلاكة الصيف (أصل تركي)"
+        }
+      },
+      {
+        "id": 2101,
+        "is_correct": true,
+        "points": 3,
+        "translations": {
+          "ar": "بانيو",
+          "en": "Bagno (Italian)",
+          "fr": "Bagno (italien)",
+          "tn": "بانيو الاستحمام (أصل إيطالي Bagno)"
+        }
+      },
+      {
+        "id": 2102,
+        "is_correct": true,
+        "points": 5,
+        "translations": {
+          "ar": "فرشيطة",
+          "en": "Fork (Italian)",
+          "fr": "Forchetta (italien)",
+          "tn": "فرشيطة الماكلة (أصل إيطالي Forchetta)"
+        }
+      },
+      {
+        "id": 2103,
+        "is_correct": true,
+        "points": 8,
+        "translations": {
+          "ar": "تڨازة",
+          "en": "Tegaza (Berber)",
+          "fr": "Tegaza (berbere)",
+          "tn": "تڨازة (أصل بربري أمازيغي)"
+        }
+      },
+      {
+        "id": 2104,
+        "is_correct": false,
+        "points": 0,
+        "translations": {
+          "ar": "بندورة",
+          "en": "Banadoora (Levantine)",
+          "fr": "Banadoora (levantin)",
+          "tn": "بندورة (تسمية شامية)"
+        }
+      }
+    ]
+  }
+]

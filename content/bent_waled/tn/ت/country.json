@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "country_تونس",
+    "answer": "تونس",
+    "normalized": "تونس",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_تركيا",
+    "answer": "تركيا",
+    "normalized": "تركيا",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_تايلاند",
+    "answer": "تايلاند",
+    "normalized": "تايلاند",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "country_تشاد",
+    "answer": "تشاد",
+    "normalized": "تشاد",
+    "aliases": [],
+    "status": "approved"
+  }
+]

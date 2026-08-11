@@ -1,0 +1,37 @@
+[
+  {
+    "entity_id": "animal_فهد",
+    "answer": "فهد",
+    "normalized": "فهد",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "animal_فيل",
+    "answer": "فيل",
+    "normalized": "فيل",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "animal_فأر",
+    "answer": "فأر",
+    "normalized": "فار",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "animal_فراشة",
+    "answer": "فراشة",
+    "normalized": "فراشت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "animal_فقمة",
+    "answer": "فقمة",
+    "normalized": "فقمت",
+    "aliases": [],
+    "status": "approved"
+  }
+]

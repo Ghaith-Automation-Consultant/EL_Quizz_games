@@ -1,0 +1,16 @@
+[
+  {
+    "entity_id": "profession_هداف",
+    "answer": "هداف",
+    "normalized": "هداف",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "profession_مهندس_معماري",
+    "answer": "مهندس معماري",
+    "normalized": "مهندس معماري",
+    "aliases": [],
+    "status": "approved"
+  }
+]

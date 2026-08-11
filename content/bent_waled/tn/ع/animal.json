@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "animal_عقرب",
+    "answer": "عقرب",
+    "normalized": "عقرب",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "animal_عصفور",
+    "answer": "عصفور",
+    "normalized": "عصفور",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "animal_عنكبوت",
+    "answer": "عنكبوت",
+    "normalized": "عنكبوت",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
+    "entity_id": "animal_عجل",
+    "answer": "عجل",
+    "normalized": "عجل",
+    "aliases": [],
+    "status": "approved"
+  }
+]
