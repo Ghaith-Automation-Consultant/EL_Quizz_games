@@ -13,6 +13,7 @@ from routers.profile import router as profile_router
 from routers.questions import router as questions_router
 from routers.multiplayer import router as multiplayer_router
 from routers.bw_dictionary import router as bw_dictionary_router
+from routers.analytics import router as analytics_router
 
 # Create database tables at startup
 models.Base.metadata.create_all(bind=database.engine)
@@ -38,6 +39,7 @@ app.include_router(profile_router)
 app.include_router(questions_router)
 app.include_router(multiplayer_router)
 app.include_router(bw_dictionary_router)
+app.include_router(analytics_router)
 
 @app.get("/")
 def read_root():

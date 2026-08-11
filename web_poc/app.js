@@ -846,6 +846,11 @@ function showScreen(screenId) {
             btnHome.style.display = "block";
         }
     }
+    
+    // Track Screen Views
+    if (typeof trackPageView === "function") {
+        trackPageView(screenId);
+    }
 }
 
 /* --------------------------------------------------
@@ -859,40 +864,55 @@ function setupEventBindings() {
     const actionsBw = document.getElementById("actions-bw");
 
     if (modeTalla3 && modeBw) {
-        modeTalla3.addEventListener("click", () => {
-            playSynthSfx("click");
-            gameState.mode = "talla3";
-            modeTalla3.classList.add("active");
-            modeBw.classList.remove("active");
-            
-            // Visual toggle of styles
-            modeTalla3.style.boxShadow = "0 4px 15px rgba(253, 224, 71, 0.15)";
-            modeTalla3.style.borderColor = "var(--primary)";
-            modeTalla3.style.background = "rgba(255,255,255,0.08)";
+        // Enforce initial styling
+        const resetCardsToInactive = () => {
+            modeTalla3.style.boxShadow = "none";
+            modeTalla3.style.borderColor = "rgba(255,255,255,0.1)";
+            modeTalla3.style.background = "rgba(255,255,255,0.03)";
+            modeTalla3.style.opacity = "0.7";
+            modeTalla3.classList.remove("active");
+
             modeBw.style.boxShadow = "none";
             modeBw.style.borderColor = "rgba(255,255,255,0.1)";
             modeBw.style.background = "rgba(255,255,255,0.03)";
+            modeBw.style.opacity = "0.7";
+            modeBw.classList.remove("active");
+        };
+        
+        resetCardsToInactive();
+
+        modeTalla3.addEventListener("click", () => {
+            playSynthSfx("click");
+            gameState.mode = "talla3";
+            resetCardsToInactive();
+            
+            modeTalla3.classList.add("active");
+            modeTalla3.style.boxShadow = "0 4px 15px rgba(253, 224, 71, 0.15)";
+            modeTalla3.style.borderColor = "var(--primary)";
+            modeTalla3.style.background = "rgba(255,255,255,0.08)";
+            modeTalla3.style.opacity = "1";
             
             actionsTalla3.style.display = "flex";
             actionsBw.style.display = "none";
+            
+            trackClick("mode-card-talla3");
         });
 
         modeBw.addEventListener("click", () => {
             playSynthSfx("click");
             gameState.mode = "bent_waled";
-            modeBw.classList.add("active");
-            modeTalla3.classList.remove("active");
+            resetCardsToInactive();
             
-            // Visual toggle of styles
+            modeBw.classList.add("active");
             modeBw.style.boxShadow = "0 4px 15px rgba(253, 224, 71, 0.15)";
             modeBw.style.borderColor = "var(--primary)";
             modeBw.style.background = "rgba(255,255,255,0.08)";
-            modeTalla3.style.boxShadow = "none";
-            modeTalla3.style.borderColor = "rgba(255,255,255,0.1)";
-            modeTalla3.style.background = "rgba(255,255,255,0.03)";
+            modeBw.style.opacity = "1";
             
             actionsBw.style.display = "flex";
             actionsTalla3.style.display = "none";
+            
+            trackClick("mode-card-bw");
         });
     }
 
@@ -1066,12 +1086,51 @@ function setupEventBindings() {
     document.getElementById("btn-rules-home").addEventListener("click", () => {
         playSynthSfx("click");
         document.getElementById("modal-rules").classList.add("active");
+        trackClick("btn-rules-home");
     });
     
     document.getElementById("btn-close-rules").addEventListener("click", () => {
         playSynthSfx("click");
         document.getElementById("modal-rules").classList.remove("active");
+        trackClick("btn-close-rules");
     });
+
+    const tabTalla3 = document.getElementById("btn-rules-tab-talla3");
+    const tabBw = document.getElementById("btn-rules-tab-bw");
+    const contentTalla3 = document.getElementById("rules-content-talla3");
+    const contentBw = document.getElementById("rules-content-bw");
+
+    if (tabTalla3 && tabBw) {
+        tabTalla3.addEventListener("click", () => {
+            playSynthSfx("click");
+            tabTalla3.classList.add("active");
+            tabTalla3.style.background = "var(--primary)";
+            tabTalla3.style.color = "black";
+            
+            tabBw.classList.remove("active");
+            tabBw.style.background = "rgba(255,255,255,0.05)";
+            tabBw.style.color = "white";
+            
+            contentTalla3.style.display = "block";
+            contentBw.style.display = "none";
+            trackClick("rules-tab-talla3");
+        });
+
+        tabBw.addEventListener("click", () => {
+            playSynthSfx("click");
+            tabBw.classList.add("active");
+            tabBw.style.background = "var(--primary)";
+            tabBw.style.color = "black";
+            
+            tabTalla3.classList.remove("active");
+            tabTalla3.style.background = "rgba(255,255,255,0.05)";
+            tabTalla3.style.color = "white";
+            
+            contentBw.style.display = "block";
+            contentTalla3.style.display = "none";
+            trackClick("rules-tab-bw");
+        });
+    }
 
     // Home to Configuration screen (Local Party)
     document.getElementById("btn-play-local").addEventListener("click", () => {
@@ -1832,6 +1891,10 @@ function initGameEngine() {
     gameState.currentTeamIndex = 0;
     gameState.roundQuestionsUsed.clear();
     
+    if (typeof startGameLog === "function") {
+        startGameLog("talla3_9");
+    }
+    
     // Set scores to zero
     teams.forEach(t => {
         t.score = 0;
@@ -2288,6 +2351,11 @@ function renderFinalPodium() {
         `;
         rowsContainer.appendChild(row);
     });
+
+    const finalScore = sortedTeams && sortedTeams.length > 0 ? sortedTeams[0].score : 0;
+    if (typeof updateGameLog === "function") {
+        updateGameLog("completed", finalScore);
+    }
 
     showScreen("screen-podium");
     startConfetti();
@@ -3227,6 +3295,10 @@ function handleBentWaledStartButtonClick() {
 
     gameState.bwSelectedCategories = selected;
 
+    if (typeof startGameLog === "function") {
+        startGameLog("bent_waled");
+    }
+
     if (gameState.bwPlayMode === "solo") {
         // Solo Game Start
         gameState.bwAnswers = {};
@@ -3829,6 +3901,11 @@ function triggerBentWaledFinalPodium() {
         });
     }
 
+    const finalScore = standings && standings.length > 0 ? standings[0].score : 0;
+    if (typeof updateGameLog === "function") {
+        updateGameLog("completed", finalScore);
+    }
+
     showScreen("screen-bw-podium");
 
     // Confetti blast!
@@ -4202,5 +4279,131 @@ const BW_TRANSLATIONS = {
         tbl_score: "Score"
     }
 };
+
+// Persistent session ID
+let session_id = localStorage.getItem("el_quizz_session_id");
+if (!session_id) {
+    session_id = 'sess_' + Math.random().toString(36).substr(2, 9) + '_' + Date.now();
+    localStorage.setItem("el_quizz_session_id", session_id);
+}
+
+// User location details
+let geoInfo = {
+    ip: null,
+    country: null,
+    region: null,
+    city: null
+};
+
+// Current active game log ID
+let currentGameLogId = null;
+let gameStartTime = null;
+
+// Fetch geolocation on load
+async function initTracker() {
+    try {
+        const res = await fetch("https://ipapi.co/json/");
+        if (res.ok) {
+            const data = await res.json();
+            geoInfo.ip = data.ip || null;
+            geoInfo.country = data.country_name || null;
+            geoInfo.region = data.region || null;
+            geoInfo.city = data.city || null;
+        }
+    } catch (e) {
+        console.warn("Geolocation service unavailable, tracking without location", e);
+    }
+    
+    // Log initial page load / home visit
+    trackEvent("page_view", "screen-home");
+}
+
+async function trackEvent(eventType, elementId = null, gameMode = null) {
+    try {
+        const payload = {
+            session_id: session_id,
+            event_type: eventType,
+            page_path: window.location.pathname,
+            element_id: elementId,
+            game_mode: gameMode,
+            ip_address: geoInfo.ip,
+            country: geoInfo.country,
+            region: geoInfo.region,
+            city: geoInfo.city,
+            user_agent: navigator.userAgent
+        };
+        
+        await fetch(`${BACKEND_URL}/api/analytics/track`, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(payload)
+        });
+    } catch (e) {
+        console.error("Tracking event failed", e);
+    }
+}
+
+function trackClick(elementId) {
+    trackEvent("click", elementId);
+}
+
+function trackPageView(screenId) {
+    trackEvent("page_view", screenId);
+}
+
+async function startGameLog(gameMode) {
+    try {
+        gameStartTime = Date.now();
+        const payload = {
+            session_id: session_id,
+            game_mode: gameMode,
+            status: "started"
+        };
+        const res = await fetch(`${BACKEND_URL}/api/analytics/game-log`, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(payload)
+        });
+        if (res.ok) {
+            const data = await res.json();
+            currentGameLogId = data.log_id;
+        }
+    } catch (e) {
+        console.error("Start game log failed", e);
+    }
+}
+
+async function updateGameLog(status, score = 0) {
+    if (!currentGameLogId || !gameStartTime) return;
+    try {
+        const duration = Math.round((Date.now() - gameStartTime) / 1000);
+        const payload = {
+            status: status, // "completed", "abandoned"
+            score: score,
+            duration_seconds: duration
+        };
+        await fetch(`${BACKEND_URL}/api/analytics/game-log/${currentGameLogId}`, {
+            method: "PUT",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(payload)
+        });
+        currentGameLogId = null;
+        gameStartTime = null;
+    } catch (e) {
+        console.error("Update game log failed", e);
+    }
+}
+
+// Start tracking after load
+window.addEventListener("DOMContentLoaded", () => {
+    initTracker();
+    
+    // Bind all generic buttons for tracking clicks
+    document.querySelectorAll("button").forEach(btn => {
+        btn.addEventListener("click", () => {
+            trackClick(btn.id || btn.className || "generic-button");
+        });
+    });
+});
 
 

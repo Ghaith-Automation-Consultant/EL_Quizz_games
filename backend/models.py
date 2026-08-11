@@ -212,4 +212,32 @@ class BwLocalizedAnswer(Base):
 
     entity = relationship("BwEntity", back_populates="localized_answers")
 
+class UserActivity(Base):
+    __tablename__ = "user_activities"
+
+    id = Column(Integer, primary_key=True, index=True)
+    session_id = Column(String(100), nullable=True, index=True)
+    user_id = Column(Integer, ForeignKey("users.id", ondelete="SET NULL"), nullable=True)
+    event_type = Column(String(50), nullable=False, index=True)   # 'page_view', 'click', 'game_start', 'game_end'
+    page_path = Column(String(255), nullable=True)
+    element_id = Column(String(100), nullable=True)
+    game_mode = Column(String(50), nullable=True)
+    ip_address = Column(String(45), nullable=True)
+    country = Column(String(100), nullable=True)
+    region = Column(String(100), nullable=True)
+    city = Column(String(100), nullable=True)
+    user_agent = Column(String(255), nullable=True)
+    created_at = Column(DateTime, default=datetime.utcnow, index=True)
+
+class GamePlayLog(Base):
+    __tablename__ = "game_play_logs"
+
+    id = Column(Integer, primary_key=True, index=True)
+    session_id = Column(String(100), nullable=True, index=True)
+    game_mode = Column(String(50), nullable=False, index=True)  # 'talla3_9' or 'bent_waled'
+    status = Column(String(20), nullable=False)                 # 'started', 'completed', 'abandoned'
+    score = Column(Integer, default=0)
+    duration_seconds = Column(Integer, default=0)
+    created_at = Column(DateTime, default=datetime.utcnow, index=True)
+
 

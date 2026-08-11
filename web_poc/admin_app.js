@@ -296,6 +296,8 @@ async function init() {
                 } else {
                     renderVisualizations();
                 }
+            } else if (tabId === "tab-analytics") {
+                loadAnalyticsDashboard();
             } else if (tabId === "tab-crud") {
                 if (activeMode === "bent_waled") {
                     loadBwWordsTable();
@@ -2564,6 +2566,89 @@ function populateSubcategoryDropdowns() {
     if (typeof populateImportPromptSubcategories === "function") {
         populateImportPromptSubcategories();
     }
+}
+
+async function loadAnalyticsDashboard() {
+    try {
+        const res = await fetch(`${BACKEND_URL}/api/analytics/stats`);
+        if (!res.ok) return;
+        const data = await res.json();
+        
+        // Summary Cards
+        document.getElementById("stat-total-hits").textContent = data.total_actions || 0;
+        document.getElementById("stat-active-sessions").textContent = data.unique_sessions || 0;
+        
+        const talla3Count = data.mode_counts.talla3_9 || 0;
+        const bwCount = data.mode_counts.bent_waled || 0;
+        const totalGames = talla3Count + bwCount;
+        document.getElementById("stat-games-played-total").textContent = totalGames;
+        
+        // Game Mode Shares
+        document.getElementById("lbl-mode-talla3-count").textContent = `${talla3Count} games`;
+        document.getElementById("lbl-mode-bw-count").textContent = `${bwCount} games`;
+        
+        const talla3Percent = totalGames > 0 ? Math.round((talla3Count / totalGames) * 100) : 0;
+        const bwPercent = totalGames > 0 ? Math.round((bwCount / totalGames) * 100) : 0;
+        
+        document.getElementById("bar-mode-talla3").style.width = `${talla3Percent}%`;
+        document.getElementById("bar-mode-bw").style.width = `${bwPercent}%`;
+        
+        // Top Countries
+        const countryBody = document.getElementById("analytics-country-rows");
+        if (countryBody) {
+            countryBody.innerHTML = "";
+            if (data.region_stats && data.region_stats.length > 0) {
+                data.region_stats.forEach(c => {
+                    const row = document.createElement("tr");
+                    row.innerHTML = `
+                        <td style="font-weight: bold; color: #fff;">🌍 ${c.country}</td>
+                        <td>${c.count} hits</td>
+                    `;
+                    countryBody.appendChild(row);
+                });
+            } else {
+                countryBody.innerHTML = `<tr><td colspan="2" style="text-align: center; opacity: 0.5;">No geolocation data tracked yet</td></tr>`;
+            }
+        }
+        
+        // Render Histograms
+        renderHistogram("duration-histogram-bars", data.duration_histogram, "var(--primary)");
+        renderHistogram("score-histogram-bars", data.score_histogram, "#6366f1");
+        
+    } catch (e) {
+        console.error("Failed to load analytics dashboard", e);
+    }
+}
+
+function renderHistogram(containerId, histogramData, colorClass = "var(--primary)") {
+    const container = document.getElementById(containerId);
+    if (!container) return;
+    container.innerHTML = "";
+    
+    const values = Object.values(histogramData);
+    const keys = Object.keys(histogramData);
+    const maxVal = Math.max(...values, 1); // avoid division by zero
+    
+    keys.forEach(key => {
+        const val = histogramData[key];
+        const heightPercent = Math.round((val / maxVal) * 80); // max 80% height to leave room for label
+        
+        const barWrapper = document.createElement("div");
+        barWrapper.style.display = "flex";
+        barWrapper.style.flexDirection = "column";
+        barWrapper.style.alignItems = "center";
+        barWrapper.style.flex = "1";
+        barWrapper.style.height = "100%";
+        barWrapper.style.justifyContent = "flex-end";
+        
+        barWrapper.innerHTML = `
+            <span style="font-size: 0.8rem; font-weight: bold; margin-bottom: 5px; color: #fff; transition: all 0.3s ease;">${val}</span>
+            <div style="width: 24px; height: ${heightPercent}%; background: ${colorClass}; border-radius: 4px 4px 0 0; min-height: 4px; box-shadow: 0 4px 10px rgba(0,0,0,0.25); transition: height 0.6s cubic-bezier(0.25, 0.8, 0.25, 1);"></div>
+            <span style="font-size: 0.75rem; color: var(--text-secondary); margin-top: 8px; font-weight: 600; text-align: center; white-space: nowrap;">${key}</span>
+        `;
+        
+        container.appendChild(barWrapper);
+    });
 }
 
 // Fire initialization on load

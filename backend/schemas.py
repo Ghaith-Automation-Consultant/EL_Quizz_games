@@ -144,3 +144,28 @@ class QuestionPlayStatsSubmit(BaseModel):
 class FeedbackSubmit(BaseModel):
     rating: str  # 'love', 'like', 'meh', 'dislike', 'shit'
     comment: Optional[str] = None
+
+class ActivityEventCreate(BaseModel):
+    session_id: Optional[str] = None
+    user_id: Optional[int] = None
+    event_type: str
+    page_path: Optional[str] = None
+    element_id: Optional[str] = None
+    game_mode: Optional[str] = None
+    ip_address: Optional[str] = None
+    country: Optional[str] = None
+    region: Optional[str] = None
+    city: Optional[str] = None
+    user_agent: Optional[str] = None
+
+class GamePlayLogCreate(BaseModel):
+    session_id: Optional[str] = None
+    game_mode: str
+    status: str
+    score: int = 0
+    duration_seconds: int = 0
+
+class GamePlayLogUpdate(BaseModel):
+    status: str
+    score: int = 0
+    duration_seconds: int = 0
