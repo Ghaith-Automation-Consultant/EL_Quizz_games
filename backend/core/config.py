@@ -23,6 +23,8 @@ DATABASE_URL = os.getenv(
     "DATABASE_URL",
     "postgresql://postgres:Mogador%4075@localhost:5432/el_quizz"
 )
+if DATABASE_URL and DATABASE_URL.startswith("postgres://"):
+    DATABASE_URL = DATABASE_URL.replace("postgres://", "postgresql://", 1)
 
 # JWT Configurations
 SECRET_KEY = os.getenv(
