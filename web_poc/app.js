@@ -188,13 +188,17 @@ function mapDatabaseQuestion(dbQ) {
     };
 }
 
-const BACKEND_URL = window.location.hostname 
-    ? `${window.location.protocol}//${window.location.hostname}:8000` 
-    : "http://192.168.1.139:8000";
+const isLocalhost = window.location.hostname === "localhost" || 
+                    window.location.hostname === "127.0.0.1" || 
+                    window.location.hostname.startsWith("192.168.");
 
-const WS_URL = window.location.hostname 
+const BACKEND_URL = isLocalhost
+    ? `${window.location.protocol}//${window.location.hostname}:8000` 
+    : "https://elquizzgames-production.up.railway.app";
+
+const WS_URL = isLocalhost
     ? `${window.location.protocol === "https:" ? "wss:" : "ws:"}//${window.location.hostname}:8000` 
-    : "ws://192.168.1.139:8000";
+    : "wss://elquizzgames-production.up.railway.app";
 
 async function loadQuestionsFromDatabase() {
     try {

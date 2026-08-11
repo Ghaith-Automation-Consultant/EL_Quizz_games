@@ -96,9 +96,13 @@ const DEFAULT_QUESTIONS = [
     }
 ];
 
-const BACKEND_URL = window.location.hostname 
+const isLocalhost = window.location.hostname === "localhost" || 
+                    window.location.hostname === "127.0.0.1" || 
+                    window.location.hostname.startsWith("192.168.");
+
+const BACKEND_URL = isLocalhost
     ? `${window.location.protocol}//${window.location.hostname}:8000` 
-    : "http://192.168.1.139:8000";
+    : "https://elquizzgames-production.up.railway.app";
 
 // Local state
 let questions = [];
