@@ -1,5 +1,12 @@
 [
   {
+    "entity_id": "object_ظل",
+    "answer": "ظل",
+    "normalized": "ظل",
+    "aliases": [],
+    "status": "approved"
+  },
+  {
     "entity_id": "object_ظرف",
     "answer": "ظرف",
     "normalized": "ظرف",
@@ -10,13 +17,6 @@
     "entity_id": "object_ظفر",
     "answer": "ظفر",
     "normalized": "ظفر",
-    "aliases": [],
-    "status": "approved"
-  },
-  {
-    "entity_id": "object_ظل",
-    "answer": "ظل",
-    "normalized": "ظل",
     "aliases": [],
     "status": "approved"
   }

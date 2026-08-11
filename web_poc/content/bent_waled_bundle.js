@@ -1,33 +1,6 @@
 window.BW_CONTENT_BUNDLE = {
   "ar": {
     "ا": {
-      "animal": [
-        {
-          "entity_id": "animal_lion",
-          "answer": "أسد",
-          "normalized": "اسد",
-          "aliases": [
-            "الأسد"
-          ],
-          "status": "approved"
-        },
-        {
-          "entity_id": "animal_rabbit",
-          "answer": "أرنب",
-          "normalized": "ارنب",
-          "aliases": [
-            "الأرنب"
-          ],
-          "status": "approved"
-        },
-        {
-          "entity_id": "animal_أفعى",
-          "answer": "أفعى",
-          "normalized": "افعي",
-          "aliases": [],
-          "status": "approved"
-        }
-      ],
       "boy": [
         {
           "entity_id": "boy_أحمد",
@@ -118,6 +91,29 @@ window.BW_CONTENT_BUNDLE = {
           "status": "approved"
         }
       ],
+      "animal": [
+        {
+          "entity_id": "animal_أسد",
+          "answer": "أسد",
+          "normalized": "اسد",
+          "aliases": [],
+          "status": "approved"
+        },
+        {
+          "entity_id": "animal_أرنب",
+          "answer": "أرنب",
+          "normalized": "ارنب",
+          "aliases": [],
+          "status": "approved"
+        },
+        {
+          "entity_id": "animal_أفعى",
+          "answer": "أفعى",
+          "normalized": "افعي",
+          "aliases": [],
+          "status": "approved"
+        }
+      ],
       "object": [
         {
           "entity_id": "object_إبرة",
@@ -199,278 +195,6 @@ window.BW_CONTENT_BUNDLE = {
           "entity_id": "food_أومليت",
           "answer": "أومليت",
           "normalized": "اومليت",
-          "aliases": [],
-          "status": "approved"
-        }
-      ]
-    },
-    "م": {
-      "country": [
-        {
-          "entity_id": "country_ma",
-          "answer": "المغرب",
-          "normalized": "المغرب",
-          "aliases": [
-            "مغرب"
-          ],
-          "status": "approved"
-        },
-        {
-          "entity_id": "country_mg",
-          "answer": "مدغشقر",
-          "normalized": "مدغشقر",
-          "aliases": [],
-          "status": "approved"
-        },
-        {
-          "entity_id": "country_مصر",
-          "answer": "مصر",
-          "normalized": "مصر",
-          "aliases": [],
-          "status": "approved"
-        },
-        {
-          "entity_id": "country_مغرب",
-          "answer": "مغرب",
-          "normalized": "مغرب",
-          "aliases": [],
-          "status": "approved"
-        },
-        {
-          "entity_id": "country_موريتانيا",
-          "answer": "موريتانيا",
-          "normalized": "موريتانيا",
-          "aliases": [],
-          "status": "approved"
-        },
-        {
-          "entity_id": "country_ماليزيا",
-          "answer": "ماليزيا",
-          "normalized": "ماليزيا",
-          "aliases": [],
-          "status": "approved"
-        }
-      ],
-      "boy": [
-        {
-          "entity_id": "boy_محمد",
-          "answer": "محمد",
-          "normalized": "محمد",
-          "aliases": [],
-          "status": "approved"
-        },
-        {
-          "entity_id": "boy_محمود",
-          "answer": "محمود",
-          "normalized": "محمود",
-          "aliases": [],
-          "status": "approved"
-        },
-        {
-          "entity_id": "boy_مراد",
-          "answer": "مراد",
-          "normalized": "مراد",
-          "aliases": [],
-          "status": "approved"
-        },
-        {
-          "entity_id": "boy_منير",
-          "answer": "منير",
-          "normalized": "منير",
-          "aliases": [],
-          "status": "approved"
-        },
-        {
-          "entity_id": "boy_مروان",
-          "answer": "مروان",
-          "normalized": "مروان",
-          "aliases": [],
-          "status": "approved"
-        }
-      ],
-      "girl": [
-        {
-          "entity_id": "girl_مريم",
-          "answer": "مريم",
-          "normalized": "مريم",
-          "aliases": [],
-          "status": "approved"
-        },
-        {
-          "entity_id": "girl_منى",
-          "answer": "منى",
-          "normalized": "مني",
-          "aliases": [],
-          "status": "approved"
-        },
-        {
-          "entity_id": "girl_مروة",
-          "answer": "مروة",
-          "normalized": "مروت",
-          "aliases": [],
-          "status": "approved"
-        },
-        {
-          "entity_id": "girl_مليكة",
-          "answer": "مليكة",
-          "normalized": "مليكت",
-          "aliases": [],
-          "status": "approved"
-        },
-        {
-          "entity_id": "girl_مها",
-          "answer": "مها",
-          "normalized": "مها",
-          "aliases": [],
-          "status": "approved"
-        }
-      ],
-      "animal": [
-        {
-          "entity_id": "animal_ماعز",
-          "answer": "ماعز",
-          "normalized": "ماعز",
-          "aliases": [],
-          "status": "approved"
-        },
-        {
-          "entity_id": "animal_مهر",
-          "answer": "مهر",
-          "normalized": "مهر",
-          "aliases": [],
-          "status": "approved"
-        }
-      ],
-      "object": [
-        {
-          "entity_id": "object_مفتاح",
-          "answer": "مفتاح",
-          "normalized": "مفتاح",
-          "aliases": [],
-          "status": "approved"
-        },
-        {
-          "entity_id": "object_مقص",
-          "answer": "مقص",
-          "normalized": "مقص",
-          "aliases": [],
-          "status": "approved"
-        },
-        {
-          "entity_id": "object_مرآة",
-          "answer": "مرآة",
-          "normalized": "مرات",
-          "aliases": [],
-          "status": "approved"
-        },
-        {
-          "entity_id": "object_مظلة",
-          "answer": "مظلة",
-          "normalized": "مظلت",
-          "aliases": [],
-          "status": "approved"
-        },
-        {
-          "entity_id": "object_محفظة",
-          "answer": "محفظة",
-          "normalized": "محفظت",
-          "aliases": [],
-          "status": "approved"
-        }
-      ],
-      "plant": [
-        {
-          "entity_id": "plant_موز",
-          "answer": "موز",
-          "normalized": "موز",
-          "aliases": [],
-          "status": "approved"
-        },
-        {
-          "entity_id": "plant_مشمش",
-          "answer": "مشمش",
-          "normalized": "مشمش",
-          "aliases": [],
-          "status": "approved"
-        },
-        {
-          "entity_id": "plant_ملفوف",
-          "answer": "ملفوف",
-          "normalized": "ملفوف",
-          "aliases": [],
-          "status": "approved"
-        },
-        {
-          "entity_id": "plant_ملوخية",
-          "answer": "ملوخية",
-          "normalized": "ملوخيت",
-          "aliases": [],
-          "status": "approved"
-        }
-      ],
-      "profession": [
-        {
-          "entity_id": "profession_مهندس",
-          "answer": "مهندس",
-          "normalized": "مهندس",
-          "aliases": [],
-          "status": "approved"
-        },
-        {
-          "entity_id": "profession_معلم",
-          "answer": "معلم",
-          "normalized": "معلم",
-          "aliases": [],
-          "status": "approved"
-        },
-        {
-          "entity_id": "profession_ممرض",
-          "answer": "ممرض",
-          "normalized": "ممرض",
-          "aliases": [],
-          "status": "approved"
-        },
-        {
-          "entity_id": "profession_محامي",
-          "answer": "محامي",
-          "normalized": "محامي",
-          "aliases": [],
-          "status": "approved"
-        },
-        {
-          "entity_id": "profession_مدير",
-          "answer": "مدير",
-          "normalized": "مدير",
-          "aliases": [],
-          "status": "approved"
-        }
-      ],
-      "food": [
-        {
-          "entity_id": "food_ملوخية",
-          "answer": "ملوخية",
-          "normalized": "ملوخيت",
-          "aliases": [],
-          "status": "approved"
-        },
-        {
-          "entity_id": "food_مسكوتة",
-          "answer": "مسكوتة",
-          "normalized": "مسكوتت",
-          "aliases": [],
-          "status": "approved"
-        },
-        {
-          "entity_id": "food_مقروض",
-          "answer": "مقروض",
-          "normalized": "مقروض",
-          "aliases": [],
-          "status": "approved"
-        },
-        {
-          "entity_id": "food_مسفوف",
-          "answer": "مسفوف",
-          "normalized": "مسفوف",
           "aliases": [],
           "status": "approved"
         }
@@ -3500,6 +3224,157 @@ window.BW_CONTENT_BUNDLE = {
         }
       ]
     },
+    "ظ": {
+      "object": [
+        {
+          "entity_id": "object_ظل",
+          "answer": "ظل",
+          "normalized": "ظل",
+          "aliases": [],
+          "status": "approved"
+        },
+        {
+          "entity_id": "object_ظرف",
+          "answer": "ظرف",
+          "normalized": "ظرف",
+          "aliases": [],
+          "status": "approved"
+        },
+        {
+          "entity_id": "object_ظفر",
+          "answer": "ظفر",
+          "normalized": "ظفر",
+          "aliases": [],
+          "status": "approved"
+        }
+      ],
+      "boy": [
+        {
+          "entity_id": "boy_ظافر",
+          "answer": "ظافر",
+          "normalized": "ظافر",
+          "aliases": [],
+          "status": "approved"
+        },
+        {
+          "entity_id": "boy_ظاهر",
+          "answer": "ظاهر",
+          "normalized": "ظاهر",
+          "aliases": [],
+          "status": "approved"
+        },
+        {
+          "entity_id": "boy_ظريف",
+          "answer": "ظريف",
+          "normalized": "ظريف",
+          "aliases": [],
+          "status": "approved"
+        }
+      ],
+      "girl": [
+        {
+          "entity_id": "girl_ظريفة",
+          "answer": "ظريفة",
+          "normalized": "ظريفت",
+          "aliases": [],
+          "status": "approved"
+        },
+        {
+          "entity_id": "girl_ظبية",
+          "answer": "ظبية",
+          "normalized": "ظبيت",
+          "aliases": [],
+          "status": "approved"
+        },
+        {
+          "entity_id": "girl_ظلال",
+          "answer": "ظلال",
+          "normalized": "ظلال",
+          "aliases": [],
+          "status": "approved"
+        }
+      ],
+      "country": [
+        {
+          "entity_id": "country_ظهران",
+          "answer": "ظهران",
+          "normalized": "ظهران",
+          "aliases": [],
+          "status": "approved"
+        },
+        {
+          "entity_id": "country_ظفار",
+          "answer": "ظفار",
+          "normalized": "ظفار",
+          "aliases": [],
+          "status": "approved"
+        }
+      ],
+      "animal": [
+        {
+          "entity_id": "animal_ظبي",
+          "answer": "ظبي",
+          "normalized": "ظبي",
+          "aliases": [],
+          "status": "approved"
+        },
+        {
+          "entity_id": "animal_ظليم",
+          "answer": "ظليم",
+          "normalized": "ظليم",
+          "aliases": [],
+          "status": "approved"
+        }
+      ],
+      "plant": [
+        {
+          "entity_id": "plant_ظل",
+          "answer": "ظل",
+          "normalized": "ظل",
+          "aliases": [],
+          "status": "approved"
+        },
+        {
+          "entity_id": "plant_ظيان",
+          "answer": "ظيان",
+          "normalized": "ظيان",
+          "aliases": [],
+          "status": "approved"
+        }
+      ],
+      "profession": [
+        {
+          "entity_id": "profession_ظهير",
+          "answer": "ظهير",
+          "normalized": "ظهير",
+          "aliases": [],
+          "status": "approved"
+        },
+        {
+          "entity_id": "profession_موظف",
+          "answer": "موظف",
+          "normalized": "موظف",
+          "aliases": [],
+          "status": "approved"
+        }
+      ],
+      "food": [
+        {
+          "entity_id": "food_ظفائر_العسل",
+          "answer": "ظفائر العسل",
+          "normalized": "ظفائر العسل",
+          "aliases": [],
+          "status": "approved"
+        },
+        {
+          "entity_id": "food_ظلف_خروف",
+          "answer": "ظلف خروف",
+          "normalized": "ظلف خروف",
+          "aliases": [],
+          "status": "approved"
+        }
+      ]
+    },
     "ط": {
       "boy": [
         {
@@ -3709,157 +3584,6 @@ window.BW_CONTENT_BUNDLE = {
           "entity_id": "food_طماطم_محشية",
           "answer": "طماطم محشية",
           "normalized": "طماطم محشيت",
-          "aliases": [],
-          "status": "approved"
-        }
-      ]
-    },
-    "ظ": {
-      "boy": [
-        {
-          "entity_id": "boy_ظافر",
-          "answer": "ظافر",
-          "normalized": "ظافر",
-          "aliases": [],
-          "status": "approved"
-        },
-        {
-          "entity_id": "boy_ظاهر",
-          "answer": "ظاهر",
-          "normalized": "ظاهر",
-          "aliases": [],
-          "status": "approved"
-        },
-        {
-          "entity_id": "boy_ظريف",
-          "answer": "ظريف",
-          "normalized": "ظريف",
-          "aliases": [],
-          "status": "approved"
-        }
-      ],
-      "girl": [
-        {
-          "entity_id": "girl_ظريفة",
-          "answer": "ظريفة",
-          "normalized": "ظريفت",
-          "aliases": [],
-          "status": "approved"
-        },
-        {
-          "entity_id": "girl_ظبية",
-          "answer": "ظبية",
-          "normalized": "ظبيت",
-          "aliases": [],
-          "status": "approved"
-        },
-        {
-          "entity_id": "girl_ظلال",
-          "answer": "ظلال",
-          "normalized": "ظلال",
-          "aliases": [],
-          "status": "approved"
-        }
-      ],
-      "country": [
-        {
-          "entity_id": "country_ظهران",
-          "answer": "ظهران",
-          "normalized": "ظهران",
-          "aliases": [],
-          "status": "approved"
-        },
-        {
-          "entity_id": "country_ظفار",
-          "answer": "ظفار",
-          "normalized": "ظفار",
-          "aliases": [],
-          "status": "approved"
-        }
-      ],
-      "animal": [
-        {
-          "entity_id": "animal_ظبي",
-          "answer": "ظبي",
-          "normalized": "ظبي",
-          "aliases": [],
-          "status": "approved"
-        },
-        {
-          "entity_id": "animal_ظليم",
-          "answer": "ظليم",
-          "normalized": "ظليم",
-          "aliases": [],
-          "status": "approved"
-        }
-      ],
-      "object": [
-        {
-          "entity_id": "object_ظرف",
-          "answer": "ظرف",
-          "normalized": "ظرف",
-          "aliases": [],
-          "status": "approved"
-        },
-        {
-          "entity_id": "object_ظفر",
-          "answer": "ظفر",
-          "normalized": "ظفر",
-          "aliases": [],
-          "status": "approved"
-        },
-        {
-          "entity_id": "object_ظل",
-          "answer": "ظل",
-          "normalized": "ظل",
-          "aliases": [],
-          "status": "approved"
-        }
-      ],
-      "plant": [
-        {
-          "entity_id": "plant_ظل",
-          "answer": "ظل",
-          "normalized": "ظل",
-          "aliases": [],
-          "status": "approved"
-        },
-        {
-          "entity_id": "plant_ظيان",
-          "answer": "ظيان",
-          "normalized": "ظيان",
-          "aliases": [],
-          "status": "approved"
-        }
-      ],
-      "profession": [
-        {
-          "entity_id": "profession_ظهير",
-          "answer": "ظهير",
-          "normalized": "ظهير",
-          "aliases": [],
-          "status": "approved"
-        },
-        {
-          "entity_id": "profession_موظف",
-          "answer": "موظف",
-          "normalized": "موظف",
-          "aliases": [],
-          "status": "approved"
-        }
-      ],
-      "food": [
-        {
-          "entity_id": "food_ظفائر_العسل",
-          "answer": "ظفائر العسل",
-          "normalized": "ظفائر العسل",
-          "aliases": [],
-          "status": "approved"
-        },
-        {
-          "entity_id": "food_ظلف_خروف",
-          "answer": "ظلف خروف",
-          "normalized": "ظلف خروف",
           "aliases": [],
           "status": "approved"
         }
@@ -5240,6 +4964,262 @@ window.BW_CONTENT_BUNDLE = {
         }
       ]
     },
+    "م": {
+      "boy": [
+        {
+          "entity_id": "boy_محمد",
+          "answer": "محمد",
+          "normalized": "محمد",
+          "aliases": [],
+          "status": "approved"
+        },
+        {
+          "entity_id": "boy_محمود",
+          "answer": "محمود",
+          "normalized": "محمود",
+          "aliases": [],
+          "status": "approved"
+        },
+        {
+          "entity_id": "boy_مراد",
+          "answer": "مراد",
+          "normalized": "مراد",
+          "aliases": [],
+          "status": "approved"
+        },
+        {
+          "entity_id": "boy_منير",
+          "answer": "منير",
+          "normalized": "منير",
+          "aliases": [],
+          "status": "approved"
+        },
+        {
+          "entity_id": "boy_مروان",
+          "answer": "مروان",
+          "normalized": "مروان",
+          "aliases": [],
+          "status": "approved"
+        }
+      ],
+      "girl": [
+        {
+          "entity_id": "girl_مريم",
+          "answer": "مريم",
+          "normalized": "مريم",
+          "aliases": [],
+          "status": "approved"
+        },
+        {
+          "entity_id": "girl_منى",
+          "answer": "منى",
+          "normalized": "مني",
+          "aliases": [],
+          "status": "approved"
+        },
+        {
+          "entity_id": "girl_مروة",
+          "answer": "مروة",
+          "normalized": "مروت",
+          "aliases": [],
+          "status": "approved"
+        },
+        {
+          "entity_id": "girl_مليكة",
+          "answer": "مليكة",
+          "normalized": "مليكت",
+          "aliases": [],
+          "status": "approved"
+        },
+        {
+          "entity_id": "girl_مها",
+          "answer": "مها",
+          "normalized": "مها",
+          "aliases": [],
+          "status": "approved"
+        }
+      ],
+      "country": [
+        {
+          "entity_id": "country_مصر",
+          "answer": "مصر",
+          "normalized": "مصر",
+          "aliases": [],
+          "status": "approved"
+        },
+        {
+          "entity_id": "country_مغرب",
+          "answer": "مغرب",
+          "normalized": "مغرب",
+          "aliases": [],
+          "status": "approved"
+        },
+        {
+          "entity_id": "country_موريتانيا",
+          "answer": "موريتانيا",
+          "normalized": "موريتانيا",
+          "aliases": [],
+          "status": "approved"
+        },
+        {
+          "entity_id": "country_ماليزيا",
+          "answer": "ماليزيا",
+          "normalized": "ماليزيا",
+          "aliases": [],
+          "status": "approved"
+        }
+      ],
+      "animal": [
+        {
+          "entity_id": "animal_ماعز",
+          "answer": "ماعز",
+          "normalized": "ماعز",
+          "aliases": [],
+          "status": "approved"
+        },
+        {
+          "entity_id": "animal_مهر",
+          "answer": "مهر",
+          "normalized": "مهر",
+          "aliases": [],
+          "status": "approved"
+        }
+      ],
+      "object": [
+        {
+          "entity_id": "object_مفتاح",
+          "answer": "مفتاح",
+          "normalized": "مفتاح",
+          "aliases": [],
+          "status": "approved"
+        },
+        {
+          "entity_id": "object_مقص",
+          "answer": "مقص",
+          "normalized": "مقص",
+          "aliases": [],
+          "status": "approved"
+        },
+        {
+          "entity_id": "object_مرآة",
+          "answer": "مرآة",
+          "normalized": "مرات",
+          "aliases": [],
+          "status": "approved"
+        },
+        {
+          "entity_id": "object_مظلة",
+          "answer": "مظلة",
+          "normalized": "مظلت",
+          "aliases": [],
+          "status": "approved"
+        },
+        {
+          "entity_id": "object_محفظة",
+          "answer": "محفظة",
+          "normalized": "محفظت",
+          "aliases": [],
+          "status": "approved"
+        }
+      ],
+      "plant": [
+        {
+          "entity_id": "plant_موز",
+          "answer": "موز",
+          "normalized": "موز",
+          "aliases": [],
+          "status": "approved"
+        },
+        {
+          "entity_id": "plant_مشمش",
+          "answer": "مشمش",
+          "normalized": "مشمش",
+          "aliases": [],
+          "status": "approved"
+        },
+        {
+          "entity_id": "plant_ملفوف",
+          "answer": "ملفوف",
+          "normalized": "ملفوف",
+          "aliases": [],
+          "status": "approved"
+        },
+        {
+          "entity_id": "plant_ملوخية",
+          "answer": "ملوخية",
+          "normalized": "ملوخيت",
+          "aliases": [],
+          "status": "approved"
+        }
+      ],
+      "profession": [
+        {
+          "entity_id": "profession_مهندس",
+          "answer": "مهندس",
+          "normalized": "مهندس",
+          "aliases": [],
+          "status": "approved"
+        },
+        {
+          "entity_id": "profession_معلم",
+          "answer": "معلم",
+          "normalized": "معلم",
+          "aliases": [],
+          "status": "approved"
+        },
+        {
+          "entity_id": "profession_ممرض",
+          "answer": "ممرض",
+          "normalized": "ممرض",
+          "aliases": [],
+          "status": "approved"
+        },
+        {
+          "entity_id": "profession_محامي",
+          "answer": "محامي",
+          "normalized": "محامي",
+          "aliases": [],
+          "status": "approved"
+        },
+        {
+          "entity_id": "profession_مدير",
+          "answer": "مدير",
+          "normalized": "مدير",
+          "aliases": [],
+          "status": "approved"
+        }
+      ],
+      "food": [
+        {
+          "entity_id": "food_ملوخية",
+          "answer": "ملوخية",
+          "normalized": "ملوخيت",
+          "aliases": [],
+          "status": "approved"
+        },
+        {
+          "entity_id": "food_مسكوتة",
+          "answer": "مسكوتة",
+          "normalized": "مسكوتت",
+          "aliases": [],
+          "status": "approved"
+        },
+        {
+          "entity_id": "food_مقروض",
+          "answer": "مقروض",
+          "normalized": "مقروض",
+          "aliases": [],
+          "status": "approved"
+        },
+        {
+          "entity_id": "food_مسفوف",
+          "answer": "مسفوف",
+          "normalized": "مسفوف",
+          "aliases": [],
+          "status": "approved"
+        }
+      ]
+    },
     "ن": {
       "boy": [
         {
@@ -6098,86 +6078,6 @@ window.BW_CONTENT_BUNDLE = {
           "entity_id": "food_يوسفي_حلو",
           "answer": "يوسفي حلو",
           "normalized": "يوسفي حلو",
-          "aliases": [],
-          "status": "approved"
-        }
-      ]
-    }
-  },
-  "en": {
-    "a": {
-      "animal": [
-        {
-          "entity_id": "animal_alligator",
-          "answer": "Alligator",
-          "normalized": "alligator",
-          "aliases": [],
-          "status": "approved"
-        },
-        {
-          "entity_id": "animal_ape",
-          "answer": "Ape",
-          "normalized": "ape",
-          "aliases": [],
-          "status": "approved"
-        }
-      ]
-    },
-    "m": {
-      "country": [
-        {
-          "entity_id": "country_ma",
-          "answer": "Morocco",
-          "normalized": "morocco",
-          "aliases": [],
-          "status": "approved"
-        },
-        {
-          "entity_id": "country_mg",
-          "answer": "Madagascar",
-          "normalized": "madagascar",
-          "aliases": [],
-          "status": "approved"
-        }
-      ]
-    }
-  },
-  "fr": {
-    "a": {
-      "animal": [
-        {
-          "entity_id": "animal_alligator",
-          "answer": "Alligator",
-          "normalized": "alligator",
-          "aliases": [],
-          "status": "approved"
-        },
-        {
-          "entity_id": "animal_ane",
-          "answer": "Âne",
-          "normalized": "âne",
-          "aliases": [
-            "l'âne"
-          ],
-          "status": "approved"
-        }
-      ]
-    },
-    "m": {
-      "country": [
-        {
-          "entity_id": "country_ma",
-          "answer": "Maroc",
-          "normalized": "maroc",
-          "aliases": [
-            "le maroc"
-          ],
-          "status": "approved"
-        },
-        {
-          "entity_id": "country_mg",
-          "answer": "Madagascar",
-          "normalized": "madagascar",
           "aliases": [],
           "status": "approved"
         }

@@ -1,20 +1,16 @@
 [
   {
-    "entity_id": "animal_lion",
+    "entity_id": "animal_أسد",
     "answer": "أسد",
     "normalized": "اسد",
-    "aliases": [
-      "الأسد"
-    ],
+    "aliases": [],
     "status": "approved"
   },
   {
-    "entity_id": "animal_rabbit",
+    "entity_id": "animal_أرنب",
     "answer": "أرنب",
     "normalized": "ارنب",
-    "aliases": [
-      "الأرنب"
-    ],
+    "aliases": [],
     "status": "approved"
   },
   {

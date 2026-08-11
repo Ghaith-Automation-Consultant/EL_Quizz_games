@@ -26,6 +26,13 @@ DATABASE_URL = os.getenv(
 if DATABASE_URL and DATABASE_URL.startswith("postgres://"):
     DATABASE_URL = DATABASE_URL.replace("postgres://", "postgresql://", 1)
 
+# Production Environment Diagnostic
+if (os.getenv("PORT") or os.getenv("RAILWAY_ENVIRONMENT")) and "localhost" in DATABASE_URL:
+    raise ValueError(
+        "DATABASE_URL is pointing to 'localhost' in a deployed environment. "
+        "Please configure the DATABASE_URL environment variable in your Railway dashboard."
+    )
+
 # JWT Configurations
 SECRET_KEY = os.getenv(
     "SECRET_KEY",
