@@ -1710,6 +1710,252 @@ ${document.getElementById("pf-edit-json-text").value}`;
         });
     }
 
+    // --------------------------------------------------
+    // Bent Waled Timer Resume Helper
+    // --------------------------------------------------
+    function resumeBentWaledTimer() {
+        if (gameState.timerVal <= 0 || gameState.timerInterval) return;
+        
+        const timerText = document.getElementById("bw-timer-text");
+        const timerBar = document.getElementById("bw-timer-bar");
+        
+        gameState.timerInterval = setInterval(() => {
+            gameState.timerVal--;
+            if (timerText) timerText.textContent = gameState.timerVal;
+
+            const maxTimer = gameState.bwRoundDuration;
+            const offset = 283 - (gameState.timerVal / maxTimer) * 283;
+            if (timerBar) timerBar.style.strokeDashoffset = offset;
+
+            if (gameState.timerVal <= 10) {
+                if (timerText) timerText.style.color = "var(--accent-red)";
+                if (timerBar) timerBar.style.stroke = "var(--accent-red)";
+                if (timerText) timerText.classList.add("warning-active");
+            }
+
+            if (gameState.timerVal <= 0) {
+                clearInterval(gameState.timerInterval);
+                playSynthSfx("wrong");
+                submitBentWaledAnswers();
+            }
+        }, 1000);
+    }
+
+    // --------------------------------------------------
+    // Bent Waled Play & Fix Modal Listeners
+    // --------------------------------------------------
+    const btnBwPfTabForm = document.getElementById("btn-bw-pf-tab-form");
+    const btnBwPfTabJson = document.getElementById("btn-bw-pf-tab-json");
+    const bwPfFormView = document.getElementById("bw-pf-form-editor-view");
+    const bwPfJsonView = document.getElementById("bw-pf-json-editor-view");
+
+    if (btnBwPfTabForm && btnBwPfTabJson) {
+        btnBwPfTabForm.addEventListener("click", () => {
+            playSynthSfx("click");
+            bwPfFormView.style.display = "block";
+            bwPfJsonView.style.display = "none";
+            btnBwPfTabForm.style.background = "var(--primary)";
+            btnBwPfTabForm.style.color = "black";
+            btnBwPfTabJson.style.background = "rgba(255,255,255,0.1)";
+            btnBwPfTabJson.style.color = "white";
+        });
+
+        btnBwPfTabJson.addEventListener("click", () => {
+            playSynthSfx("click");
+            bwPfFormView.style.display = "none";
+            bwPfJsonView.style.display = "block";
+            btnBwPfTabForm.style.background = "rgba(255,255,255,0.1)";
+            btnBwPfTabForm.style.color = "white";
+            btnBwPfTabJson.style.background = "var(--primary)";
+            btnBwPfTabJson.style.color = "black";
+
+            // Update JSON Text area from latest inputs
+            const currentBwJson = {
+                letter: gameState.bwActiveLetter,
+                language: gameState.language,
+                answers: { ...gameState.bwAnswers },
+                grading: { ...gameState.bwGrading }
+            };
+            document.getElementById("bw-pf-edit-json-text").value = JSON.stringify(currentBwJson, null, 4);
+        });
+    }
+
+    const openBwPlayFixModal = () => {
+        // Pause active timer countdown
+        if (gameState.timerInterval) {
+            clearInterval(gameState.timerInterval);
+            gameState.timerInterval = null;
+        }
+
+        // Reset tab view
+        if (btnBwPfTabForm) btnBwPfTabForm.click();
+
+        // Populate fields
+        document.getElementById("bw-pf-edit-letter").value = gameState.bwActiveLetter || "ب";
+        document.getElementById("bw-pf-edit-lang").value = gameState.language || "ar";
+
+        const answersContainer = document.getElementById("bw-pf-answers-list-container");
+        answersContainer.innerHTML = "";
+
+        const trans = BW_TRANSLATIONS[gameState.language] || BW_TRANSLATIONS["en"];
+
+        gameState.bwSelectedCategories.forEach(catKey => {
+            const playerWord = gameState.bwAnswers[catKey] || "";
+            const isCorrect = gameState.bwGrading[catKey] === true;
+            const catLabel = trans[`cat_${catKey}`] || catKey;
+
+            const row = document.createElement("div");
+            row.style.display = "flex";
+            row.style.flexDirection = "column";
+            row.style.gap = "6px";
+            row.style.padding = "10px";
+            row.style.background = "rgba(0,0,0,0.2)";
+            row.style.borderRadius = "8px";
+            row.style.marginBottom = "8px";
+
+            row.innerHTML = `
+                <span style="font-weight: bold; color: var(--primary); font-size: 0.95rem; text-transform: capitalize; text-align: left;">${catLabel}</span>
+                <div style="display: flex; gap: 10px; align-items: center;">
+                    <input type="text" class="bw-pf-input-word" data-category="${catKey}" value="${playerWord.replace(/"/g, '&quot;')}" style="flex: 2; padding: 8px; border-radius: 6px; border: 1px solid rgba(255,255,255,0.2); background: rgba(0,0,0,0.3); color: white;">
+                    <label style="display: flex; align-items: center; gap: 6px; font-size: 0.85rem; cursor: pointer; color: #eee; min-width: 80px;">
+                        <input type="checkbox" class="bw-pf-input-grading" data-category="${catKey}" ${isCorrect ? 'checked' : ''}> Valid
+                    </label>
+                    <button type="button" class="btn btn-secondary btn-bw-pf-add-db" data-category="${catKey}" style="font-size: 0.75rem; padding: 6px 12px; margin: 0; background: rgba(16,185,129,0.15); border: 1px solid #10b981; color: #10b981; border-radius: 6px;">Add to DB 💾</button>
+                </div>
+            `;
+
+            // Add to database button functionality
+            const addBtn = row.querySelector(".btn-bw-pf-add-db");
+            addBtn.addEventListener("click", () => {
+                playSynthSfx("click");
+                const wordInput = row.querySelector(".bw-pf-input-word");
+                const wordVal = wordInput.value.trim();
+                if (!wordVal) {
+                    alert("Please enter a word first!");
+                    return;
+                }
+
+                const payload = {
+                    language: gameState.language,
+                    category: catKey,
+                    answer: wordVal,
+                    letter: gameState.bwActiveLetter,
+                    status: "approved"
+                };
+
+                fetch(`${BACKEND_URL}/api/bw/words`, {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify(payload)
+                })
+                .then(async (res) => {
+                    if (res.ok) {
+                        alert(`Successfully added "${wordVal}" to the database dictionary! 🎉`);
+                        // Set grading checkbox to checked automatically
+                        const checkbox = row.querySelector(".bw-pf-input-grading");
+                        if (checkbox) checkbox.checked = true;
+                    } else {
+                        const err = await res.json();
+                        alert(`Failed to add word: ${err.detail || "Database Error"}`);
+                    }
+                })
+                .catch(err => {
+                    console.error("API Error adding word", err);
+                    alert("Could not reach backend API server.");
+                });
+            });
+
+            answersContainer.appendChild(row);
+        });
+
+        document.getElementById("bw-play-fix-modal").style.display = "flex";
+    };
+
+    const btnBwPlayFixEditPlay = document.getElementById("btn-bw-play-fix-edit-play");
+    if (btnBwPlayFixEditPlay) {
+        btnBwPlayFixEditPlay.addEventListener("click", () => {
+            playSynthSfx("click");
+            openBwPlayFixModal();
+        });
+    }
+
+    const btnBwPlayFixEditReview = document.getElementById("btn-bw-play-fix-edit-review");
+    if (btnBwPlayFixEditReview) {
+        btnBwPlayFixEditReview.addEventListener("click", () => {
+            playSynthSfx("click");
+            openBwPlayFixModal();
+        });
+    }
+
+    const btnBwPfCancel = document.getElementById("btn-bw-pf-cancel");
+    if (btnBwPfCancel) {
+        btnBwPfCancel.addEventListener("click", () => {
+            playSynthSfx("click");
+            document.getElementById("bw-play-fix-modal").style.display = "none";
+            // Resume timer if in play screen
+            const activeScreen = document.querySelector(".screen.active");
+            if (activeScreen && activeScreen.id === "screen-bw-play") {
+                resumeBentWaledTimer();
+            }
+        });
+    }
+
+    const btnBwPfSave = document.getElementById("btn-bw-pf-save");
+    if (btnBwPfSave) {
+        btnBwPfSave.addEventListener("click", () => {
+            playSynthSfx("click");
+            const isJsonActive = bwPfJsonView.style.display === "block";
+
+            if (isJsonActive) {
+                const jsonText = document.getElementById("bw-pf-edit-json-text").value.trim();
+                let parsed;
+                try {
+                    parsed = JSON.parse(jsonText);
+                } catch (e) {
+                    alert("Invalid JSON format! Please check comma placements and quotes.\nError: " + e.message);
+                    return;
+                }
+
+                if (!parsed.answers || typeof parsed.answers !== "object" || !parsed.grading || typeof parsed.grading !== "object") {
+                    alert("Validation Error: JSON must contain 'answers' and 'grading' objects.");
+                    return;
+                }
+
+                gameState.bwAnswers = parsed.answers;
+                gameState.bwGrading = parsed.grading;
+            } else {
+                const container = document.getElementById("bw-pf-answers-list-container");
+                const wordInputs = container.querySelectorAll(".bw-pf-input-word");
+                const gradingChecks = container.querySelectorAll(".bw-pf-input-grading");
+
+                wordInputs.forEach((input, index) => {
+                    const catKey = input.getAttribute("data-category");
+                    const wordVal = input.value.trim();
+                    const isCorrectVal = gradingChecks[index].checked;
+
+                    gameState.bwAnswers[catKey] = wordVal;
+                    gameState.bwGrading[catKey] = isCorrectVal;
+                });
+            }
+
+            // Sync modifications back to visual inputs if in play screen
+            const activeScreen = document.querySelector(".screen.active");
+            if (activeScreen && activeScreen.id === "screen-bw-play") {
+                gameState.bwSelectedCategories.forEach(catKey => {
+                    const inputField = document.getElementById(`bw-input-${catKey}`);
+                    if (inputField) inputField.value = gameState.bwAnswers[catKey] || "";
+                });
+                resumeBentWaledTimer();
+            } else if (activeScreen && activeScreen.id === "screen-bw-review") {
+                // Re-render review list to update grading check status
+                renderBentWaledReviewScreen();
+            }
+
+            document.getElementById("bw-play-fix-modal").style.display = "none";
+            saveLocalGameState();
+        });
+    }
+
     // Question Feedback event listeners
     let selectedRating = null;
     const feedbackButtons = document.querySelectorAll(".feedback-btn");
@@ -3579,6 +3825,10 @@ function launchBentWaledGameplay() {
     }, 1000);
 
     showScreen("screen-bw-play");
+    const btnBwPlayFixPlay = document.getElementById("btn-bw-play-fix-edit-play");
+    if (btnBwPlayFixPlay) {
+        btnBwPlayFixPlay.style.display = gameState.playAndFix ? "inline-block" : "none";
+    }
 }
 
 function validatePrefixLetter(word, letter) {
@@ -3801,6 +4051,10 @@ function renderBentWaledReview() {
 
     tallyBentWaledScore();
     showScreen("screen-bw-review");
+    const btnBwPlayFixReview = document.getElementById("btn-bw-play-fix-edit-review");
+    if (btnBwPlayFixReview) {
+        btnBwPlayFixReview.style.display = gameState.playAndFix ? "block" : "none";
+    }
 }
 
 function tallyBentWaledScore() {
@@ -3991,11 +4245,16 @@ function updateBwUILanguage(lang) {
     const tDesc = document.getElementById("lbl-mode-desc-talla3");
     const bwTitle = document.getElementById("lbl-mode-title-bw");
     const bwDesc = document.getElementById("lbl-mode-desc-bw");
+    const btnPlayBw = document.getElementById("btn-play-bw-solo");
 
     if (tTitle) tTitle.textContent = trans.mode_title_talla3;
     if (tDesc) tDesc.textContent = trans.mode_desc_talla3;
     if (bwTitle) bwTitle.textContent = trans.mode_title_bw;
     if (bwDesc) bwDesc.textContent = trans.mode_desc_bw;
+    if (btnPlayBw) {
+        const btnSpan = btnPlayBw.querySelector("span");
+        if (btnSpan) btnSpan.textContent = trans.btn_play_bw || "🎮 Play";
+    }
 
     // Update Setup labels
     const setupTitle = document.getElementById("bw-setup-title-text");
@@ -4092,10 +4351,11 @@ function updateBwUILanguage(lang) {
 // Register translations on load
 const BW_TRANSLATIONS = {
     ar: {
-        mode_title_talla3: "طلّع 9",
+        mode_title_talla3: "اذكر 9",
         mode_desc_talla3: "أجب بـ 9 إجابات صحيحة وتجنّب الفخ",
         mode_title_bw: "بنت ولد",
         mode_desc_bw: "لعبة الحروف والأسماء المشهورة (فردي / محلي)",
+        btn_play_bw: "🎮 ابدأ اللعب",
         setup_title: "إعدادات بنت ولد",
         categories_header: "📋 المحاور المفضلة:",
         duration_label: "⏱️ مدة الجولة:",
@@ -4120,6 +4380,14 @@ const BW_TRANSLATIONS = {
         cat_food: "ماكلة",
         valid_badge: "صحيح",
         invalid_badge: "خاطئ",
+        focus_cat_boy: "ولد",
+        focus_cat_girl: "بنت",
+        focus_cat_country: "بلاد",
+        focus_cat_animal: "حيوان",
+        focus_cat_object: "جماد",
+        focus_cat_plant: "نبات/غلة",
+        focus_cat_profession: "خدمة",
+        focus_cat_food: "ماكلة",
         spinner_title: "اختيار الحرف العشوائي",
         spinner_subtitle: "جاري تدوير عجلة الحروف...",
         countdown_prefix: "ستبدأ اللعبة بعد:",
@@ -4143,10 +4411,11 @@ const BW_TRANSLATIONS = {
         tbl_score: "النقاط"
     },
     tn: {
-        mode_title_talla3: "اذكر 9",
+        mode_title_talla3: "طلّع 9",
         mode_desc_talla3: "جاوب بـ 9 إجابات صحيحة وأبعد عالفخ",
         mode_title_bw: "بنت ولد",
         mode_desc_bw: "لعبة الحروف والأسماء المشهورة (فردي / محلي)",
+        btn_play_bw: "🎮 ابدأ اللعب",
         setup_title: "إعدادات بنت ولد",
         categories_header: "📋 المحاور النشطة:",
         duration_label: "⏱️ وقت اللعب:",
@@ -4198,6 +4467,7 @@ const BW_TRANSLATIONS = {
         mode_desc_talla3: "Donnez 9 réponses correctes et évitez le piège",
         mode_title_bw: "Fille Garçon",
         mode_desc_bw: "Le jeu classique du petit baccalauréat (solo / local)",
+        btn_play_bw: "🎮 Jouer",
         setup_title: "Configuration Fille Garçon",
         categories_header: "📋 Catégories actives :",
         duration_label: "⏱️ Durée de la manche :",
@@ -4249,6 +4519,7 @@ const BW_TRANSLATIONS = {
         mode_desc_talla3: "Give 9 correct answers and avoid the trap",
         mode_title_bw: "Girl Boy",
         mode_desc_bw: "The classic categories word game (solo / local)",
+        btn_play_bw: "🎮 Play",
         setup_title: "Girl Boy Settings",
         categories_header: "📋 Active Categories:",
         duration_label: "⏱️ Round Duration:",
