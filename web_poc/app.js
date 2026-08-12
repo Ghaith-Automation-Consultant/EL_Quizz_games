@@ -290,7 +290,7 @@ const playSynthSfx = (type) => {
 let dbCategories = [];
 
 let gameConfig = {
-    rounds: 2,
+    rounds: 5,
     teamsCount: 2,
     roundDuration: 60,
     selectedCategories: [],
@@ -2026,7 +2026,7 @@ function handleAnswerReveal(card, ans, index) {
         playSynthSfx("click");
         
         gameState.guessedAnswerIds.delete(index);
-        gameState.pointsGainedThisTurn = Math.max(0, gameState.pointsGainedThisTurn - ans.points);
+        gameState.pointsGainedThisTurn = gameState.pointsGainedThisTurn - ans.points;
         card.innerHTML = `
             <div class="answer-details unrevealed">
                 <span class="answer-text">${ansText}</span>
@@ -2073,7 +2073,7 @@ function handleAnswerReveal(card, ans, index) {
             playSynthSfx("wrong");
             
             gameState.wrongGuessesCount++;
-            gameState.pointsGainedThisTurn = Math.max(0, gameState.pointsGainedThisTurn - 5);
+            gameState.pointsGainedThisTurn -= 5;
             
             card.innerHTML = `
                 <div class="answer-details" style="color: #ffcccc;">
@@ -2146,7 +2146,7 @@ function endTurnAndDisplayGraph(skipSave = false) {
     
     // Save round points for active team
     const activeTeam = teams[gameState.currentTeamIndex];
-    activeTeam.score += gameState.pointsGainedThisTurn;
+    activeTeam.score = Math.max(0, activeTeam.score + gameState.pointsGainedThisTurn);
     activeTeam.roundScoresHistory.push(gameState.pointsGainedThisTurn);
 
     document.getElementById("graph-round-num").textContent = gameState.currentRound;
@@ -2287,8 +2287,25 @@ function renderSVGPointsChart() {
         valText.setAttribute("x", x + barWidth / 2);
         valText.setAttribute("y", y - 10);
         valText.setAttribute("class", "chart-score-text");
-        valText.textContent = `+${team.roundScoresHistory[team.roundScoresHistory.length - 1]}`;
+        
+        const scoreVal = team.roundScoresHistory[team.roundScoresHistory.length - 1];
+        if (scoreVal === undefined) {
+            valText.textContent = "+0";
+        } else if (scoreVal >= 0) {
+            valText.textContent = `+${scoreVal}`;
+        } else {
+            valText.textContent = `${scoreVal}`;
+        }
         chart.appendChild(valText);
+
+        // Total score precision label
+        const totalLabel = document.createElementNS("http://www.w3.org/2000/svg", "text");
+        totalLabel.setAttribute("x", x + barWidth / 2);
+        totalLabel.setAttribute("y", margin.top + chartH + 38);
+        totalLabel.setAttribute("class", "chart-text");
+        totalLabel.setAttribute("style", "text-anchor: middle; font-weight: 800; fill: var(--primary); font-size: 0.85rem;");
+        totalLabel.textContent = `${team.score} pts`;
+        chart.appendChild(totalLabel);
     });
 }
 
