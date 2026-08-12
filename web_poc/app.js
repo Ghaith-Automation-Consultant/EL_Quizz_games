@@ -1044,6 +1044,9 @@ function setupEventBindings() {
     if (btnBwFinishLobby) {
         btnBwFinishLobby.addEventListener("click", () => {
             playSynthSfx("click");
+            if (gameState.bwPlayMode === "solo") {
+                saveBentWaledSoloStats();
+            }
             showScreen("screen-home");
         });
     }
@@ -3438,12 +3441,37 @@ const EN_ALPHABET = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L",
 function initBentWaledSetupScreen() {
     // Load Solo Stats
     gameState.bwSoloStreak = parseInt(localStorage.getItem("el_quizz_bw_streak") || "0");
-    gameState.bwSoloHighScore = parseInt(localStorage.getItem("el_quizz_bw_highscore") || "0");
+    
+    // Load per-letter highscores
+    let highScores = {};
+    try {
+        highScores = JSON.parse(localStorage.getItem("el_quizz_bw_highscores") || "{}");
+    } catch(e) {
+        highScores = {};
+    }
+
+    let maxLetter = "";
+    let maxScore = 0;
+    for (const [letter, score] of Object.entries(highScores)) {
+        if (score > maxScore) {
+            maxScore = score;
+            maxLetter = letter;
+        }
+    }
+    
+    gameState.bwSoloHighScore = maxScore;
+    localStorage.setItem("el_quizz_bw_highscore", maxScore.toString());
     
     const streakEl = document.getElementById("bw-solo-streak");
     const hsEl = document.getElementById("bw-solo-highscore");
     if (streakEl) streakEl.textContent = `${gameState.bwSoloStreak} 🔥`;
-    if (hsEl) hsEl.textContent = `${gameState.bwSoloHighScore} pts`;
+    if (hsEl) {
+        if (maxScore > 0) {
+            hsEl.textContent = `${maxScore} pts (${maxLetter})`;
+        } else {
+            hsEl.textContent = `0 pts`;
+        }
+    }
 
     // Render PlayMode tabs default states
     gameState.bwPlayMode = "solo";
@@ -3731,6 +3759,25 @@ function launchBentWaledGameplay() {
 
     // Set active letter
     document.getElementById("bw-active-letter-badge").textContent = gameState.bwActiveLetter;
+
+    // Load and display active letter highscore
+    const activeLetter = gameState.bwActiveLetter || "ب";
+    let highScores = {};
+    try {
+        highScores = JSON.parse(localStorage.getItem("el_quizz_bw_highscores") || "{}");
+    } catch(e) {}
+    const letterHighScore = highScores[activeLetter] || 0;
+    
+    const hsContainer = document.getElementById("bw-play-letter-highscore-container");
+    const hsVal = document.getElementById("bw-play-letter-highscore");
+    if (hsContainer && hsVal) {
+        if (gameState.bwPlayMode === "solo") {
+            hsVal.textContent = `${letterHighScore} pts`;
+            hsContainer.style.display = "flex";
+        } else {
+            hsContainer.style.display = "none";
+        }
+    }
 
     // Render headers displaying Player Name + Round Context
     const headerTitle = document.getElementById("bw-gameplay-header-title");
@@ -4049,6 +4096,30 @@ function renderBentWaledReview() {
         }
     }
 
+    // Load and display active letter highscore in review screen
+    const activeLetterReview = gameState.bwActiveLetter || "ب";
+    let highScoresReview = {};
+    try {
+        highScoresReview = JSON.parse(localStorage.getItem("el_quizz_bw_highscores") || "{}");
+    } catch(e) {}
+    const letterHighScoreReview = highScoresReview[activeLetterReview] || 0;
+
+    const reviewHsContainer = document.getElementById("bw-review-highscore-container");
+    const reviewHsVal = document.getElementById("bw-review-highscore-val");
+    if (reviewHsContainer && reviewHsVal) {
+        if (gameState.bwPlayMode === "solo") {
+            const labelPrefix = (gameState.language === "ar" || gameState.language === "tn")
+                ? `الرقم القياسي للحرف (${activeLetterReview}):`
+                : (gameState.language === "fr" ? `Record de la lettre (${activeLetterReview}) :` : `High Score for Letter (${activeLetterReview}):`);
+            reviewHsVal.textContent = `${letterHighScoreReview} pts`;
+            const labelSpan = reviewHsContainer.querySelector("span:first-child");
+            if (labelSpan) labelSpan.textContent = "🏆 " + labelPrefix;
+            reviewHsContainer.style.display = "flex";
+        } else {
+            reviewHsContainer.style.display = "none";
+        }
+    }
+
     tallyBentWaledScore();
     showScreen("screen-bw-review");
     const btnBwPlayFixReview = document.getElementById("btn-bw-play-fix-edit-review");
@@ -4074,33 +4145,55 @@ function tallyBentWaledScore() {
     document.getElementById("bw-total-score-badge").innerHTML = `${score} <span style="font-size: 1.2rem;">${trans.points_unit}</span>`;
 }
 
+function saveBentWaledSoloStats() {
+    if (gameState.bwPlayMode !== "solo") return;
+
+    const requiredAnswers = Math.ceil(gameState.bwSelectedCategories.length / 2);
+    let correctAnswers = 0;
+    gameState.bwSelectedCategories.forEach(catKey => {
+        if (gameState.bwGrading[catKey] === true && (gameState.bwAnswers[catKey] || "").trim().length > 0) {
+            correctAnswers++;
+        }
+    });
+
+    if (correctAnswers >= requiredAnswers) {
+        gameState.bwSoloStreak++;
+        playSynthSfx("correct");
+    } else {
+        gameState.bwSoloStreak = 0;
+        playSynthSfx("wrong");
+    }
+
+    const activeLetter = gameState.bwActiveLetter || "ب";
+    let highScores = {};
+    try {
+        highScores = JSON.parse(localStorage.getItem("el_quizz_bw_highscores") || "{}");
+    } catch(e) {
+        highScores = {};
+    }
+
+    const currentLetterHighScore = highScores[activeLetter] || 0;
+    if (gameState.bwScore > currentLetterHighScore) {
+        highScores[activeLetter] = gameState.bwScore;
+    }
+
+    // Compute overall max highscore
+    let maxOverall = 0;
+    for (const score of Object.values(highScores)) {
+        if (score > maxOverall) {
+            maxOverall = score;
+        }
+    }
+    gameState.bwSoloHighScore = maxOverall;
+
+    localStorage.setItem("el_quizz_bw_streak", gameState.bwSoloStreak.toString());
+    localStorage.setItem("el_quizz_bw_highscore", gameState.bwSoloHighScore.toString());
+    localStorage.setItem("el_quizz_bw_highscores", JSON.stringify(highScores));
+}
+
 function handleBentWaledNextTurnClick() {
     if (gameState.bwPlayMode === "solo") {
-        // Solo mode restart directly
-        // Save Solo Streak & Highscore
-        const requiredAnswers = Math.ceil(gameState.bwSelectedCategories.length / 2);
-        let correctAnswers = 0;
-        gameState.bwSelectedCategories.forEach(catKey => {
-            if (gameState.bwGrading[catKey] === true && (gameState.bwAnswers[catKey] || "").trim().length > 0) {
-                correctAnswers++;
-            }
-        });
-
-        if (correctAnswers >= requiredAnswers) {
-            gameState.bwSoloStreak++;
-            playSynthSfx("correct");
-        } else {
-            gameState.bwSoloStreak = 0;
-            playSynthSfx("wrong");
-        }
-
-        if (gameState.bwScore > gameState.bwSoloHighScore) {
-            gameState.bwSoloHighScore = gameState.bwScore;
-        }
-
-        localStorage.setItem("el_quizz_bw_streak", gameState.bwSoloStreak.toString());
-        localStorage.setItem("el_quizz_bw_highscore", gameState.bwSoloHighScore.toString());
-
+        saveBentWaledSoloStats();
         // Restart turn (spins another letter)
         startBentWaledRound();
     } else {
