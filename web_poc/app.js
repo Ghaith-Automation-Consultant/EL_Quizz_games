@@ -894,10 +894,24 @@ function renderUniversesList() {
     
     listContainer.innerHTML = universesList.map((univ) => {
         const isSelected = gameConfig.selectedUniverseId === univ.id;
+        
+        // Custom visual theme based on universe names
+        let icon = "🌌";
+        let extraCardStyle = "";
+        const uName = (univ.name || "").toLowerCase();
+        
+        if (uName.includes("choufli")) {
+            icon = "📺";
+            extraCardStyle = "border-left: 4px solid var(--accent-yellow); padding-left: 10px;";
+        } else if (uName.includes("spacetoon")) {
+            icon = "🚀";
+            extraCardStyle = "border-left: 4px solid #6366f1; padding-left: 10px;";
+        }
+
         return `
-            <div class="universe-select-item" data-id="${univ.id}" style="display: flex; flex-direction: column; padding: 12px; background: ${isSelected ? 'rgba(78, 159, 61, 0.15)' : 'rgba(255,255,255,0.03)'}; border: 1px solid ${isSelected ? 'var(--primary)' : 'rgba(255,255,255,0.1)'}; border-radius: 10px; cursor: pointer; transition: var(--transition-fast); margin-bottom: 8px;">
+            <div class="universe-select-item" data-id="${univ.id}" style="display: flex; flex-direction: column; padding: 12px; background: ${isSelected ? 'rgba(78, 159, 61, 0.15)' : 'rgba(255,255,255,0.03)'}; border: 1px solid ${isSelected ? 'var(--primary)' : 'rgba(255,255,255,0.1)'}; border-radius: 10px; cursor: pointer; transition: var(--transition-fast); margin-bottom: 8px; ${extraCardStyle}">
                 <div style="display: flex; justify-content: space-between; align-items: center;">
-                    <span style="font-weight: bold; color: ${isSelected ? 'var(--accent-yellow)' : '#fff'}; font-size: 0.95rem;">${univ.name}</span>
+                    <span style="font-weight: bold; color: ${isSelected ? 'var(--accent-yellow)' : '#fff'}; font-size: 0.95rem;">${icon} ${univ.name}</span>
                     <input type="radio" name="selected-universe-radio" value="${univ.id}" ${isSelected ? 'checked' : ''} style="cursor: pointer;">
                 </div>
                 ${univ.description ? `<span style="font-size: 0.78rem; color: #aaa; margin-top: 4px;">${univ.description}</span>` : ''}
