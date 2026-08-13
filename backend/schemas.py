@@ -100,6 +100,7 @@ class QuestionResponse(BaseModel):
     created_at: Optional[datetime]
     answers: List[AnswerResponse]
     translations: List[QuestionTextResponse]
+    universe_ids: List[int] = []
 
     class Config:
         from_attributes = True
@@ -169,3 +170,21 @@ class GamePlayLogUpdate(BaseModel):
     status: str
     score: int = 0
     duration_seconds: int = 0
+
+class UniverseBase(BaseModel):
+    name: str
+    description: Optional[str] = None
+
+class UniverseCreate(UniverseBase):
+    pass
+
+class UniverseResponse(UniverseBase):
+    id: int
+    created_at: datetime
+
+    class Config:
+        from_attributes = True
+
+class UniverseQuestionLink(BaseModel):
+    universe_id: int
+    question_id: int

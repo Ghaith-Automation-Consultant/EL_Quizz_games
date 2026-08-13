@@ -184,7 +184,8 @@ function mapDatabaseQuestion(dbQ) {
         translations: qTranslations,
         category: dbQ.category,
         subcategory: dbQ.subcategory,
-        answers: mappedAnswers
+        answers: mappedAnswers,
+        universe_ids: dbQ.universe_ids || []
     };
 }
 
@@ -294,7 +295,8 @@ let gameConfig = {
     teamsCount: 2,
     roundDuration: 60,
     selectedCategories: [],
-    selectedSubcategories: []
+    selectedSubcategories: [],
+    selectedUniverseId: null
 };
 
 let teams = [];
@@ -589,6 +591,46 @@ document.addEventListener("DOMContentLoaded", async () => {
     setupCategoriesList();
     setupEventBindings();
     loadQuestionsFromDatabase();
+    loadUniversesFromDatabase();
+
+    // Mode Switcher for Name 9 (Categories vs Universe)
+    const btnConfigModeCategories = document.getElementById("btn-config-mode-categories");
+    const btnConfigModeUniverse = document.getElementById("btn-config-mode-universe");
+    const configCategoriesView = document.getElementById("config-categories-view");
+    const configUniverseView = document.getElementById("config-universe-view");
+
+    if (btnConfigModeCategories && btnConfigModeUniverse) {
+        btnConfigModeCategories.addEventListener("click", () => {
+            playSynthSfx("click");
+            btnConfigModeCategories.style.background = "var(--primary)";
+            btnConfigModeCategories.style.color = "var(--text-dark)";
+            btnConfigModeUniverse.style.background = "rgba(255,255,255,0.07)";
+            btnConfigModeUniverse.style.color = "white";
+            btnConfigModeUniverse.style.border = "1px solid rgba(255,255,255,0.15)";
+            
+            configCategoriesView.style.display = "block";
+            configUniverseView.style.display = "none";
+            
+            gameConfig.selectedUniverseId = null;
+        });
+
+        btnConfigModeUniverse.addEventListener("click", () => {
+            playSynthSfx("click");
+            btnConfigModeUniverse.style.background = "var(--primary)";
+            btnConfigModeUniverse.style.color = "var(--text-dark)";
+            btnConfigModeCategories.style.background = "rgba(255,255,255,0.07)";
+            btnConfigModeCategories.style.color = "white";
+            btnConfigModeCategories.style.border = "1px solid rgba(255,255,255,0.15)";
+            
+            configCategoriesView.style.display = "none";
+            configUniverseView.style.display = "block";
+            
+            if (!gameConfig.selectedUniverseId && universesList.length > 0) {
+                gameConfig.selectedUniverseId = universesList[0].id;
+            }
+            renderUniversesList();
+        });
+    }
     
     // Check local storage persistence
     checkResumeLocalGame();
@@ -824,6 +866,52 @@ function setupCategoriesList() {
                 const checkedCount = itemDiv.querySelectorAll(".subcat-checkbox:checked").length;
                 parentCheckbox.checked = (checkedCount > 0);
             });
+        });
+    });
+}
+
+let universesList = [];
+async function loadUniversesFromDatabase() {
+    try {
+        const response = await fetch(`${BACKEND_URL}/api/universes`);
+        if (response.ok) {
+            universesList = await response.json();
+            renderUniversesList();
+        }
+    } catch (err) {
+        console.warn("Could not load universes list from backend.", err);
+    }
+}
+
+function renderUniversesList() {
+    const listContainer = document.getElementById("universe-select-list");
+    if (!listContainer) return;
+    
+    if (universesList.length === 0) {
+        listContainer.innerHTML = `<div style="text-align: center; color: #888; font-style: italic; padding: 15px;">No universes found. Create one in the Admin dashboard!</div>`;
+        return;
+    }
+    
+    listContainer.innerHTML = universesList.map((univ) => {
+        const isSelected = gameConfig.selectedUniverseId === univ.id;
+        return `
+            <div class="universe-select-item" data-id="${univ.id}" style="display: flex; flex-direction: column; padding: 12px; background: ${isSelected ? 'rgba(78, 159, 61, 0.15)' : 'rgba(255,255,255,0.03)'}; border: 1px solid ${isSelected ? 'var(--primary)' : 'rgba(255,255,255,0.1)'}; border-radius: 10px; cursor: pointer; transition: var(--transition-fast); margin-bottom: 8px;">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <span style="font-weight: bold; color: ${isSelected ? 'var(--accent-yellow)' : '#fff'}; font-size: 0.95rem;">${univ.name}</span>
+                    <input type="radio" name="selected-universe-radio" value="${univ.id}" ${isSelected ? 'checked' : ''} style="cursor: pointer;">
+                </div>
+                ${univ.description ? `<span style="font-size: 0.78rem; color: #aaa; margin-top: 4px;">${univ.description}</span>` : ''}
+            </div>
+        `;
+    }).join("");
+    
+    const items = listContainer.querySelectorAll(".universe-select-item");
+    items.forEach(item => {
+        item.addEventListener("click", () => {
+            playSynthSfx("click");
+            const uId = parseInt(item.getAttribute("data-id"));
+            gameConfig.selectedUniverseId = uId;
+            renderUniversesList();
         });
     });
 }
@@ -1248,26 +1336,37 @@ function setupEventBindings() {
         gameConfig.teamsCount = parseInt(document.getElementById("teams-count").textContent);
         gameConfig.roundDuration = parseInt(document.getElementById("timer-duration").textContent);
         
-        // Save Categories & Subcategories
-        gameConfig.selectedCategories = [];
-        gameConfig.selectedSubcategories = [];
-        
-        document.querySelectorAll(".parent-category-checkbox:checked").forEach(cb => {
-            gameConfig.selectedCategories.push(cb.value);
-        });
+        // Save Categories & Subcategories or Universe
+        const isUniverseMode = document.getElementById("config-universe-view").style.display === "block";
+        if (isUniverseMode) {
+            if (!gameConfig.selectedUniverseId) {
+                alert("Please select a Universe pack to play!");
+                return;
+            }
+            gameConfig.selectedCategories = [];
+            gameConfig.selectedSubcategories = [];
+        } else {
+            gameConfig.selectedUniverseId = null;
+            gameConfig.selectedCategories = [];
+            gameConfig.selectedSubcategories = [];
+            
+            document.querySelectorAll(".parent-category-checkbox:checked").forEach(cb => {
+                gameConfig.selectedCategories.push(cb.value);
+            });
 
-        document.querySelectorAll(".subcat-checkbox:checked").forEach(cb => {
-            const catName = cb.getAttribute("data-category");
-            const subcatName = cb.value;
-            gameConfig.selectedSubcategories.push(`${catName}:${subcatName}`);
-        });
+            document.querySelectorAll(".subcat-checkbox:checked").forEach(cb => {
+                const catName = cb.getAttribute("data-category");
+                const subcatName = cb.value;
+                gameConfig.selectedSubcategories.push(`${catName}:${subcatName}`);
+            });
 
-        if (gameConfig.selectedSubcategories.length === 0) {
-            const errMsg = (gameState.language === "ar" || gameState.language === "tn")
-                ? "يرجى اختيار محور فرعي واحد على الأقل للعب!"
-                : (gameState.language === "fr" ? "Veuillez sélectionner au moins une sous-catégorie pour jouer !" : "Please select at least one subcategory to play!");
-            alert(errMsg);
-            return;
+            if (gameConfig.selectedSubcategories.length === 0) {
+                const errMsg = (gameState.language === "ar" || gameState.language === "tn")
+                    ? "يرجى اختيار محور فرعي واحد على الأقل للعب!"
+                    : (gameState.language === "fr" ? "Veuillez sélectionner au moins une sous-catégorie pour jouer !" : "Please select at least one subcategory to play!");
+                alert(errMsg);
+                return;
+            }
         }
 
         renderTeamsSetup();
@@ -2313,8 +2412,11 @@ function prepareIntroScreen() {
     document.getElementById("intro-team-icon").textContent = activeTeam.icon;
     document.getElementById("intro-team-name").textContent = activeTeam.name;
 
-    // Pick a question matching configured categories & subcategories
+    // Pick a question matching configured categories & subcategories or selected universe
     const availableQuestions = QUESTIONS_DB.filter(q => {
+        if (gameConfig.selectedUniverseId) {
+            return q.universe_ids && q.universe_ids.includes(gameConfig.selectedUniverseId) && !gameState.roundQuestionsUsed.has(q.id);
+        }
         const subcatKey = `${q.category}:${q.subcategory || "General"}`;
         return gameConfig.selectedSubcategories.includes(subcatKey) && !gameState.roundQuestionsUsed.has(q.id);
     });

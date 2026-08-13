@@ -79,6 +79,7 @@ class Question(Base):
     translations = relationship("QuestionText", back_populates="question", cascade="all, delete-orphan")
     stats = relationship("QuestionStats", back_populates="question", uselist=False, cascade="all, delete-orphan")
     feedbacks = relationship("Feedback", back_populates="question", cascade="all, delete-orphan")
+    universe_links = relationship("UniverseQuestion", back_populates="question", cascade="all, delete-orphan")
 
     @property
     def text(self) -> str:
@@ -90,6 +91,10 @@ class Question(Base):
     @property
     def language(self) -> str:
         return self.translations[0].language if self.translations else "ar"
+
+    @property
+    def universe_ids(self) -> list:
+        return [link.universe_id for link in self.universe_links]
 
     @property
     def category(self) -> str:
@@ -239,5 +244,29 @@ class GamePlayLog(Base):
     score = Column(Integer, default=0)
     duration_seconds = Column(Integer, default=0)
     created_at = Column(DateTime, default=datetime.utcnow, index=True)
+
+class Universe(Base):
+    __tablename__ = "universes"
+
+    id = Column(Integer, primary_key=True, index=True)
+    name = Column(String(100), nullable=False, unique=True, index=True)
+    description = Column(String(500), nullable=True)
+    created_at = Column(DateTime, default=datetime.utcnow)
+
+    questions = relationship("UniverseQuestion", back_populates="universe", cascade="all, delete-orphan")
+
+class UniverseQuestion(Base):
+    __tablename__ = "universe_questions"
+
+    id = Column(Integer, primary_key=True, index=True)
+    universe_id = Column(Integer, ForeignKey("universes.id", ondelete="CASCADE"), nullable=False)
+    question_id = Column(Integer, ForeignKey("questions.id", ondelete="CASCADE"), nullable=False)
+
+    universe = relationship("Universe", back_populates="questions")
+    question = relationship("Question", back_populates="universe_links")
+
+    __table_args__ = (
+        UniqueConstraint('universe_id', 'question_id', name='uq_universe_question'),
+    )
 
 

@@ -238,10 +238,27 @@
                 </div>
             </div>
 
-            <div class="categories-selection">
-                <h3 class="config-subtitle" data-i18n="categories_label">المحاور المتوفرة</h3>
-                <div id="categories-list" class="tags-container">
-                    <!-- Dynamic rendering of categories checkboxes -->
+            <div class="categories-selection" style="margin-top: 1.5rem;">
+                <!-- Config selection mode switcher tabs -->
+                <div style="display: flex; gap: 10px; margin-bottom: 15px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 10px;">
+                    <button id="btn-config-mode-categories" type="button" class="btn" style="flex: 1; padding: 10px; border-radius: 8px; background: var(--primary); color: var(--text-dark); font-weight: bold; border: none; cursor: pointer; font-size: 0.85rem;">المحاور / Categories</button>
+                    <button id="btn-config-mode-universe" type="button" class="btn" style="flex: 1; padding: 10px; border-radius: 8px; background: rgba(255,255,255,0.07); color: white; border: 1px solid rgba(255,255,255,0.15); cursor: pointer; font-size: 0.85rem;">العوالم / Universes 🌌</button>
+                </div>
+
+                <!-- Categories & Subcategories Config View -->
+                <div id="config-categories-view">
+                    <h3 class="config-subtitle" data-i18n="categories_label">المحاور المتوفرة</h3>
+                    <div id="categories-list" class="tags-container">
+                        <!-- Dynamic rendering of categories checkboxes -->
+                    </div>
+                </div>
+
+                <!-- Universes Pack Selection View -->
+                <div id="config-universe-view" style="display: none; text-align: left;">
+                    <h3 class="config-subtitle" style="color: var(--accent-yellow); margin-bottom: 10px;">اختر عالم / Select Universe</h3>
+                    <div id="universe-select-list" style="display: flex; flex-direction: column; gap: 10px; max-height: 250px; overflow-y: auto; padding: 5px;">
+                        <!-- Dynamic list of universes -->
+                    </div>
                 </div>
             </div>
 

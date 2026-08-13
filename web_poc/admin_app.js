@@ -304,6 +304,8 @@ async function init() {
                 } else {
                     renderCrudTable();
                 }
+            } else if (tabId === "tab-universes") {
+                loadUniversesAdmin();
             }
         });
     });
@@ -560,6 +562,7 @@ async function init() {
     const initialMode = modeSelect ? modeSelect.value : "talla3";
     switchAdminMode(initialMode);
     populateSubcategoryDropdowns();
+    initUniversesAdminBindings();
 }
 
 // Render visualizations & cards
@@ -2649,6 +2652,250 @@ function renderHistogram(containerId, histogramData, colorClass = "var(--primary
         
         container.appendChild(barWrapper);
     });
+}
+
+let adminUniverses = [];
+let adminSelectedUniverseId = null;
+let adminAllDbQuestions = [];
+
+async function loadUniversesAdmin() {
+    try {
+        const response = await fetch(`${BACKEND_URL}/api/universes`);
+        if (response.ok) {
+            adminUniverses = await response.json();
+            renderAdminUniversesList();
+            // Automatically select first universe if none is selected
+            if (adminUniverses.length > 0 && !adminSelectedUniverseId) {
+                selectAdminUniverse(adminUniverses[0].id);
+            }
+        }
+    } catch (err) {
+        console.error("Error loading universes in admin panel", err);
+    }
+}
+
+function renderAdminUniversesList() {
+    const listContainer = document.getElementById("admin-universes-list");
+    if (!listContainer) return;
+
+    if (adminUniverses.length === 0) {
+        listContainer.innerHTML = `<div style="text-align: center; color: #888; font-style: italic; padding: 10px;">No universes created.</div>`;
+        return;
+    }
+
+    listContainer.innerHTML = adminUniverses.map(univ => {
+        const isActive = adminSelectedUniverseId === univ.id;
+        return `
+            <div class="universe-item" data-id="${univ.id}" style="padding: 10px; background: ${isActive ? 'rgba(78, 159, 61, 0.15)' : 'rgba(255,255,255,0.02)'}; border: 1px solid ${isActive ? 'var(--primary-color)' : 'rgba(255,255,255,0.05)'}; border-radius: 8px; cursor: pointer; transition: all 0.2s; margin-bottom: 8px;">
+                <span style="font-weight: bold; color: ${isActive ? 'var(--accent-color)' : '#fff'}; font-size: 0.9rem; display: block;">${univ.name}</span>
+                ${univ.description ? `<span style="font-size: 0.72rem; color: #999; display: block; margin-top: 2px;">${univ.description}</span>` : ''}
+            </div>
+        `;
+    }).join("");
+
+    const items = listContainer.querySelectorAll(".universe-item");
+    items.forEach(item => {
+        item.addEventListener("click", () => {
+            const uId = parseInt(item.getAttribute("data-id"));
+            selectAdminUniverse(uId);
+        });
+    });
+}
+
+async function selectAdminUniverse(universeId) {
+    adminSelectedUniverseId = universeId;
+    renderAdminUniversesList();
+
+    const univ = adminUniverses.find(u => u.id === universeId);
+    if (!univ) return;
+
+    document.getElementById("admin-selected-universe-title").textContent = `Universe: ${univ.name} 🌌`;
+    document.getElementById("admin-selected-universe-desc").textContent = univ.description || "No description provided.";
+    document.getElementById("admin-universe-questions-panel").style.display = "block";
+
+    await Promise.all([
+        loadUniverseQuestions(universeId),
+        loadAvailableQuestionsForUniverse(universeId)
+    ]);
+}
+
+async function loadUniverseQuestions(universeId) {
+    try {
+        const response = await fetch(`${BACKEND_URL}/api/universes/${universeId}/questions`);
+        if (response.ok) {
+            const linkedQuestions = await response.json();
+            renderUniverseQuestionsTable(linkedQuestions);
+        }
+    } catch (err) {
+        console.error("Error fetching universe questions", err);
+    }
+}
+
+function renderUniverseQuestionsTable(questions) {
+    const tbody = document.getElementById("admin-universe-questions-table-body");
+    if (!tbody) return;
+
+    if (questions.length === 0) {
+        tbody.innerHTML = `<tr><td colspan="4" style="text-align: center; color: #888; padding: 15px; font-style: italic;">No questions linked to this universe yet. Link an existing question below!</td></tr>`;
+        return;
+    }
+
+    tbody.innerHTML = questions.map(q => {
+        let qText = q.text;
+        if (q.translations && q.translations.length > 0) {
+            const arTr = q.translations.find(t => t.language === "ar") || q.translations[0];
+            qText = arTr.text;
+        }
+
+        return `
+            <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+                <td style="padding: 10px; color: var(--accent-color); font-weight: bold;">${q.id}</td>
+                <td style="padding: 10px; font-weight: 600;">${q.category}</td>
+                <td style="padding: 10px; font-size: 0.85rem; max-width: 400px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${qText}</td>
+                <td style="padding: 10px; text-align: center;">
+                    <button class="btn btn-secondary" onclick="unlinkQuestionFromUniverse(${adminSelectedUniverseId}, ${q.id})" style="padding: 4px 8px; margin: 0; font-size: 0.72rem; background: rgba(217,32,39,0.15); border: 1px solid #d92027; color: #d92027; border-radius: 4px; cursor: pointer;">Unlink ❌</button>
+                </td>
+            </tr>
+        `;
+    }).join("");
+}
+
+async function loadAvailableQuestionsForUniverse(universeId) {
+    try {
+        if (adminAllDbQuestions.length === 0) {
+            const response = await fetch(`${BACKEND_URL}/api/questions/list`);
+            if (response.ok) {
+                adminAllDbQuestions = await response.json();
+            }
+        }
+
+        const linkedRes = await fetch(`${BACKEND_URL}/api/universes/${universeId}/questions`);
+        let linkedIds = [];
+        if (linkedRes.ok) {
+            const linked = await linkedRes.json();
+            linkedIds = linked.map(l => l.id);
+        }
+
+        const available = adminAllDbQuestions.filter(q => !linkedIds.includes(q.id));
+
+        const select = document.getElementById("admin-universe-available-questions-select");
+        if (!select) return;
+
+        if (available.length === 0) {
+            select.innerHTML = `<option value="">-- No questions available to link --</option>`;
+            return;
+        }
+
+        select.innerHTML = available.map(q => {
+            let qText = q.text;
+            if (q.translations && q.translations.length > 0) {
+                const arTr = q.translations.find(t => t.language === "ar") || q.translations[0];
+                qText = arTr.text;
+            }
+            if (qText.length > 60) qText = qText.substring(0, 57) + "...";
+            return `<option value="${q.id}">[ID: ${q.id}] (${q.category}) ${qText}</option>`;
+        }).join("");
+
+    } catch (err) {
+        console.error("Error loading available questions", err);
+    }
+}
+
+window.unlinkQuestionFromUniverse = async function(universeId, questionId) {
+    if (!confirm(`Are you sure you want to remove question ID ${questionId} from this universe?`)) return;
+
+    try {
+        const response = await fetch(`${BACKEND_URL}/api/universes/${universeId}/questions/${questionId}`, {
+            method: "DELETE"
+        });
+        if (response.status === 204 || response.ok) {
+            await selectAdminUniverse(universeId);
+        } else {
+            alert("Failed to unlink question.");
+        }
+    } catch (err) {
+        console.error("Error unlinking question", err);
+    }
+};
+
+function initUniversesAdminBindings() {
+    const triggerBtn = document.getElementById("btn-admin-create-universe-trigger");
+    const box = document.getElementById("admin-universe-creation-box");
+    const cancelBtn = document.getElementById("btn-admin-cancel-universe");
+    const submitBtn = document.getElementById("btn-admin-submit-universe");
+    const addQBtn = document.getElementById("btn-admin-add-question-to-universe");
+
+    if (triggerBtn && box) {
+        triggerBtn.addEventListener("click", () => {
+            box.style.display = "block";
+        });
+    }
+
+    if (cancelBtn && box) {
+        cancelBtn.addEventListener("click", () => {
+            box.style.display = "none";
+            document.getElementById("admin-universe-name-input").value = "";
+            document.getElementById("admin-universe-desc-input").value = "";
+        });
+    }
+
+    if (submitBtn && box) {
+        submitBtn.addEventListener("click", async () => {
+            const nameVal = document.getElementById("admin-universe-name-input").value.trim();
+            const descVal = document.getElementById("admin-universe-desc-input").value.trim();
+
+            if (!nameVal) {
+                alert("Please enter a universe name!");
+                return;
+            }
+
+            try {
+                const response = await fetch(`${BACKEND_URL}/api/universes`, {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ name: nameVal, description: descVal })
+                });
+
+                if (response.ok) {
+                    box.style.display = "none";
+                    document.getElementById("admin-universe-name-input").value = "";
+                    document.getElementById("admin-universe-desc-input").value = "";
+                    await loadUniversesAdmin();
+                } else {
+                    const err = await response.json();
+                    alert("Failed to create universe: " + (err.detail || "Error"));
+                }
+            } catch (err) {
+                console.error("Error creating universe", err);
+            }
+        });
+    }
+
+    if (addQBtn) {
+        addQBtn.addEventListener("click", async () => {
+            const select = document.getElementById("admin-universe-available-questions-select");
+            const qIdVal = select ? select.value : null;
+
+            if (!qIdVal || !adminSelectedUniverseId) {
+                alert("Please select a valid question to link!");
+                return;
+            }
+
+            try {
+                const response = await fetch(`${BACKEND_URL}/api/universes/${adminSelectedUniverseId}/questions/${qIdVal}`, {
+                    method: "POST"
+                });
+
+                if (response.ok) {
+                    await selectAdminUniverse(adminSelectedUniverseId);
+                } else {
+                    alert("Failed to link question.");
+                }
+            } catch (err) {
+                console.error("Error linking question", err);
+            }
+        });
+    }
 }
 
 // Fire initialization on load
