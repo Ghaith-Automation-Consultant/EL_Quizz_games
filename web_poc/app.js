@@ -1023,6 +1023,17 @@ function setupEventBindings() {
     if (btnPlayBwSolo) {
         btnPlayBwSolo.addEventListener("click", () => {
             playSynthSfx("click");
+            gameState.playAndFix = false; // Set normal play
+            initBentWaledSetupScreen();
+            showScreen("screen-bw-setup");
+        });
+    }
+
+    const btnPlayBwFix = document.getElementById("btn-play-bw-fix");
+    if (btnPlayBwFix) {
+        btnPlayBwFix.addEventListener("click", () => {
+            playSynthSfx("click");
+            gameState.playAndFix = true; // Set Play & Fix mode
             initBentWaledSetupScreen();
             showScreen("screen-bw-setup");
         });
@@ -4614,6 +4625,11 @@ function updateBwUILanguage(lang) {
         const btnSpan = btnPlayBw.querySelector("span");
         if (btnSpan) btnSpan.textContent = trans.btn_play_bw || "🎮 Play";
     }
+    const btnPlayBwFix = document.getElementById("btn-play-bw-fix");
+    if (btnPlayBwFix) {
+        const btnSpan = btnPlayBwFix.querySelector("span");
+        if (btnSpan) btnSpan.textContent = trans.btn_play_bw_fix || "🛠️ Play & Fix";
+    }
 
     // Update Setup labels
     const setupTitle = document.getElementById("bw-setup-title-text");
@@ -4715,6 +4731,7 @@ const BW_TRANSLATIONS = {
         mode_title_bw: "بنت ولد",
         mode_desc_bw: "لعبة الحروف والأسماء المشهورة (فردي / محلي)",
         btn_play_bw: "🎮 ابدأ اللعب",
+        btn_play_bw_fix: "🛠️ العب وصلّح",
         setup_title: "إعدادات بنت ولد",
         categories_header: "📋 المحاور المفضلة:",
         duration_label: "⏱️ مدة الجولة:",
@@ -4775,6 +4792,7 @@ const BW_TRANSLATIONS = {
         mode_title_bw: "بنت ولد",
         mode_desc_bw: "لعبة الحروف والأسماء المشهورة (فردي / محلي)",
         btn_play_bw: "🎮 ابدأ اللعب",
+        btn_play_bw_fix: "🛠️ العب وصلّح",
         setup_title: "إعدادات بنت ولد",
         categories_header: "📋 المحاور النشطة:",
         duration_label: "⏱️ وقت اللعب:",
@@ -4827,6 +4845,7 @@ const BW_TRANSLATIONS = {
         mode_title_bw: "Fille Garçon",
         mode_desc_bw: "Le jeu classique du petit baccalauréat (solo / local)",
         btn_play_bw: "🎮 Jouer",
+        btn_play_bw_fix: "🛠️ Play & Fix",
         setup_title: "Configuration Fille Garçon",
         categories_header: "📋 Catégories actives :",
         duration_label: "⏱️ Durée de la manche :",
@@ -4879,6 +4898,7 @@ const BW_TRANSLATIONS = {
         mode_title_bw: "Girl Boy",
         mode_desc_bw: "The classic categories word game (solo / local)",
         btn_play_bw: "🎮 Play",
+        btn_play_bw_fix: "🛠️ Play & Fix",
         setup_title: "Girl Boy Settings",
         categories_header: "📋 Active Categories:",
         duration_label: "⏱️ Round Duration:",
