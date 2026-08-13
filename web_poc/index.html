@@ -670,8 +670,16 @@
 
                     <!-- Category inputs list -->
                     <h4 style="margin-top: 20px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 5px; font-size: 1rem; text-align: left; color: #eee;">Active Categories & Answers:</h4>
-                    <div id="bw-pf-answers-list-container" style="display: flex; flex-direction: column; gap: 12px; max-height: 300px; overflow-y: auto; padding-right: 5px;">
+                    <div id="bw-pf-answers-list-container" style="display: flex; flex-direction: column; gap: 12px; max-height: 250px; overflow-y: auto; padding-right: 5px;">
                         <!-- Category rows populated dynamically -->
+                    </div>
+
+                    <!-- AI Check Button -->
+                    <div style="margin-top: 15px; text-align: center; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 15px;">
+                        <button id="btn-bw-pf-ai-check" type="button" class="btn btn-secondary glow-btn" style="width: 100%; max-width: 300px; padding: 10px; font-weight: bold; background: rgba(99, 102, 241, 0.2); border: 1px solid rgb(99, 102, 241); color: #fff; cursor: pointer; border-radius: 8px;">
+                            AI Check 🤖
+                        </button>
+                        <p style="font-size: 0.72rem; color: #aaa; margin-top: 5px; margin-bottom: 0;">Checks all unchecked/false answers. Valid entries will be automatically approved, seeded to database, and checked!</p>
                     </div>
                 </div>
 

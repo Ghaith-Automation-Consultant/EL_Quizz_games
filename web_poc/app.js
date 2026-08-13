@@ -1825,6 +1825,10 @@ ${document.getElementById("pf-edit-json-text").value}`;
                     </label>
                     <button type="button" class="btn btn-secondary btn-bw-pf-add-db" data-category="${catKey}" style="font-size: 0.75rem; padding: 6px 12px; margin: 0; background: rgba(16,185,129,0.15); border: 1px solid #10b981; color: #10b981; border-radius: 6px;">Add to DB 💾</button>
                 </div>
+                <div id="bw-pf-db-words-${catKey}" style="font-size: 0.72rem; color: #ccc; margin-top: 4px; text-align: left; display: flex; flex-wrap: wrap; gap: 6px; align-items: center;">
+                    <span style="color: var(--accent-yellow); font-weight: bold;">DB words:</span>
+                    <span class="bw-pf-db-words-list" style="font-style: italic;">Loading...</span>
+                </div>
             `;
 
             // Add to database button functionality
@@ -1869,6 +1873,47 @@ ${document.getElementById("pf-edit-json-text").value}`;
             });
 
             answersContainer.appendChild(row);
+
+            // Fetch DB words for this letter + category + language
+            const dbLangStr = gameState.language === "tn" ? "ar" : gameState.language;
+            fetch(`${BACKEND_URL}/api/bw/words?letter=${gameState.bwActiveLetter}&category=${catKey}&language=${dbLangStr}&limit=50`)
+                .then(res => res.json())
+                .then(data => {
+                    const listSpan = row.querySelector(".bw-pf-db-words-list");
+                    if (listSpan) {
+                        if (data.words && data.words.length > 0) {
+                            listSpan.innerHTML = "";
+                            listSpan.style.fontStyle = "normal";
+                            listSpan.style.display = "flex";
+                            listSpan.style.flexWrap = "wrap";
+                            listSpan.style.gap = "4px";
+                            data.words.forEach(w => {
+                                const chip = document.createElement("span");
+                                chip.textContent = w.answer;
+                                chip.style.background = "rgba(255,255,255,0.15)";
+                                chip.style.padding = "2px 6px";
+                                chip.style.borderRadius = "4px";
+                                chip.style.cursor = "pointer";
+                                chip.style.border = "1px solid rgba(255,255,255,0.2)";
+                                chip.addEventListener("click", () => {
+                                    playSynthSfx("click");
+                                    const wordInput = row.querySelector(".bw-pf-input-word");
+                                    if (wordInput) wordInput.value = w.answer;
+                                    const checkbox = row.querySelector(".bw-pf-input-grading");
+                                    if (checkbox) checkbox.checked = true;
+                                });
+                                listSpan.appendChild(chip);
+                            });
+                        } else {
+                            listSpan.textContent = "(None)";
+                        }
+                    }
+                })
+                .catch(err => {
+                    console.warn(`Could not load DB words for ${catKey}`, err);
+                    const listSpan = row.querySelector(".bw-pf-db-words-list");
+                    if (listSpan) listSpan.textContent = "(Error loading)";
+                });
         });
 
         document.getElementById("bw-play-fix-modal").style.display = "flex";
@@ -1956,6 +2001,111 @@ ${document.getElementById("pf-edit-json-text").value}`;
 
             document.getElementById("bw-play-fix-modal").style.display = "none";
             saveLocalGameState();
+        });
+    }
+
+    const btnBwPfAiCheck = document.getElementById("btn-bw-pf-ai-check");
+    if (btnBwPfAiCheck) {
+        btnBwPfAiCheck.addEventListener("click", () => {
+            playSynthSfx("click");
+            
+            const container = document.getElementById("bw-pf-answers-list-container");
+            if (!container) return;
+
+            const rows = container.children;
+            const itemsToCheck = [];
+            
+            Array.from(rows).forEach(row => {
+                const wordInput = row.querySelector(".bw-pf-input-word");
+                const gradingCheck = row.querySelector(".bw-pf-input-grading");
+                if (wordInput && gradingCheck) {
+                    const catKey = wordInput.getAttribute("data-category");
+                    const wordVal = wordInput.value.trim();
+                    const isChecked = gradingCheck.checked;
+                    
+                    if (!isChecked && wordVal) {
+                        itemsToCheck.push({
+                            category: catKey,
+                            answer: wordVal
+                        });
+                    }
+                }
+            });
+
+            if (itemsToCheck.length === 0) {
+                alert("No unchecked answers with words to validate!");
+                return;
+            }
+
+            btnBwPfAiCheck.textContent = "AI Checking... ⌛";
+            btnBwPfAiCheck.disabled = true;
+
+            const payload = {
+                letter: gameState.bwActiveLetter,
+                language: gameState.language,
+                items: itemsToCheck
+            };
+
+            fetch(`${BACKEND_URL}/api/bw/ai-check`, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(payload)
+            })
+            .then(res => {
+                if (!res.ok) throw new Error("AI Validation Failed");
+                return res.json();
+            })
+            .then(data => {
+                let validatedCount = 0;
+                
+                (data.results || []).forEach(res => {
+                    if (res.is_valid === true) {
+                        validatedCount++;
+                        // Find corresponding category row and check it
+                        Array.from(rows).forEach(row => {
+                            const wordInput = row.querySelector(".bw-pf-input-word");
+                            const gradingCheck = row.querySelector(".bw-pf-input-grading");
+                            if (wordInput && gradingCheck) {
+                                const catKey = wordInput.getAttribute("data-category");
+                                if (catKey === res.category) {
+                                    wordInput.value = res.normalized;
+                                    gradingCheck.checked = true;
+                                    row.style.background = "rgba(16, 185, 129, 0.15)";
+                                    row.style.border = "1px solid #10b981";
+                                }
+                            }
+                        });
+                    } else {
+                        // Highlight failing item in red
+                        Array.from(rows).forEach(row => {
+                            const wordInput = row.querySelector(".bw-pf-input-word");
+                            if (wordInput) {
+                                const catKey = wordInput.getAttribute("data-category");
+                                if (catKey === res.category) {
+                                    row.style.background = "rgba(239, 68, 68, 0.15)";
+                                    row.style.border = "1px solid #ef4444";
+                                }
+                            }
+                        });
+                    }
+                });
+
+                if (validatedCount > 0) {
+                    playSynthSfx("correct");
+                    alert(`AI validation completed! 🎉\n${validatedCount} answers were verified as correct, seeded to the DB, and checked!`);
+                } else {
+                    playSynthSfx("wrong");
+                    alert("AI Check: None of the unchecked answers were validated as correct.");
+                }
+            })
+            .catch(err => {
+                console.error("AI Check error", err);
+                alert("Error calling AI Check service. Please verify server connection.");
+            })
+            .finally(() => {
+                btnBwPfAiCheck.textContent = "AI Check 🤖";
+                btnBwPfAiCheck.disabled = false;
+            });
         });
     }
 

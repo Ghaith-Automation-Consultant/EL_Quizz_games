@@ -49,6 +49,15 @@ class BwValidateRequest(BaseModel):
     language: str
     answers: Dict[str, str]
 
+class BwAiCheckItem(BaseModel):
+    category: str
+    answer: str
+
+class BwAiCheckRequest(BaseModel):
+    letter: str
+    language: str
+    items: List[BwAiCheckItem]
+
 # Normalization Helpers
 def normalize_string(text: str, is_arabic: bool = False) -> str:
     if not text:
@@ -435,3 +444,116 @@ def import_dictionary_from_disk(db: Session = Depends(get_db)):
         "imported_entities": imported_entities,
         "imported_answers": imported_answers
     }
+
+@router.post("/ai-check")
+def ai_check_answers(req: BwAiCheckRequest, db: Session = Depends(get_db)):
+    if not req.items:
+        return {"results": []}
+
+    system_prompt = """
+You are an expert validator for the Arabic/Tunisian category word game "Bent Waled" (similar to Petit Bac / Categories).
+Your task is to analyze a list of word answers submitted by a player for a specific starting letter, category, and language, and determine if they are factually correct.
+
+For each item:
+- Validate if the word is commonly accepted as correct for the given category, starting letter, and language context.
+- Language context is either "ar" (Standard Arabic) or "tn" (Tunisian Dialect).
+- Tunisian dialect and Arabic dialect variations should be accepted in "tn" and "ar" mode.
+- Starting letter matches the Arabic alphabet or Latin alphabet.
+- Categories are:
+  - 'boy': Male human names
+  - 'girl': Female human names
+  - 'country': Countries, cities, states, capitals, or major regions
+  - 'animal': Animals (mammals, birds, insects, fish, reptiles, etc.)
+  - 'object': Inanimate objects, tools, furniture, clothing, etc.
+  - 'plant': Plants, trees, fruits, vegetables, flowers, etc.
+  - 'profession': Jobs, careers, occupations, titles, etc.
+  - 'food': Dishes, meals, ingredients, bread types, desserts, drinks, etc.
+
+Return a JSON object containing a list of checked items. Output format MUST be strictly:
+{
+  "results": [
+    {
+      "category": "category_name",
+      "answer": "original_submitted_answer",
+      "is_valid": true_or_false,
+      "normalized": "normalized spelling of the word",
+      "aliases": ["synonym1", "synonym2"]
+    }
+  ]
+}
+"""
+
+    user_prompt = f"Letter: {req.letter}\nLanguage: {req.language}\nItems:\n" + "\n".join(
+        [f"- Category: {item.category}, Answer: {item.answer}" for item in req.items]
+    )
+
+    try:
+        from core.ai_utils import call_gemini
+        gemini_response = call_gemini(system_prompt, user_prompt)
+    except Exception as e:
+        print(f"Gemini API failure during Bent Waled AI Check: {e}")
+        results = []
+        for item in req.items:
+            results.append({
+                "category": item.category,
+                "answer": item.answer,
+                "is_valid": False,
+                "normalized": item.answer,
+                "aliases": []
+            })
+        return {"results": results}
+
+    results = gemini_response.get("results", [])
+    
+    # Process only valid/true answers and insert them into the DB dictionary
+    inserted_words = []
+    is_arabic = req.language in ["ar", "tn"]
+    norm_l = normalize_letter(req.letter, req.language)
+    db_lang = "ar" if req.language == "tn" else req.language
+
+    for res in results:
+        if res.get("is_valid") is True:
+            category = res.get("category")
+            answer = res.get("answer")
+            normalized = res.get("normalized", answer)
+            aliases = res.get("aliases", [])
+
+            if not category or not normalized:
+                continue
+
+            entity_id = generate_entity_id(category, normalized)
+            
+            # 1. Create Entity if missing
+            entity = db.query(models.BwEntity).filter(models.BwEntity.id == entity_id).first()
+            if not entity:
+                entity = models.BwEntity(id=entity_id, type=category)
+                db.add(entity)
+                db.flush()
+
+            # 2. Check if BwLocalizedAnswer already exists
+            normalized_val = normalize_string(normalized, is_arabic=is_arabic)
+            loc_ans = db.query(models.BwLocalizedAnswer).filter(
+                models.BwLocalizedAnswer.language == db_lang,
+                models.BwLocalizedAnswer.category == category,
+                models.BwLocalizedAnswer.normalized == normalized_val
+            ).first()
+
+            if not loc_ans:
+                loc_ans = models.BwLocalizedAnswer(
+                    entity_id=entity_id,
+                    language=db_lang,
+                    category=category,
+                    answer=normalized,
+                    letter=norm_l,
+                    normalized=normalized_val,
+                    aliases=aliases,
+                    status="approved"
+                )
+                db.add(loc_ans)
+                inserted_words.append(normalized)
+    
+    if inserted_words:
+        db.commit()
+        print(f"AI Check seeded {len(inserted_words)} new words to DB: {inserted_words}")
+        
+    return {"results": results}
