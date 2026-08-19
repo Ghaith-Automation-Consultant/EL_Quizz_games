@@ -7221,7 +7221,9 @@ const TEAM_ICONS = ["🌶️", "🇹🇳", "🦁", "☕", "🫖", "🏺", "🕌"
 // Translation helpers
 function getQuestionText(q, lang) {
     if (q.translations && q.translations[lang]) {
-        return q.translations[lang].text;
+        const val = q.translations[lang];
+        if (typeof val === 'string') return val;
+        if (val && typeof val === 'object' && val.text) return val.text;
     }
     return q.text || "";
 }
@@ -8892,10 +8894,15 @@ ${document.getElementById("pf-edit-json-text").value}`;
                 // Save Question Text
                 const newQText = document.getElementById("pf-edit-q-text").value.trim();
                 if (newQText) {
-                    if (typeof q.text === 'string') {
-                        q.text = newQText;
-                    } else if (q.translations) {
-                        q.translations[gameState.language] = newQText;
+                    if (q.translations) {
+                        if (!q.translations[gameState.language]) {
+                            q.translations[gameState.language] = {};
+                        }
+                        if (typeof q.translations[gameState.language] === 'object') {
+                            q.translations[gameState.language].text = newQText;
+                        } else {
+                            q.translations[gameState.language] = { text: newQText };
+                        }
                     } else {
                         q.text = newQText;
                     }
@@ -8997,13 +9004,28 @@ ${document.getElementById("pf-edit-json-text").value}`;
 
             // Sync modifications back to backend PostgreSQL database if online
             if (q.id) {
+                // Build a flat translations dictionary for backend API (expects lang: string)
+                const flatTranslations = {};
+                if (q.translations) {
+                    for (const lang in q.translations) {
+                        const tObj = q.translations[lang];
+                        if (tObj && typeof tObj === 'object') {
+                            flatTranslations[lang] = tObj.text || "";
+                        } else if (typeof tObj === 'string') {
+                            flatTranslations[lang] = tObj;
+                        }
+                    }
+                } else if (q.text) {
+                    flatTranslations.ar = q.text;
+                }
+
                 const dbPayload = {
                     category: q.category,
                     subcategory: q.subcategory || null,
                     region: q.region || "Tunisia",
                     difficulty: q.difficulty || 3,
                     generation: q.generation || "All",
-                    translations: q.translations || { ar: q.text },
+                    translations: flatTranslations,
                     answers: localShuffledAnswers.map(ans => ({
                         is_correct: ans.is_correct,
                         points: ans.points,

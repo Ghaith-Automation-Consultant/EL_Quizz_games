@@ -7220,6 +7220,15 @@ let generatedQuestion = null;
 let currentSortColumn = "id";
 let currentSortDir = "asc";
 
+function getQuestionText(q, lang) {
+    if (q.translations && q.translations[lang]) {
+        const val = q.translations[lang];
+        if (typeof val === 'string') return val;
+        if (val && typeof val === 'object' && val.text) return val.text;
+    }
+    return q.text || "";
+}
+
 function mapDatabaseQuestion(dbQ) {
     const qTranslations = {};
     const availableLangs = [];
@@ -8430,7 +8439,7 @@ function renderCrudTable() {
             // Search all question translation texts
             let matchText = false;
             for (const lang in q.translations) {
-                if (q.translations[lang] && q.translations[lang].text.toLowerCase().includes(searchTerm)) {
+                if (getQuestionText(q, lang).toLowerCase().includes(searchTerm)) {
                     matchText = true;
                     break;
                 }
@@ -8469,8 +8478,8 @@ function renderCrudTable() {
             valA = a.answers ? a.answers.length : 0;
             valB = b.answers ? b.answers.length : 0;
         } else if (currentSortColumn === "text") {
-            valA = (a.translations[previewLang] ? a.translations[previewLang].text : a.text) || "";
-            valB = (b.translations[previewLang] ? b.translations[previewLang].text : b.text) || "";
+            valA = getQuestionText(a, previewLang);
+            valB = getQuestionText(b, previewLang);
         } else {
             valA = a.id;
             valB = b.id;
@@ -8499,7 +8508,7 @@ function renderCrudTable() {
         const frAvail = q.available_languages && q.available_languages.includes("fr");
         const enAvail = q.available_languages && q.available_languages.includes("en");
 
-        let previewText = q.translations[previewLang] ? q.translations[previewLang].text : q.text;
+        let previewText = getQuestionText(q, previewLang);
         if (q.is_flagged) {
             previewText = `🚩 <span style="color: #ff5252; font-weight: bold;">[FLAGGED]</span> ${previewText}`;
         }
