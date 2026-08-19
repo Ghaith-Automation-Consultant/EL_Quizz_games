@@ -70,6 +70,7 @@ class Question(Base):
     generation = Column(String(30), nullable=True)  # e.g., "Gen Z", "Golden", "All"
     created_by = Column(Integer, ForeignKey("users.id", ondelete="SET NULL"), nullable=True)
     is_approved = Column(Boolean, default=False)
+    is_flagged = Column(Boolean, default=False, nullable=False)
     created_at = Column(DateTime, default=datetime.utcnow)
 
     creator = relationship("User", back_populates="suggested_questions")

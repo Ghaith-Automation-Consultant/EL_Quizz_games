@@ -96,6 +96,7 @@ class QuestionResponse(BaseModel):
     difficulty: int
     generation: Optional[str]
     is_approved: bool
+    is_flagged: bool = False
     created_by: Optional[int]
     created_at: Optional[datetime]
     answers: List[AnswerResponse]
@@ -118,6 +119,8 @@ class QuestionCreateMultilang(BaseModel):
     generation: Optional[str] = None
     translations: dict # dict mapping language key to question text
     answers: List[AnswerCreateMultilang]
+    is_flagged: Optional[bool] = False
+    is_approved: Optional[bool] = True
 
 class SubcategoryResponse(BaseModel):
     id: int

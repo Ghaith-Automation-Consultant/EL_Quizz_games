@@ -282,6 +282,8 @@ def update_question_multilang(question_id: int, q_data: schemas.QuestionCreateMu
     db_q.region = q_data.region
     db_q.difficulty = q_data.difficulty
     db_q.generation = q_data.generation or db_q.generation
+    db_q.is_flagged = q_data.is_flagged if q_data.is_flagged is not None else db_q.is_flagged
+    db_q.is_approved = q_data.is_approved if q_data.is_approved is not None else db_q.is_approved
     
     # 4. Delete old question translations
     db.query(models.QuestionText).filter(models.QuestionText.id == question_id).delete()
@@ -440,3 +442,32 @@ def submit_question_feedback(
         
     db.commit()
     return {"status": "success"}
+
+@router.post("/api/questions/{question_id}/flag", response_model=schemas.QuestionResponse)
+def flag_question(question_id: int, is_flagged: bool, db: Session = Depends(database.get_db)):
+    q = db.query(models.Question).filter(models.Question.id == question_id).first()
+    if not q:
+        raise HTTPException(status_code=404, detail="Question not found")
+    q.is_flagged = is_flagged
+    db.commit()
+    db.refresh(q)
+    return q
+
+@router.post("/api/questions/{question_id}/approve", response_model=schemas.QuestionResponse)
+def approve_question(question_id: int, is_approved: bool, db: Session = Depends(database.get_db)):
+    q = db.query(models.Question).filter(models.Question.id == question_id).first()
+    if not q:
+        raise HTTPException(status_code=404, detail="Question not found")
+    q.is_approved = is_approved
+    db.commit()
+    
+    # Reload question with relationships eagerly loaded to avoid LazyLoading errors when returning schemas
+    reloaded_q = db.query(models.Question).options(
+        joinedload(models.Question.answers).joinedload(models.Answer.translations),
+        joinedload(models.Question.translations),
+        joinedload(models.Question.category_rel),
+        joinedload(models.Question.subcategory_rel)
+    ).filter(models.Question.id == question_id).first()
+    
+    return reloaded_q
+

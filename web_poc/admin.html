@@ -69,16 +69,20 @@
                 <!-- Name 9 Dashboard View -->
                 <div id="dashboard-talla3-view">
                     <!-- Cards Grid -->
-                    <div class="stats-cards-grid">
+                    <div class="stats-cards-grid" style="grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));">
                         <div class="stat-card">
                             <span class="stat-num" id="stat-total-q">0</span>
                             <span class="stat-lbl">Total Questions</span>
                         </div>
-                        <div class="stat-card">
+                        <div class="stat-card" style="border-left: 1px solid var(--panel-border);">
+                            <span class="stat-num" id="stat-flagged-q" style="color: #ff5252;">0</span>
+                            <span class="stat-lbl">Flagged Questions 🚩</span>
+                        </div>
+                        <div class="stat-card" style="border-left: 1px solid var(--panel-border);">
                             <span class="stat-num" id="stat-total-cats">0</span>
                             <span class="stat-lbl">Categories</span>
                         </div>
-                        <div class="stat-card">
+                        <div class="stat-card" style="border-left: 1px solid var(--panel-border);">
                             <span class="stat-num" id="stat-total-subcats">0</span>
                             <span class="stat-lbl">Subcategories</span>
                         </div>
@@ -93,22 +97,46 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="table-card">
-                        <h3 class="chart-title">Most Active Subcategories</h3>
-                        <div class="subcat-table-wrapper">
-                            <table class="subcat-table">
-                                <thead>
-                                    <tr>
-                                        <th>Main Category</th>
-                                        <th>Subcategory</th>
-                                        <th>Questions Count</th>
-                                    </tr>
-                                </thead>
-                                <tbody id="subcat-stats-rows">
-                                    <!-- Dynamic rows -->
-                                </tbody>
-                            </table>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 1.5rem; margin-top: 1.5rem;">
+                        <div class="table-card" style="margin: 0;">
+                            <h3 class="chart-title">Most Active Subcategories</h3>
+                            <div class="subcat-table-wrapper">
+                                <table class="subcat-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Main Category</th>
+                                            <th>Subcategory</th>
+                                            <th>Questions Count</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="subcat-stats-rows">
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        
+                        <div class="table-card" style="margin: 0;">
+                            <h3 class="chart-title" style="color: #ff5252; display: flex; align-items: center; gap: 8px;">
+                                <span>🚩 Questions to be Fixed</span>
+                                <span id="lbl-flagged-count" class="badge-lang missing" style="font-size: 0.8rem; padding: 2px 8px; border-radius: 20px;">0 pending</span>
+                            </h3>
+                            <div class="subcat-table-wrapper" style="max-height: 300px; overflow-y: auto;">
+                                <table class="subcat-table" style="width: 100%;">
+                                    <thead>
+                                        <tr>
+                                            <th style="width: 60px;">ID</th>
+                                            <th style="width: 120px;">Category</th>
+                                            <th>Content Preview</th>
+                                            <th style="width: 80px; text-align: center;">Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="flagged-questions-table-body">
+                                        <tr>
+                                            <td colspan="4" style="text-align: center; opacity: 0.6; padding: 2rem;">No flagged questions. Good job!</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -294,6 +322,22 @@
                                 <option value="en">English (EN)</option>
                             </select>
                         </div>
+                        <div class="form-group" style="margin: 0;">
+                            <label style="font-size: 0.8rem; opacity: 0.85; margin-bottom: 0.4rem; display: block; font-weight: 600;">Filter Flagged State</label>
+                            <select id="crud-filter-flagged" style="width: 100%; box-sizing: border-box;">
+                                <option value="">-- All Questions --</option>
+                                <option value="flagged">Flagged to be fixed 🚩</option>
+                                <option value="unflagged">Normal / Unflagged</option>
+                            </select>
+                        </div>
+                        <div class="form-group" style="margin: 0;">
+                            <label style="font-size: 0.8rem; opacity: 0.85; margin-bottom: 0.4rem; display: block; font-weight: 600;">Filter Approval State</label>
+                            <select id="crud-filter-approved" style="width: 100%; box-sizing: border-box;">
+                                <option value="">-- All Statuses --</option>
+                                <option value="approved">Approved / Active ✅</option>
+                                <option value="unapproved">Unapproved / Inactive ❌</option>
+                            </select>
+                        </div>
                     </div>
                 </div>
 
@@ -372,6 +416,7 @@
                                 <th class="sortable-header" data-sort="text" style="padding: 14px 16px; cursor: pointer; user-select: none;">
                                     Question Content Preview <span class="sort-icon" id="sort-icon-text" style="font-size: 0.75rem; margin-left: 2px; opacity: 0.5;">↕</span>
                                 </th>
+                                <th style="padding: 14px 16px; text-align: center; width: 80px;">Active</th>
                                 <th style="padding: 14px 16px; text-align: center; width: 100px;">Actions</th>
                             </tr>
                         </thead>
@@ -1088,6 +1133,11 @@ Each item in the array must follow this exact format:
                         <label>New Subcategory Name</label>
                         <input type="text" id="edit-q-subcategory-new" placeholder="Type new subcategory name">
                     </div>
+                </div>
+
+                <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 1.5rem; background: rgba(255,82,82,0.08); padding: 12px; border-radius: 8px; border: 1px dashed rgba(255,82,82,0.3);">
+                    <input type="checkbox" id="edit-q-flagged" style="width: auto; cursor: pointer; transform: scale(1.25); margin: 0;">
+                    <label for="edit-q-flagged" style="cursor: pointer; font-weight: bold; margin: 0; color: #ff5252; font-size: 0.9rem;">🚩 Flagged to be fixed (Needs review/corrections)</label>
                 </div>
 
                 <!-- Correct Answers Grid (9 items) -->
