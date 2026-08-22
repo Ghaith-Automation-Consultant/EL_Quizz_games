@@ -7235,6 +7235,24 @@ function getAnswerText(ans, lang) {
     return ans.text || "";
 }
 
+function updateFlagButtonVisuals(isFlagged) {
+    const btnIntro = document.getElementById("btn-intro-flag-question");
+    const btnPlay = document.getElementById("btn-play-flag-question");
+    
+    [btnIntro, btnPlay].forEach(btn => {
+        if (!btn) return;
+        if (isFlagged) {
+            btn.style.background = "#d32f2f";
+            btn.style.borderColor = "#f44336";
+            btn.textContent = "🚩 Flagged / معلمة";
+        } else {
+            btn.style.background = "rgba(255,255,255,0.25)";
+            btn.style.borderColor = "rgba(255,255,255,0.35)";
+            btn.textContent = "🚩 Flag Question / علم السؤال";
+        }
+    });
+}
+
 function mapDatabaseQuestion(dbQ) {
     const qTranslations = {};
     if (dbQ.translations && Array.isArray(dbQ.translations)) {
@@ -8627,23 +8645,7 @@ function setupEventBindings() {
         }
     }
 
-    function updateFlagButtonVisuals(isFlagged) {
-        const btnIntro = document.getElementById("btn-intro-flag-question");
-        const btnPlay = document.getElementById("btn-play-flag-question");
-        
-        [btnIntro, btnPlay].forEach(btn => {
-            if (!btn) return;
-            if (isFlagged) {
-                btn.style.background = "#d32f2f";
-                btn.style.borderColor = "#f44336";
-                btn.textContent = "🚩 Flagged / معلمة";
-            } else {
-                btn.style.background = "rgba(255,255,255,0.25)";
-                btn.style.borderColor = "rgba(255,255,255,0.35)";
-                btn.textContent = "🚩 Flag Question / علم السؤال";
-            }
-        });
-    }
+
 
     const btnIntroFlagQuestion = document.getElementById("btn-intro-flag-question");
     if (btnIntroFlagQuestion) {
