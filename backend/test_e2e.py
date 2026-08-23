@@ -228,16 +228,16 @@ def main():
                 "language": "ar",
                 "difficulty": 1,
                 "answers": [
-                    {"text": "أكلة تونسية شهيرة", "is_correct": True, "points": 10},
+                    {"text": "أكلة تونسية شهيرة", "is_correct": True, "points": 1},
                     {"text": "مشروب ساخن", "is_correct": False, "points": 0},
-                    {"text": "نوع من الحلويات", "is_correct": True, "points": 20},
-                    {"text": "طعام تقليدي للمناسبات", "is_correct": True, "points": 15},
-                    {"text": "وجبة مغذية من السميد", "is_correct": True, "points": 12},
-                    {"text": "طبق يطبخ على البخار", "is_correct": True, "points": 18},
-                    {"text": "كسكسي بالعصبان أو اللحم", "is_correct": True, "points": 25},
-                    {"text": "أكلة مغاربية معروفة", "is_correct": True, "points": 11},
-                    {"text": "طبق رئيسي في الغداء", "is_correct": True, "points": 14},
-                    {"text": "كسكسي بالمسفوف الحلو", "is_correct": True, "points": 30}
+                    {"text": "نوع من الحلويات", "is_correct": True, "points": 1},
+                    {"text": "طعام تقليدي للمناسبات", "is_correct": True, "points": 1},
+                    {"text": "وجبة مغذية من السميد", "is_correct": True, "points": 1},
+                    {"text": "طبق يطبخ على البخار", "is_correct": True, "points": 2},
+                    {"text": "كسكسي بالعصبان أو اللحم", "is_correct": True, "points": 2},
+                    {"text": "أكلة مغاربية معروفة", "is_correct": True, "points": 3},
+                    {"text": "طبق رئيسي في الغداء", "is_correct": True, "points": 3},
+                    {"text": "كسكسي بالمسفوف الحلو", "is_correct": True, "points": 5}
                 ]
             },
             token=token1

@@ -8139,7 +8139,6 @@ function renderAIPendingBatch(selectedLangs) {
                             <option value="2" ${ans.points == 2 ? 'selected' : ''}>2</option>
                             <option value="3" ${ans.points == 3 ? 'selected' : ''}>3</option>
                             <option value="5" ${ans.points == 5 ? 'selected' : ''}>5</option>
-                            <option value="8" ${ans.points == 8 ? 'selected' : ''}>8</option>
                         </select>
                     </div>
                     <div style="display: flex; flex-direction: column;">
@@ -8630,7 +8629,6 @@ async function openEditQuestionModal(qId) {
                             <option value="2" ${ans.points === 2 ? 'selected' : ''}>2</option>
                             <option value="3" ${ans.points === 3 ? 'selected' : ''}>3</option>
                             <option value="5" ${ans.points === 5 ? 'selected' : ''}>5</option>
-                            <option value="8" ${ans.points === 8 ? 'selected' : ''}>8</option>
                         </select>
                     </div>
                 </div>
