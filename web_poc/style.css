@@ -44,9 +44,11 @@
 body {
     background-color: var(--bg-main);
     background-image: 
-        radial-gradient(at 10% 20%, rgba(78, 159, 61, 0.1) 0px, transparent 50%),
-        radial-gradient(at 90% 80%, rgba(30, 81, 40, 0.15) 0px, transparent 50%);
+        radial-gradient(at 15% 25%, rgba(78, 159, 61, 0.12) 0px, transparent 55%),
+        radial-gradient(at 85% 75%, rgba(30, 81, 40, 0.18) 0px, transparent 55%);
     background-attachment: fixed;
+    background-size: 200% 200%;
+    animation: ambientShift 25s ease infinite alternate;
     color: var(--text-primary);
     font-family: var(--font-ar);
     min-height: 100vh;
@@ -55,6 +57,15 @@ body {
     align-items: center;
     overflow-x: hidden;
     padding: 20px;
+}
+
+@keyframes ambientShift {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
 }
 
 /* Glassmorphism Container wrapper */
@@ -141,12 +152,14 @@ body {
 
 .brand-title {
     font-family: var(--font-en);
-    font-weight: 800;
+    font-weight: 900;
     font-size: 3.5rem;
-    letter-spacing: 2px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
     background: linear-gradient(135deg, var(--text-primary) 30%, var(--primary) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 25px rgba(78, 159, 61, 0.45));
     margin-bottom: 8px;
 }
 

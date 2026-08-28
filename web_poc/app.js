@@ -8038,8 +8038,8 @@ function renderUniversesList() {
 
 // Show specific screen wrapper
 function showScreen(screenId) {
-    document.querySelectorAll(".screen").forEach(s => s.classList.remove("active"));
-    document.getElementById(screenId).classList.add("active");
+    const activeScreen = document.querySelector(".screen.active");
+    const targetScreen = document.getElementById(screenId);
     
     if (screenId.startsWith("screen-bw-")) {
         updateBwUILanguage(gameState.language);
@@ -8059,6 +8059,68 @@ function showScreen(screenId) {
     if (typeof trackPageView === "function") {
         trackPageView(screenId);
     }
+
+    if (window.gsap && activeScreen && activeScreen !== targetScreen) {
+        gsap.killTweensOf([activeScreen, targetScreen]);
+        gsap.to(activeScreen, {
+            opacity: 0,
+            y: -15,
+            duration: 0.18,
+            ease: "power2.in",
+            onComplete: () => {
+                activeScreen.classList.remove("active");
+                activeScreen.style.display = "none";
+                
+                if (targetScreen) {
+                    targetScreen.style.display = "flex";
+                    targetScreen.classList.add("active");
+                    gsap.fromTo(targetScreen,
+                        { opacity: 0, y: 15 },
+                        { opacity: 1, y: 0, duration: 0.3, ease: "power2.out", clearProps: "transform" }
+                    );
+                    triggerScreenComponentAnimations(screenId);
+                }
+            }
+        });
+    } else {
+        document.querySelectorAll(".screen").forEach(s => {
+            s.classList.remove("active");
+            s.style.display = "none";
+            s.style.opacity = "";
+            s.style.transform = "";
+        });
+        if (targetScreen) {
+            targetScreen.style.display = "flex";
+            targetScreen.classList.add("active");
+            triggerScreenComponentAnimations(screenId);
+        }
+    }
+}
+
+// Animate components inside specific screens sequentially
+function triggerScreenComponentAnimations(screenId) {
+    if (!window.gsap) return;
+    
+    if (screenId === "screen-round") {
+        gsap.fromTo("#answers-grid .answer-card", 
+            { opacity: 0, scale: 0.85, y: 15 },
+            { opacity: 1, scale: 1, y: 0, duration: 0.35, stagger: 0.05, ease: "back.out(1.2)", delay: 0.15 }
+        );
+    } else if (screenId === "screen-home") {
+        gsap.fromTo(".brand-header > *",
+            { opacity: 0, y: -20 },
+            { opacity: 1, y: 0, duration: 0.45, stagger: 0.08, ease: "power2.out" }
+        );
+        gsap.fromTo(".mode-card",
+            { opacity: 0, scale: 0.9, y: 15 },
+            { opacity: 0.7, scale: 1, y: 0, duration: 0.35, stagger: 0.08, ease: "back.out(1.2)", delay: 0.15 }
+        );
+    } else if (screenId === "screen-intro") {
+        gsap.fromTo("#screen-intro > *",
+            { opacity: 0, y: 15 },
+            { opacity: 1, y: 0, duration: 0.35, stagger: 0.06, ease: "power2.out" }
+        );
+    }
 }
 
 /* --------------------------------------------------
@@ -8072,22 +8134,91 @@ function setupEventBindings() {
     const actionsBw = document.getElementById("actions-bw");
 
     if (modeTalla3 && modeBw) {
-        // Enforce initial styling
         const resetCardsToInactive = () => {
-            modeTalla3.style.boxShadow = "none";
-            modeTalla3.style.borderColor = "rgba(255,255,255,0.1)";
-            modeTalla3.style.background = "rgba(255,255,255,0.03)";
-            modeTalla3.style.opacity = "0.7";
-            modeTalla3.classList.remove("active");
+            if (window.gsap) {
+                gsap.to(modeTalla3, {
+                    boxShadow: "none",
+                    borderColor: "rgba(255,255,255,0.1)",
+                    background: "rgba(255,255,255,0.03)",
+                    opacity: 0.7,
+                    scale: 1.0,
+                    duration: 0.25
+                });
+                gsap.to(modeBw, {
+                    boxShadow: "none",
+                    borderColor: "rgba(255,255,255,0.1)",
+                    background: "rgba(255,255,255,0.03)",
+                    opacity: 0.7,
+                    scale: 1.0,
+                    duration: 0.25
+                });
+            } else {
+                modeTalla3.style.boxShadow = "none";
+                modeTalla3.style.borderColor = "rgba(255,255,255,0.1)";
+                modeTalla3.style.background = "rgba(255,255,255,0.03)";
+                modeTalla3.style.opacity = "0.7";
 
-            modeBw.style.boxShadow = "none";
-            modeBw.style.borderColor = "rgba(255,255,255,0.1)";
-            modeBw.style.background = "rgba(255,255,255,0.03)";
-            modeBw.style.opacity = "0.7";
+                modeBw.style.boxShadow = "none";
+                modeBw.style.borderColor = "rgba(255,255,255,0.1)";
+                modeBw.style.background = "rgba(255,255,255,0.03)";
+                modeBw.style.opacity = "0.7";
+            }
+            modeTalla3.classList.remove("active");
             modeBw.classList.remove("active");
         };
         
         resetCardsToInactive();
+
+        // GSAP Hover and Mouse Tilt Physics
+        const applyCardHoverEffects = (card) => {
+            card.addEventListener("mouseenter", () => {
+                if (window.gsap) {
+                    gsap.to(card, {
+                        scale: 1.04,
+                        borderColor: "var(--primary)",
+                        opacity: 1,
+                        duration: 0.3,
+                        ease: "power2.out"
+                    });
+                }
+            });
+            
+            card.addEventListener("mousemove", (e) => {
+                if (window.gsap) {
+                    const rect = card.getBoundingClientRect();
+                    const x = e.clientX - rect.left - rect.width / 2;
+                    const y = e.clientY - rect.top - rect.height / 2;
+                    const rotateX = -(y / (rect.height / 2)) * 6;
+                    const rotateY = (x / (rect.width / 2)) * 6;
+                    
+                    gsap.to(card, {
+                        rotateX: rotateX,
+                        rotateY: rotateY,
+                        transformPerspective: 600,
+                        duration: 0.2,
+                        ease: "power1.out"
+                    });
+                }
+            });
+
+            card.addEventListener("mouseleave", () => {
+                if (window.gsap) {
+                    const isActive = card.classList.contains("active");
+                    gsap.to(card, {
+                        scale: isActive ? 1.04 : 1.0,
+                        rotateX: 0,
+                        rotateY: 0,
+                        borderColor: isActive ? "var(--primary)" : "rgba(255,255,255,0.1)",
+                        opacity: isActive ? 1.0 : 0.7,
+                        duration: 0.3,
+                        ease: "power2.out"
+                    });
+                }
+            });
+        };
+
+        applyCardHoverEffects(modeTalla3);
+        applyCardHoverEffects(modeBw);
 
         modeTalla3.addEventListener("click", () => {
             playSynthSfx("click");
@@ -8095,10 +8226,21 @@ function setupEventBindings() {
             resetCardsToInactive();
             
             modeTalla3.classList.add("active");
-            modeTalla3.style.boxShadow = "0 4px 15px rgba(253, 224, 71, 0.15)";
-            modeTalla3.style.borderColor = "var(--primary)";
-            modeTalla3.style.background = "rgba(255,255,255,0.08)";
-            modeTalla3.style.opacity = "1";
+            if (window.gsap) {
+                gsap.to(modeTalla3, {
+                    boxShadow: "0 8px 25px var(--primary-glow)",
+                    borderColor: "var(--primary)",
+                    background: "rgba(255,255,255,0.08)",
+                    opacity: 1,
+                    scale: 1.04,
+                    duration: 0.25
+                });
+            } else {
+                modeTalla3.style.boxShadow = "0 4px 15px rgba(253, 224, 71, 0.15)";
+                modeTalla3.style.borderColor = "var(--primary)";
+                modeTalla3.style.background = "rgba(255,255,255,0.08)";
+                modeTalla3.style.opacity = "1";
+            }
             
             actionsTalla3.style.display = "flex";
             actionsBw.style.display = "none";
@@ -8112,10 +8254,21 @@ function setupEventBindings() {
             resetCardsToInactive();
             
             modeBw.classList.add("active");
-            modeBw.style.boxShadow = "0 4px 15px rgba(253, 224, 71, 0.15)";
-            modeBw.style.borderColor = "var(--primary)";
-            modeBw.style.background = "rgba(255,255,255,0.08)";
-            modeBw.style.opacity = "1";
+            if (window.gsap) {
+                gsap.to(modeBw, {
+                    boxShadow: "0 8px 25px var(--primary-glow)",
+                    borderColor: "var(--primary)",
+                    background: "rgba(255,255,255,0.08)",
+                    opacity: 1,
+                    scale: 1.04,
+                    duration: 0.25
+                });
+            } else {
+                modeBw.style.boxShadow = "0 4px 15px rgba(253, 224, 71, 0.15)";
+                modeBw.style.borderColor = "var(--primary)";
+                modeBw.style.background = "rgba(255,255,255,0.08)";
+                modeBw.style.opacity = "1";
+            }
             
             actionsBw.style.display = "flex";
             actionsTalla3.style.display = "none";
