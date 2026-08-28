@@ -234,9 +234,9 @@
                 <div class="config-card">
                     <label class="config-label" data-i18n="timer_label">مدة الجولة (ثواني)</label>
                     <div class="counter-control">
-                        <button type="button" class="btn-counter minus" data-target="timer-duration" data-step="15">-</button>
-                        <span id="timer-duration" class="counter-value">60</span>
-                        <button type="button" class="btn-counter plus" data-target="timer-duration" data-step="15">+</button>
+                        <button type="button" class="btn-counter minus" data-target="timer-duration" data-step="10">-</button>
+                        <span id="timer-duration" class="counter-value">40</span>
+                        <button type="button" class="btn-counter plus" data-target="timer-duration" data-step="10">+</button>
                     </div>
                 </div>
             </div>
@@ -306,7 +306,7 @@
             </div>
 
             <div class="actions-centered">
-                <button id="btn-start-round" class="btn btn-primary glow-btn" data-i18n="btn_start_board">اضغط للبدء (60 ثانية)</button>
+                <button id="btn-start-round" class="btn btn-primary glow-btn" data-i18n="btn_start_board">اضغط للبدء (40 ثانية)</button>
             </div>
         </section>
 
@@ -323,7 +323,7 @@
                         <circle class="timer-track" cx="50" cy="50" r="45"></circle>
                         <circle id="timer-bar" class="timer-bar" cx="50" cy="50" r="45"></circle>
                     </svg>
-                    <span id="timer-text" class="timer-text">60</span>
+                    <span id="timer-text" class="timer-text">40</span>
                 </div>
             </div>
 
@@ -504,9 +504,9 @@
 
                 <div class="form-group" style="margin-bottom: 1.5rem;">
                     <label style="color: var(--text-secondary); margin-bottom: 0.5rem; display: block; font-weight: bold;">
-                        ⏱️ مدة الجولة / Round Duration: <span id="bw-duration-val" style="color: var(--primary);">60</span>s
+                        ⏱️ مدة الجولة / Round Duration: <span id="bw-duration-val" style="color: var(--primary);">40</span>s
                     </label>
-                    <input type="range" id="bw-duration-range" min="30" max="120" step="15" value="60" style="width: 100%; accent-color: var(--primary);">
+                    <input type="range" id="bw-duration-range" min="20" max="120" step="10" value="40" style="width: 100%; accent-color: var(--primary);">
                 </div>
             </div>
 
@@ -547,7 +547,7 @@
                         <circle class="timer-track" cx="50" cy="50" r="45"></circle>
                         <circle id="bw-timer-bar" class="timer-bar" cx="50" cy="50" r="45"></circle>
                     </svg>
-                    <span id="bw-timer-text" class="timer-text" style="font-size: 1.4rem;">60</span>
+                    <span id="bw-timer-text" class="timer-text" style="font-size: 1.4rem;">40</span>
                 </div>
             </div>
 
@@ -644,7 +644,7 @@
                         <li data-i18n="rules_li2" style="position: relative;">كل سؤال يحتوي على <strong>7 إجابات صحيحة</strong> متدرجة الصعوبة (من 1 إلى 5 نقاط) يتم اختيارها عشوائيًا من أصل 9، و<strong>إجابة واحدة خاطئة</strong> (فخ).</li>
                         <li data-i18n="rules_li3" style="position: relative;">نقاط الإجابات مقسمة حسب متتالية فيبوناتشي:
                             <br>💡 1: سهل | 2: متوسط | 3: صعب | 5: صعب جداً.</li>
-                        <li data-i18n="rules_li4" style="position: relative;">عندما يبدأ المؤقت (60 ثانية)، يحاول الفريق إيجاد أكبر عدد ممكن من الإجابات الصحيحة.</li>
+                        <li data-i18n="rules_li4" style="position: relative;">عندما يبدأ المؤقت (40 ثانية)، يحاول الفريق إيجاد أكبر عدد ممكن من الإجابات الصحيحة.</li>
                         <li data-i18n="rules_li5" style="position: relative;"><strong>تنبيه!</strong> اختيار الإجابة الخاطئة (الفخ) يسقط مباشرة <strong>5 نقاط</strong> من رصيد الجولة للفريق!</li>
                         <li data-i18n="rules_li6" style="position: relative;">الفريق الذي يجمع أكبر عدد من النقاط في نهاية الجولات يفوز باللقب! 🏆</li>
                     </ul>

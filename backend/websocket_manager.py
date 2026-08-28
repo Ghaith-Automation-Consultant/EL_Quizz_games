@@ -91,7 +91,7 @@ class GameRoom:
         self.answers_received: Dict[int, dict] = {}       # Kept for E2E count sync compatibility if needed
         self.round_questions_count = 5
         self.total_rounds = 5
-        self.timer_seconds = 10
+        self.timer_seconds = 10 if os.getenv("TESTING") == "True" else 40
         self.timer_task: Optional[asyncio.Task] = None
         self.language = "ar" # Default to Arabic
         self.active_round_answers: List[models.Answer] = []

@@ -7411,7 +7411,7 @@ let dbCategories = [];
 let gameConfig = {
     rounds: 5,
     teamsCount: 2,
-    roundDuration: 60,
+    roundDuration: 40,
     selectedCategories: [],
     selectedSubcategories: [],
     selectedUniverseId: null
@@ -7422,7 +7422,7 @@ let gameState = {
     currentRound: 1,
     currentTeamIndex: 0,
     activeQuestion: null,
-    timerVal: 60,
+    timerVal: 40,
     timerInterval: null,
     wrongGuessesCount: 0,
     guessedAnswerIds: new Set(),
@@ -7451,7 +7451,7 @@ const UI_TRANSLATIONS = {
         btn_start_game: "ابدأ اللعبة!",
         round_header: "الجولة",
         turn_subtitle: "حان دوركم الآن للإجابة!",
-        btn_start_board: "اضغط لبدء لوحة الإجابات (60 ثانية)",
+        btn_start_board: "اضغط لبدء لوحة الإجابات (40 ثانية)",
         board_title: "لوحة الإجابات النشطة",
         score_label: "النقاط المحققة في هذه المحاولة:",
         strikes_label: "الأخطاء (Strikes):",
@@ -7467,9 +7467,9 @@ const UI_TRANSLATIONS = {
         rules_title: "قواعد اللعبة",
         rules_desc: "أهلاً بك في <strong>El Quizz</strong>، النسخة التونسية من اللعبة الشهيرة Family Feud!",
         rules_li1: "اللعبة تعتمد على الإجابة الجماعية بالتناوب بين الفرق.",
-        rules_li2: "كل سؤال يحتوي على <strong>9 إجابات صحيحة</strong> متدرجة الصعوبة (من 1 إلى 8 نقاط) و<strong>إجابة واحدة خاطئة</strong> (فخ).",
-        rules_li3: "نقاط الإجابات مقسمة حسب متتالية فيبوناتشي:<br>💡 1: سهل | 2: متوسط | 3: صعب | 5: صعب جداً | 8: شبه مستحيل الإيجاد.",
-        rules_li4: "عندما يبدأ المؤقت (60 ثانية)، يحاول الفريق إيجاد أكبر عدد ممكن من الإجابات الصحيحة.",
+        rules_li2: "كل سؤال يحتوي على <strong>7 إجابات صحيحة</strong> متدرجة الصعوبة (من 1 إلى 5 نقاط) يتم اختيارها عشوائيًا من أصل 9، و<strong>إجابة واحدة خاطئة</strong> (فخ).",
+        rules_li3: "نقاط الإجابات مقسمة حسب متتالية فيبوناتشي:<br>💡 1: سهل | 2: متوسط | 3: صعب | 5: صعب جداً.",
+        rules_li4: "عندما يبدأ المؤقت (40 ثانية)، يحاول الفريق إيجاد أكبر عدد ممكن من الإجابات الصحيحة.",
         rules_li5: "<strong>تنبيه!</strong> اختيار الإجابة الخاطئة (الفخ) يسقط مباشرة <strong>5 نقاط</strong> من رصيد الجولة للفريق!",
         rules_li6: "الفريق الذي يجمع أكبر عدد من النقاط في نهاية الجولات يفوز باللقب! 🏆",
         btn_close_rules: "فهمت!",
@@ -7498,7 +7498,7 @@ const UI_TRANSLATIONS = {
         btn_start_game: "أبّدا اللعب!",
         round_header: "الجولة",
         turn_subtitle: "دوركم توّة باش تجاوبوا!",
-        btn_start_board: "أقرى السؤال وأبّدا (60 ثانية)",
+        btn_start_board: "أقرى السؤال وأبّدا (40 ثانية)",
         board_title: "لوحة الإجابات النشطة",
         score_label: "النقاط اللي لميتوهم توّة:",
         strikes_label: "الأغلاط (Strikes):",
@@ -7514,9 +7514,9 @@ const UI_TRANSLATIONS = {
         rules_title: "قواعد اللعبة",
         rules_desc: "أهلاً بك في <strong>El Quizz</strong>، النسخة التونسية من اللعبة الشهيرة Family Feud!",
         rules_li1: "اللعبة تعتمد على الإجابة الجماعية بالتناوب بين الفرق.",
-        rules_li2: "كل سؤال يحتوي على <strong>9 إجابات صحيحة</strong> متدرجة الصعوبة (من 1 إلى 8 نقاط) و<strong>إجابة واحدة خاطئة</strong> (فخ).",
-        rules_li3: "نقاط الإجابات مقسمة حسب متتالية فيبوناتشي:<br>💡 1: سهل | 2: متوسط | 3: صعب | 5: صعب جداً | 8: شبه مستحيل الإيجاد.",
-        rules_li4: "عندما يبدأ المؤقت (60 ثانية)، يحاول الفريق إيجاد أكبر عدد ممكن من الإجابات الصحيحة.",
+        rules_li2: "كل سؤال يحتوي على <strong>7 إجابات صحيحة</strong> متدرجة الصعوبة (من 1 إلى 5 نقاط) يتم اختيارها عشوائيًا من أصل 9، و<strong>إجابة واحدة خاطئة</strong> (فخ).",
+        rules_li3: "نقاط الإجابات مقسمة حسب متتالية فيبوناتشي:<br>💡 1: سهل | 2: متوسط | 3: صعب | 5: صعب جداً.",
+        rules_li4: "عندما يبدأ المؤقت (40 ثانية)، يحاول الفريق إيجاد أكبر عدد ممكن من الإجابات الصحيحة.",
         rules_li5: "<strong>تنبيه!</strong> اختيار الإجابة الخاطئة (الفخ) يسقط مباشرة <strong>5 نقاط</strong> من رصيد الجولة للفريق!",
         rules_li6: "الفريق الذي يجمع أكبر عدد من النقاط في نهاية الجولات يفوز باللقب! 🏆",
         btn_close_rules: "فهمت!",
@@ -7545,7 +7545,7 @@ const UI_TRANSLATIONS = {
         btn_start_game: "Commencer le jeu !",
         round_header: "Round",
         turn_subtitle: "C'est votre tour de répondre !",
-        btn_start_board: "Démarrer le tableau (60s)",
+        btn_start_board: "Démarrer le tableau (40s)",
         board_title: "Tableau de jeu",
         score_label: "Points gagnés ce tour :",
         strikes_label: "Erreurs (Strikes) :",
@@ -7561,9 +7561,9 @@ const UI_TRANSLATIONS = {
         rules_title: "Règles du Jeu",
         rules_desc: "Bienvenue dans <strong>El Quizz</strong>, la version tunisienne du célèbre jeu Family Feud !",
         rules_li1: "Le jeu se joue en équipe et au tour par tour.",
-        rules_li2: "Chaque question a <strong>9 bonnes réponses</strong> (de 1 à 8 pts) et <strong>1 mauvaise réponse</strong> (piège).",
-        rules_li3: "Les points suivent la suite de Fibonacci :<br>💡 1: Facile | 2: Moyen | 3: Difficile | 5: Très dur | 8: Presque impossible.",
-        rules_li4: "Quand le chrono démarre (60s), l'équipe tente de deviner un maximum de bonnes réponses.",
+        rules_li2: "Chaque question a <strong>7 bonnes réponses</strong> (de 1 à 5 pts) sélectionnées aléatoirement parmi 9, et <strong>1 mauvaise réponse</strong> (piège).",
+        rules_li3: "Les points suivent la suite de Fibonacci :<br>💡 1: Facile | 2: Moyen | 3: Difficile | 5: Très dur.",
+        rules_li4: "Quand le chrono démarre (40s), l'équipe tente de deviner un maximum de bonnes réponses.",
         rules_li5: "<strong>Attention !</strong> Choisir la mauvaise réponse (piège) retire immédiatement <strong>5 points</strong> du tour !",
         rules_li6: "L'équipe avec le plus de points à la fin des rounds gagne la partie ! 🏆",
         btn_close_rules: "Compris !",
@@ -7592,7 +7592,7 @@ const UI_TRANSLATIONS = {
         btn_start_game: "Start Game!",
         round_header: "Round",
         turn_subtitle: "It is your turn to answer!",
-        btn_start_board: "Start Answers Board (60s)",
+        btn_start_board: "Start Answers Board (40s)",
         board_title: "Active Answers Board",
         score_label: "Points gained this turn:",
         strikes_label: "Strikes:",
@@ -7608,9 +7608,9 @@ const UI_TRANSLATIONS = {
         rules_title: "Game Rules",
         rules_desc: "Welcome to <strong>El Quizz</strong>, the Tunisian version of the famous Family Feud game!",
         rules_li1: "The game is played in teams, alternating turns.",
-        rules_li2: "Each question contains <strong>9 correct answers</strong> (1 to 8 pts) and <strong>1 wrong answer</strong> (trap).",
-        rules_li3: "Answers follow Fibonacci weights:<br>💡 1: Easy | 2: Medium | 3: Difficult | 5: Extremely Hard | 8: Near Impossible.",
-        rules_li4: "Once the 60-second timer starts, the active team guesses correct answers.",
+        rules_li2: "Each question contains <strong>7 correct answers</strong> (1 to 5 pts) randomly selected from 9, and <strong>1 wrong answer</strong> (trap).",
+        rules_li3: "Answers follow Fibonacci weights:<br>💡 1: Easy | 2: Medium | 3: Difficult | 5: Extremely Hard.",
+        rules_li4: "Once the 40-second timer starts, the active team guesses correct answers.",
         rules_li5: "<strong>Watch out!</strong> Guessing the wrong answer (trap) deducts <strong>5 points</strong> from the turn's score!",
         rules_li6: "The team with the highest score at the end of the rounds wins the game! 🏆",
         btn_close_rules: "Got it!",
@@ -9867,7 +9867,7 @@ function startActiveGameboard() {
     const activeTeam = teams[gameState.currentTeamIndex];
     const q = gameState.activeQuestion;
     
-    gameState.timerVal = gameConfig.roundDuration || 60;
+    gameState.timerVal = gameConfig.roundDuration || 40;
     gameState.wrongGuessesCount = 0;
     gameState.guessedAnswerIds.clear();
     gameState.pointsGainedThisTurn = 0;
@@ -10055,7 +10055,7 @@ function startTimerCountdown() {
         timerText.textContent = gameState.timerVal;
 
         // Circular offset decrement
-        const maxTimer = gameConfig.roundDuration || 60;
+        const maxTimer = gameConfig.roundDuration || 40;
         const offset = 283 - (gameState.timerVal / maxTimer) * 283;
         timerBar.style.strokeDashoffset = offset;
 
@@ -10505,7 +10505,7 @@ function handleOnlineMessage(e) {
         const timerBar = document.getElementById("timer-bar");
         if (timerText) timerText.textContent = msg.val;
         if (timerBar) {
-            const offset = 283 - (msg.val / 60) * 283;
+            const offset = 283 - (msg.val / 40) * 283;
             timerBar.style.strokeDashoffset = offset;
             if (msg.val <= 10) {
                 timerText.style.color = "var(--accent-red)";
@@ -11113,7 +11113,7 @@ function rebuildActiveLocalGameboard() {
 gameState.mode = "talla3";
 gameState.bwPlayMode = "solo"; // "solo" or "passplay"
 gameState.bwSelectedCategories = [];
-gameState.bwRoundDuration = 60;
+gameState.bwRoundDuration = 40;
 gameState.bwActiveLetter = "";
 gameState.bwAnswers = {};
 gameState.bwScore = 0;
@@ -11202,12 +11202,12 @@ function initBentWaledSetupScreen() {
     }
 
     // Duration default
-    gameState.bwRoundDuration = 60;
+    gameState.bwRoundDuration = 40;
     const durSlider = document.getElementById("bw-duration-range");
     const durVal = document.getElementById("bw-duration-val");
     if (durSlider && durVal) {
-        durSlider.value = 60;
-        durVal.textContent = "60";
+        durSlider.value = 40;
+        durVal.textContent = "40";
     }
 }
 
@@ -12069,7 +12069,7 @@ function updateBwUILanguage(lang) {
     const labelsInSetup = document.querySelectorAll("#screen-bw-setup label");
     labelsInSetup.forEach(lbl => {
         if (lbl.textContent.includes("Round Duration") || lbl.textContent.includes("مدة الجولة") || lbl.textContent.includes("⏱️")) {
-            lbl.innerHTML = `${trans.duration_label || '⏱️ Round Duration:'} <span id="bw-duration-val" style="color: var(--primary);">${gameState.bwRoundDuration || 60}</span>s`;
+            lbl.innerHTML = `${trans.duration_label || '⏱️ Round Duration:'} <span id="bw-duration-val" style="color: var(--primary);">${gameState.bwRoundDuration || 40}</span>s`;
         }
     });
 
