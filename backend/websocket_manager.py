@@ -2,6 +2,7 @@ import json
 import asyncio
 import random
 import os
+import re
 from typing import Dict, List, Set, Optional
 from fastapi import WebSocket
 from sqlalchemy.orm import Session, joinedload
@@ -30,10 +31,21 @@ def get_next_fibonacci(val: int) -> int:
 
 def get_translated_question_text(q: models.Question, lang: str) -> str:
     # Check translations list
+    text = ""
     for tr in q.translations:
         if tr.language == lang:
-            return tr.text
-    return q.text # Fallback to default (Arabic)
+            text = tr.text
+            break
+    if not text:
+        text = q.text or "" # Fallback to default (Arabic)
+
+    if text:
+        text = re.sub(r'Name\s+9', 'Gimme 7', text, flags=re.IGNORECASE)
+        text = re.sub(r'Cite\s+9', 'Cite 7', text, flags=re.IGNORECASE)
+        text = re.sub(r'اذكر\s+9', 'هات 7', text)
+        text = re.sub(r'طلّع\s+9', 'هات 7', text)
+        text = re.sub(r'\b9\b', '7', text)
+    return text
 
 def get_translated_answer_text(ans: models.Answer, lang: str) -> str:
     # Check translations list
@@ -82,6 +94,7 @@ class GameRoom:
         self.timer_seconds = 10
         self.timer_task: Optional[asyncio.Task] = None
         self.language = "ar" # Default to Arabic
+        self.active_round_answers: List[models.Answer] = []
 
     def add_player(self, player: Player):
         if len(self.players) == 0:
@@ -113,7 +126,7 @@ class GameRoom:
             return None
             
         current_q = self.questions[self.current_question_index]
-        ans_obj = next((a for a in current_q.answers if a.id == answer_id), None)
+        ans_obj = next((a for a in self.active_round_answers if a.id == answer_id), None)
         if not ans_obj:
             return None
             
@@ -321,9 +334,17 @@ async def run_game_loop(room_code: str):
             # Broadcast new question (hiding points and is_correct flags)
             lang = room.language
             q_text_val = get_translated_question_text(current_q, lang)
+            
+            # Select 7 correct answers randomly and combine with wrong answers
+            correct_ans = [a for a in current_q.answers if a.is_correct]
+            wrong_ans = [a for a in current_q.answers if not a.is_correct]
+            random.shuffle(correct_ans)
+            selected_correct = correct_ans[:7]
+            room.active_round_answers = selected_correct + wrong_ans
+            
             options = [
                 {"id": ans.id, "text": get_translated_answer_text(ans, lang)} 
-                for ans in current_q.answers
+                for ans in room.active_round_answers
             ]
             random.shuffle(options)
 
@@ -341,12 +362,12 @@ async def run_game_loop(room_code: str):
             })
 
             # Start 10s countdown
-            # Break early if all players have guessed all 9 correct answers
+            # Break early if all players have guessed all 7 correct answers
             for sec in range(room.timer_seconds, -1, -1):
                 all_done = True
                 for p in room.players:
                     guesses = room.guessed_answers.get(p.user_id, set())
-                    if len(guesses) < 9:
+                    if len(guesses) < 7:
                         all_done = False
                         break
                 if all_done:
@@ -382,7 +403,7 @@ async def run_game_loop(room_code: str):
                     "guesses": guesses
                 })
 
-            all_answers = [{"id": ans.id, "text": ans.text, "is_correct": ans.is_correct, "points": ans.points} for ans in current_q.answers]
+            all_answers = [{"id": ans.id, "text": ans.text, "is_correct": ans.is_correct, "points": ans.points} for ans in room.active_round_answers]
             await room.broadcast({
                 "type": "answer_reveal",
                 "answers": all_answers,

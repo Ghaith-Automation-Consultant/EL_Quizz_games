@@ -7220,12 +7220,24 @@ const TEAM_ICONS = ["🌶️", "🇹🇳", "🦁", "☕", "🫖", "🏺", "🕌"
 
 // Translation helpers
 function getQuestionText(q, lang) {
+    let text = "";
     if (q.translations && q.translations[lang]) {
         const val = q.translations[lang];
-        if (typeof val === 'string') return val;
-        if (val && typeof val === 'object' && val.text) return val.text;
+        if (typeof val === 'string') text = val;
+        else if (val && typeof val === 'object' && val.text) text = val.text;
+    } else {
+        text = q.text || "";
     }
-    return q.text || "";
+
+    if (text) {
+        text = text
+            .replace(/Name\s+9/gi, "Gimme 7")
+            .replace(/Cite\s+9/gi, "Cite 7")
+            .replace(/اذكر\s+9/gi, "هات 7")
+            .replace(/طلّع\s+9/gi, "هات 7")
+            .replace(/\b9\b/g, "7");
+    }
+    return text;
 }
 
 function getAnswerText(ans, lang) {
@@ -9888,8 +9900,11 @@ function startActiveGameboard() {
     const answersGrid = document.getElementById("answers-grid");
     answersGrid.innerHTML = "";
 
-    // Shuffle options so distractor is placed randomly
-    localShuffledAnswers = [...q.answers].sort(() => Math.random() - 0.5);
+    // Randomly select 7 correct answers and combine with the wrong answer
+    const correctAnsList = q.answers.filter(a => a.is_correct);
+    const wrongAnsList = q.answers.filter(a => !a.is_correct);
+    const selectedCorrect = [...correctAnsList].sort(() => Math.random() - 0.5).slice(0, 7);
+    localShuffledAnswers = [...selectedCorrect, ...wrongAnsList].sort(() => Math.random() - 0.5);
 
     localShuffledAnswers.forEach((ans, index) => {
         const card = document.createElement("div");
@@ -12129,8 +12144,8 @@ function updateBwUILanguage(lang) {
 // Register translations on load
 const BW_TRANSLATIONS = {
     ar: {
-        mode_title_talla3: "اذكر 9",
-        mode_desc_talla3: "أجب بـ 9 إجابات صحيحة وتجنّب الفخ",
+        mode_title_talla3: "هات 7",
+        mode_desc_talla3: "أجب بـ 7 إجابات صحيحة وتجنّب الفخ",
         mode_title_bw: "بنت ولد",
         mode_desc_bw: "لعبة الحروف والأسماء المشهورة (فردي / محلي)",
         btn_play_bw: "🎮 ابدأ اللعب",
@@ -12190,8 +12205,8 @@ const BW_TRANSLATIONS = {
         tbl_score: "النقاط"
     },
     tn: {
-        mode_title_talla3: "طلّع 9",
-        mode_desc_talla3: "جاوب بـ 9 إجابات صحيحة وأبعد عالفخ",
+        mode_title_talla3: "هات 7",
+        mode_desc_talla3: "جاوب بـ 7 إجابات صحيحة وأبعد عالفخ",
         mode_title_bw: "بنت ولد",
         mode_desc_bw: "لعبة الحروف والأسماء المشهورة (فردي / محلي)",
         btn_play_bw: "🎮 ابدأ اللعب",
@@ -12243,8 +12258,8 @@ const BW_TRANSLATIONS = {
         tbl_score: "النقاط"
     },
     fr: {
-        mode_title_talla3: "Cite 9",
-        mode_desc_talla3: "Donnez 9 réponses correctes et évitez le piège",
+        mode_title_talla3: "Cite 7",
+        mode_desc_talla3: "Donnez 7 réponses correctes et évitez le piège",
         mode_title_bw: "Fille Garçon",
         mode_desc_bw: "Le jeu classique du petit baccalauréat (solo / local)",
         btn_play_bw: "🎮 Jouer",
@@ -12296,8 +12311,8 @@ const BW_TRANSLATIONS = {
         tbl_score: "Score"
     },
     en: {
-        mode_title_talla3: "Name 9",
-        mode_desc_talla3: "Give 9 correct answers and avoid the trap",
+        mode_title_talla3: "Gimme 7",
+        mode_desc_talla3: "Give 7 correct answers and avoid the trap",
         mode_title_bw: "Girl Boy",
         mode_desc_bw: "The classic categories word game (solo / local)",
         btn_play_bw: "🎮 Play",

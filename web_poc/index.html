@@ -42,11 +42,11 @@
                 
                 <!-- Game Mode Selection Cards -->
                 <div class="mode-selection-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; width: 100%; margin-bottom: 1rem;">
-                    <!-- Mode 1: Talla3 9 -->
+                    <!-- Mode 1: Gimme 7 -->
                     <div id="mode-card-talla3" class="mode-card" style="background: rgba(255,255,255,0.03); border: 2px solid rgba(255,255,255,0.1); border-radius: 16px; padding: 15px; cursor: pointer; transition: all 0.3s ease; text-align: center; backdrop-filter: blur(10px); opacity: 0.7;">
                         <div style="font-size: 2rem; margin-bottom: 5px;">🔢</div>
-                        <h3 style="margin: 5px 0; font-size: 1.05rem; color: #fff; font-weight: bold;" id="lbl-mode-title-talla3">طلّع 9</h3>
-                        <p style="margin: 0; font-size: 0.75rem; color: var(--text-secondary); line-height: 1.2;" id="lbl-mode-desc-talla3">أجب بـ 9 إجابات صحيحة وتجنّب الفخ</p>
+                        <h3 style="margin: 5px 0; font-size: 1.05rem; color: #fff; font-weight: bold;" id="lbl-mode-title-talla3">هات 7</h3>
+                        <p style="margin: 0; font-size: 0.75rem; color: var(--text-secondary); line-height: 1.2;" id="lbl-mode-desc-talla3">أجب بـ 7 إجابات صحيحة وتجنّب الفخ</p>
                     </div>
                     <!-- Mode 2: Bent Waled -->
                     <div id="mode-card-bw" class="mode-card" style="background: rgba(255,255,255,0.03); border: 2px solid rgba(255,255,255,0.1); border-radius: 16px; padding: 15px; cursor: pointer; transition: all 0.3s ease; text-align: center; backdrop-filter: blur(10px); opacity: 0.7;">
@@ -56,7 +56,7 @@
                     </div>
                 </div>
 
-                <!-- Actions for Talla3 9 Mode (Initially Hidden) -->
+                <!-- Actions for Gimme 7 Mode (Initially Hidden) -->
                 <div id="actions-talla3" style="width: 100%; display: none; flex-direction: column; gap: 1rem;">
                     <div style="display: flex; gap: 1rem; width: 100%;">
                         <button id="btn-play-local" class="btn btn-primary glow-btn" style="flex: 1; display: flex; justify-content: center; align-items: center; gap: 0.5rem; padding: 12px;">
@@ -632,19 +632,18 @@
                 
                 <!-- Rules Tabs Selector -->
                 <div class="rules-tabs-container" style="display: flex; gap: 10px; margin-bottom: 5px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 10px;">
-                    <button id="btn-rules-tab-talla3" class="btn active" style="flex: 1; font-weight: bold; background: var(--primary); color: black; border: none; padding: 10px; border-radius: 8px; cursor: pointer;">طلّع 9 (Talla3 9)</button>
+                    <button id="btn-rules-tab-talla3" class="btn active" style="flex: 1; font-weight: bold; background: var(--primary); color: black; border: none; padding: 10px; border-radius: 8px; cursor: pointer;">هات 7 (Gimme 7)</button>
                     <button id="btn-rules-tab-bw" class="btn" style="flex: 1; font-weight: bold; background: rgba(255,255,255,0.05); color: white; border: 1px solid rgba(255,255,255,0.1); padding: 10px; border-radius: 8px; cursor: pointer;">بنت ولد (Bent Waled)</button>
                 </div>
                 
-                <!-- Tab Content 1: Talla3 9 -->
+                <!-- Tab Content 1: Gimme 7 -->
                 <div id="rules-content-talla3" class="modal-body-content" style="line-height: 1.6; font-size: 0.95rem; color: var(--text-secondary);">
                     <p data-i18n="rules_desc">أهلاً بك في <strong>El Quizz</strong>، النسخة التونسية من اللعبة الشهيرة Family Feud!</p>
                     <ul style="padding-right: 20px; display: flex; flex-direction: column; gap: 8px; list-style-type: none;">
                         <li data-i18n="rules_li1" style="position: relative;">اللعبة تعتمد على الإجابة الجماعية بالتناوب بين الفرق.</li>
-                        <li data-i18n="rules_li2" style="position: relative;">كل سؤال يحتوي على <strong>9 إجابات صحيحة</strong> متدرجة الصعوبة (من 1 إلى 8 نقاط) و<strong>إجابة واحدة خاطئة</strong> (فخ).</li>
+                        <li data-i18n="rules_li2" style="position: relative;">كل سؤال يحتوي على <strong>7 إجابات صحيحة</strong> متدرجة الصعوبة (من 1 إلى 5 نقاط) يتم اختيارها عشوائيًا من أصل 9، و<strong>إجابة واحدة خاطئة</strong> (فخ).</li>
                         <li data-i18n="rules_li3" style="position: relative;">نقاط الإجابات مقسمة حسب متتالية فيبوناتشي:
-                            <br>💡 1: سهل | 2: متوسط | 3: صعب | 5: صعب جداً | 8: شبه مستحيل الإيجاد.
-                        </li>
+                            <br>💡 1: سهل | 2: متوسط | 3: صعب | 5: صعب جداً.</li>
                         <li data-i18n="rules_li4" style="position: relative;">عندما يبدأ المؤقت (60 ثانية)، يحاول الفريق إيجاد أكبر عدد ممكن من الإجابات الصحيحة.</li>
                         <li data-i18n="rules_li5" style="position: relative;"><strong>تنبيه!</strong> اختيار الإجابة الخاطئة (الفخ) يسقط مباشرة <strong>5 نقاط</strong> من رصيد الجولة للفريق!</li>
                         <li data-i18n="rules_li6" style="position: relative;">الفريق الذي يجمع أكبر عدد من النقاط في نهاية الجولات يفوز باللقب! 🏆</li>
