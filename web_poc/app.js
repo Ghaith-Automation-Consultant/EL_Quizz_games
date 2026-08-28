@@ -7206,6 +7206,1806 @@ const DEFAULT_QUESTIONS = [
             { translations: { ar: "ساعة بيغ بن", tn: "منڨالة بيغ بن بلندن", fr: "Big Ben", en: "Big Ben" }, is_correct: true, points: 5 },
             { translations: { ar: "محطة حافلات النقل", tn: "محطة الكيران", fr: "Station de bus", en: "Bus station" }, is_correct: false, points: 0 }
         ]
+    },
+    {
+        id: 301,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 دول أوروبية تستخدم اليورو كعملة رسمية؟' },
+            tn: { text: 'دول في أوروبا تستعمل الأورو؟' },
+            fr: { text: "Citez 9 pays européens utilisant l'euro comme monnaie officielle ?" },
+            en: { text: 'Name 9 European countries that use the Euro as their official currency?' }
+        },
+        category: 'Geography',
+        subcategory: 'Worldwide',
+        answers: [
+            { translations: { ar: 'فرنسا', tn: 'فرنسا', fr: 'France', en: 'France' }, is_correct: true, points: 1 },
+            { translations: { ar: 'ألمانيا', tn: 'ألمانيا', fr: 'Allemagne', en: 'Germany' }, is_correct: true, points: 1 },
+            { translations: { ar: 'إيطاليا', tn: 'إيطاليا', fr: 'Italie', en: 'Italy' }, is_correct: true, points: 1 },
+            { translations: { ar: 'إسبانيا', tn: 'إسبانيا', fr: 'Espagne', en: 'Spain' }, is_correct: true, points: 1 },
+            { translations: { ar: 'بلجيكا', tn: 'بلجيكا', fr: 'Belgique', en: 'Belgium' }, is_correct: true, points: 2 },
+            { translations: { ar: 'اليونان', tn: 'اليونان', fr: 'Grèce', en: 'Greece' }, is_correct: true, points: 2 },
+            { translations: { ar: 'البرتغال', tn: 'البرتغال', fr: 'Portugal', en: 'Portugal' }, is_correct: true, points: 3 },
+            { translations: { ar: 'النمسا', tn: 'النمسا', fr: 'Autriche', en: 'Austria' }, is_correct: true, points: 3 },
+            { translations: { ar: 'إستونيا', tn: 'إستونيا', fr: 'Estonie', en: 'Estonia' }, is_correct: true, points: 5 },
+            { translations: { ar: 'المملكة المتحدة', tn: 'بريطانيا', fr: 'Royaume-Uni', en: 'United Kingdom' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 302,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 محيطات أو بحار رئيسية في العالم؟' },
+            tn: { text: 'محيطات وبحار معروفة في العالم؟' },
+            fr: { text: 'Citez 9 océans ou mers majeurs dans le monde ?' },
+            en: { text: 'Name 9 major oceans or seas in the world?' }
+        },
+        category: 'Geography',
+        subcategory: 'Worldwide',
+        answers: [
+            { translations: { ar: 'المحيط الهادئ', tn: 'المحيط الهادي', fr: 'Océan Pacifique', en: 'Pacific Ocean' }, is_correct: true, points: 1 },
+            { translations: { ar: 'المحيط الأطلسي', tn: 'المحيط الأطلسي', fr: 'Océan Atlantique', en: 'Atlantic Ocean' }, is_correct: true, points: 1 },
+            { translations: { ar: 'المحيط الهندي', tn: 'المحيط الهندي', fr: 'Océan Indien', en: 'Indian Ocean' }, is_correct: true, points: 1 },
+            { translations: { ar: 'البحر الأبيض المتوسط', tn: 'البحر الأبيض المتوسط', fr: 'Mer Méditerranée', en: 'Mediterranean Sea' }, is_correct: true, points: 1 },
+            { translations: { ar: 'البحر الأحمر', tn: 'البحر الأحمر', fr: 'Mer Rouge', en: 'Red Sea' }, is_correct: true, points: 2 },
+            { translations: { ar: 'البحر الأسود', tn: 'البحر لكحل', fr: 'Mer Noire', en: 'Black Sea' }, is_correct: true, points: 2 },
+            { translations: { ar: 'بحر العرب', tn: 'بحر العرب', fr: "Mer d'Arabie", en: 'Arabian Sea' }, is_correct: true, points: 3 },
+            { translations: { ar: 'البحر الكاريبي', tn: 'البحر الكاريبي', fr: 'Mer des Caraïbes', en: 'Caribbean Sea' }, is_correct: true, points: 3 },
+            { translations: { ar: 'البحر الميت', tn: 'البحر الميت', fr: 'Mer Morte', en: 'Dead Sea' }, is_correct: true, points: 5 },
+            { translations: { ar: 'نهر النيل', tn: 'واد النيل', fr: 'Nil', en: 'Nile River' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 303,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 عواصم عالمية تبدأ بحرف اللام (L)؟' },
+            tn: { text: 'عواصم في العالم تبدا بحرف اللام (L)؟' },
+            fr: { text: 'Citez 9 capitales mondiales commençant par la lettre L ?' },
+            en: { text: 'Name 9 world capitals starting with the letter L?' }
+        },
+        category: 'Geography',
+        subcategory: 'Country',
+        answers: [
+            { translations: { ar: 'لندن', tn: 'لندن', fr: 'Londres', en: 'London' }, is_correct: true, points: 1 },
+            { translations: { ar: 'لشبونة', tn: 'لشبونة', fr: 'Lisbonne', en: 'Lisbon' }, is_correct: true, points: 1 },
+            { translations: { ar: 'ليما', tn: 'ليما', fr: 'Lima', en: 'Lima' }, is_correct: true, points: 1 },
+            { translations: { ar: 'لوساكا', tn: 'لوساكا', fr: 'Lusaka', en: 'Lusaka' }, is_correct: true, points: 1 },
+            { translations: { ar: 'ليبرفيل', tn: 'ليبرفيل', fr: 'Libreville', en: 'Libreville' }, is_correct: true, points: 2 },
+            { translations: { ar: 'ليلونغوي', tn: 'ليلونغوي', fr: 'Lilongwe', en: 'Lilongwe' }, is_correct: true, points: 2 },
+            { translations: { ar: 'لوبليانا', tn: 'لوبليانا', fr: 'Ljubljana', en: 'Ljubljana' }, is_correct: true, points: 3 },
+            { translations: { ar: 'لومي', tn: 'لومي', fr: 'Lomé', en: 'Lome' }, is_correct: true, points: 3 },
+            { translations: { ar: 'لواندا', tn: 'لواندا', fr: 'Luanda', en: 'Luanda' }, is_correct: true, points: 5 },
+            { translations: { ar: 'مدريد', tn: 'مدريد', fr: 'Madrid', en: 'Madrid' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 304,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 دول تشترك في الحدود البرية مع ألمانيا؟' },
+            tn: { text: 'دول لاصقة وجيران ألمانيا؟' },
+            fr: { text: "Citez 9 pays qui partagent une frontière terrestre avec l'Allemagne ?" },
+            en: { text: 'Name 9 countries that share a land border with Germany?' }
+        },
+        category: 'Geography',
+        subcategory: 'Country',
+        answers: [
+            { translations: { ar: 'فرنسا', tn: 'فرنسا', fr: 'France', en: 'France' }, is_correct: true, points: 1 },
+            { translations: { ar: 'النمسا', tn: 'النمسا', fr: 'Autriche', en: 'Austria' }, is_correct: true, points: 1 },
+            { translations: { ar: 'سويسرا', tn: 'سويسرا', fr: 'Suisse', en: 'Switzerland' }, is_correct: true, points: 1 },
+            { translations: { ar: 'بولندا', tn: 'بولندا', fr: 'Pologne', en: 'Poland' }, is_correct: true, points: 1 },
+            { translations: { ar: 'هولندا', tn: 'هولندا', fr: 'Pays-Bas', en: 'Netherlands' }, is_correct: true, points: 2 },
+            { translations: { ar: 'بلجيكا', tn: 'بلجيكا', fr: 'Belgique', en: 'Belgium' }, is_correct: true, points: 2 },
+            { translations: { ar: 'جمهورية التشيك', tn: 'التشيك', fr: 'République Tchèque', en: 'Czech Republic' }, is_correct: true, points: 3 },
+            { translations: { ar: 'الدنمارك', tn: 'الدنمارك', fr: 'Danemark', en: 'Denmark' }, is_correct: true, points: 3 },
+            { translations: { ar: 'لوكسمبورغ', tn: 'لوكسمبورغ', fr: 'Luxembourg', en: 'Luxembourg' }, is_correct: true, points: 5 },
+            { translations: { ar: 'إسبانيا', tn: 'إسبانيا', fr: 'Espagne', en: 'Spain' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 305,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 أنهار مشهورة عالمياً؟' },
+            tn: { text: 'أنهار معروفة برشا في العالم؟' },
+            fr: { text: 'Citez 9 fleuves ou rivières célèbres dans le monde ?' },
+            en: { text: 'Name 9 famous rivers in the world?' }
+        },
+        category: 'Geography',
+        subcategory: 'Worldwide',
+        answers: [
+            { translations: { ar: 'نهر النيل', tn: 'النيل', fr: 'Nil', en: 'Nile' }, is_correct: true, points: 1 },
+            { translations: { ar: 'نهر الأمازون', tn: 'الأمازون', fr: 'Amazone', en: 'Amazon' }, is_correct: true, points: 1 },
+            { translations: { ar: 'نهر المسيسيبي', tn: 'المسيسيبي', fr: 'Mississippi', en: 'Mississippi' }, is_correct: true, points: 1 },
+            { translations: { ar: 'نهر السين', tn: 'السين', fr: 'Seine', en: 'Seine' }, is_correct: true, points: 1 },
+            { translations: { ar: 'نهر التيمز', tn: 'التيمز', fr: 'Tamise', en: 'Thames' }, is_correct: true, points: 2 },
+            { translations: { ar: 'نهر الدانوب', tn: 'الدانوب', fr: 'Danube', en: 'Danube' }, is_correct: true, points: 2 },
+            { translations: { ar: 'نهر الفرات', tn: 'الفرات', fr: 'Euphrate', en: 'Euphrates' }, is_correct: true, points: 3 },
+            { translations: { ar: 'نهر دجلة', tn: 'دجلة', fr: 'Tigre', en: 'Tigris' }, is_correct: true, points: 3 },
+            { translations: { ar: 'نهر الميكونغ', tn: 'الميكونغ', fr: 'Mékong', en: 'Mekong' }, is_correct: true, points: 5 },
+            { translations: { ar: 'جبال الألب', tn: 'جبال الألب', fr: 'Alpes', en: 'Alps' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 306,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 عناصر كيميائية في الجدول الدوري؟' },
+            tn: { text: 'عناصر كيميائية معروفة في الفيزيك؟' },
+            fr: { text: 'Citez 9 éléments chimiques du tableau périodique ?' },
+            en: { text: 'Name 9 chemical elements from the periodic table?' }
+        },
+        category: 'Science & Technology',
+        subcategory: 'Natural Sciences',
+        answers: [
+            { translations: { ar: 'الأكسجين', tn: 'الأكسجين', fr: 'Oxygène', en: 'Oxygen' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الهيدروجين', tn: 'الهيدروجين', fr: 'Hydrogène', en: 'Hydrogen' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الكربون', tn: 'الكربون', fr: 'Carbone', en: 'Carbon' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الحديد', tn: 'الحديد', fr: 'Fer', en: 'Iron' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الذهب', tn: 'الذهب', fr: 'Or', en: 'Gold' }, is_correct: true, points: 2 },
+            { translations: { ar: 'الفضة', tn: 'الفضة', fr: 'Argent', en: 'Silver' }, is_correct: true, points: 2 },
+            { translations: { ar: 'النحاس', tn: 'النحاس', fr: 'Cuivre', en: 'Copper' }, is_correct: true, points: 3 },
+            { translations: { ar: 'الهيليوم', tn: 'الهيليوم', fr: 'Hélium', en: 'Helium' }, is_correct: true, points: 3 },
+            { translations: { ar: 'اليورانيوم', tn: 'اليورانيوم', fr: 'Uranium', en: 'Uranium' }, is_correct: true, points: 5 },
+            { translations: { ar: 'البرونز', tn: 'البرونز', fr: 'Bronze', en: 'Bronze' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 307,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 كواكب أو كواكب قزمة في مجموعتنا الشمسية؟' },
+            tn: { text: 'كواكب المجموعة الشمسية؟' },
+            fr: { text: 'Citez 9 planètes ou planètes naines du système solaire ?' },
+            en: { text: 'Name 9 planets or dwarf planets in the Solar System?' }
+        },
+        category: 'Science & Technology',
+        subcategory: 'Natural Sciences',
+        answers: [
+            { translations: { ar: 'الأرض', tn: 'الأرض', fr: 'Terre', en: 'Earth' }, is_correct: true, points: 1 },
+            { translations: { ar: 'المريخ', tn: 'المريخ', fr: 'Mars', en: 'Mars' }, is_correct: true, points: 1 },
+            { translations: { ar: 'المشتري', tn: 'المشتري', fr: 'Jupiter', en: 'Jupiter' }, is_correct: true, points: 1 },
+            { translations: { ar: 'زحل', tn: 'زحل', fr: 'Saturne', en: 'Saturn' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الزهرة', tn: 'الزهرة', fr: 'Vénus', en: 'Venus' }, is_correct: true, points: 2 },
+            { translations: { ar: 'عطارد', tn: 'عطارد', fr: 'Mercure', en: 'Mercury' }, is_correct: true, points: 2 },
+            { translations: { ar: 'أورانوس', tn: 'أورانوس', fr: 'Uranus', en: 'Uranus' }, is_correct: true, points: 3 },
+            { translations: { ar: 'نبتون', tn: 'نبتون', fr: 'Neptune', en: 'Neptune' }, is_correct: true, points: 3 },
+            { translations: { ar: 'بلوتو', tn: 'بلوتو', fr: 'Pluton', en: 'Pluto' }, is_correct: true, points: 5 },
+            { translations: { ar: 'الشمس', tn: 'الشمس', fr: 'Soleil', en: 'Sun' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 308,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 لغات برمجة تستخدم في تطوير البرمجيات؟' },
+            tn: { text: 'لغات برمجة معروفة في الإعلامية؟' },
+            fr: { text: 'Citez 9 langages de programmation utilisés en développement ?' },
+            en: { text: 'Name 9 programming languages used in software development?' }
+        },
+        category: 'Science & Technology',
+        subcategory: 'Computing',
+        answers: [
+            { translations: { ar: 'جافا سكريبت', tn: 'جافا سكريبت', fr: 'JavaScript', en: 'JavaScript' }, is_correct: true, points: 1 },
+            { translations: { ar: 'بايثون', tn: 'بايثون', fr: 'Python', en: 'Python' }, is_correct: true, points: 1 },
+            { translations: { ar: 'جافا', tn: 'جافا', fr: 'Java', en: 'Java' }, is_correct: true, points: 1 },
+            { translations: { ar: 'سي بلس بلس', tn: 'سي بلس بلس', fr: 'C++', en: 'C++' }, is_correct: true, points: 1 },
+            { translations: { ar: 'سي شارب', tn: 'سي شارب', fr: 'C#', en: 'C#' }, is_correct: true, points: 2 },
+            { translations: { ar: 'بي إتش بي', tn: 'بي إتش بي', fr: 'PHP', en: 'PHP' }, is_correct: true, points: 2 },
+            { translations: { ar: 'روبي', tn: 'روبي', fr: 'Ruby', en: 'Ruby' }, is_correct: true, points: 3 },
+            { translations: { ar: 'سويفت', tn: 'سويفت', fr: 'Swift', en: 'Swift' }, is_correct: true, points: 3 },
+            { translations: { ar: 'كوتلن', tn: 'كوتلن', fr: 'Kotlin', en: 'Kotlin' }, is_correct: true, points: 5 },
+            { translations: { ar: 'إتش تي إم إل', tn: 'إتش تي إم إل', fr: 'HTML', en: 'HTML' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 309,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 أعضاء أو أجزاء رئيسية في جسم الإنسان؟' },
+            tn: { text: 'أعضاء رئيسية في بدن الإنسان؟' },
+            fr: { text: 'Citez 9 organes ou parties majeurs du corps humain ?' },
+            en: { text: 'Name 9 major organs or parts of the human body?' }
+        },
+        category: 'Science & Technology',
+        subcategory: 'Medicine',
+        answers: [
+            { translations: { ar: 'القلب', tn: 'القلب', fr: 'Cœur', en: 'Heart' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الدماغ', tn: 'المخ', fr: 'Cerveau', en: 'Brain' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الرئتين', tn: 'الرئتين', fr: 'Poumons', en: 'Lungs' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الكبد', tn: 'الكبْدة', fr: 'Foie', en: 'Liver' }, is_correct: true, points: 1 },
+            { translations: { ar: 'المعدة', tn: 'المعدة', fr: 'Estomac', en: 'Stomach' }, is_correct: true, points: 2 },
+            { translations: { ar: 'الكليتين', tn: 'الكلاوي', fr: 'Reins', en: 'Kidneys' }, is_correct: true, points: 2 },
+            { translations: { ar: 'الجلد', tn: 'الجلدة', fr: 'Peau', en: 'Skin' }, is_correct: true, points: 3 },
+            { translations: { ar: 'الأمعاء', tn: 'المصارن', fr: 'Intestins', en: 'Intestines' }, is_correct: true, points: 3 },
+            { translations: { ar: 'البنكرياس', tn: 'البنكرياس', fr: 'Pancréas', en: 'Pancreas' }, is_correct: true, points: 5 },
+            { translations: { ar: 'الهاتف', tn: 'التليفون', fr: 'Téléphone', en: 'Phone' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 310,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 متصفحات إنترنت مشهورة؟' },
+            tn: { text: 'متصفحات ويب نستعملوها للإنترنت؟' },
+            fr: { text: 'Citez 9 navigateurs web célèbres ?' },
+            en: { text: 'Name 9 famous web browsers?' }
+        },
+        category: 'Science & Technology',
+        subcategory: 'Computing',
+        answers: [
+            { translations: { ar: 'جوجل كروم', tn: 'كروم', fr: 'Google Chrome', en: 'Google Chrome' }, is_correct: true, points: 1 },
+            { translations: { ar: 'سفاري', tn: 'سفاري', fr: 'Safari', en: 'Safari' }, is_correct: true, points: 1 },
+            { translations: { ar: 'موزيلا فايرفوكس', tn: 'فايرفوكس', fr: 'Mozilla Firefox', en: 'Mozilla Firefox' }, is_correct: true, points: 1 },
+            { translations: { ar: 'مايكروسوفت إيدج', tn: 'إيدج', fr: 'Microsoft Edge', en: 'Microsoft Edge' }, is_correct: true, points: 1 },
+            { translations: { ar: 'أوبرا', tn: 'أوبرا', fr: 'Opera', en: 'Opera' }, is_correct: true, points: 2 },
+            { translations: { ar: 'برايف', tn: 'برايف', fr: 'Brave', en: 'Brave' }, is_correct: true, points: 2 },
+            { translations: { ar: 'تور', tn: 'تور', fr: 'Tor', en: 'Tor' }, is_correct: true, points: 3 },
+            { translations: { ar: 'فيفالدي', tn: 'فيفالدي', fr: 'Vivaldi', en: 'Vivaldi' }, is_correct: true, points: 3 },
+            { translations: { ar: 'يو سي براوزر', tn: 'يو سي براوزر', fr: 'UC Browser', en: 'UC Browser' }, is_correct: true, points: 5 },
+            { translations: { ar: 'فيسبوك', tn: 'فيسبوك', fr: 'Facebook', en: 'Facebook' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 311,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 رسامين عالميين مشهورين تاريخياً؟' },
+            tn: { text: 'رسامين معروفين في تاريخ الفن؟' },
+            fr: { text: "Citez 9 peintres célèbres dans l'histoire de l'art ?" },
+            en: { text: 'Name 9 famous painters in art history?' }
+        },
+        category: 'Arts',
+        subcategory: 'Visual Arts',
+        answers: [
+            { translations: { ar: 'ليوناردو دا فينشي', tn: 'ليوناردو دا فينشي', fr: 'Leonardo da Vinci', en: 'Leonardo da Vinci' }, is_correct: true, points: 1 },
+            { translations: { ar: 'بابلو بيكاسو', tn: 'بابلو بيكاسو', fr: 'Pablo Picasso', en: 'Pablo Picasso' }, is_correct: true, points: 1 },
+            { translations: { ar: 'فينسنت فان جوخ', tn: 'فان جوخ', fr: 'Vincent van Gogh', en: 'Vincent van Gogh' }, is_correct: true, points: 1 },
+            { translations: { ar: 'مايكل أنجلو', tn: 'ميكيلانجيلو', fr: 'Michel-Ange', en: 'Michelangelo' }, is_correct: true, points: 1 },
+            { translations: { ar: 'كلود مونيه', tn: 'كلود مونيه', fr: 'Claude Monet', en: 'Claude Monet' }, is_correct: true, points: 2 },
+            { translations: { ar: 'سالوادور دالي', tn: 'سالوادور دالي', fr: 'Salvador Dalí', en: 'Salvador Dalí' }, is_correct: true, points: 2 },
+            { translations: { ar: 'ريمبرانت', tn: 'ريمبرانت', fr: 'Rembrandt', en: 'Rembrandt' }, is_correct: true, points: 3 },
+            { translations: { ar: 'فريدا كاهلو', tn: 'فريدا كاهلو', fr: 'Frida Kahlo', en: 'Frida Kahlo' }, is_correct: true, points: 3 },
+            { translations: { ar: 'فاسيلي كاندينسكي', tn: 'كاندينسكي', fr: 'Wassily Kandinsky', en: 'Wassily Kandinsky' }, is_correct: true, points: 5 },
+            { translations: { ar: 'توم كروز', tn: 'توم كروز', fr: 'Tom Cruise', en: 'Tom Cruise' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 312,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 آلات موسيقية كلاسيكية؟' },
+            tn: { text: 'آلات موسيقية كلاسيكية معروفة؟' },
+            fr: { text: 'Citez 9 instruments de musique classique ?' },
+            en: { text: 'Name 9 classical musical instruments?' }
+        },
+        category: 'Arts',
+        subcategory: 'Music',
+        answers: [
+            { translations: { ar: 'البيانو', tn: 'البيانو', fr: 'Piano', en: 'Piano' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الكمان', tn: 'الكمانجة', fr: 'Violon', en: 'Violin' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الغيتار', tn: 'الڨيتار', fr: 'Guitare', en: 'Guitar' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الفلوت', tn: 'الفلوت', fr: 'Flûte', en: 'Flute' }, is_correct: true, points: 1 },
+            { translations: { ar: 'العود', tn: 'العود', fr: 'Oud', en: 'Oud' }, is_correct: true, points: 2 },
+            { translations: { ar: 'الدرامز', tn: 'الباتري', fr: 'Batterie', en: 'Drums' }, is_correct: true, points: 2 },
+            { translations: { ar: 'الهارب', tn: 'الهارب', fr: 'Harpe', en: 'Harp' }, is_correct: true, points: 3 },
+            { translations: { ar: 'التشيلو', tn: 'التشيلو', fr: 'Violoncelle', en: 'Cello' }, is_correct: true, points: 3 },
+            { translations: { ar: 'القانون', tn: 'القانون', fr: 'Qanun', en: 'Qanun' }, is_correct: true, points: 5 },
+            { translations: { ar: 'الميكروفون', tn: 'الميكرو', fr: 'Microphone', en: 'Microphone' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 313,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 معالم أثرية أو مبانٍ شهيرة في العالم؟' },
+            tn: { text: 'معالم ومباني مشهورة ياسر في العالم؟' },
+            fr: { text: 'Citez 9 monuments ou édifices célèbres dans le monde ?' },
+            en: { text: 'Name 9 famous monuments or buildings in the world?' }
+        },
+        category: 'Arts',
+        subcategory: 'Architecture',
+        answers: [
+            { translations: { ar: 'برج إيفل', tn: 'برج إيفل', fr: 'Tour Eiffel', en: 'Eiffel Tower' }, is_correct: true, points: 1 },
+            { translations: { ar: 'سور الصين العظيم', tn: 'سور الصين العظيم', fr: 'Grande Muraille de Chine', en: 'Great Wall of China' }, is_correct: true, points: 1 },
+            { translations: { ar: 'تمثال الحرية', tn: 'تمثال الحرية', fr: 'Statue de la Liberté', en: 'Statue of Liberty' }, is_correct: true, points: 1 },
+            { translations: { ar: 'تاج محل', tn: 'تاج محل', fr: 'Taj Mahal', en: 'Taj Mahal' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الكولوسيوم', tn: 'الكولوسيوم', fr: 'Colisée', en: 'Colosseum' }, is_correct: true, points: 2 },
+            { translations: { ar: 'أهرامات الجيزة', tn: 'الأهرامات', fr: 'Pyramides de Gizeh', en: 'Pyramids of Giza' }, is_correct: true, points: 2 },
+            { translations: { ar: 'ساعة بيغ بن', tn: 'بيغ بن', fr: 'Big Ben', en: 'Big Ben' }, is_correct: true, points: 3 },
+            { translations: { ar: 'دار أوبرا سيدني', tn: 'أوبرا سيدني', fr: 'Opéra de Sydney', en: 'Sydney Opera House' }, is_correct: true, points: 3 },
+            { translations: { ar: 'برج خليفة', tn: 'برج خليفة', fr: 'Burj Khalifa', en: 'Burj Khalifa' }, is_correct: true, points: 5 },
+            { translations: { ar: 'مطعم ماكدونالدز', tn: 'ماكدونالدز', fr: "McDonald's", en: "McDonald's" }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 314,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 أنواع أو تصنيفات للموسيقى؟' },
+            tn: { text: 'أنواع الموسيقى المشهورة؟' },
+            fr: { text: 'Citez 9 genres musicaux ?' },
+            en: { text: 'Name 9 music genres?' }
+        },
+        category: 'Arts',
+        subcategory: 'Music',
+        answers: [
+            { translations: { ar: 'البوب', tn: 'البوب', fr: 'Pop', en: 'Pop' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الروك', tn: 'الروك', fr: 'Rock', en: 'Rock' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الراب', tn: 'الراب', fr: 'Rap', en: 'Rap' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الجاز', tn: 'الجاز', fr: 'Jazz', en: 'Jazz' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الكلاسيكية', tn: 'الكلاسيك', fr: 'Musique classique', en: 'Classical' }, is_correct: true, points: 2 },
+            { translations: { ar: 'الريغي', tn: 'الريغي', fr: 'Reggae', en: 'Reggae' }, is_correct: true, points: 2 },
+            { translations: { ar: 'الهيب هوب', tn: 'الهيب هوب', fr: 'Hip-hop', en: 'Hip-hop' }, is_correct: true, points: 3 },
+            { translations: { ar: 'الميتال', tn: 'الميتال', fr: 'Metal', en: 'Metal' }, is_correct: true, points: 3 },
+            { translations: { ar: 'الموسيقى الإلكترونية', tn: 'الإلكترو', fr: 'Électronique', en: 'Electronic' }, is_correct: true, points: 5 },
+            { translations: { ar: 'المطالعة', tn: 'المطالعة', fr: 'Lecture', en: 'Reading' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 315,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 مسرحيات شهيرة للكاتب ويليام شكسبير؟' },
+            tn: { text: 'مسرحيات معروفة لشكسبير؟' },
+            fr: { text: 'Citez 9 pièces de théâtre célèbres de William Shakespeare ?' },
+            en: { text: 'Name 9 famous plays by William Shakespeare?' }
+        },
+        category: 'Arts',
+        subcategory: 'Literature',
+        answers: [
+            { translations: { ar: 'روميو وجولييت', tn: 'روميو وجولييت', fr: 'Roméo et Juliette', en: 'Romeo and Juliet' }, is_correct: true, points: 1 },
+            { translations: { ar: 'هملت', tn: 'هملت', fr: 'Hamlet', en: 'Hamlet' }, is_correct: true, points: 1 },
+            { translations: { ar: 'ماكبث', tn: 'ماكبث', fr: 'Macbeth', en: 'Macbeth' }, is_correct: true, points: 1 },
+            { translations: { ar: 'عطيل', tn: 'عطيل', fr: 'Othello', en: 'Othello' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الملك لير', tn: 'الملك لير', fr: 'Le Roi Lear', en: 'King Lear' }, is_correct: true, points: 2 },
+            { translations: { ar: 'تاجر البندقية', tn: 'تاجر البندقية', fr: 'Le Marchand de Venise', en: 'The Merchant of Venice' }, is_correct: true, points: 2 },
+            { translations: { ar: 'حلم ليلة منتصف الصيف', tn: 'حلم ليلة منتصف الصيف', fr: "Le Songe d'une nuit d'été", en: "A Midsummer Night's Dream" }, is_correct: true, points: 3 },
+            { translations: { ar: 'العاصفة', tn: 'العاصفة', fr: 'La Tempête', en: 'The Tempest' }, is_correct: true, points: 3 },
+            { translations: { ar: 'يوليوس قيصر', tn: 'يوليوس قيصر', fr: 'Jules César', en: 'Julius Caesar' }, is_correct: true, points: 5 },
+            { translations: { ar: 'البؤساء', tn: 'البؤساء', fr: 'Les Misérables', en: 'Les Miserables' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 316,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 رياضات تلعب باستخدام مضرب؟' },
+            tn: { text: 'رياضات نلعبوهم بالمضرب (Racquet)؟' },
+            fr: { text: 'Citez 9 sports se jouant avec une raquette ?' },
+            en: { text: 'Name 9 sports played with a racquet or paddle?' }
+        },
+        category: 'Sports',
+        subcategory: 'Individual Sports',
+        answers: [
+            { translations: { ar: 'التنس', tn: 'التنس', fr: 'Tennis', en: 'Tennis' }, is_correct: true, points: 1 },
+            { translations: { ar: 'تنس الطاولة', tn: 'بينغ بونغ', fr: 'Tennis de table', en: 'Table Tennis' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الريشة الطائرة', tn: 'البادمنتون', fr: 'Badminton', en: 'Badminton' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الأسكواش', tn: 'الأسكواش', fr: 'Squash', en: 'Squash' }, is_correct: true, points: 1 },
+            { translations: { ar: 'البادل', tn: 'البادل', fr: 'Padel', en: 'Padel' }, is_correct: true, points: 2 },
+            { translations: { ar: 'كرة اليد الأمريكية', tn: 'راكيت', fr: 'Racketball', en: 'Racquetball' }, is_correct: true, points: 2 },
+            { translations: { ar: 'البيكبول', tn: 'بيكبول', fr: 'Pickleball', en: 'Pickleball' }, is_correct: true, points: 3 },
+            { translations: { ar: 'التنس الأرضي الزوجي', tn: 'التنس الزوجي', fr: 'Tennis double', en: 'Double Tennis' }, is_correct: true, points: 3 },
+            { translations: { ar: 'السبيد بول', tn: 'سبيدبول', fr: 'Speedball', en: 'Speedball' }, is_correct: true, points: 5 },
+            { translations: { ar: 'كرة القدم', tn: 'الكورة', fr: 'Football', en: 'Football' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 317,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 منتخبات فازت بكأس العالم لكرة القدم؟' },
+            tn: { text: 'بلدان هزت كأس العالم لكرة القدم؟' },
+            fr: { text: 'Citez 9 pays ayant remporté la Coupe du Monde de la FIFA ?' },
+            en: { text: 'Name 9 nations that have won the FIFA World Cup?' }
+        },
+        category: 'Sports',
+        subcategory: 'Football',
+        answers: [
+            { translations: { ar: 'البرازيل', tn: 'البرازيل', fr: 'Brésil', en: 'Brazil' }, is_correct: true, points: 1 },
+            { translations: { ar: 'ألمانيا', tn: 'ألمانيا', fr: 'Allemagne', en: 'Germany' }, is_correct: true, points: 1 },
+            { translations: { ar: 'إيطاليا', tn: 'إيطاليا', fr: 'Italie', en: 'Italy' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الأرجنتين', tn: 'الأرجنتين', fr: 'Argentine', en: 'Argentina' }, is_correct: true, points: 1 },
+            { translations: { ar: 'فرنسا', tn: 'فرنسا', fr: 'France', en: 'France' }, is_correct: true, points: 2 },
+            { translations: { ar: 'الأوروغواي', tn: 'الأوروغواي', fr: 'Uruguay', en: 'Uruguay' }, is_correct: true, points: 2 },
+            { translations: { ar: 'إنجلترا', tn: 'إنجلترا', fr: 'Angleterre', en: 'England' }, is_correct: true, points: 3 },
+            { translations: { ar: 'إسبانيا', tn: 'إسبانيا', fr: 'Espagne', en: 'Spain' }, is_correct: true, points: 3 },
+            { translations: { ar: 'فرنسا سابقا', tn: 'فرنسا القديمة', fr: 'France (Ancienne)', en: 'France (Historical)' }, is_correct: true, points: 5 },
+            { translations: { ar: 'البرتغال', tn: 'البرتغال', fr: 'Portugal', en: 'Portugal' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 318,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 رياضات أولمبية صيفية؟' },
+            tn: { text: 'رياضات فما في الألعاب الأولمبية الصيفية؟' },
+            fr: { text: "Citez 9 sports olympiques d'été ?" },
+            en: { text: 'Name 9 Summer Olympic sports?' }
+        },
+        category: 'Sports',
+        subcategory: 'Olympics',
+        answers: [
+            { translations: { ar: 'ألعاب القوى', tn: 'الجري والقفز', fr: 'Athlétisme', en: 'Athletics' }, is_correct: true, points: 1 },
+            { translations: { ar: 'السباحة', tn: 'العوم', fr: 'Natation', en: 'Swimming' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الجمباز', tn: 'الجمباز', fr: 'Gymnastique', en: 'Gymnastics' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الملاكمة', tn: 'البوكس', fr: 'Boxe', en: 'Boxing' }, is_correct: true, points: 1 },
+            { translations: { ar: 'كرة السلة', tn: 'باسكات', fr: 'Basket-ball', en: 'Basketball' }, is_correct: true, points: 2 },
+            { translations: { ar: 'كرة القدم', tn: 'فوتبول', fr: 'Football', en: 'Football' }, is_correct: true, points: 2 },
+            { translations: { ar: 'رفع الأثقال', tn: 'رفع الأثقال', fr: 'Haltérophilie', en: 'Weightlifting' }, is_correct: true, points: 3 },
+            { translations: { ar: 'المبارزة', tn: 'المبارزة بالسيف', fr: 'Escrime', en: 'Fencing' }, is_correct: true, points: 3 },
+            { translations: { ar: 'الجودو', tn: 'الجيدو', fr: 'Judo', en: 'Judo' }, is_correct: true, points: 5 },
+            { translations: { ar: 'الكرلنغ', tn: 'الكرلنغ', fr: 'Curling', en: 'Curling' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 319,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 مراكز أو خطوط لعب للاعبين في كرة القدم؟' },
+            tn: { text: 'مراكز متع ملاعبية في طرح كورة؟' },
+            fr: { text: 'Citez 9 postes de joueurs de football sur le terrain ?' },
+            en: { text: 'Name 9 player positions on a football (soccer) pitch?' }
+        },
+        category: 'Sports',
+        subcategory: 'Football',
+        answers: [
+            { translations: { ar: 'حارس مرمى', tn: 'ڨول', fr: 'Gardien de but', en: 'Goalkeeper' }, is_correct: true, points: 1 },
+            { translations: { ar: 'مدافع محوري', tn: 'مدافع لتالي', fr: 'Défenseur central', en: 'Center-back' }, is_correct: true, points: 1 },
+            { translations: { ar: 'ظهير أيمن', tn: 'ظهير أيمن', fr: 'Arrière droit', en: 'Right-back' }, is_correct: true, points: 1 },
+            { translations: { ar: 'ظهير أيسر', tn: 'ظهير أيسر', fr: 'Arrière gauche', en: 'Left-back' }, is_correct: true, points: 1 },
+            { translations: { ar: 'وسط دفاعي', tn: 'بيفو', fr: 'Milieu défensif', en: 'Defensive midfielder' }, is_correct: true, points: 2 },
+            { translations: { ar: 'صانع ألعاب', tn: 'ريجيسور', fr: 'Milieu offensif', en: 'Attacking midfielder' }, is_correct: true, points: 2 },
+            { translations: { ar: 'جناح أيمن', tn: 'جناح أيمن', fr: 'Ailier droit', en: 'Right winger' }, is_correct: true, points: 3 },
+            { translations: { ar: 'جناح أيسر', tn: 'جناح أيسر', fr: 'Ailier gauche', en: 'Left winger' }, is_correct: true, points: 3 },
+            { translations: { ar: 'مهاجم صريح', tn: 'مهاجم تسعة', fr: 'Avant-centre', en: 'Striker' }, is_correct: true, points: 5 },
+            { translations: { ar: 'حكم الساحة', tn: 'الحكَم', fr: 'Arbitre', en: 'Referee' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 320,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 لاعبين تنس عالميين مشهورين (رجال أو سيدات)؟' },
+            tn: { text: 'ملاعبية تنس معروفين في العالم؟' },
+            fr: { text: 'Citez 9 joueurs ou joueuses de tennis célèbres mondialement ?' },
+            en: { text: 'Name 9 famous international tennis players?' }
+        },
+        category: 'Sports',
+        subcategory: 'Individual Sports',
+        answers: [
+            { translations: { ar: 'روجيه فيدرر', tn: 'فيدرر', fr: 'Roger Federer', en: 'Roger Federer' }, is_correct: true, points: 1 },
+            { translations: { ar: 'رافائيل نادال', tn: 'نادال', fr: 'Rafael Nadal', en: 'Rafael Nadal' }, is_correct: true, points: 1 },
+            { translations: { ar: 'نوفاك دجوكوفيتش', tn: 'دجوكوفيتش', fr: 'Novak Djokovic', en: 'Novak Djokovic' }, is_correct: true, points: 1 },
+            { translations: { ar: 'سيرينا ويليامز', tn: 'سيرينا ويليامز', fr: 'Serena Williams', en: 'Serena Williams' }, is_correct: true, points: 1 },
+            { translations: { ar: 'أنس جابر', tn: 'أنس جابر', fr: 'Ons Jabeur', en: 'Ons Jabeur' }, is_correct: true, points: 2 },
+            { translations: { ar: 'ماريا شارابوفا', tn: 'شارابوفا', fr: 'Maria Sharapova', en: 'Maria Sharapova' }, is_correct: true, points: 2 },
+            { translations: { ar: 'أندي موراي', tn: 'أندي موراي', fr: 'Andy Murray', en: 'Andy Murray' }, is_correct: true, points: 3 },
+            { translations: { ar: 'ستيفي غراف', tn: 'ستيفي غراف', fr: 'Steffi Graf', en: 'Steffi Graf' }, is_correct: true, points: 3 },
+            { translations: { ar: 'كارلوس ألكاراز', tn: 'ألكاراز', fr: 'Carlos Alcaraz', en: 'Carlos Alcaraz' }, is_correct: true, points: 5 },
+            { translations: { ar: 'مايكل جوردن', tn: 'مايكل جوردن', fr: 'Michael Jordan', en: 'Michael Jordan' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 321,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 أفلام فازت بجائزة الأوسكار لأفضل فيلم؟' },
+            tn: { text: 'أفلام خذات أوسكار أحسن فيلم في السينما؟' },
+            fr: { text: "Citez 9 films ayant remporté l'Oscar du meilleur film ?" },
+            en: { text: 'Name 9 films that have won the Academy Award for Best Picture?' }
+        },
+        category: 'Entertainment',
+        subcategory: 'Cinema',
+        answers: [
+            { translations: { ar: 'تيتانيك', tn: 'تيتانيك', fr: 'Titanic', en: 'Titanic' }, is_correct: true, points: 1 },
+            { translations: { ar: 'العراب', tn: 'العراب', fr: 'Le Parrain', en: 'The Godfather' }, is_correct: true, points: 1 },
+            { translations: { ar: 'خطاب الملك', tn: 'خطاب الملك', fr: "Le Discours d'un roi", en: "The King's Speech" }, is_correct: true, points: 1 },
+            { translations: { ar: 'سيد الخواتم', tn: 'سيد الخواتم', fr: 'Le Seigneur des Anneaux', en: 'The Lord of the Rings' }, is_correct: true, points: 1 },
+            { translations: { ar: 'المصارع', tn: 'غلادياتور', fr: 'Gladiator', en: 'Gladiator' }, is_correct: true, points: 2 },
+            { translations: { ar: 'قلب شجاع', tn: 'قلب شجاع', fr: 'Braveheart', en: 'Braveheart' }, is_correct: true, points: 2 },
+            { translations: { ar: 'طفيلي', tn: 'باراسايت', fr: 'Parasite', en: 'Parasite' }, is_correct: true, points: 3 },
+            { translations: { ar: 'أوبنهايمر', tn: 'أوبنهايمر', fr: 'Oppenheimer', en: 'Oppenheimer' }, is_correct: true, points: 3 },
+            { translations: { ar: 'شكل الماء', tn: 'ذا شيب أوف ووتر', fr: "La Forme de l'eau", en: 'The Shape of Water' }, is_correct: true, points: 5 },
+            { translations: { ar: 'سبايدرمان', tn: 'سبايدرمان', fr: 'Spider-Man', en: 'Spider-Man' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 322,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 شخصيات من سلسلة هاري بوتر؟' },
+            tn: { text: 'شخصيات مشهورة من هاري بوتر؟' },
+            fr: { text: 'Citez 9 personnages de la saga Harry Potter ?' },
+            en: { text: 'Name 9 characters from the Harry Potter series?' }
+        },
+        category: 'Entertainment',
+        subcategory: 'Literature',
+        answers: [
+            { translations: { ar: 'هاري بوتر', tn: 'هاري بوتر', fr: 'Harry Potter', en: 'Harry Potter' }, is_correct: true, points: 1 },
+            { translations: { ar: 'رون ويزلي', tn: 'رون ويزلي', fr: 'Ron Weasley', en: 'Ron Weasley' }, is_correct: true, points: 1 },
+            { translations: { ar: 'هيرميون غرانجر', tn: 'هيرميون', fr: 'Hermione Granger', en: 'Hermione Granger' }, is_correct: true, points: 1 },
+            { translations: { ar: 'ألبس دمبلدور', tn: 'دمبلدور', fr: 'Albus Dumbledore', en: 'Albus Dumbledore' }, is_correct: true, points: 1 },
+            { translations: { ar: 'فولدمورت', tn: 'فولدمورت', fr: 'Voldemort', en: 'Voldemort' }, is_correct: true, points: 2 },
+            { translations: { ar: 'سيفروس سنيب', tn: 'سنيب', fr: 'Severus Rogue', en: 'Severus Snape' }, is_correct: true, points: 2 },
+            { translations: { ar: 'هاغريد', tn: 'هاغريد', fr: 'Hagrid', en: 'Hagrid' }, is_correct: true, points: 3 },
+            { translations: { ar: 'دراكوا مالفوي', tn: 'مالفوي', fr: 'Drago Malefoy', en: 'Draco Malfoy' }, is_correct: true, points: 3 },
+            { translations: { ar: 'سيرياس بلاك', tn: 'سيريوس بلاك', fr: 'Sirius Black', en: 'Sirius Black' }, is_correct: true, points: 5 },
+            { translations: { ar: 'فرودو باجينز', tn: 'فرودو باجينز', fr: 'Frodon Sacquet', en: 'Frodo Baggins' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 323,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 سلاسل ألعاب فيديو مشهورة عالمياً؟' },
+            tn: { text: 'سلاسل وأجزاء ألعاب فيديو معروفة؟' },
+            fr: { text: 'Citez 9 franchises de jeux vidéo célèbres ?' },
+            en: { text: 'Name 9 popular global video game franchises?' }
+        },
+        category: 'Entertainment',
+        subcategory: 'Video Games',
+        answers: [
+            { translations: { ar: 'سوبر ماريو', tn: 'ماريو', fr: 'Super Mario', en: 'Super Mario' }, is_correct: true, points: 1 },
+            { translations: { ar: 'جراند ثفت أوتو', tn: 'جي تي أي', fr: 'Grand Theft Auto', en: 'Grand Theft Auto' }, is_correct: true, points: 1 },
+            { translations: { ar: 'فيفا', tn: 'فيفا', fr: 'FIFA', en: 'FIFA' }, is_correct: true, points: 1 },
+            { translations: { ar: 'كول أوف ديوتي', tn: 'كول أوف ديوتي', fr: 'Call of Duty', en: 'Call of Duty' }, is_correct: true, points: 1 },
+            { translations: { ar: 'أساسنز كريد', tn: 'أساسنز كريد', fr: "Assassin's Creed", en: "Assassin's Creed" }, is_correct: true, points: 2 },
+            { translations: { ar: 'ماين كرافت', tn: 'ماين كرافت', fr: 'Minecraft', en: 'Minecraft' }, is_correct: true, points: 2 },
+            { translations: { ar: 'بوكيمون', tn: 'بوكيمون', fr: 'Pokémon', en: 'Pokémon' }, is_correct: true, points: 3 },
+            { translations: { ar: 'ذا ليجند أوف زيلدا', tn: 'زيلدا', fr: 'The Legend of Zelda', en: 'The Legend of Zelda' }, is_correct: true, points: 3 },
+            { translations: { ar: 'ريزيدنت إيفل', tn: 'ريزيدنت إيفل', fr: 'Resident Evil', en: 'Resident Evil' }, is_correct: true, points: 5 },
+            { translations: { ar: 'نتفليكس', tn: 'نتفليكس', fr: 'Netflix', en: 'Netflix' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 324,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 مخرجين سينمائيين عالميين مشهورين؟' },
+            tn: { text: 'مخرجين أفلام وسينما معروفين في العالم؟' },
+            fr: { text: 'Citez 9 réalisateurs de cinéma célèbres ?' },
+            en: { text: 'Name 9 famous movie directors?' }
+        },
+        category: 'Entertainment',
+        subcategory: 'Cinema',
+        answers: [
+            { translations: { ar: 'ستيفن سبيلبرغ', tn: 'سبيلبرغ', fr: 'Steven Spielberg', en: 'Steven Spielberg' }, is_correct: true, points: 1 },
+            { translations: { ar: 'كريستوفر نولان', tn: 'نولان', fr: 'Christopher Nolan', en: 'Christopher Nolan' }, is_correct: true, points: 1 },
+            { translations: { ar: 'مارتن سكورسيزي', tn: 'سكورسيزي', fr: 'Martin Scorsese', en: 'Martin Scorsese' }, is_correct: true, points: 1 },
+            { translations: { ar: 'ألفرد هيتشكوك', tn: 'هيتشكوك', fr: 'Alfred Hitchcock', en: 'Alfred Hitchcock' }, is_correct: true, points: 1 },
+            { translations: { ar: 'كوينتن تارانتينو', tn: 'تارانتينو', fr: 'Quentin Tarantino', en: 'Quentin Tarantino' }, is_correct: true, points: 2 },
+            { translations: { ar: 'جيمس كاميرون', tn: 'جيمس كاميرون', fr: 'James Cameron', en: 'James Cameron' }, is_correct: true, points: 2 },
+            { translations: { ar: 'ستانلي كوبريك', tn: 'كوبريك', fr: 'Stanley Kubrick', en: 'Stanley Kubrick' }, is_correct: true, points: 3 },
+            { translations: { ar: 'أكيرا كوروساوا', tn: 'كوروساوا', fr: 'Akira Kurosawa', en: 'Akira Kurosawa' }, is_correct: true, points: 3 },
+            { translations: { ar: 'هايائو ميازاكي', tn: 'ميازاكي', fr: 'Hayao Miyazaki', en: 'Hayao Miyazaki' }, is_correct: true, points: 5 },
+            { translations: { ar: 'ويل سميث', tn: 'ويل سميث', fr: 'Will Smith', en: 'Will Smith' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 325,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 شخصيات من عالم مارفل السينمائي (MCU)؟' },
+            tn: { text: 'شخصيات وأبطال مارفل معروفين؟' },
+            fr: { text: "Citez 9 personnages de l'univers cinématographique Marvel (MCU) ?" },
+            en: { text: 'Name 9 characters from the Marvel Cinematic Universe (MCU)?' }
+        },
+        category: 'Entertainment',
+        subcategory: 'Cinema',
+        answers: [
+            { translations: { ar: 'رجل حديدي', tn: 'آيرون مان', fr: 'Iron Man', en: 'Iron Man' }, is_correct: true, points: 1 },
+            { translations: { ar: 'رجل العنكبوت', tn: 'سبايدر مان', fr: 'Spider-Man', en: 'Spider-Man' }, is_correct: true, points: 1 },
+            { translations: { ar: 'كابتن أمريكا', tn: 'كابتن أمريكا', fr: 'Captain America', en: 'Captain America' }, is_correct: true, points: 1 },
+            { translations: { ar: 'ثور', tn: 'ثور', fr: 'Thor', en: 'Thor' }, is_correct: true, points: 1 },
+            { translations: { ar: 'هالك', tn: 'هالك', fr: 'Hulk', en: 'Hulk' }, is_correct: true, points: 2 },
+            { translations: { ar: 'الأرملة السوداء', tn: 'بلاك ويدو', fr: 'Black Widow', en: 'Black Widow' }, is_correct: true, points: 2 },
+            { translations: { ar: 'ثانوس', tn: 'ثانوس', fr: 'Thanos', en: 'Thanos' }, is_correct: true, points: 3 },
+            { translations: { ar: 'النمر الأسود', tn: 'بلاك بانثر', fr: 'Black Panther', en: 'Black Panther' }, is_correct: true, points: 3 },
+            { translations: { ar: 'طبيب غريب', tn: 'دكتور سترينج', fr: 'Doctor Strange', en: 'Doctor Strange' }, is_correct: true, points: 5 },
+            { translations: { ar: 'باتمان', tn: 'باتمان', fr: 'Batman', en: 'Batman' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 326,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 أباطرة رومانيين مشهورين؟' },
+            tn: { text: 'أباطرة رومانيين حكموا روما القديمة؟' },
+            fr: { text: 'Citez 9 empereurs romains célèbres ?' },
+            en: { text: 'Name 9 famous Roman Emperors?' }
+        },
+        category: 'History & Politics',
+        subcategory: 'Ancient',
+        answers: [
+            { translations: { ar: 'أغسطس', tn: 'أغسطس', fr: 'Auguste', en: 'Augustus' }, is_correct: true, points: 1 },
+            { translations: { ar: 'نيرون', tn: 'نيرون', fr: 'Néron', en: 'Nero' }, is_correct: true, points: 1 },
+            { translations: { ar: 'يوليوس قيصر', tn: 'يوليوس قيصر', fr: 'Jules César', en: 'Julius Caesar' }, is_correct: true, points: 1 },
+            { translations: { ar: 'تراجان', tn: 'تراجان', fr: 'Trajan', en: 'Trajan' }, is_correct: true, points: 1 },
+            { translations: { ar: 'ماركوس أوريليوس', tn: 'ماركوس أوريليوس', fr: 'Marc Aurèle', en: 'Marcus Aurelius' }, is_correct: true, points: 2 },
+            { translations: { ar: 'هادريان', tn: 'هادريان', fr: 'Hadrien', en: 'Hadrian' }, is_correct: true, points: 2 },
+            { translations: { ar: 'قسطنطين', tn: 'قسطنطين', fr: 'Constantin', en: 'Constantine' }, is_correct: true, points: 3 },
+            { translations: { ar: 'كاليغولا', tn: 'كاليغولا', fr: 'Caligula', en: 'Caligula' }, is_correct: true, points: 3 },
+            { translations: { ar: 'تيبيريوس', tn: 'تيبيريوس', fr: 'Tibère', en: 'Tiberius' }, is_correct: true, points: 5 },
+            { translations: { ar: 'نابليون', tn: 'نابليون', fr: 'Napoléon', en: 'Napoleon' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 327,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 رئيسات أو رؤساء للولايات المتحدة الأمريكية؟' },
+            tn: { text: 'رؤساء أمريكا المشهورين؟' },
+            fr: { text: 'Citez 9 présidents des États-Unis ?' },
+            en: { text: 'Name 9 Presidents of the United States?' }
+        },
+        category: 'History & Politics',
+        subcategory: 'Leaders & Governments',
+        answers: [
+            { translations: { ar: 'جورج واشنطن', tn: 'جورج واشنطن', fr: 'George Washington', en: 'George Washington' }, is_correct: true, points: 1 },
+            { translations: { ar: 'باراك أوباما', tn: 'أوباما', fr: 'Barack Obama', en: 'Barack Obama' }, is_correct: true, points: 1 },
+            { translations: { ar: 'أبراهام لينكولن', tn: 'لينكولن', fr: 'Abraham Lincoln', en: 'Abraham Lincoln' }, is_correct: true, points: 1 },
+            { translations: { ar: 'جون كينيدي', tn: 'جون كينيدي', fr: 'John F. Kennedy', en: 'John F. Kennedy' }, is_correct: true, points: 1 },
+            { translations: { ar: 'دونالد ترامب', tn: 'ترامب', fr: 'Donald Trump', en: 'Donald Trump' }, is_correct: true, points: 2 },
+            { translations: { ar: 'بيل كلينتون', tn: 'بيل كلينتون', fr: 'Bill Clinton', en: 'Bill Clinton' }, is_correct: true, points: 2 },
+            { translations: { ar: 'رونالد ريغان', tn: 'رونالد ريغان', fr: 'Ronald Reagan', en: 'Ronald Reagan' }, is_correct: true, points: 3 },
+            { translations: { ar: 'تيدي روزفلت', tn: 'روزفلت', fr: 'Theodore Roosevelt', en: 'Theodore Roosevelt' }, is_correct: true, points: 3 },
+            { translations: { ar: 'جو بايدن', tn: 'جو بايدن', fr: 'Joe Biden', en: 'Joe Biden' }, is_correct: true, points: 5 },
+            { translations: { ar: 'تشرشل', tn: 'تشرشل', fr: 'Winston Churchill', en: 'Winston Churchill' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 328,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 إمبراطوريات تاريخية عظيمة؟' },
+            tn: { text: 'إمبراطوريات حكمت بلدان كبيرة في التاريخ؟' },
+            fr: { text: "Citez 9 grands empires de l'histoire ?" },
+            en: { text: 'Name 9 great historical empires?' }
+        },
+        category: 'History & Politics',
+        subcategory: 'Ancient',
+        answers: [
+            { translations: { ar: 'الإمبراطورية الرومانية', tn: 'الإمبراطورية الرومانية', fr: 'Empire romain', en: 'Roman Empire' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الإمبراطورية العثمانية', tn: 'الإمبراطورية العثمانية', fr: 'Empire ottoman', en: 'Ottoman Empire' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الإمبراطورية البريطانية', tn: 'الإمبراطورية البريطانية', fr: 'Empire britannique', en: 'British Empire' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الإمبراطورية المغولية', tn: 'الإمبراطورية المغولية', fr: 'Empire mongol', en: 'Mongol Empire' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الخلافة العباسية', tn: 'الخلافة العباسية', fr: 'Califat abbasside', en: 'Abbasid Caliphate' }, is_correct: true, points: 2 },
+            { translations: { ar: 'الإمبراطورية الفارسية', tn: 'الإمبراطورية الفارسية', fr: 'Empire perse', en: 'Persian Empire' }, is_correct: true, points: 2 },
+            { translations: { ar: 'الخلافة الأموية', tn: 'الخلافة الأموية', fr: 'Califat omeyyade', en: 'Umayyad Caliphate' }, is_correct: true, points: 3 },
+            { translations: { ar: 'الإمبراطورية البيزنطية', tn: 'الإمبراطورية البيزنطية', fr: 'Empire byzantin', en: 'Byzantine Empire' }, is_correct: true, points: 3 },
+            { translations: { ar: 'الإمبراطورية القرطاجية', tn: 'إمبراطورية قرطاج', fr: 'Empire carthaginois', en: 'Carthaginian Empire' }, is_correct: true, points: 5 },
+            { translations: { ar: 'الأمم المتحدة', tn: 'الأمم المتحدة', fr: 'Nations Unies', en: 'United Nations' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 329,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 دول حديثة كانت أراضيها جزءاً من الإمبراطورية الرومانية القديمة؟' },
+            tn: { text: 'دول توّة كانت تابعة لروما القديمة؟' },
+            fr: { text: "Citez 9 pays modernes qui faisaient partie de l'Empire romain ?" },
+            en: { text: 'Name 9 modern countries that were part of the ancient Roman Empire?' }
+        },
+        category: 'History & Politics',
+        subcategory: 'Ancient',
+        answers: [
+            { translations: { ar: 'إيطاليا', tn: 'إيطاليا', fr: 'Italie', en: 'Italy' }, is_correct: true, points: 1 },
+            { translations: { ar: 'تونس', tn: 'تونس', fr: 'Tunisie', en: 'Tunisia' }, is_correct: true, points: 1 },
+            { translations: { ar: 'فرنسا', tn: 'فرنسا', fr: 'France', en: 'France' }, is_correct: true, points: 1 },
+            { translations: { ar: 'إسبانيا', tn: 'إسبانيا', fr: 'Espagne', en: 'Spain' }, is_correct: true, points: 1 },
+            { translations: { ar: 'مصر', tn: 'مصر', fr: 'Égypte', en: 'Egypt' }, is_correct: true, points: 2 },
+            { translations: { ar: 'اليونان', tn: 'اليونان', fr: 'Grèce', en: 'Greece' }, is_correct: true, points: 2 },
+            { translations: { ar: 'المملكة المتحدة', tn: 'بريطانيا', fr: 'Royaume-Uni', en: 'United Kingdom' }, is_correct: true, points: 3 },
+            { translations: { ar: 'تركيا', tn: 'تركيا', fr: 'Turquie', en: 'Turkey' }, is_correct: true, points: 3 },
+            { translations: { ar: 'المغرب', tn: 'المغرب', fr: 'Maroc', en: 'Morocco' }, is_correct: true, points: 5 },
+            { translations: { ar: 'اليابان', tn: 'اليابان', fr: 'Japon', en: 'Japan' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 330,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 قادة أو شخصيات سياسية بارزة في القرن العشرين؟' },
+            tn: { text: 'قادة سياسيين معروفين برشا في القرن العشرين؟' },
+            fr: { text: 'Citez 9 leaders politiques majeurs du 20ème siècle ?' },
+            en: { text: 'Name 9 prominent political leaders of the 20th century?' }
+        },
+        category: 'History & Politics',
+        subcategory: 'Leaders & Governments',
+        answers: [
+            { translations: { ar: 'نيلسون مانديلا', tn: 'مانديلا', fr: 'Nelson Mandela', en: 'Nelson Mandela' }, is_correct: true, points: 1 },
+            { translations: { ar: 'وينستون تشرشل', tn: 'تشرشل', fr: 'Winston Churchill', en: 'Winston Churchill' }, is_correct: true, points: 1 },
+            { translations: { ar: 'المهاتما غاندي', tn: 'غاندي', fr: 'Mahatma Gandhi', en: 'Mahatma Gandhi' }, is_correct: true, points: 1 },
+            { translations: { ar: 'شارل ديغول', tn: 'ديغول', fr: 'Charles de Gaulle', en: 'Charles de Gaulle' }, is_correct: true, points: 1 },
+            { translations: { ar: 'فرانكلين روزفلت', tn: 'روزفلت', fr: 'Franklin D. Roosevelt', en: 'Franklin D. Roosevelt' }, is_correct: true, points: 2 },
+            { translations: { ar: 'جون كينيدي', tn: 'كينيدي', fr: 'John F. Kennedy', en: 'John F. Kennedy' }, is_correct: true, points: 2 },
+            { translations: { ar: 'جواهر لال نهرو', tn: 'نهرو', fr: 'Jawaharlal Nehru', en: 'Jawaharlal Nehru' }, is_correct: true, points: 3 },
+            { translations: { ar: 'الحبيب بورقيبة', tn: 'بورقيبة', fr: 'Habib Bourguiba', en: 'Habib Bourguiba' }, is_correct: true, points: 3 },
+            { translations: { ar: 'مارغريت تاتشر', tn: 'تاتشر', fr: 'Margaret Thatcher', en: 'Margaret Thatcher' }, is_correct: true, points: 5 },
+            { translations: { ar: 'باراك أوباما', tn: 'أوباما', fr: 'Barack Obama', en: 'Barack Obama' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 331,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 أنواع مشهورة من الأجبان عالمياً؟' },
+            tn: { text: 'أنواع متع فرماج معروفة في الماكلة؟' },
+            fr: { text: 'Citez 9 fromages célèbres dans le monde ?' },
+            en: { text: 'Name 9 famous types of cheese in the world?' }
+        },
+        category: 'Gastronomy',
+        subcategory: 'Ingredients',
+        answers: [
+            { translations: { ar: 'موزاريلا', tn: 'موزاريلا', fr: 'Mozzarella', en: 'Mozzarella' }, is_correct: true, points: 1 },
+            { translations: { ar: 'بارميزان', tn: 'بارميزان', fr: 'Parmesan', en: 'Parmesan' }, is_correct: true, points: 1 },
+            { translations: { ar: 'شيدر', tn: 'شيدر', fr: 'Cheddar', en: 'Cheddar' }, is_correct: true, points: 1 },
+            { translations: { ar: 'بري', tn: 'بري', fr: 'Brie', en: 'Brie' }, is_correct: true, points: 1 },
+            { translations: { ar: 'غودا', tn: 'غودا', fr: 'Gouda', en: 'Gouda' }, is_correct: true, points: 2 },
+            { translations: { ar: 'روكفور', tn: 'روكفور', fr: 'Roquefort', en: 'Roquefort' }, is_correct: true, points: 2 },
+            { translations: { ar: 'فيتا', tn: 'فيتا', fr: 'Feta', en: 'Feta' }, is_correct: true, points: 3 },
+            { translations: { ar: 'إيمينتال', tn: 'إيمينتال', fr: 'Emmental', en: 'Emmental' }, is_correct: true, points: 3 },
+            { translations: { ar: 'كامامبير', tn: 'كامومبير', fr: 'Camembert', en: 'Camembert' }, is_correct: true, points: 5 },
+            { translations: { ar: 'شوكولاتة', tn: 'شوكلاطة', fr: 'Chocolat', en: 'Chocolate' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 332,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 أنواع أو أشكال من المعكرونة (البستا)؟' },
+            tn: { text: 'أنواع متع مقرونة (باستا) معروفين؟' },
+            fr: { text: 'Citez 9 types ou formes de pâtes ?' },
+            en: { text: 'Name 9 pasta shapes or types?' }
+        },
+        category: 'Gastronomy',
+        subcategory: 'Ingredients',
+        answers: [
+            { translations: { ar: 'سباغيتي', tn: 'سباغيتي', fr: 'Spaghetti', en: 'Spaghetti' }, is_correct: true, points: 1 },
+            { translations: { ar: 'بيني', tn: 'بيني', fr: 'Penne', en: 'Penne' }, is_correct: true, points: 1 },
+            { translations: { ar: 'لازانيا', tn: 'لازانيا', fr: 'Lasagne', en: 'Lasagna' }, is_correct: true, points: 1 },
+            { translations: { ar: 'ماكاروني', tn: 'مقرونة فِل', fr: 'Macaroni', en: 'Macaroni' }, is_correct: true, points: 1 },
+            { translations: { ar: 'فوسيلي', tn: 'فوسيلي', fr: 'Fusilli', en: 'Fusilli' }, is_correct: true, points: 2 },
+            { translations: { ar: 'فيتوتشيني', tn: 'فيتوتشيني', fr: 'Fettuccine', en: 'Fettuccine' }, is_correct: true, points: 2 },
+            { translations: { ar: 'رافيولي', tn: 'رافيولي', fr: 'Ravioli', en: 'Ravioli' }, is_correct: true, points: 3 },
+            { translations: { ar: 'فارفالي', tn: 'فارفالي', fr: 'Farfalle', en: 'Farfalle' }, is_correct: true, points: 3 },
+            { translations: { ar: 'تالياتيلي', tn: 'تالياتيلي', fr: 'Tagliatelle', en: 'Tagliatelle' }, is_correct: true, points: 5 },
+            { translations: { ar: 'الأرز', tn: 'الروز', fr: 'Riz', en: 'Rice' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 333,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 مشروبات قهوة مشهورة؟' },
+            tn: { text: 'أنواع وتصنيفات متع قهوة نشربوهم؟' },
+            fr: { text: 'Citez 9 boissons à base de café célèbres ?' },
+            en: { text: 'Name 9 famous coffee beverages?' }
+        },
+        category: 'Gastronomy',
+        subcategory: 'Drinks',
+        answers: [
+            { translations: { ar: 'إسبريسو', tn: 'إسبريسو', fr: 'Espresso', en: 'Espresso' }, is_correct: true, points: 1 },
+            { translations: { ar: 'كابوتشينو', tn: 'كابوتشينو', fr: 'Cappuccino', en: 'Cappuccino' }, is_correct: true, points: 1 },
+            { translations: { ar: 'لاتيه', tn: 'لاتيه', fr: 'Latte', en: 'Latte' }, is_correct: true, points: 1 },
+            { translations: { ar: 'أمريكانو', tn: 'أمريكانو', fr: 'Americano', en: 'Americano' }, is_correct: true, points: 1 },
+            { translations: { ar: 'موكا', tn: 'موكا', fr: 'Café Mocha', en: 'Mocha' }, is_correct: true, points: 2 },
+            { translations: { ar: 'ماكياتو', tn: 'ماكياتو', fr: 'Macchiato', en: 'Macchiato' }, is_correct: true, points: 2 },
+            { translations: { ar: 'قهوة تركية', tn: 'قهوة عربي', fr: 'Café turc', en: 'Turkish Coffee' }, is_correct: true, points: 3 },
+            { translations: { ar: 'فلات وايت', tn: 'فلات وايت', fr: 'Flat White', en: 'Flat White' }, is_correct: true, points: 3 },
+            { translations: { ar: 'قهوة مثلجة', tn: 'قهوة مثلجة', fr: 'Café glacé', en: 'Iced Coffee' }, is_correct: true, points: 5 },
+            { translations: { ar: 'عصير برتقال', tn: 'عصير ڨارص', fr: "Jus d'orange", en: 'Orange juice' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 334,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 أنواع من الفواكه الحمضية؟' },
+            tn: { text: 'ڨوارص وغلال حمضية؟' },
+            fr: { text: 'Citez 9 agrumes ou fruits acides ?' },
+            en: { text: 'Name 9 types of citrus fruits?' }
+        },
+        category: 'Gastronomy',
+        subcategory: 'Ingredients',
+        answers: [
+            { translations: { ar: 'البرتقال', tn: 'البرتقال', fr: 'Orange', en: 'Orange' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الليمون', tn: 'الڨارص', fr: 'Citron', en: 'Lemon' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الليمون الأخضر', tn: 'اللايم', fr: 'Citron vert', en: 'Lime' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الليمون الهندي', tn: 'بومبلوموس', fr: 'Pamplemousse', en: 'Grapefruit' }, is_correct: true, points: 1 },
+            { translations: { ar: 'المندرين', tn: 'المدلين', fr: 'Mandarine', en: 'Mandarin' }, is_correct: true, points: 2 },
+            { translations: { ar: 'الكليمنتين', tn: 'الكليمنتين', fr: 'Clémentine', en: 'Clementine' }, is_correct: true, points: 2 },
+            { translations: { ar: 'الكمكوات', tn: 'كمكوات', fr: 'Kumquat', en: 'Kumquat' }, is_correct: true, points: 3 },
+            { translations: { ar: 'اليوسفي', tn: 'اليوسفي', fr: 'Tangerine', en: 'Tangerine' }, is_correct: true, points: 3 },
+            { translations: { ar: 'البرغموت', tn: 'برغموت', fr: 'Bergamote', en: 'Bergamot' }, is_correct: true, points: 5 },
+            { translations: { ar: 'الموز', tn: 'البنان', fr: 'Banane', en: 'Banana' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 335,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 مكونات توضع عادة فوق البيتزا؟' },
+            tn: { text: 'حاجات ومكونات نحطوهم فوق البيتزا؟' },
+            fr: { text: 'Citez 9 ingrédients couramment mis sur une pizza ?' },
+            en: { text: 'Name 9 popular pizza toppings?' }
+        },
+        category: 'Gastronomy',
+        subcategory: 'Ingredients',
+        answers: [
+            { translations: { ar: 'جبن الموزاريلا', tn: 'فرماج', fr: 'Fromage Mozzarella', en: 'Mozzarella cheese' }, is_correct: true, points: 1 },
+            { translations: { ar: 'صلصة الطماطم', tn: 'صوص طماطم', fr: 'Sauce tomate', en: 'Tomato sauce' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الفطر', tn: 'شومبينيون', fr: 'Champignons', en: 'Mushrooms' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الزيتون الأسود', tn: 'زيتون', fr: 'Olives', en: 'Olives' }, is_correct: true, points: 1 },
+            { translations: { ar: 'البصل', tn: 'بصل', fr: 'Oignons', en: 'Onions' }, is_correct: true, points: 2 },
+            { translations: { ar: 'الفلفل الأخضر', tn: 'فلفل', fr: 'Poivrons', en: 'Green peppers' }, is_correct: true, points: 2 },
+            { translations: { ar: 'التونة', tn: 'طون', fr: 'Thon', en: 'Tuna' }, is_correct: true, points: 3 },
+            { translations: { ar: 'السلامي', tn: 'سلامي', fr: 'Salami', en: 'Salami' }, is_correct: true, points: 3 },
+            { translations: { ar: 'الريحان', tn: 'حبق', fr: 'Basilic', en: 'Basil' }, is_correct: true, points: 5 },
+            { translations: { ar: 'التفاح', tn: 'التفاح', fr: 'Pomme', en: 'Apple' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 336,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 دور أزياء أو ماركات ملابس فاخرة عالمية؟' },
+            tn: { text: 'ماركات لبسة وسينيه فاخرة ومعروفة؟' },
+            fr: { text: 'Citez 9 marques de vêtements de luxe ?' },
+            en: { text: 'Name 9 luxury fashion brands?' }
+        },
+        category: 'Culture & Lifestyle',
+        subcategory: 'Fashion',
+        answers: [
+            { translations: { ar: 'شانيل', tn: 'شانيل', fr: 'Chanel', en: 'Chanel' }, is_correct: true, points: 1 },
+            { translations: { ar: 'ديور', tn: 'ديور', fr: 'Dior', en: 'Dior' }, is_correct: true, points: 1 },
+            { translations: { ar: 'لويس فيتون', tn: 'لوي فيتون', fr: 'Louis Vuitton', en: 'Louis Vuitton' }, is_correct: true, points: 1 },
+            { translations: { ar: 'غوتشي', tn: 'غوتشي', fr: 'Gucci', en: 'Gucci' }, is_correct: true, points: 1 },
+            { translations: { ar: 'برادا', tn: 'برادا', fr: 'Prada', en: 'Prada' }, is_correct: true, points: 2 },
+            { translations: { ar: 'إيرميس', tn: 'هيرميس', fr: 'Hermès', en: 'Hermes' }, is_correct: true, points: 2 },
+            { translations: { ar: 'فرزاتشي', tn: 'فرزاتشي', fr: 'Versace', en: 'Versace' }, is_correct: true, points: 3 },
+            { translations: { ar: 'أرماني', tn: 'أرماني', fr: 'Armani', en: 'Armani' }, is_correct: true, points: 3 },
+            { translations: { ar: 'بالنسياغا', tn: 'بالنسياغا', fr: 'Balenciaga', en: 'Balenciaga' }, is_correct: true, points: 5 },
+            { translations: { ar: 'ديكاتلون', tn: 'ديكاتلون', fr: 'Decathlon', en: 'Decathlon' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 337,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 لغات هي الأكثر تحدثاً في العالم؟' },
+            tn: { text: 'أكثر لغات يتكلموها الناس في العالم؟' },
+            fr: { text: 'Citez 9 des langues les plus parlées au monde ?' },
+            en: { text: 'Name 9 of the most spoken languages in the world?' }
+        },
+        category: 'Culture & Lifestyle',
+        subcategory: 'Languages & Dialects',
+        answers: [
+            { translations: { ar: 'الإنجليزية', tn: 'الإنجليزية', fr: 'Anglais', en: 'English' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الصينية الماندارين', tn: 'الشنوية', fr: 'Chinois Mandarin', en: 'Mandarin Chinese' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الإسبانية', tn: 'الإسبانية', fr: 'Espagnol', en: 'Spanish' }, is_correct: true, points: 1 },
+            { translations: { ar: 'العربية', tn: 'العربية', fr: 'Arabe', en: 'Arabic' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الفرنسية', tn: 'الفرنسية', fr: 'Français', en: 'French' }, is_correct: true, points: 2 },
+            { translations: { ar: 'الهندية', tn: 'الهندية', fr: 'Hindi', en: 'Hindi' }, is_correct: true, points: 2 },
+            { translations: { ar: 'البرتغالية', tn: 'البرتغالية', fr: 'Portugais', en: 'Portuguese' }, is_correct: true, points: 3 },
+            { translations: { ar: 'الروسية', tn: 'الروسية', fr: 'Russe', en: 'Russian' }, is_correct: true, points: 3 },
+            { translations: { ar: 'اليابانية', tn: 'اليابانية', fr: 'Japonais', en: 'Japanese' }, is_correct: true, points: 5 },
+            { translations: { ar: 'الهيروغليفية', tn: 'فرعونية', fr: 'Hiéroglyphe', en: 'Hieroglyphic' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 338,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 تطبيقات أو منصات للتواصل الاجتماعي؟' },
+            tn: { text: 'برامج وتطبيقات متع سوشيال ميديا؟' },
+            fr: { text: 'Citez 9 réseaux sociaux ou plateformes en ligne ?' },
+            en: { text: 'Name 9 popular social media networks or platforms?' }
+        },
+        category: 'Culture & Lifestyle',
+        subcategory: 'Social Media & Trends',
+        answers: [
+            { translations: { ar: 'فيسبوك', tn: 'فيسبوك', fr: 'Facebook', en: 'Facebook' }, is_correct: true, points: 1 },
+            { translations: { ar: 'إنستغرام', tn: 'إنستغرام', fr: 'Instagram', en: 'Instagram' }, is_correct: true, points: 1 },
+            { translations: { ar: 'تيك توك', tn: 'تيك توك', fr: 'TikTok', en: 'TikTok' }, is_correct: true, points: 1 },
+            { translations: { ar: 'يوتيوب', tn: 'يوتيوب', fr: 'YouTube', en: 'YouTube' }, is_correct: true, points: 1 },
+            { translations: { ar: 'واتساب', tn: 'واتساب', fr: 'WhatsApp', en: 'WhatsApp' }, is_correct: true, points: 2 },
+            { translations: { ar: 'تلغرام', tn: 'تلغرام', fr: 'Telegram', en: 'Telegram' }, is_correct: true, points: 2 },
+            { translations: { ar: 'سناب شات', tn: 'سناب شات', fr: 'Snapchat', en: 'Snapchat' }, is_correct: true, points: 3 },
+            { translations: { ar: 'لينكد إن', tn: 'لينكد إن', fr: 'LinkedIn', en: 'LinkedIn' }, is_correct: true, points: 3 },
+            { translations: { ar: 'تويتر', tn: 'تويتر (إكس)', fr: 'Twitter / X', en: 'Twitter / X' }, is_correct: true, points: 5 },
+            { translations: { ar: 'مايكروسوفت وورد', tn: 'وورد', fr: 'Microsoft Word', en: 'Microsoft Word' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 339,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 ماركات سيارات شهيرة؟' },
+            tn: { text: 'ماركات كراهب معروفة في الكياس؟' },
+            fr: { text: 'Citez 9 marques de voitures célèbres ?' },
+            en: { text: 'Name 9 famous car brands?' }
+        },
+        category: 'Culture & Lifestyle',
+        subcategory: 'Daily Life',
+        answers: [
+            { translations: { ar: 'تويوتا', tn: 'تويوتا', fr: 'Toyota', en: 'Toyota' }, is_correct: true, points: 1 },
+            { translations: { ar: 'مرسيدس بنز', tn: 'مرسيدس', fr: 'Mercedes-Benz', en: 'Mercedes-Benz' }, is_correct: true, points: 1 },
+            { translations: { ar: 'بي إم دبليو', tn: 'بي إم', fr: 'BMW', en: 'BMW' }, is_correct: true, points: 1 },
+            { translations: { ar: 'أودي', tn: 'أودي', fr: 'Audi', en: 'Audi' }, is_correct: true, points: 1 },
+            { translations: { ar: 'فورد', tn: 'فورد', fr: 'Ford', en: 'Ford' }, is_correct: true, points: 2 },
+            { translations: { ar: 'هوندا', tn: 'هوندا', fr: 'Honda', en: 'Honda' }, is_correct: true, points: 2 },
+            { translations: { ar: 'فولكس فاجن', tn: 'فولكس فاجن', fr: 'Volkswagen', en: 'Volkswagen' }, is_correct: true, points: 3 },
+            { translations: { ar: 'هيونداي', tn: 'هيونداي', fr: 'Hyundai', en: 'Hyundai' }, is_correct: true, points: 3 },
+            { translations: { ar: 'تسلا', tn: 'تسلا', fr: 'Tesla', en: 'Tesla' }, is_correct: true, points: 5 },
+            { translations: { ar: 'بوينغ', tn: 'طيارة بوينغ', fr: 'Boeing', en: 'Boeing' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 340,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 أعياد أو مهرجانات سنوية مشهورة في العالم؟' },
+            tn: { text: 'أعياد ومناسبات يحتفلوا بيهم العباد كل عام؟' },
+            fr: { text: 'Citez 9 fêtes ou festivals annuels célèbres ?' },
+            en: { text: 'Name 9 famous annual festivals or holidays in the world?' }
+        },
+        category: 'Culture & Lifestyle',
+        subcategory: 'Traditions',
+        answers: [
+            { translations: { ar: 'عيد الميلاد', tn: 'الميلاد (Noel)', fr: 'Noël', en: 'Christmas' }, is_correct: true, points: 1 },
+            { translations: { ar: 'رأس السنة الميلادية', tn: 'رأس السنة', fr: 'Nouvel An', en: 'New Year' }, is_correct: true, points: 1 },
+            { translations: { ar: 'عيد الفطر', tn: 'عيد الصغير', fr: 'Aïd al-Fitr', en: 'Eid al-Fitr' }, is_correct: true, points: 1 },
+            { translations: { ar: 'عيد الأضحى', tn: 'عيد الكبير', fr: 'Aïd al-Adha', en: 'Eid al-Adha' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الهالوين', tn: 'هالوين', fr: 'Halloween', en: 'Halloween' }, is_correct: true, points: 2 },
+            { translations: { ar: 'عيد الشكر', tn: 'عيد الشكر', fr: 'Action de grâce', en: 'Thanksgiving' }, is_correct: true, points: 2 },
+            { translations: { ar: 'مهرجان كاريوكا', tn: 'كارنفال ريو', fr: 'Carnaval de Rio', en: 'Rio Carnival' }, is_correct: true, points: 3 },
+            { translations: { ar: 'مهرجان أكتوبرفست', tn: 'مهرجان أكتوبر', fr: 'Oktoberfest', en: 'Oktoberfest' }, is_correct: true, points: 3 },
+            { translations: { ar: 'رأس السنة الصينية', tn: 'رأس السنة الصينية', fr: 'Nouvel An Chinois', en: 'Chinese New Year' }, is_correct: true, points: 5 },
+            { translations: { ar: 'يوم الاثنين', tn: 'النهارات', fr: 'Lundi', en: 'Monday' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 341,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 فلاسفة إغريق ورومان قدامى؟' },
+            tn: { text: 'فلاسفة يونانيين ورومانيين في التاريخ القديم؟' },
+            fr: { text: "Citez 9 philosophes grecs ou romains de l'Antiquité ?" },
+            en: { text: 'Name 9 famous Greek or Roman philosophers of antiquity?' }
+        },
+        category: 'Religion & Philosophy',
+        subcategory: 'Philosophy',
+        answers: [
+            { translations: { ar: 'سقراط', tn: 'سقراط', fr: 'Socrate', en: 'Socrates' }, is_correct: true, points: 1 },
+            { translations: { ar: 'أفلاطون', tn: 'أفلاطون', fr: 'Platon', en: 'Plato' }, is_correct: true, points: 1 },
+            { translations: { ar: 'أرسطو', tn: 'أرسطو', fr: 'Aristote', en: 'Aristotle' }, is_correct: true, points: 1 },
+            { translations: { ar: 'فيثاغورس', tn: 'فيثاغورس', fr: 'Pythagore', en: 'Pythagoras' }, is_correct: true, points: 1 },
+            { translations: { ar: 'سنيكا', tn: 'سنيكا', fr: 'Sénèque', en: 'Seneca' }, is_correct: true, points: 2 },
+            { translations: { ar: 'ماركوس أوريليوس', tn: 'ماركوس أوريليوس', fr: 'Marc Aurèle', en: 'Marcus Aurelius' }, is_correct: true, points: 2 },
+            { translations: { ar: 'أبيقور', tn: 'أبيقور', fr: 'Épicure', en: 'Epicurus' }, is_correct: true, points: 3 },
+            { translations: { ar: 'ديوجين', tn: 'ديوجين', fr: 'Diogène', en: 'Diogenes' }, is_correct: true, points: 3 },
+            { translations: { ar: 'زينون الرواقي', tn: 'زينون', fr: 'Zénon de Kition', en: 'Zeno' }, is_correct: true, points: 5 },
+            { translations: { ar: 'ألبرت أينشتاين', tn: 'أينشتاين', fr: 'Albert Einstein', en: 'Albert Einstein' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 342,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 ديانات ومذاهب دينية معروفة عالمياً؟' },
+            tn: { text: 'ديانات وعقائد يعبدوهم برشا عباد في العالم؟' },
+            fr: { text: 'Citez 9 religions ou systèmes de croyances dans le monde ?' },
+            en: { text: 'Name 9 major world religions or belief systems?' }
+        },
+        category: 'Religion & Philosophy',
+        subcategory: 'other religions',
+        answers: [
+            { translations: { ar: 'الإسلام', tn: 'الإسلام', fr: 'Islam', en: 'Islam' }, is_correct: true, points: 1 },
+            { translations: { ar: 'المسيحية', tn: 'المسيحية', fr: 'Christianisme', en: 'Christianity' }, is_correct: true, points: 1 },
+            { translations: { ar: 'اليهودية', tn: 'اليهودية', fr: 'Judaïsme', en: 'Judaism' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الهندوسية', tn: 'الهندوسية', fr: 'Hindouisme', en: 'Hinduism' }, is_correct: true, points: 1 },
+            { translations: { ar: 'البوذية', tn: 'البوذية', fr: 'Bouddhisme', en: 'Buddhism' }, is_correct: true, points: 2 },
+            { translations: { ar: 'السيخية', tn: 'السيخية', fr: 'Sikhisme', en: 'Sikhism' }, is_correct: true, points: 2 },
+            { translations: { ar: 'الشنتو', tn: 'الشنتو', fr: 'Shintoïsme', en: 'Shinto' }, is_correct: true, points: 3 },
+            { translations: { ar: 'الطاوية', tn: 'الطاوية', fr: 'Taoïsme', en: 'Taoism' }, is_correct: true, points: 3 },
+            { translations: { ar: 'الزرادشتية', tn: 'الزرادشتية', fr: 'Zoroastrisme', en: 'Zoroastrianism' }, is_correct: true, points: 5 },
+            { translations: { ar: 'الديمقراطية', tn: 'الديمقراطية', fr: 'Démocratie', en: 'Democracy' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 343,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 علماء أو فلاسفة بارزين من العصر الذهبي للإسلام؟' },
+            tn: { text: 'علماء وفلاسفة مسلمين معروفين في العصر الذهبي؟' },
+            fr: { text: "Citez 9 savants ou philosophes célèbres de l'âge d'or de l'Islam ?" },
+            en: { text: 'Name 9 famous scholars or scientists from the Islamic Golden Age?' }
+        },
+        category: 'Religion & Philosophy',
+        subcategory: 'Islam',
+        answers: [
+            { translations: { ar: 'ابن سينا', tn: 'ابن سينا', fr: 'Avicenne', en: 'Avicenna' }, is_correct: true, points: 1 },
+            { translations: { ar: 'ابن رشد', tn: 'ابن رشد', fr: 'Averroès', en: 'Averroes' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الخوارزمي', tn: 'الخوارزمي', fr: 'Al-Khwarizmi', en: 'Al-Khwarizmi' }, is_correct: true, points: 1 },
+            { translations: { ar: 'ابن خلدون', tn: 'ابن خلدون', fr: 'Ibn Khaldoun', en: 'Ibn Khaldun' }, is_correct: true, points: 1 },
+            { translations: { ar: 'البيروني', tn: 'البيروني', fr: 'Al-Biruni', en: 'Al-Biruni' }, is_correct: true, points: 2 },
+            { translations: { ar: 'ابن الهيثم', tn: 'ابن الهيثم', fr: 'Alhazen', en: 'Alhazen' }, is_correct: true, points: 2 },
+            { translations: { ar: 'الرازي', tn: 'الرازي', fr: 'Al-Razi', en: 'Al-Razi' }, is_correct: true, points: 3 },
+            { translations: { ar: 'ابن بطوطة', tn: 'ابن بطوطة', fr: 'Ibn Battuta', en: 'Ibn Battuta' }, is_correct: true, points: 3 },
+            { translations: { ar: 'الكندي', tn: 'الكندي', fr: 'Al-Kindi', en: 'Al-Kindi' }, is_correct: true, points: 5 },
+            { translations: { ar: 'إسحاق نيوتن', tn: 'إسحاق نيوتن', fr: 'Isaac Newton', en: 'Isaac Newton' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 344,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 أنبياء أو رسل وردت أسماؤهم في الكتب السماوية؟' },
+            tn: { text: 'أنبياء ورسل معروفين في الكتب الدينية؟' },
+            fr: { text: 'Citez 9 prophètes ou messagers cités dans les livres saints ?' },
+            en: { text: 'Name 9 prophets mentioned in holy scriptures?' }
+        },
+        category: 'Religion & Philosophy',
+        subcategory: 'other religions',
+        answers: [
+            { translations: { ar: 'محمد', tn: 'محمد رسول الله', fr: 'Mahomet', en: 'Muhammad' }, is_correct: true, points: 1 },
+            { translations: { ar: 'عيسى', tn: 'عيسى عليه السلام', fr: 'Jésus', en: 'Jesus' }, is_correct: true, points: 1 },
+            { translations: { ar: 'موسى', tn: 'موسى عليه السلام', fr: 'Moïse', en: 'Moses' }, is_correct: true, points: 1 },
+            { translations: { ar: 'إبراهيم', tn: 'إبراهيم الخليل', fr: 'Abraham', en: 'Abraham' }, is_correct: true, points: 1 },
+            { translations: { ar: 'نوح', tn: 'نوح عليه السلام', fr: 'Noé', en: 'Noah' }, is_correct: true, points: 2 },
+            { translations: { ar: 'يوسف', tn: 'يوسف الصديق', fr: 'Joseph', en: 'Joseph' }, is_correct: true, points: 2 },
+            { translations: { ar: 'داود', tn: 'داود عليه السلام', fr: 'David', en: 'David' }, is_correct: true, points: 3 },
+            { translations: { ar: 'سليمان', tn: 'سليمان عليه السلام', fr: 'Salomon', en: 'Solomon' }, is_correct: true, points: 3 },
+            { translations: { ar: 'آدم', tn: 'آدم عليه السلام', fr: 'Adam', en: 'Adam' }, is_correct: true, points: 5 },
+            { translations: { ar: 'فرعون', tn: 'فرعون', fr: 'Pharaon', en: 'Pharaoh' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 345,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 قيم أو مفاهيم فلسفية وأخلاقية شهيرة؟' },
+            tn: { text: 'مفاهيم وقيم فلسفية وأخلاقية نقراوها؟' },
+            fr: { text: 'Citez 9 concepts ou vertus philosophiques et éthiques ?' },
+            en: { text: 'Name 9 famous philosophical or ethical concepts and virtues?' }
+        },
+        category: 'Religion & Philosophy',
+        subcategory: 'Philosophy',
+        answers: [
+            { translations: { ar: 'العدالة', tn: 'العدالة', fr: 'Justice', en: 'Justice' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الحرية', tn: 'الحرية', fr: 'Liberté', en: 'Liberty' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الحكمة', tn: 'الحكمة', fr: 'Sagesse', en: 'Wisdom' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الشجاعة', tn: 'الشجاعة', fr: 'Courage', en: 'Courage' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الصدق', tn: 'الصدق', fr: 'Vérité', en: 'Honesty' }, is_correct: true, points: 2 },
+            { translations: { ar: 'الرحمة', tn: 'الرحمة', fr: 'Compassion', en: 'Compassion' }, is_correct: true, points: 2 },
+            { translations: { ar: 'العدمية', tn: 'العدمية', fr: 'Nihilisme', en: 'Nihilism' }, is_correct: true, points: 3 },
+            { translations: { ar: 'الوجودية', tn: 'الوجودية', fr: 'Existentialisme', en: 'Existentialism' }, is_correct: true, points: 3 },
+            { translations: { ar: 'الجمال', tn: 'الجمال', fr: 'Esthétique', en: 'Beauty' }, is_correct: true, points: 5 },
+            { translations: { ar: 'السرقة', tn: 'السرقة', fr: 'Vol', en: 'Theft' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 346,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 عملات عالمية شهيرة؟' },
+            tn: { text: 'عملات وفلوس مشهورة تتعامل باها الدول؟' },
+            fr: { text: 'Citez 9 devises mondiales célèbres ?' },
+            en: { text: 'Name 9 famous world currencies?' }
+        },
+        category: 'Economy & Business',
+        subcategory: 'Finance',
+        answers: [
+            { translations: { ar: 'الدولار الأمريكي', tn: 'الدولار الأمريكي', fr: 'Dollar américain', en: 'US Dollar' }, is_correct: true, points: 1 },
+            { translations: { ar: 'اليورو', tn: 'الأورو', fr: 'Euro', en: 'Euro' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الجنيه الإسترليني', tn: 'الباوند', fr: 'Livre sterling', en: 'British Pound' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الين الياباني', tn: 'الين الياباني', fr: 'Yen japonais', en: 'Japanese Yen' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الفرنك السويسري', tn: 'الفرنك السويسري', fr: 'Franc suisse', en: 'Swiss Franc' }, is_correct: true, points: 2 },
+            { translations: { ar: 'الدينار التونسي', tn: 'الدينار التونسي', fr: 'Dinar tunisien', en: 'Tunisian Dinar' }, is_correct: true, points: 2 },
+            { translations: { ar: 'الريال السعودي', tn: 'الريال السعودي', fr: 'Riyal saoudien', en: 'Saudi Riyal' }, is_correct: true, points: 3 },
+            { translations: { ar: 'الدرهم الإماراتي', tn: 'الدرهم الإماراتي', fr: 'Dirham émirati', en: 'UAE Dirham' }, is_correct: true, points: 3 },
+            { translations: { ar: 'اليوان الصيني', tn: 'اليوان الصيني', fr: 'Yuan chinois', en: 'Chinese Yuan' }, is_correct: true, points: 5 },
+            { translations: { ar: 'الذهب', tn: 'الذهب', fr: 'Or', en: 'Gold' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 347,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 شركات تكنولوجيا عملاقة في العالم؟' },
+            tn: { text: 'شركات تكنولوجيا وإنترنت كبيرة ياسر؟' },
+            fr: { text: 'Citez 9 géants mondiaux de la technologie ?' },
+            en: { text: 'Name 9 global technology giant companies?' }
+        },
+        category: 'Economy & Business',
+        subcategory: 'Companies',
+        answers: [
+            { translations: { ar: 'أبل', tn: 'آبل', fr: 'Apple', en: 'Apple' }, is_correct: true, points: 1 },
+            { translations: { ar: 'مايكروسوفت', tn: 'مايكروسوفت', fr: 'Microsoft', en: 'Microsoft' }, is_correct: true, points: 1 },
+            { translations: { ar: 'جوجل', tn: 'ڨوڨل', fr: 'Google', en: 'Google' }, is_correct: true, points: 1 },
+            { translations: { ar: 'أمازون', tn: 'أمازون', fr: 'Amazon', en: 'Amazon' }, is_correct: true, points: 1 },
+            { translations: { ar: 'ميتا', tn: 'فيسبوك / ميتا', fr: 'Meta', en: 'Meta' }, is_correct: true, points: 2 },
+            { translations: { ar: 'سامسونج', tn: 'سامسونج', fr: 'Samsung', en: 'Samsung' }, is_correct: true, points: 2 },
+            { translations: { ar: 'تسلا', tn: 'تسلا', fr: 'Tesla', en: 'Tesla' }, is_correct: true, points: 3 },
+            { translations: { ar: 'إنفيديا', tn: 'إنفيديا', fr: 'Nvidia', en: 'Nvidia' }, is_correct: true, points: 3 },
+            { translations: { ar: 'سوني', tn: 'سوني', fr: 'Sony', en: 'Sony' }, is_correct: true, points: 5 },
+            { translations: { ar: 'ستاربكس', tn: 'ستاربكس', fr: 'Starbucks', en: 'Starbucks' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 348,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 شركات طيران عالمية كبرى؟' },
+            tn: { text: 'شركات طيران معروفة عالمياً تسافر باها العباد؟' },
+            fr: { text: 'Citez 9 grandes compagnies aériennes mondiales ?' },
+            en: { text: 'Name 9 major global airlines?' }
+        },
+        category: 'Economy & Business',
+        subcategory: 'Tourism',
+        answers: [
+            { translations: { ar: 'طيران الإمارات', tn: 'طيران الإمارات', fr: 'Emirates', en: 'Emirates' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الخطوط الجوية القطرية', tn: 'القطرية', fr: 'Qatar Airways', en: 'Qatar Airways' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الخطوط الجوية الفرنسية', tn: 'إير فرانس', fr: 'Air France', en: 'Air France' }, is_correct: true, points: 1 },
+            { translations: { ar: 'لوفتهانزا', tn: 'لوفتهانزا', fr: 'Lufthansa', en: 'Lufthansa' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الخطوط الجوية التركية', tn: 'التركية', fr: 'Turkish Airlines', en: 'Turkish Airlines' }, is_correct: true, points: 2 },
+            { translations: { ar: 'الخطوط الجوية التونسية', tn: 'الغزالة (Tunisair)', fr: 'Tunisair', en: 'Tunisair' }, is_correct: true, points: 2 },
+            { translations: { ar: 'الخطوط الجوية البريطانية', tn: 'بريتيش آيرويز', fr: 'British Airways', en: 'British Airways' }, is_correct: true, points: 3 },
+            { translations: { ar: 'الاتحاد للطيران', tn: 'الاتحاد', fr: 'Etihad Airways', en: 'Etihad Airways' }, is_correct: true, points: 3 },
+            { translations: { ar: 'دلتا إيرلاينز', tn: 'دلتا', fr: 'Delta Air Lines', en: 'Delta Air Lines' }, is_correct: true, points: 5 },
+            { translations: { ar: 'أوبر', tn: 'أوبر', fr: 'Uber', en: 'Uber' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 349,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 سلاسل مطاعم وجبات سريعة عالمية؟' },
+            tn: { text: 'سلاسل فاست فود وريستورانات سريعة مشهورة عالمياً؟' },
+            fr: { text: 'Citez 9 grandes chaînes mondiales de fast-food ?' },
+            en: { text: 'Name 9 major global fast-food chains?' }
+        },
+        category: 'Economy & Business',
+        subcategory: 'Companies',
+        answers: [
+            { translations: { ar: 'ماكدونالدز', tn: 'ماكدونالدز', fr: "McDonald's", en: "McDonald's" }, is_correct: true, points: 1 },
+            { translations: { ar: 'برجر كنج', tn: 'برجر كنج', fr: 'Burger King', en: 'Burger King' }, is_correct: true, points: 1 },
+            { translations: { ar: 'كنتاكي', tn: 'كي إف سي (KFC)', fr: 'KFC', en: 'KFC' }, is_correct: true, points: 1 },
+            { translations: { ar: 'بيتزا هت', tn: 'بيتزا هت', fr: 'Pizza Hut', en: 'Pizza Hut' }, is_correct: true, points: 1 },
+            { translations: { ar: 'ستاربكس', tn: 'ستاربكس', fr: 'Starbucks', en: 'Starbucks' }, is_correct: true, points: 2 },
+            { translations: { ar: 'سابواي', tn: 'سابواي', fr: 'Subway', en: 'Subway' }, is_correct: true, points: 2 },
+            { translations: { ar: 'دومينوز بيتزا', tn: 'دومينوز', fr: "Domino's Pizza", en: "Domino's Pizza" }, is_correct: true, points: 3 },
+            { translations: { ar: 'تاكو بل', tn: 'تاكو بل', fr: 'Taco Bell', en: 'Taco Bell' }, is_correct: true, points: 3 },
+            { translations: { ar: 'دانكن دونتس', tn: 'دانكن', fr: "Dunkin'", en: "Dunkin'" }, is_correct: true, points: 5 },
+            { translations: { ar: 'زارا', tn: 'زارا', fr: 'Zara', en: 'Zara' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 350,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 مواقع شهيرة للتسوق الإلكتروني عالمياً؟' },
+            tn: { text: 'مواقع وتطبيقات نشروا منها مالإنترنت؟' },
+            fr: { text: 'Citez 9 sites de vente en ligne célèbres ?' },
+            en: { text: 'Name 9 popular global e-commerce websites?' }
+        },
+        category: 'Economy & Business',
+        subcategory: 'Companies',
+        answers: [
+            { translations: { ar: 'أمازون', tn: 'أمازون', fr: 'Amazon', en: 'Amazon' }, is_correct: true, points: 1 },
+            { translations: { ar: 'إيباي', tn: 'إيباي', fr: 'eBay', en: 'eBay' }, is_correct: true, points: 1 },
+            { translations: { ar: 'علي إكسبريس', tn: 'علي إكسبريس', fr: 'AliExpress', en: 'AliExpress' }, is_correct: true, points: 1 },
+            { translations: { ar: 'علي بابا', tn: 'علي بابا', fr: 'Alibaba', en: 'Alibaba' }, is_correct: true, points: 1 },
+            { translations: { ar: 'شي إن', tn: 'شي إن', fr: 'Shein', en: 'Shein' }, is_correct: true, points: 2 },
+            { translations: { ar: 'تيمو', tn: 'تيمو', fr: 'Temu', en: 'Temu' }, is_correct: true, points: 2 },
+            { translations: { ar: 'جوميا', tn: 'جوميا (Jumia)', fr: 'Jumia', en: 'Jumia' }, is_correct: true, points: 3 },
+            { translations: { ar: 'وال مارت', tn: 'وال مارت', fr: 'Walmart', en: 'Walmart' }, is_correct: true, points: 3 },
+            { translations: { ar: 'شوبيفاي', tn: 'شوبيفاي', fr: 'Shopify', en: 'Shopify' }, is_correct: true, points: 5 },
+            { translations: { ar: 'واتساب', tn: 'واتساب', fr: 'WhatsApp', en: 'WhatsApp' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 351,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 دول تقع في قارة أمريكا الجنوبية؟' },
+            tn: { text: 'دول تابعة لأمريكا الجنوبية؟' },
+            fr: { text: 'Citez 9 pays situés en Amérique du Sud ?' },
+            en: { text: 'Name 9 countries located in South America?' }
+        },
+        category: 'Geography',
+        subcategory: 'Region',
+        answers: [
+            { translations: { ar: 'البرازيل', tn: 'البرازيل', fr: 'Brésil', en: 'Brazil' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الأرجنتين', tn: 'الأرجنتين', fr: 'Argentine', en: 'Argentina' }, is_correct: true, points: 1 },
+            { translations: { ar: 'كولومبيا', tn: 'كولومبيا', fr: 'Colombie', en: 'Colombia' }, is_correct: true, points: 1 },
+            { translations: { ar: 'بيرو', tn: 'بيرو', fr: 'Pérou', en: 'Peru' }, is_correct: true, points: 1 },
+            { translations: { ar: 'تشيلي', tn: 'تشيلي', fr: 'Chili', en: 'Chile' }, is_correct: true, points: 2 },
+            { translations: { ar: 'فنزويلا', tn: 'فنزويلا', fr: 'Venezuela', en: 'Venezuela' }, is_correct: true, points: 2 },
+            { translations: { ar: 'الإكوادور', tn: 'الإكوادور', fr: 'Équateur', en: 'Ecuador' }, is_correct: true, points: 3 },
+            { translations: { ar: 'بوليفيا', tn: 'بوليفيا', fr: 'Bolivie', en: 'Bolivia' }, is_correct: true, points: 3 },
+            { translations: { ar: 'أوروغواي', tn: 'أوروغواي', fr: 'Uruguay', en: 'Uruguay' }, is_correct: true, points: 5 },
+            { translations: { ar: 'المكسيك', tn: 'المكسيك', fr: 'Mexique', en: 'Mexico' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 352,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 دول إفريقية تبدأ بحرف الميم (M)؟' },
+            tn: { text: 'دول في إفريقيا تبدا بحرف الميم (M)؟' },
+            fr: { text: 'Citez 9 pays africains commençant par la lettre M ?' },
+            en: { text: 'Name 9 African countries starting with the letter M?' }
+        },
+        category: 'Geography',
+        subcategory: 'Country',
+        answers: [
+            { translations: { ar: 'المغرب', tn: 'المغرب', fr: 'Maroc', en: 'Morocco' }, is_correct: true, points: 1 },
+            { translations: { ar: 'مصر', tn: 'مصر', fr: 'Égypte', en: 'Egypt' }, is_correct: true, points: 1 },
+            { translations: { ar: 'مدغشقر', tn: 'مدغشقر', fr: 'Madagascar', en: 'Madagascar' }, is_correct: true, points: 1 },
+            { translations: { ar: 'مالي', tn: 'مالي', fr: 'Mali', en: 'Mali' }, is_correct: true, points: 1 },
+            { translations: { ar: 'موريتانيا', tn: 'موريتانيا', fr: 'Mauritanie', en: 'Mauritania' }, is_correct: true, points: 2 },
+            { translations: { ar: 'موزمبيق', tn: 'موزمبيق', fr: 'Mozambique', en: 'Mozambique' }, is_correct: true, points: 2 },
+            { translations: { ar: 'مالاوي', tn: 'مالاوي', fr: 'Malawi', en: 'Malawi' }, is_correct: true, points: 3 },
+            { translations: { ar: 'موريشيوس', tn: 'موريشيوس', fr: 'Maurice', en: 'Mauritius' }, is_correct: true, points: 3 },
+            { translations: { ar: 'ليبيا', tn: 'ليبيا', fr: 'Libye', en: 'Libya' }, is_correct: true, points: 5 },
+            { translations: { ar: 'موناكو', tn: 'موناكو', fr: 'Monaco', en: 'Monaco' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 353,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 أنواع أو فصائل من الحيوانات الثديية؟' },
+            tn: { text: 'حيوانات ثديية (ترضع صغارها) معروفة؟' },
+            fr: { text: 'Citez 9 mammifères célèbres ?' },
+            en: { text: 'Name 9 famous mammals?' }
+        },
+        category: 'Science & Technology',
+        subcategory: 'Natural Sciences',
+        answers: [
+            { translations: { ar: 'الإنسان', tn: 'الإنسان', fr: 'Humain', en: 'Human' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الأسد', tn: 'السبع', fr: 'Lion', en: 'Lion' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الفيل', tn: 'الفيل', fr: 'Éléphant', en: 'Elephant' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الحوت الأزرق', tn: 'الحوت لزرق', fr: 'Baleine bleue', en: 'Blue whale' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الدلفين', tn: 'الدلفين', fr: 'Dauphin', en: 'Dolphin' }, is_correct: true, points: 2 },
+            { translations: { ar: 'الكلب', tn: 'الكلب', fr: 'Chien', en: 'Dog' }, is_correct: true, points: 2 },
+            { translations: { ar: 'القط', tn: 'القطوس', fr: 'Chat', en: 'Cat' }, is_correct: true, points: 3 },
+            { translations: { ar: 'الحصان', tn: 'الحصان', fr: 'Cheval', en: 'Horse' }, is_correct: true, points: 3 },
+            { translations: { ar: 'الخفاش', tn: 'الخفاش (الوطواط)', fr: 'Chauve-souris', en: 'Bat' }, is_correct: true, points: 5 },
+            { translations: { ar: 'التمساح', tn: 'التمساح', fr: 'Crocodile', en: 'Crocodile' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 354,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 مصادر للطاقة المتجددة أو البديلة؟' },
+            tn: { text: 'مصادر طاقة نظيفة ومتجددة؟' },
+            fr: { text: "Citez 9 sources d'énergie renouvelable ou alternative ?" },
+            en: { text: 'Name 9 renewable or alternative energy sources?' }
+        },
+        category: 'Science & Technology',
+        subcategory: 'Engineering',
+        answers: [
+            { translations: { ar: 'الطاقة الشمسية', tn: 'شمس', fr: 'Énergie solaire', en: 'Solar energy' }, is_correct: true, points: 1 },
+            { translations: { ar: 'طاقة الرياح', tn: 'ريح', fr: 'Énergie éolienne', en: 'Wind energy' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الطاقة المائية', tn: 'ماء (سدود)', fr: 'Énergie hydraulique', en: 'Hydroelectric energy' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الطاقة الحيوية', tn: 'طاقة حيوية', fr: 'Biomasse', en: 'Biomass' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الطاقة الحرارية الجوفية', tn: 'حرارة الأرض', fr: 'Énergie géothermique', en: 'Geothermal energy' }, is_correct: true, points: 2 },
+            { translations: { ar: 'طاقة المد والجزر', tn: 'البحر (مد وجزر)', fr: 'Énergie marémotrice', en: 'Tidal energy' }, is_correct: true, points: 2 },
+            { translations: { ar: 'الهيدروجين الأخضر', tn: 'هيدروجين أخضر', fr: 'Hydrogène vert', en: 'Green hydrogen' }, is_correct: true, points: 3 },
+            { translations: { ar: 'طاقة الأمواج', tn: 'أمواج البحر', fr: 'Énergie des vagues', en: 'Wave energy' }, is_correct: true, points: 3 },
+            { translations: { ar: 'طاقة النفايات', tn: 'تثمين النفايات', fr: 'Énergie des déchets', en: 'Waste-to-energy' }, is_correct: true, points: 5 },
+            { translations: { ar: 'البترول', tn: 'النفط والمازوت', fr: 'Pétrole', en: 'Petroleum' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 355,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 روايات أدبية كلاسيكية مشهورة عالمياً؟' },
+            tn: { text: 'روايات وكتب أدبية معروفة ياسر في العالم؟' },
+            fr: { text: 'Citez 9 romans littéraires classiques célèbres ?' },
+            en: { text: 'Name 9 famous classic literary novels?' }
+        },
+        category: 'Arts',
+        subcategory: 'Literature',
+        answers: [
+            { translations: { ar: 'البؤساء', tn: 'البؤساء', fr: 'Les Misérables', en: 'Les Miserables' }, is_correct: true, points: 1 },
+            { translations: { ar: '1984', tn: '1984', fr: '1984', en: '1984' }, is_correct: true, points: 1 },
+            { translations: { ar: 'مئة عام من العزلة', tn: 'مائة عام من العزلة', fr: 'Cent ans de solitude', en: 'One Hundred Years of Solitude' }, is_correct: true, points: 1 },
+            { translations: { ar: 'دون كيخوته', tn: 'دون كيخوته', fr: 'Don Quichotte', en: 'Don Quixote' }, is_correct: true, points: 1 },
+            { translations: { ar: 'جريمة وعقاب', tn: 'الجريمة والعقاب', fr: 'Crime et Châtiment', en: 'Crime and Punishment' }, is_correct: true, points: 2 },
+            { translations: { ar: 'الأمير الصغير', tn: 'الأمير الصغير', fr: 'Le Petit Prince', en: 'The Little Prince' }, is_correct: true, points: 2 },
+            { translations: { ar: 'الشيخ والبحر', tn: 'الشيخ والبحر', fr: 'Le Vieil Homme et la Mer', en: 'The Old Man and the Sea' }, is_correct: true, points: 3 },
+            { translations: { ar: 'أنا كارنينا', tn: 'أنا كارنينا', fr: 'Anna Karénine', en: 'Anna Karenina' }, is_correct: true, points: 3 },
+            { translations: { ar: 'جين إير', tn: 'جين إير', fr: 'Jane Eyre', en: 'Jane Eyre' }, is_correct: true, points: 5 },
+            { translations: { ar: 'صحيفة اليوم', tn: 'الجريدة', fr: 'Journal quotidien', en: 'Daily newspaper' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 356,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 رياضات جماعية تلعب باستخدام كرة؟' },
+            tn: { text: 'رياضات جماعية نلعبوهم بالكورة؟' },
+            fr: { text: 'Citez 9 sports collectifs se jouant avec un ballon ou une balle ?' },
+            en: { text: 'Name 9 team sports played with a ball?' }
+        },
+        category: 'Sports',
+        subcategory: 'Team Sports',
+        answers: [
+            { translations: { ar: 'كرة القدم', tn: 'كورة (فوتبول)', fr: 'Football', en: 'Football' }, is_correct: true, points: 1 },
+            { translations: { ar: 'كرة السلة', tn: 'باسكات', fr: 'Basket-ball', en: 'Basketball' }, is_correct: true, points: 1 },
+            { translations: { ar: 'كرة اليد', tn: 'هوند', fr: 'Handball', en: 'Handball' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الكرة الطائرة', tn: 'فولي', fr: 'Volley-ball', en: 'Volleyball' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الرجبي', tn: 'الرغبي', fr: 'Rugby', en: 'Rugby' }, is_correct: true, points: 2 },
+            { translations: { ar: 'البيسبول', tn: 'البيسبول', fr: 'Baseball', en: 'Baseball' }, is_correct: true, points: 2 },
+            { translations: { ar: 'كرة الماء', tn: 'واتر بولو', fr: 'Water-polo', en: 'Water Polo' }, is_correct: true, points: 3 },
+            { translations: { ar: 'الهوكي على العشب', tn: 'هوكي العشب', fr: 'Hockey sur gazon', en: 'Field Hockey' }, is_correct: true, points: 3 },
+            { translations: { ar: 'الكريكت', tn: 'الكريكت', fr: 'Cricket', en: 'Cricket' }, is_correct: true, points: 5 },
+            { translations: { ar: 'الجري', tn: 'الجري', fr: 'Course à pied', en: 'Running' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 357,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 قنوات تلفزيونية إخبارية عالمية مشهورة؟' },
+            tn: { text: 'قنوات تلفزة متع أخبار معروفة في العالم؟' },
+            fr: { text: "Citez 9 chaînes de télévision d'information internationales célèbres ?" },
+            en: { text: 'Name 9 famous international news television channels?' }
+        },
+        category: 'Entertainment',
+        subcategory: 'Television',
+        answers: [
+            { translations: { ar: 'الجزيرة', tn: 'الجزيرة', fr: 'Al Jazeera', en: 'Al Jazeera' }, is_correct: true, points: 1 },
+            { translations: { ar: 'العربية', tn: 'العربية', fr: 'Al Arabiya', en: 'Al Arabiya' }, is_correct: true, points: 1 },
+            { translations: { ar: 'سي إن إن', tn: 'سي إن إن (CNN)', fr: 'CNN', en: 'CNN' }, is_correct: true, points: 1 },
+            { translations: { ar: 'بي بي سي', tn: 'بي بي سي (BBC)', fr: 'BBC World News', en: 'BBC' }, is_correct: true, points: 1 },
+            { translations: { ar: 'فرانس 24', tn: 'فرانس 24', fr: 'France 24', en: 'France 24' }, is_correct: true, points: 2 },
+            { translations: { ar: 'روسيا اليوم', tn: 'آر تي (RT)', fr: 'RT', en: 'RT' }, is_correct: true, points: 2 },
+            { translations: { ar: 'سكاي نيوز', tn: 'سكاي نيوز', fr: 'Sky News', en: 'Sky News' }, is_correct: true, points: 3 },
+            { translations: { ar: 'يورونيوز', tn: 'يورونيوز', fr: 'Euronews', en: 'Euronews' }, is_correct: true, points: 3 },
+            { translations: { ar: 'سي إن بي سي', tn: 'CNBC', fr: 'CNBC', en: 'CNBC' }, is_correct: true, points: 5 },
+            { translations: { ar: 'سبوتيفاي', tn: 'سبوتيفاي', fr: 'Spotify', en: 'Spotify' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 358,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 حلويات أو تحليات مشهورة عالمياً؟' },
+            tn: { text: 'حلويات وتحليات معروفة برشا في العالم؟' },
+            fr: { text: 'Citez 9 desserts ou pâtisseries célèbres dans le monde ?' },
+            en: { text: 'Name 9 famous desserts or sweets in the world?' }
+        },
+        category: 'Gastronomy',
+        subcategory: 'Desserts',
+        answers: [
+            { translations: { ar: 'الشوكولاتة', tn: 'الشوكلاطة', fr: 'Chocolat', en: 'Chocolate' }, is_correct: true, points: 1 },
+            { translations: { ar: 'المثلجات', tn: 'الجيلاتي (المثلجات)', fr: 'Glace / Gelato', en: 'Ice cream' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الكرواسون', tn: 'كرواسون', fr: 'Croissant', en: 'Croissant' }, is_correct: true, points: 1 },
+            { translations: { ar: 'التشيز كيك', tn: 'تشيز كيك', fr: 'Cheesecake', en: 'Cheesecake' }, is_correct: true, points: 1 },
+            { translations: { ar: 'تيراميسو', tn: 'تيراميسو', fr: 'Tiramisu', en: 'Tiramisu' }, is_correct: true, points: 2 },
+            { translations: { ar: 'البقلاوة', tn: 'البقلاوة', fr: 'Baklava', en: 'Baklava' }, is_correct: true, points: 2 },
+            { translations: { ar: 'الماكارون', tn: 'الماكارون', fr: 'Macaron', en: 'Macaron' }, is_correct: true, points: 3 },
+            { translations: { ar: 'الكريب', tn: 'الكريب', fr: 'Crêpe', en: 'Crepe' }, is_correct: true, points: 3 },
+            { translations: { ar: 'الدوناتس', tn: 'الدونات', fr: 'Donut', en: 'Donut' }, is_correct: true, points: 5 },
+            { translations: { ar: 'الخبز', tn: 'الخبز', fr: 'Pain', en: 'Bread' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 359,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 ماركات ساعات يد فاخرة عالمية؟' },
+            tn: { text: 'ماركات مناڨل وكتس يد فاخرة برشا؟' },
+            fr: { text: 'Citez 9 marques de montres de luxe ?' },
+            en: { text: 'Name 9 luxury wristwatch brands?' }
+        },
+        category: 'Culture & Lifestyle',
+        subcategory: 'Fashion',
+        answers: [
+            { translations: { ar: 'رولكس', tn: 'رولكس (Rolex)', fr: 'Rolex', en: 'Rolex' }, is_correct: true, points: 1 },
+            { translations: { ar: 'أوميغا', tn: 'أوميغا', fr: 'Omega', en: 'Omega' }, is_correct: true, points: 1 },
+            { translations: { ar: 'باتيك فيليب', tn: 'باتيك فيليب', fr: 'Patek Philippe', en: 'Patek Philippe' }, is_correct: true, points: 1 },
+            { translations: { ar: 'أوديمار بيغيه', tn: 'أوديمار بيغيه', fr: 'Audemars Piguet', en: 'Audemars Piguet' }, is_correct: true, points: 1 },
+            { translations: { ar: 'تاج هوير', tn: 'تاج هوير', fr: 'Tag Heuer', en: 'Tag Heuer' }, is_correct: true, points: 2 },
+            { translations: { ar: 'كارتييه', tn: 'كارتييه', fr: 'Cartier', en: 'Cartier' }, is_correct: true, points: 2 },
+            { translations: { ar: 'هوبلو', tn: 'هوبلو', fr: 'Hublot', en: 'Hublot' }, is_correct: true, points: 3 },
+            { translations: { ar: 'بريتلينغ', tn: 'بريتلينغ', fr: 'Breitling', en: 'Breitling' }, is_correct: true, points: 3 },
+            { translations: { ar: 'ريتشارد ميل', tn: 'ريتشارد ميل', fr: 'Richard Mille', en: 'Richard Mille' }, is_correct: true, points: 5 },
+            { translations: { ar: 'كاسيو البسيطة', tn: 'منڨالة كاسيو عادية', fr: 'Casio basique', en: 'Basic Casio' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 360,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 صناعات أو قطاعات اقتصادية كبرى في العالم؟' },
+            tn: { text: 'قطاعات اقتصادية وصناعات كبيرة في العالم؟' },
+            fr: { text: 'Citez 9 grands secteurs ou industries économiques ?' },
+            en: { text: 'Name 9 major global industries or economic sectors?' }
+        },
+        category: 'Economy & Business',
+        subcategory: 'Industries',
+        answers: [
+            { translations: { ar: 'الزراعة', tn: 'الفلاحة', fr: 'Agriculture', en: 'Agriculture' }, is_correct: true, points: 1 },
+            { translations: { ar: 'السياحة', tn: 'السياحة', fr: 'Tourisme', en: 'Tourism' }, is_correct: true, points: 1 },
+            { translations: { ar: 'صناعة السيارات', tn: 'صناعة السيارات', fr: 'Industrie automobile', en: 'Automotive industry' }, is_correct: true, points: 1 },
+            { translations: { ar: 'التكنولوجيا والبرمجيات', tn: 'التكنولوجيا', fr: 'Technologie et logiciel', en: 'Technology & software' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الطاقة والنفط', tn: 'الطاقة (البترول والغاز)', fr: 'Énergie et pétrole', en: 'Energy & petroleum' }, is_correct: true, points: 2 },
+            { translations: { ar: 'الخدمات المالية', tn: 'البنوك والمالية', fr: 'Services financiers', en: 'Financial services' }, is_correct: true, points: 2 },
+            { translations: { ar: 'صناعة الأدوية', tn: 'صناعة الأدوية', fr: 'Industrie pharmaceutique', en: 'Pharmaceutical industry' }, is_correct: true, points: 3 },
+            { translations: { ar: 'صناعة الأغذية', tn: 'الصناعات الغذائية', fr: 'Industrie agroalimentaire', en: 'Food industry' }, is_correct: true, points: 3 },
+            { translations: { ar: 'العقارات والبناء', tn: 'العقارات والمرمّة', fr: 'Immobilier et construction', en: 'Real estate & construction' }, is_correct: true, points: 5 },
+            { translations: { ar: 'ألعاب الورق', tn: 'شكُبة ورامي', fr: 'Jeux de cartes', en: 'Card games' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 361,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 دول تقع في قارة آسيا؟' },
+            tn: { text: 'دول تابعة لقارة آسيا؟' },
+            fr: { text: 'Citez 9 pays situés en Asie ?' },
+            en: { text: 'Name 9 countries located in Asia?' }
+        },
+        category: 'Geography',
+        subcategory: 'Region',
+        answers: [
+            { translations: { ar: 'الصين', tn: 'الصين', fr: 'Chine', en: 'China' }, is_correct: true, points: 1 },
+            { translations: { ar: 'اليابان', tn: 'اليابان', fr: 'Japon', en: 'Japan' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الهند', tn: 'الهند', fr: 'Inde', en: 'India' }, is_correct: true, points: 1 },
+            { translations: { ar: 'روسيا', tn: 'روسيا', fr: 'Russie', en: 'Russia' }, is_correct: true, points: 1 },
+            { translations: { ar: 'كوريا الجنوبية', tn: 'كوريا الجنوبية', fr: 'Corée du Sud', en: 'South Korea' }, is_correct: true, points: 2 },
+            { translations: { ar: 'السعودية', tn: 'السعودية', fr: 'Arabie Saoudite', en: 'Saudi Arabia' }, is_correct: true, points: 2 },
+            { translations: { ar: 'باكستان', tn: 'باكستان', fr: 'Pakistan', en: 'Pakistan' }, is_correct: true, points: 3 },
+            { translations: { ar: 'إندونيسيا', tn: 'إندونيسيا', fr: 'Indonésie', en: 'Indonesia' }, is_correct: true, points: 3 },
+            { translations: { ar: 'تركيا', tn: 'تركيا', fr: 'Turquie', en: 'Turkey' }, is_correct: true, points: 5 },
+            { translations: { ar: 'كندا', tn: 'كندا', fr: 'Canada', en: 'Canada' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 362,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 أنواع من الطيور المشهورة؟' },
+            tn: { text: 'عصافير وطيور معروفين؟' },
+            fr: { text: 'Citez 9 oiseaux célèbres ?' },
+            en: { text: 'Name 9 famous birds?' }
+        },
+        category: 'Science & Technology',
+        subcategory: 'Natural Sciences',
+        answers: [
+            { translations: { ar: 'العقاب', tn: 'النسر', fr: 'Aigle', en: 'Eagle' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الحمامة', tn: 'الحمامة', fr: 'Pigeon', en: 'Pigeon' }, is_correct: true, points: 1 },
+            { translations: { ar: 'البومة', tn: 'البومة', fr: 'Hibou', en: 'Owl' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الببغاء', tn: 'الببّغاء', fr: 'Perroquet', en: 'Parrot' }, is_correct: true, points: 1 },
+            { translations: { ar: 'البطريق', tn: 'البطريق', fr: 'Manchot / Pingouin', en: 'Penguin' }, is_correct: true, points: 2 },
+            { translations: { ar: 'النعامة', tn: 'النعامة', fr: 'Autruche', en: 'Ostrich' }, is_correct: true, points: 2 },
+            { translations: { ar: 'الغراب', tn: 'الغراب', fr: 'Corbeau', en: 'Crow' }, is_correct: true, points: 3 },
+            { translations: { ar: 'الصقر', tn: 'الباز', fr: 'Faucon', en: 'Falcon' }, is_correct: true, points: 3 },
+            { translations: { ar: 'الطاووس', tn: 'الطاووس', fr: 'Paon', en: 'Peacock' }, is_correct: true, points: 5 },
+            { translations: { ar: 'الخفاش الثديي', tn: 'الخفاش', fr: 'Chauve-souris', en: 'Bat' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 363,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 من الحكايات والقصص الخيالية الكلاسيكية للأطفال؟' },
+            tn: { text: 'خرافات وقصص خيالية معروفة متع صغار؟' },
+            fr: { text: 'Citez 9 contes de fées ou histoires célèbres pour enfants ?' },
+            en: { text: 'Name 9 famous classic fairy tales or children stories?' }
+        },
+        category: 'Arts',
+        subcategory: 'Literature',
+        answers: [
+            { translations: { ar: 'سندريلا', tn: 'سندريلا', fr: 'Cendrillon', en: 'Cinderella' }, is_correct: true, points: 1 },
+            { translations: { ar: 'بياض الثلج', tn: 'بياض الثلج', fr: 'Blanche-Neige', en: 'Snow White' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الجميلة والوحش', tn: 'الجميلة والوحش', fr: 'La Belle et la Bête', en: 'Beauty and the Beast' }, is_correct: true, points: 1 },
+            { translations: { ar: 'ذات الرداء الأحمر', tn: 'ليلى والذئب', fr: 'Le Petit Chaperon rouge', en: 'Little Red Riding Hood' }, is_correct: true, points: 1 },
+            { translations: { ar: 'علاء الدين', tn: 'علاء الدين والمصباح السحري', fr: 'Aladin', en: 'Aladdin' }, is_correct: true, points: 2 },
+            { translations: { ar: 'بيتر بان', tn: 'بيتر بان', fr: 'Peter Pan', en: 'Peter Pan' }, is_correct: true, points: 2 },
+            { translations: { ar: 'سندباد', tn: 'السندباد البحري', fr: 'Sindbad le marin', en: 'Sinbad the Sailor' }, is_correct: true, points: 3 },
+            { translations: { ar: 'الجمال النائم', tn: 'الأميرة النائمة', fr: 'La Belle au bois dormant', en: 'Sleeping Beauty' }, is_correct: true, points: 3 },
+            { translations: { ar: 'بينوكيو', tn: 'بينوكيو', fr: 'Pinocchio', en: 'Pinocchio' }, is_correct: true, points: 5 },
+            { translations: { ar: 'هاري بوتر الحديث', tn: 'هاري بوتر', fr: 'Harry Potter', en: 'Harry Potter' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 364,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 مدن استضافت الألعاب الأولمبية الصيفية؟' },
+            tn: { text: 'مدن نظمت الألعاب الأولمبية الصيفية؟' },
+            fr: { text: "Citez 9 villes ayant accueilli les Jeux Olympiques d'été ?" },
+            en: { text: 'Name 9 cities that have hosted the Summer Olympic Games?' }
+        },
+        category: 'Sports',
+        subcategory: 'Olympics',
+        answers: [
+            { translations: { ar: 'باريس', tn: 'باريس', fr: 'Paris', en: 'Paris' }, is_correct: true, points: 1 },
+            { translations: { ar: 'لندن', tn: 'لندن', fr: 'Londres', en: 'London' }, is_correct: true, points: 1 },
+            { translations: { ar: 'طوكيو', tn: 'طوكيو', fr: 'Tokyo', en: 'Tokyo' }, is_correct: true, points: 1 },
+            { translations: { ar: 'أثينا', tn: 'أثينا', fr: 'Athènes', en: 'Athens' }, is_correct: true, points: 1 },
+            { translations: { ar: 'سيدني', tn: 'سيدني', fr: 'Sydney', en: 'Sydney' }, is_correct: true, points: 2 },
+            { translations: { ar: 'بكين', tn: 'بكين', fr: 'Pékin', en: 'Beijing' }, is_correct: true, points: 2 },
+            { translations: { ar: 'ريو دي جانيرو', tn: 'ريو', fr: 'Rio de Janeiro', en: 'Rio de Janeiro' }, is_correct: true, points: 3 },
+            { translations: { ar: 'برشلونة', tn: 'برشلونة', fr: 'Barcelone', en: 'Barcelona' }, is_correct: true, points: 3 },
+            { translations: { ar: 'لوس أنجلوس', tn: 'لوس أنجلوس', fr: 'Los Angeles', en: 'Los Angeles' }, is_correct: true, points: 5 },
+            { translations: { ar: 'تونس العاصمة', tn: 'تونس', fr: 'Tunis', en: 'Tunis' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 365,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 أفلام رسوم متحركة مشهورة من إنتاج ديزني؟' },
+            tn: { text: 'أفلام رسوم متحركة وكارتون معروفة متع ديزني؟' },
+            fr: { text: "Citez 9 films d'animation Disney célèbres ?" },
+            en: { text: 'Name 9 famous Disney animated movies?' }
+        },
+        category: 'Entertainment',
+        subcategory: 'Cinema',
+        answers: [
+            { translations: { ar: 'الأسد الملك', tn: 'ذا لايون كينغ', fr: 'Le Roi Lion', en: 'The Lion King' }, is_correct: true, points: 1 },
+            { translations: { ar: 'علاء الدين', tn: 'علاء الدين', fr: 'Aladdin', en: 'Aladdin' }, is_correct: true, points: 1 },
+            { translations: { ar: 'سندريلا', tn: 'سندريلا', fr: 'Cendrillon', en: 'Cinderella' }, is_correct: true, points: 1 },
+            { translations: { ar: 'البحرية الصغيرة', tn: 'عروس البحر', fr: 'La Petite Sirène', en: 'The Little Mermaid' }, is_correct: true, points: 1 },
+            { translations: { ar: 'ملكة الثلج', tn: 'فروزن', fr: 'La Reine des Neiges', en: 'Frozen' }, is_correct: true, points: 2 },
+            { translations: { ar: 'مولان', tn: 'مولان', fr: 'Mulan', en: 'Mulan' }, is_correct: true, points: 2 },
+            { translations: { ar: 'بينوكيو', tn: 'بينوكيو', fr: 'Pinocchio', en: 'Pinocchio' }, is_correct: true, points: 3 },
+            { translations: { ar: 'الجميلة والوحش', tn: 'الجميلة والوحش', fr: 'La Belle et la Bête', en: 'Beauty and the Beast' }, is_correct: true, points: 3 },
+            { translations: { ar: 'كتاب الغابة', tn: 'ماوكلي', fr: 'Le Livre de la Jungle', en: 'The Jungle Book' }, is_correct: true, points: 5 },
+            { translations: { ar: 'شريك', tn: 'شريك', fr: 'Shrek', en: 'Shrek' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 366,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 دول يمر من خلالها خط الاستواء؟' },
+            tn: { text: 'دول يتعدى منها خط الإستواء في العالم؟' },
+            fr: { text: "Citez 9 pays traversés par l'équateur ?" },
+            en: { text: 'Name 9 countries crossed by the Equator?' }
+        },
+        category: 'Geography',
+        subcategory: 'Worldwide',
+        answers: [
+            { translations: { ar: 'الإكوادور', tn: 'الإكوادور', fr: 'Équateur', en: 'Ecuador' }, is_correct: true, points: 1 },
+            { translations: { ar: 'كولومبيا', tn: 'كولومبيا', fr: 'Colombie', en: 'Colombia' }, is_correct: true, points: 1 },
+            { translations: { ar: 'البرازيل', tn: 'البرازيل', fr: 'Brésil', en: 'Brazil' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الغابون', tn: 'الغابون', fr: 'Gabon', en: 'Gabon' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الكونغو', tn: 'الكونغو', fr: 'Congo', en: 'Congo' }, is_correct: true, points: 2 },
+            { translations: { ar: 'أوغندا', tn: 'أوغندا', fr: 'Ouganda', en: 'Uganda' }, is_correct: true, points: 2 },
+            { translations: { ar: 'كينيا', tn: 'كينيا', fr: 'Kenya', en: 'Kenya' }, is_correct: true, points: 3 },
+            { translations: { ar: 'الصومال', tn: 'الصومال', fr: 'Somalie', en: 'Somalia' }, is_correct: true, points: 3 },
+            { translations: { ar: 'إندونيسيا', tn: 'إندونيسيا', fr: 'Indonésie', en: 'Indonesia' }, is_correct: true, points: 5 },
+            { translations: { ar: 'مصر', tn: 'مصر', fr: 'Égypte', en: 'Egypt' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 367,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 أنواع أو فصائل من الأشجار؟' },
+            tn: { text: 'أنواع شجر معروفين؟' },
+            fr: { text: "Citez 9 types ou espèces d'arbres ?" },
+            en: { text: 'Name 9 types or species of trees?' }
+        },
+        category: 'Science & Technology',
+        subcategory: 'Natural Sciences',
+        answers: [
+            { translations: { ar: 'البلوط', tn: 'البلوط', fr: 'Chêne', en: 'Oak' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الصنوبر', tn: 'الزڨوڨو (الصنوبر)', fr: 'Pin', en: 'Pine' }, is_correct: true, points: 1 },
+            { translations: { ar: 'النخيل', tn: 'النخلة', fr: 'Palmier', en: 'Palm' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الزيتون', tn: 'شجرة الزيتون', fr: 'Olivier', en: 'Olive' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الصفصاف', tn: 'الصفصاف', fr: 'Saule', en: 'Willow' }, is_correct: true, points: 2 },
+            { translations: { ar: 'الأرز', tn: 'الأرز', fr: 'Cèdre', en: 'Cedar' }, is_correct: true, points: 2 },
+            { translations: { ar: 'الخيزران', tn: 'الخيزران (بامبو)', fr: 'Bambou', en: 'Bamboo' }, is_correct: true, points: 3 },
+            { translations: { ar: 'الكينا', tn: 'الكينا (كالتوس)', fr: 'Eucalyptus', en: 'Eucalyptus' }, is_correct: true, points: 3 },
+            { translations: { ar: 'الكرز', tn: 'شجرة الكرز', fr: 'Cerisier', en: 'Cherry tree' }, is_correct: true, points: 5 },
+            { translations: { ar: 'العشب', tn: 'الحشيش', fr: 'Herbe', en: 'Grass' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 368,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 ملحنين وموسيقيين كلاسيكيين مشهورين؟' },
+            tn: { text: 'ملحنين موسيقى كلاسيكية معروفين؟' },
+            fr: { text: 'Citez 9 compositeurs classiques célèbres ?' },
+            en: { text: 'Name 9 famous classical music composers?' }
+        },
+        category: 'Arts',
+        subcategory: 'Music',
+        answers: [
+            { translations: { ar: 'موزارت', tn: 'موزارت', fr: 'Mozart', en: 'Mozart' }, is_correct: true, points: 1 },
+            { translations: { ar: 'بيتهوفن', tn: 'بيتهوفن', fr: 'Beethoven', en: 'Beethoven' }, is_correct: true, points: 1 },
+            { translations: { ar: 'باخ', tn: 'باخ', fr: 'Bach', en: 'Bach' }, is_correct: true, points: 1 },
+            { translations: { ar: 'شوبان', tn: 'شوبان', fr: 'Chopin', en: 'Chopin' }, is_correct: true, points: 1 },
+            { translations: { ar: 'فاغنر', tn: 'فاغنر', fr: 'Wagner', en: 'Wagner' }, is_correct: true, points: 2 },
+            { translations: { ar: 'تشايكوفسكي', tn: 'تشايكوفسكي', fr: 'Tchaïkovski', en: 'Tchaikovsky' }, is_correct: true, points: 2 },
+            { translations: { ar: 'فيفالدي', tn: 'فيفالدي', fr: 'Vivaldi', en: 'Vivaldi' }, is_correct: true, points: 3 },
+            { translations: { ar: 'شوبرت', tn: 'شوبرت', fr: 'Schubert', en: 'Schubert' }, is_correct: true, points: 3 },
+            { translations: { ar: 'هاندل', tn: 'هاندل', fr: 'Handel', en: 'Handel' }, is_correct: true, points: 5 },
+            { translations: { ar: 'إيمينيم', tn: 'إيمينيم', fr: 'Eminem', en: 'Eminem' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 369,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 دول فازت بالميدالية الذهبية في أولمبياد باريس 2024؟' },
+            tn: { text: 'بلدان هزت الميدالية الذهبية في أولمبياد باريس 2024؟' },
+            fr: { text: "Citez 9 pays ayant remporté une médaille d'or aux JO de Paris 2024 ?" },
+            en: { text: 'Name 9 countries that won a gold medal at the Paris 2024 Olympics?' }
+        },
+        category: 'Sports',
+        subcategory: 'Records',
+        answers: [
+            { translations: { ar: 'الولايات المتحدة', tn: 'أمريكا', fr: 'États-Unis', en: 'United States' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الصين', tn: 'الصين', fr: 'Chine', en: 'China' }, is_correct: true, points: 1 },
+            { translations: { ar: 'اليابان', tn: 'اليابان', fr: 'Japon', en: 'Japan' }, is_correct: true, points: 1 },
+            { translations: { ar: 'أستراليا', tn: 'أستراليا', fr: 'Australie', en: 'Australia' }, is_correct: true, points: 1 },
+            { translations: { ar: 'فرنسا', tn: 'فرنسا', fr: 'France', en: 'France' }, is_correct: true, points: 2 },
+            { translations: { ar: 'هولندا', tn: 'هولندا', fr: 'Pays-Bas', en: 'Netherlands' }, is_correct: true, points: 2 },
+            { translations: { ar: 'بريطانيا العظمى', tn: 'بريطانيا', fr: 'Grande-Bretagne', en: 'Great Britain' }, is_correct: true, points: 3 },
+            { translations: { ar: 'كوريا الجنوبية', tn: 'كوريا الجنوبية', fr: 'Corée du Sud', en: 'South Korea' }, is_correct: true, points: 3 },
+            { translations: { ar: 'تونس', tn: 'تونس', fr: 'Tunisie', en: 'Tunisia' }, is_correct: true, points: 5 },
+            { translations: { ar: 'الفاتيكان', tn: 'الفاتيكان', fr: 'Vatican', en: 'Vatican' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 370,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 مسلسلات أنمي يابانية مشهورة عالمياً؟' },
+            tn: { text: 'مسلسلات أنمي معروفين برشا في العالم؟' },
+            fr: { text: "Citez 9 séries d'anime japonais célèbres ?" },
+            en: { text: 'Name 9 famous Japanese anime series?' }
+        },
+        category: 'Entertainment',
+        subcategory: 'anime',
+        answers: [
+            { translations: { ar: 'ون بيس', tn: 'ون بيس', fr: 'One Piece', en: 'One Piece' }, is_correct: true, points: 1 },
+            { translations: { ar: 'ناروتو', tn: 'ناروتو', fr: 'Naruto', en: 'Naruto' }, is_correct: true, points: 1 },
+            { translations: { ar: 'دراجون بول', tn: 'دراجون بول', fr: 'Dragon Ball', en: 'Dragon Ball' }, is_correct: true, points: 1 },
+            { translations: { ar: 'هجوم العمالقة', tn: 'هجوم العمالقة', fr: "L'Attaque des Titans", en: 'Attack on Titan' }, is_correct: true, points: 1 },
+            { translations: { ar: 'مذكرة الموت', tn: 'دفتر الموت', fr: 'Death Note', en: 'Death Note' }, is_correct: true, points: 2 },
+            { translations: { ar: 'المحقق كونان', tn: 'كونان', fr: 'Détective Conan', en: 'Detective Conan' }, is_correct: true, points: 2 },
+            { translations: { ar: 'قاتل الشياطين', tn: 'قاتل الشياطين', fr: 'Demon Slayer', en: 'Demon Slayer' }, is_correct: true, points: 3 },
+            { translations: { ar: 'بوكيمون', tn: 'بوكيمون', fr: 'Pokémon', en: 'Pokémon' }, is_correct: true, points: 3 },
+            { translations: { ar: 'هنتر x هنتر', tn: 'القناص', fr: 'Hunter x Hunter', en: 'Hunter x Hunter' }, is_correct: true, points: 5 },
+            { translations: { ar: 'توم وجيري', tn: 'توم وجيري', fr: 'Tom et Jerry', en: 'Tom and Jerry' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 371,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 عجائب أو معالم من عجائب الدنيا السبع (القديمة أو الحديثة)؟' },
+            tn: { text: 'عجائب الدنيا السبع القديمة ولا الجديدة؟' },
+            fr: { text: 'Citez 9 merveilles du monde (antiques ou modernes) ?' },
+            en: { text: 'Name 9 wonders of the world (ancient or modern)?' }
+        },
+        category: 'History & Politics',
+        subcategory: 'Ancient',
+        answers: [
+            { translations: { ar: 'الهرم الأكبر بالجيزة', tn: 'الأهرامات', fr: 'Grande Pyramide de Gizeh', en: 'Great Pyramid of Giza' }, is_correct: true, points: 1 },
+            { translations: { ar: 'حدائق بابل المعلقة', tn: 'جناين بابل المعلقة', fr: 'Jardins suspendus de Babylone', en: 'Hanging Gardens of Babylon' }, is_correct: true, points: 1 },
+            { translations: { ar: 'تاج محل', tn: 'تاج محل', fr: 'Taj Mahal', en: 'Taj Mahal' }, is_correct: true, points: 1 },
+            { translations: { ar: 'سور الصين العظيم', tn: 'سور الصين', fr: 'Grande Muraille de Chine', en: 'Great Wall of China' }, is_correct: true, points: 1 },
+            { translations: { ar: 'البتراء', tn: 'البتراء بالأردن', fr: 'Pétra', en: 'Petra' }, is_correct: true, points: 2 },
+            { translations: { ar: 'الكولوسيوم', tn: 'الكولوسيوم بروما', fr: 'Colisée', en: 'Colosseum' }, is_correct: true, points: 2 },
+            { translations: { ar: 'ماتشو بيتشو', tn: 'ماتشو بيتشو', fr: 'Machu Picchu', en: 'Machu Picchu' }, is_correct: true, points: 3 },
+            { translations: { ar: 'تمثال المسيح الفادي', tn: 'تمثال المسيح بالبرازيل', fr: 'Christ Rédempteur', en: 'Christ the Redeemer' }, is_correct: true, points: 3 },
+            { translations: { ar: 'تشيتشن إيتزا', tn: 'تشيتشن إيتزا', fr: 'Chichén Itzá', en: 'Chichen Itza' }, is_correct: true, points: 5 },
+            { translations: { ar: 'برج إيفل', tn: 'برج إيفل', fr: 'Tour Eiffel', en: 'Eiffel Tower' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 372,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 نكهات مشهورة للمثلجات (الجيلاتي/الآيس كريم)؟' },
+            tn: { text: 'نكهات متع ڨلاص وجيلاتي معروفين؟' },
+            fr: { text: 'Citez 9 parfums de glace célèbres ?' },
+            en: { text: 'Name 9 famous ice cream flavors?' }
+        },
+        category: 'Gastronomy',
+        subcategory: 'Desserts',
+        answers: [
+            { translations: { ar: 'الفانيليا', tn: 'فانيليا', fr: 'Vanille', en: 'Vanilla' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الشوكولاتة', tn: 'شوكلاطة', fr: 'Chocolat', en: 'Chocolate' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الفراولة', tn: 'فريز', fr: 'Fraise', en: 'Strawberry' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الفستق', tn: 'بيستاش', fr: 'Pistache', en: 'Pistachio' }, is_correct: true, points: 1 },
+            { translations: { ar: 'الليمون', tn: 'ڨارص', fr: 'Citron', en: 'Lemon' }, is_correct: true, points: 2 },
+            { translations: { ar: 'البندق', tn: 'بوفريوة', fr: 'Noisette', en: 'Hazelnut' }, is_correct: true, points: 2 },
+            { translations: { ar: 'الكراميل', tn: 'كراميل', fr: 'Caramel', en: 'Caramel' }, is_correct: true, points: 3 },
+            { translations: { ar: 'المانجو', tn: 'مانڨو', fr: 'Mangue', en: 'Mango' }, is_correct: true, points: 3 },
+            { translations: { ar: 'القهوة', tn: 'قهوة', fr: 'Café', en: 'Coffee' }, is_correct: true, points: 5 },
+            { translations: { ar: 'البصل', tn: 'البصل', fr: 'Oignon', en: 'Onion' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 373,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 منصات أو مواقع تقدم خدمة البث الموسيقي أو الترفيهي؟' },
+            tn: { text: 'منصات متع بث موسيقى وفيديوهات أفلام؟' },
+            fr: { text: 'Citez 9 plateformes de streaming musical ou vidéo ?' },
+            en: { text: 'Name 9 popular music or video streaming platforms?' }
+        },
+        category: 'Culture & Lifestyle',
+        subcategory: 'Social Media & Trends',
+        answers: [
+            { translations: { ar: 'نتفليكس', tn: 'نتفليكس', fr: 'Netflix', en: 'Netflix' }, is_correct: true, points: 1 },
+            { translations: { ar: 'يوتيوب', tn: 'يوتيوب', fr: 'YouTube', en: 'YouTube' }, is_correct: true, points: 1 },
+            { translations: { ar: 'سبوتيفاي', tn: 'سبوتيفاي', fr: 'Spotify', en: 'Spotify' }, is_correct: true, points: 1 },
+            { translations: { ar: 'أنغامي', tn: 'أنغامي', fr: 'Anghami', en: 'Anghami' }, is_correct: true, points: 1 },
+            { translations: { ar: 'أبل ميوزك', tn: 'أبل ميوزك', fr: 'Apple Music', en: 'Apple Music' }, is_correct: true, points: 2 },
+            { translations: { ar: 'ديزر', tn: 'ديزر', fr: 'Deezer', en: 'Deezer' }, is_correct: true, points: 2 },
+            { translations: { ar: 'ديزني بلس', tn: 'ديزني بلس', fr: 'Disney+', en: 'Disney+' }, is_correct: true, points: 3 },
+            { translations: { ar: 'أمازون برايم', tn: 'أمازون برايم', fr: 'Amazon Prime Video', en: 'Amazon Prime Video' }, is_correct: true, points: 3 },
+            { translations: { ar: 'ساوند كلاود', tn: 'ساوند كلاود', fr: 'SoundCloud', en: 'SoundCloud' }, is_correct: true, points: 5 },
+            { translations: { ar: 'سكايب', tn: 'سكايب', fr: 'Skype', en: 'Skype' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 374,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 فلاسفة ومفكرين من العصر الحديث (القرن 17 إلى 20)؟' },
+            tn: { text: 'فلاسفة معروفين في العصر الحديث؟' },
+            fr: { text: "Citez 9 philosophes célèbres de l'époque moderne ?" },
+            en: { text: 'Name 9 famous modern era philosophers (17th to 20th century)?' }
+        },
+        category: 'Religion & Philosophy',
+        subcategory: 'Philosophy',
+        answers: [
+            { translations: { ar: 'رينيه ديكارت', tn: 'ديكارت', fr: 'René Descartes', en: 'René Descartes' }, is_correct: true, points: 1 },
+            { translations: { ar: 'إيمانويل كانط', tn: 'كانط', fr: 'Immanuel Kant', en: 'Immanuel Kant' }, is_correct: true, points: 1 },
+            { translations: { ar: 'فريدريش نيتشه', tn: 'نيتشه', fr: 'Friedrich Nietzsche', en: 'Friedrich Nietzsche' }, is_correct: true, points: 1 },
+            { translations: { ar: 'كارل ماركس', tn: 'ماركس', fr: 'Karl Marx', en: 'Karl Marx' }, is_correct: true, points: 1 },
+            { translations: { ar: 'جون بول سارتر', tn: 'سارتر', fr: 'Jean-Paul Sartre', en: 'Jean-Paul Sartre' }, is_correct: true, points: 2 },
+            { translations: { ar: 'جان جاك روسو', tn: 'روسو', fr: 'Jean-Jacques Rousseau', en: 'Jean-Jacques Rousseau' }, is_correct: true, points: 2 },
+            { translations: { ar: 'جون لوك', tn: 'جون لوك', fr: 'John Locke', en: 'John Locke' }, is_correct: true, points: 3 },
+            { translations: { ar: 'باروخ سبينوزا', tn: 'سبينوزا', fr: 'Baruch Spinoza', en: 'Baruch Spinoza' }, is_correct: true, points: 3 },
+            { translations: { ar: 'ألبير كامو', tn: 'كامو', fr: 'Albert Camus', en: 'Albert Camus' }, is_correct: true, points: 5 },
+            { translations: { ar: 'تشارلي تشابلن', tn: 'تشارلي تشابلن', fr: 'Charlie Chaplin', en: 'Charlie Chaplin' }, is_correct: false, points: 0 }
+        ]
+    },
+    {
+        id: 375,
+        is_approved: true,
+        translations: {
+            ar: { text: 'أذكر 9 بورصات أو أسواق مالية كبرى في العالم؟' },
+            tn: { text: 'بورصات وأسواق مالية معروفة ياسر في الاقتصاد؟' },
+            fr: { text: 'Citez 9 bourses ou marchés financiers majeurs dans le monde ?' },
+            en: { text: 'Name 9 major stock exchanges or financial markets in the world?' }
+        },
+        category: 'Economy & Business',
+        subcategory: 'Finance',
+        answers: [
+            { translations: { ar: 'بورصة نيويورك', tn: 'بورصة نيويورك', fr: 'Bourse de New York (NYSE)', en: 'New York Stock Exchange' }, is_correct: true, points: 1 },
+            { translations: { ar: 'بورصة ناسداك', tn: 'ناسداك', fr: 'NASDAQ', en: 'NASDAQ' }, is_correct: true, points: 1 },
+            { translations: { ar: 'بورصة طوكيو', tn: 'بورصة طوكيو', fr: 'Bourse de Tokyo', en: 'Tokyo Stock Exchange' }, is_correct: true, points: 1 },
+            { translations: { ar: 'بورصة لندن', tn: 'بورصة لندن', fr: 'Bourse de Londres (LSE)', en: 'London Stock Exchange' }, is_correct: true, points: 1 },
+            { translations: { ar: 'بورصة شنغهاي', tn: 'بورصة شنغهاي', fr: 'Bourse de Shanghai', en: 'Shanghai Stock Exchange' }, is_correct: true, points: 2 },
+            { translations: { ar: 'بورصة هونغ كونغ', tn: 'بورصة هونغ كونغ', fr: 'Bourse de Hong Kong', en: 'Hong Kong Stock Exchange' }, is_correct: true, points: 2 },
+            { translations: { ar: 'بورصة يورونكست', tn: 'يورونكست', fr: 'Euronext', en: 'Euronext' }, is_correct: true, points: 3 },
+            { translations: { ar: 'بورصة فرانكفورت', tn: 'بورصة ألمانيا', fr: 'Bourse de Francfort', en: 'Frankfurt Stock Exchange' }, is_correct: true, points: 3 },
+            { translations: { ar: 'بورصة تونس', tn: 'بورصة تونس', fr: 'Bourse de Tunis', en: 'Tunis Stock Exchange' }, is_correct: true, points: 5 },
+            { translations: { ar: 'سوق الخضار', tn: 'مارشي الخضرة', fr: 'Marché local', en: 'Local market' }, is_correct: false, points: 0 }
+        ]
     }
 ];
 
