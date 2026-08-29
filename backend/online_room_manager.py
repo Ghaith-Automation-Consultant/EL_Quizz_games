@@ -24,7 +24,8 @@ class OnlineRoom:
             "teamsCount": 2,
             "selectedSubcategories": [], # list of "Category:Subcategory"
             "hostRole": "referee", # referee or player
-            "hostName": ""
+            "hostName": "",
+            "turnDuration": 40
         }
         self.current_round = 1
         self.current_team_index = 0
@@ -33,11 +34,12 @@ class OnlineRoom:
         self.guessed_answer_ids = []
         self.wrong_guesses_count = 0
         self.points_gained_this_turn = 0
-        self.timer_val = 60
+        self.timer_val = 40
         self.timer_task: Optional[asyncio.Task] = None
         self.shuffled_answers = []
         self.language = "ar"
         self.validator_name = ""
+        self.used_question_ids: List[int] = []
 
     def add_player(self, name: str, ws: WebSocket) -> OnlinePlayer:
         if name in self.players:
@@ -87,7 +89,7 @@ class OnlineRoom:
     def start_server_timer(self):
         if self.timer_task:
             self.timer_task.cancel()
-        self.timer_val = 60
+        self.timer_val = self.config.get("turnDuration", 40)
         self.timer_task = asyncio.create_task(self._timer_loop())
 
     async def _timer_loop(self):

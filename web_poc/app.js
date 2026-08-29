@@ -13262,13 +13262,17 @@ function setupEventBindings() {
         const teamsCount = parseInt(document.getElementById("online-teams-count").value);
         const hostRole = document.getElementById("online-host-role").value;
         
+        const activePill = document.querySelector(".timer-pill.active");
+        const turnDuration = activePill ? parseInt(activePill.getAttribute("data-value")) : 40;
+        
         onlineSocket.send(JSON.stringify({
             type: "update_config",
             config: {
                 rounds: rounds,
                 teamsCount: teamsCount,
                 selectedSubcategories: selectedSubcats,
-                hostRole: hostRole
+                hostRole: hostRole,
+                turnDuration: turnDuration
             }
         }));
         
@@ -15185,7 +15189,13 @@ function handleOnlineMessage(e) {
         const timerBar = document.getElementById("timer-bar");
         if (timerText) timerText.textContent = msg.val;
         if (timerBar) {
-            const offset = 283 - (msg.val / 40) * 283;
+            let maxDur = 40;
+            if (onlineGameState && onlineGameState.turn_duration) {
+                maxDur = onlineGameState.turn_duration;
+            } else if (onlineLobbyData && onlineLobbyData.config && onlineLobbyData.config.turnDuration) {
+                maxDur = onlineLobbyData.config.turnDuration;
+            }
+            const offset = 283 - (msg.val / maxDur) * 283;
             timerBar.style.strokeDashoffset = offset;
             if (msg.val <= 10) {
                 timerText.style.color = "var(--accent-red)";
@@ -15276,11 +15286,42 @@ function renderLobbyPlayers() {
     });
 }
 
+const categoryIcons = {
+    "Geography": "🌍",
+    "Science & Technology": "🔬",
+    "Arts": "🎨",
+    "Sports": "🏆",
+    "Entertainment": "🎬",
+    "History & Politics": "📜",
+    "Gastronomy": "🍔",
+    "Culture & Lifestyle": "✨",
+    "Religion & Philosophy": "🕯️",
+    "Economy & Business": "📈"
+};
+
 function renderLobbyConfigControls() {
     const hostControls = document.getElementById("host-settings-controls");
     const guestWaiting = document.getElementById("guest-waiting-controls");
     const btnStart = document.getElementById("btn-start-online-game");
     
+    // Bind All / None buttons for category list
+    const btnAll = document.getElementById("btn-online-cats-all");
+    const btnNone = document.getElementById("btn-online-cats-none");
+    if (btnAll && !btnAll.dataset.listenerBound) {
+        btnAll.dataset.listenerBound = "true";
+        btnAll.addEventListener("click", () => {
+            document.querySelectorAll(".online-subcat-checkbox, .online-parent-category-checkbox").forEach(cb => cb.checked = true);
+            sendOnlineLobbyConfig();
+        });
+    }
+    if (btnNone && !btnNone.dataset.listenerBound) {
+        btnNone.dataset.listenerBound = "true";
+        btnNone.addEventListener("click", () => {
+            document.querySelectorAll(".online-subcat-checkbox, .online-parent-category-checkbox").forEach(cb => cb.checked = false);
+            sendOnlineLobbyConfig();
+        });
+    }
+
     if (onlineIsHost) {
         hostControls.style.display = "flex";
         guestWaiting.style.display = "none";
@@ -15290,11 +15331,89 @@ function renderLobbyConfigControls() {
         document.getElementById("online-teams-count").value = onlineLobbyData.config.teamsCount;
         document.getElementById("online-host-role").value = onlineLobbyData.config.hostRole;
         
+        // Bind change listeners to trigger configuration updates in real-time
+        const roundsEl = document.getElementById("online-rounds");
+        const teamsEl = document.getElementById("online-teams-count");
+        const hostRoleEl = document.getElementById("online-host-role");
+        
+        if (roundsEl && !roundsEl.dataset.listenerBound) {
+            roundsEl.dataset.listenerBound = "true";
+            roundsEl.addEventListener("change", sendOnlineLobbyConfig);
+        }
+        if (teamsEl && !teamsEl.dataset.listenerBound) {
+            teamsEl.dataset.listenerBound = "true";
+            teamsEl.addEventListener("change", sendOnlineLobbyConfig);
+        }
+        if (hostRoleEl && !hostRoleEl.dataset.listenerBound) {
+            hostRoleEl.dataset.listenerBound = "true";
+            hostRoleEl.addEventListener("change", sendOnlineLobbyConfig);
+        }
+        
+        // Sync active turn duration pills
+        const duration = onlineLobbyData.config.turnDuration || 40;
+        document.querySelectorAll(".timer-pill").forEach(pill => {
+            const val = parseInt(pill.getAttribute("data-value"));
+            if (val === duration) {
+                pill.classList.add("active");
+                pill.style.background = "var(--primary)";
+                pill.style.borderColor = "var(--primary)";
+                pill.style.color = "black";
+                pill.style.boxShadow = "0 0 10px rgba(255, 215, 0, 0.3)";
+            } else {
+                pill.classList.remove("active");
+                pill.style.background = "rgba(255,255,255,0.05)";
+                pill.style.borderColor = "rgba(255,255,255,0.1)";
+                pill.style.color = "#fff";
+                pill.style.boxShadow = "none";
+            }
+            
+            if (!pill.dataset.listenerBound) {
+                pill.dataset.listenerBound = "true";
+                pill.addEventListener("click", () => {
+                    document.querySelectorAll(".timer-pill").forEach(p => {
+                        p.classList.remove("active");
+                        p.style.background = "rgba(255,255,255,0.05)";
+                        p.style.borderColor = "rgba(255,255,255,0.1)";
+                        p.style.color = "#fff";
+                        p.style.boxShadow = "none";
+                    });
+                    pill.classList.add("active");
+                    pill.style.background = "var(--primary)";
+                    pill.style.borderColor = "var(--primary)";
+                    pill.style.color = "black";
+                    pill.style.boxShadow = "0 0 10px rgba(255, 215, 0, 0.3)";
+                    sendOnlineLobbyConfig();
+                });
+            }
+        });
+
         renderOnlineCategoriesAccordions();
     } else {
         hostControls.style.display = "none";
         guestWaiting.style.display = "block";
         btnStart.style.display = "none";
+        
+        // Sync guest summary card details
+        const selectedSubcats = onlineLobbyData.config.selectedSubcategories || [];
+        let catsText = "";
+        if (selectedSubcats.length === 0) {
+            catsText = (gameState.language === "ar" || gameState.language === "tn") ? "كل المواضيع" : "All Axis Topics";
+        } else {
+            const uniqueCats = new Set();
+            selectedSubcats.forEach(item => {
+                const parts = item.split(":");
+                uniqueCats.add(parts[0]);
+            });
+            const translatedCats = Array.from(uniqueCats).map(cat => {
+                return categoryTranslations[cat] ? categoryTranslations[cat][gameState.language] : cat;
+            });
+            catsText = translatedCats.join(", ");
+        }
+        
+        document.getElementById("guest-lbl-rounds").textContent = onlineLobbyData.config.rounds;
+        document.getElementById("guest-lbl-teams").textContent = onlineLobbyData.config.teamsCount;
+        document.getElementById("guest-lbl-duration").textContent = `${onlineLobbyData.config.turnDuration || 40}s`;
+        document.getElementById("guest-lbl-categories").textContent = catsText;
     }
 }
 
@@ -15305,7 +15424,8 @@ function renderOnlineCategoriesAccordions() {
     const categoriesToRender = dbCategories.length > 0 ? dbCategories : extractCategoriesFromDB();
     
     listContainer.innerHTML = categoriesToRender.map((cat, idx) => {
-        const catLabel = categoryTranslations[cat.name] ? categoryTranslations[cat.name][gameState.language] : cat.name;
+        const icon = categoryIcons[cat.name] || "❓";
+        const catLabel = `${icon} ${categoryTranslations[cat.name] ? categoryTranslations[cat.name][gameState.language] : cat.name}`;
         
         const subcatsList = [...cat.subcategories];
         if (!subcatsList.some(s => s.name === "General")) {
@@ -15315,20 +15435,20 @@ function renderOnlineCategoriesAccordions() {
         const subcatCheckboxesHtml = subcatsList.map((sub, sIdx) => {
             const subLabel = getTranslatedSubcategory(sub.name, gameState.language);
             return `
-                <label style="display: flex; gap: 0.5rem; align-items: center; cursor: pointer; font-size: 0.85rem; padding: 2px 0;">
+                <label style="display: flex; gap: 0.5rem; align-items: center; cursor: pointer; font-size: 0.85rem; padding: 4px 8px; margin: 2px 0; background: rgba(255,255,255,0.02); border-radius: 6px; border: 1px solid rgba(255,255,255,0.05);">
                     <input type="checkbox" class="online-subcat-checkbox" data-category="${cat.name}" value="${sub.name}" checked>
-                    <span>${subLabel}</span>
+                    <span style="opacity: 0.95;">${subLabel}</span>
                 </label>
             `;
         }).join("");
         
         return `
-            <div style="margin-bottom: 0.75rem;">
-                <label style="font-weight: bold; font-size: 0.9rem; color: var(--primary); display: flex; gap: 0.5rem; align-items: center;">
+            <div style="margin-bottom: 0.75rem; background: rgba(255,255,255,0.01); border: 1px solid rgba(255,255,255,0.03); border-radius: 10px; padding: 8px 12px;">
+                <label style="font-weight: bold; font-size: 0.9rem; color: var(--primary); display: flex; gap: 0.5rem; align-items: center; cursor: pointer;">
                     <input type="checkbox" class="online-parent-category-checkbox" value="${cat.name}" checked>
                     <span>${catLabel}</span>
                 </label>
-                <div style="padding-left: 1.25rem; display: flex; flex-direction: column; margin-top: 0.25rem;">
+                <div style="padding-left: 1.25rem; display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 4px; margin-top: 0.5rem;">
                     ${subcatCheckboxesHtml}
                 </div>
             </div>
@@ -15365,13 +15485,17 @@ function sendOnlineLobbyConfig() {
     const teamsCount = parseInt(document.getElementById("online-teams-count").value);
     const hostRole = document.getElementById("online-host-role").value;
     
+    const activePill = document.querySelector(".timer-pill.active");
+    const turnDuration = activePill ? parseInt(activePill.getAttribute("data-value")) : 40;
+    
     onlineSocket.send(JSON.stringify({
         type: "update_config",
         config: {
             rounds: rounds,
             teamsCount: teamsCount,
             selectedSubcategories: selectedSubcats,
-            hostRole: hostRole
+            hostRole: hostRole,
+            turnDuration: turnDuration
         }
     }));
 }
@@ -15396,7 +15520,8 @@ function renderOnlineIntroScreen(msg) {
     
     if (msg.is_validator) {
         btnStart.style.display = "inline-block";
-        btnStart.textContent = (gameState.language === "ar" || gameState.language === "tn") ? "اضغط للبدء (60 ثانية)" : "Start Turn (60s)";
+        const duration = msg.turn_duration || 40;
+        btnStart.textContent = (gameState.language === "ar" || gameState.language === "tn") ? `اضغط للبدء (${duration} ثانية)` : `Start Turn (${duration}s)`;
     } else {
         btnStart.style.display = "none";
         

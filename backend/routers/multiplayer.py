@@ -45,8 +45,16 @@ def fetch_online_question(db: Session, selected_subcats: List[str], used_ids: Li
     for t in selected_q.translations:
         q_trans[t.language] = t.text
         
+    # Pick 7 correct answers randomly + 1 incorrect/trap answer
+    correct_ans = [ans for ans in selected_q.answers if ans.is_correct]
+    wrong_ans = [ans for ans in selected_q.answers if not ans.is_correct]
+    
+    random.shuffle(correct_ans)
+    selected_correct = correct_ans[:7]
+    selected_answers = selected_correct + wrong_ans
+    
     ans_list = []
-    for ans in selected_q.answers:
+    for ans in selected_answers:
         ans_trans = {}
         for t in ans.translations:
             ans_trans[t.language] = t.text
@@ -101,10 +109,12 @@ def serialize_game_state_for_player(room: online_room_manager.OnlineRoom, player
         "wrong_guesses_count": room.wrong_guesses_count,
         "points_gained_this_turn": room.points_gained_this_turn,
         "timer_val": room.timer_val,
+        "turn_duration": int(room.config.get("turnDuration", 40)),
         "validator_name": room.validator_name,
         "is_validator": is_val,
         "hostName": room.config["hostName"],
-        "maxRounds": int(room.config["rounds"])
+        "maxRounds": int(room.config["rounds"]),
+        "config": room.config
     }
 
 async def broadcast_game_state(room: online_room_manager.OnlineRoom):
@@ -209,9 +219,10 @@ async def online_websocket_endpoint(websocket: WebSocket, room_code: str, player
                     room.state = "INTRO"
                     
                     # Fetch first question
-                    q = fetch_online_question(db, room.config["selectedSubcategories"], [])
+                    q = fetch_online_question(db, room.config["selectedSubcategories"], room.used_question_ids)
                     if q:
                         room.active_question = q
+                        room.used_question_ids.append(q["id"])
                         room.shuffled_answers = list(q["answers"])
                         random.shuffle(room.shuffled_answers)
                     
@@ -283,9 +294,10 @@ async def online_websocket_endpoint(websocket: WebSocket, room_code: str, player
                             room.state = "STANDINGS"
                     else:
                         room.state = "INTRO"
-                        q = fetch_online_question(db, room.config["selectedSubcategories"], [])
+                        q = fetch_online_question(db, room.config["selectedSubcategories"], room.used_question_ids)
                         if q:
                             room.active_question = q
+                            room.used_question_ids.append(q["id"])
                             room.shuffled_answers = list(q["answers"])
                             random.shuffle(room.shuffled_answers)
                             
@@ -295,9 +307,10 @@ async def online_websocket_endpoint(websocket: WebSocket, room_code: str, player
             elif msg_type == "continue_from_standings":
                 if player_name == room.config["hostName"] and room.state == "STANDINGS":
                     room.state = "INTRO"
-                    q = fetch_online_question(db, room.config["selectedSubcategories"], [])
+                    q = fetch_online_question(db, room.config["selectedSubcategories"], room.used_question_ids)
                     if q:
                         room.active_question = q
+                        room.used_question_ids.append(q["id"])
                         room.shuffled_answers = list(q["answers"])
                         random.shuffle(room.shuffled_answers)
                     update_validator_for_turn(room)
@@ -308,6 +321,7 @@ async def online_websocket_endpoint(websocket: WebSocket, room_code: str, player
                     room.state = "LOBBY"
                     room.teams_list = []
                     room.active_question = None
+                    room.used_question_ids = []
                     room.guessed_answer_ids = []
                     room.wrong_guesses_count = 0
                     room.stop_server_timer()
